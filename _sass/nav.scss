@@ -1,0 +1,47 @@
+// MOBILENAV
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: $bodyColor;
+
+    overflow-x: hidden;
+    transition: 0.3s;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+}
+
+.overlay-content {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    padding: $blockThree;
+    left: 0;
+    right: 0;
+    color: $backgroundColor;
+    a {
+        color: $backgroundColor;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+.closebtn {
+    margin-left: auto;
+    margin-right: 0;
+}
