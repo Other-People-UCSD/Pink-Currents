@@ -55,6 +55,7 @@
 }
 
 .post-info {
+
     min-height: 70px;
     display: grid;
     grid-template-columns: 70% 10% 20%;
@@ -67,6 +68,13 @@ h1.post-title {
     padding: 0 $blockThree 0 $blockThree;
     padding-top: $blockThree;
     margin-top: $blockThree;
+}
+
+.thumb {
+
+img {
+    width: 100%;
+}
 }
 
 @media only screen and (max-width: 728px) {

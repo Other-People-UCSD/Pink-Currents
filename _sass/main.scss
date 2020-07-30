@@ -1,9 +1,9 @@
 $backgroundColor: var(--background-color);
 $bodyColor: var(--light-text-color);
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$bodyFont: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol";
 
 body {
-
   width: 100%;
   margin: auto;
 
@@ -15,7 +15,6 @@ body {
   transition: background-color 0.5s ease-in-out;
 }
 
-
 $blockOne: 8px;
 $blockTwo: 16px;
 $blockThree: 32px;
@@ -23,7 +22,6 @@ $blockFour: 64px;
 $blockFive: 128px;
 $blockSix: 256px;
 $blockSeven: 512px;
-
 
 h1 {
   font-family: Arial;
@@ -33,7 +31,6 @@ h1 {
   margin: 0;
   padding: 0;
 }
-
 
 h2 {
   font-family: Arial;
@@ -56,18 +53,18 @@ h3 {
 h4 {
   font-family: "basier_circlemonoregular";
   text-transform: uppercase;
-  font-size: .8rem;
+  font-size: 0.8rem;
 
   font-weight: normal;
-opacity: .5;
+  opacity: 0.5;
   margin: 0;
   padding: 0;
 }
 
-
-
-
-
+p {
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+}
 
 html,
 html[data-theme="light"] {
@@ -104,5 +101,3 @@ html[data-theme="dark"] {
     --main-text-color: rgb(51, 51, 51);
   }
 }
-
-

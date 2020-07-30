@@ -7,7 +7,9 @@ h2 { font-family: Arial; font-size: 1.4rem; font-weight: normal; text-transform:
 
 h3 { font-family: Arial; font-size: 1rem; font-weight: normal; margin: 0; padding: 0; }
 
-h4 { font-family: "basier_circlemonoregular"; text-transform: uppercase; font-size: .8rem; font-weight: normal; opacity: .5; margin: 0; padding: 0; }
+h4 { font-family: "basier_circlemonoregular"; text-transform: uppercase; font-size: 0.8rem; font-weight: normal; opacity: 0.5; margin: 0; padding: 0; }
+
+p { line-height: 1.8rem; font-size: 1.2rem; }
 
 html, html[data-theme="light"] { --background-color: #ffffff; --light-text-color: #151515; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); }
 
@@ -74,6 +76,8 @@ header a:hover { cursor: pointer; text-decoration: underline; }
 
 h1.post-title { padding: 0 32px 0 32px; padding-top: 32px; margin-top: 32px; }
 
+.thumb img { width: 100%; }
+
 @media only screen and (max-width: 728px) { .post-container { padding: 16px; grid-template-columns: 1fr; }
   h1.post-title { padding: 0 16px 0 16px; padding-top: 32px; margin-top: 32px; } }
 
@@ -121,5 +125,7 @@ h1.index-title:hover svg { bottom: -2px; transition-duration: 0.3s; }
 .overlay-content a:hover { text-decoration: underline; cursor: pointer; }
 
 .closebtn { margin-left: auto; margin-right: 0; }
+
+.content { padding: 32px; margin-left: 256px; margin-right: 256px; margin-top: 128px; }
 
 /*# sourceMappingURL=main.css.map */
