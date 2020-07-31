@@ -9,4 +9,4 @@ tags:
 - Visual Arts
 
 ---
-![](/uploads/DSC_1188-01 - Marcin Kierebinski.jpeg)![](/uploads/DSC_1425-01 - Marcin Kierebinski.jpeg)
+![Medium: Photography](/uploads/DSC_1188-01 - Marcin Kierebinski.jpeg)![](/uploads/DSC_1425-01 - Marcin Kierebinski.jpeg)
