@@ -9,4 +9,4 @@ tags:
 - Visual Arts
 
 ---
-![](/uploads/IMG_5773.JPG)![](/uploads/IMG_5775 (1).JPG)
+![Medium: Photography](/uploads/IMG_5773.JPG)![](/uploads/IMG_5775 (1).JPG)
