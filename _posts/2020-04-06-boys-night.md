@@ -4,11 +4,13 @@ layout: Post
 title: Boys’ Night
 contributor: Chloe Esser
 date: 2020-04-06T07:00:00.000+00:00
-thumb: ''
+thumb: "/uploads/opboysnight.png"
 tags:
 - Fiction
 
 ---
+![](/uploads/opboysnight.png)
+
 When Mark throws the ropes down, there is no indication that they’ve hit stone. Instead, the cords, which had seemed so official and needlessly long when Dave handed them to him, hang loosely against rough concrete. This all seems less like the urban rock climbing expedition Dave had promised and more like that one episode of Game of Thrones where Jon Snow and the wildlings are trying to scale that giant ice wall. Mark remembers getting bored during that scene and convincing Amanda to make out instead. But he also remembers rope breaking and the wildlings falling _splat_ down on the ice.
 
 He isn’t particularly eager for that to be him.
@@ -86,6 +88,8 @@ Dave shakes his head. “Oh, yeah. Basically they got bought out. The state want
 “Fuck if I know,” Dave says happily. He turns into one of the park’s larger buildings, still a skeleton of an office building, but with several stories built all the same. “They just left it all here. Too bad for the office workers, but exciting for people like me.”
 
 “Right,” says Mark. They walk in silence for some time, and Mark tries to picture the vision they must have had for this place. Somehow, he can’t quite ever see this as being complete.
+
+![](/uploads/boysnight2.png)
 
 He must have gotten too lost in his own thoughts, though, because suddenly, Dave is meters ahead of him.
 
