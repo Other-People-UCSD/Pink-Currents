@@ -21,15 +21,13 @@ The rattling of the gate wrenched her back. Cait turned, irrationally hopeful, o
 
 “We shouldn’t be here.” Lydia said abruptly, with an uneasy glance at the waterfront cabins behind them. “She wouldn’t have made it this far anyway. We should go back to Oakhurst.” Lydia leveled her hazel eyes at her younger sister. _Level_—that’s what Lydia was. Even her facial expressions were moderate, a climate tempered by the sea. “She’ll probably be waiting on the porch when we pull into the driveway.”
 
-“I just—thought she’d be here. She loved it here,” Cait explained, dropping her gaze. Said aloud, the words sounded flat, weak against Lydia’s rationality. She could see Nettle here so clearly; couldn’t Lydia? She could see Nettle’s sleek black fur, gleaming as if studded with diamonds after plunging into the water. She could see Nettle’s oversized brown paws
-
-leaving wet prints on the white dock. She could see the summers their family had come to the lake before they weren’t a family anymore, and Nettle jumping off the back of the boat with Cait and Lydia and Casey before he’d been taken by the crash that had claimed their parents. She could see the days after those years when Cait had skipped school just to come up here and feel the sun on her skin and the breeze in her hair and the warmth of Nettle’s excitement for life in her healing heart. She could see eight years of love, the unconditional love that grows between a puppy and a young girl, that grows as they do. It was all here, and yet it was gone. Just as that family was gone, just as those days were gone.
+“I just—thought she’d be here. She loved it here,” Cait explained, dropping her gaze. Said aloud, the words sounded flat, weak against Lydia’s rationality. She could see Nettle here so clearly; couldn’t Lydia? She could see Nettle’s sleek black fur, gleaming as if studded with diamonds after plunging into the water. She could see Nettle’s oversized brown paws leaving wet prints on the white dock. She could see the summers their family had come to the lake before they weren’t a family anymore, and Nettle jumping off the back of the boat with Cait and Lydia and Casey before he’d been taken by the crash that had claimed their parents. She could see the days after those years when Cait had skipped school just to come up here and feel the sun on her skin and the breeze in her hair and the warmth of Nettle’s excitement for life in her healing heart. She could see eight years of love, the unconditional love that grows between a puppy and a young girl, that grows as they do. It was all here, and yet it was gone. Just as that family was gone, just as those days were gone.
 
 “Cait.” Lydia’s voice was edged with impatience, the closest thing she’d ever get to irritation.
 
 “I’m coming.” Cait pushed herself to her feet. “You’re right; she wouldn’t have made it this far.” Because Lydia had never been wrong before. Cait was the one who had believed as a child that there were water spirits murmuring to one another beneath the surface of the lake; Cait was the one who had given up on her education after high school; Cait was the one who was hopeful—hope_less_—enough to think that an aging dog would wander ten miles from home across two-lane roads and through dusty pines just because this lake was special to her owner.
 
-Cait forced herself to her feet and followed her sister up the dock. The water lapped softly beneath the floats on either side of the boat slips, and she wondered what it was trying to say.
+Cait followed her sister up the dock. The water lapped softly beneath the floats on either side of the boat slips, and she wondered what it was trying to say.
 
 <center>*</center>
 
@@ -111,11 +109,11 @@ Lydia had taken the family’s last car, but they still had a dirtbike. Cait unc
 
 It still worked; she knew that much, because when Lydia had come over for one day last Thanksgiving with her boyfriend, he had taken it out and started it up out of sheer boredom, because what else was there to do during Thanksgiving without family out here?
 
-_This is a bad idea._ 
+_This is a bad idea._
 
-Cait thrust the key into the ignition. 
+Cait thrust the key into the ignition.
 
-_You’re going to get yourself killed._ 
+_You’re going to get yourself killed._
 
 She turned the key, and the bike shuddered to life beneath her.
 
@@ -125,7 +123,7 @@ _Maybe I don’t care._
 
 She knew the road to the lake by heart, even though she hadn’t personally driven it in a while. Someone had always been willing to take her and Nettle to the lake; friends, or acquaintances who lived in Oakhurst but worked at the lake and who would let Cait travel with them for a few dollars. But today she wanted to be alone. Today she _needed_ to be alone.
 
-Cait parked the dirtbike at the market. It was twenty-minute parking only, but she didn’t care if she got a ticket. There were some things more important than being cautious. 
+Cait parked the dirtbike at the market. It was twenty-minute parking only, but she didn’t care if she got a ticket. There were some things more important than being cautious.
 
 This time, she went to the spur of land beside the police tower, instead of the cove. The walk was quiet; it was still early morning, and people here were slow to rise, especially in the summer when the days burned long and hot and joyous.
 
