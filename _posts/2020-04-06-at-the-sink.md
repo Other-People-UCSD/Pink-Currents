@@ -1,10 +1,12 @@
 ---
-category: Poetry
+category: Collection
 layout: Post
 title: At the Sink
 contributor: Gabriela Schnepp
 date: 2020-04-06T07:00:00.000+00:00
 thumb: ''
+tags:
+- Poetry
 
 ---
 My mother stands there at the sink, washing the dishes<br>That we used just minutes before.<br>And her hands go washing, washing,<br>As she stares at her reflection in the window.
