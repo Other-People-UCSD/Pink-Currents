@@ -37,42 +37,7 @@
 
 
 
-  <div class="page-nav">
-    {% if page.previous.url %}
-    <a href="{{page.previous.url}}">
-      <div class="posts">
-        <div class="post-info">
-          <h2>{{page.previous.title}}</h2>
-          <div></div>
-          <div>
-            <h3><span>/ {{ page.previous.contributor }}</span></h3>
-            <h4>{{ page.previous.tags }}</h4>
-            <h4 style="color:rgb(255, 153, 0)">{{ page.previous.category }}</h4>
-          </div>
-        </div>
 
-      </div>
-    </a>
-    {% endif %}
-    <div></div>
-
-    {% if page.next.url %}
-    <a href="{{page.next.url}}">
-      <div class="posts">
-        <div class="post-info">
-          <h2>{{page.next.title}}</h2>
-          <div></div>
-          <div>
-            <h3><span>/ {{ page.next.contributor }}</span></h3>
-            <h4>{{ page.next.tags }}</h4>
-            <h4 style="color:rgb(255, 153, 0)">{{ page.next.category }}</h4>
-          </div>
-        </div>
-
-      </div>
-    </a>
-    {% endif %}
-  </div>
 
 
 
