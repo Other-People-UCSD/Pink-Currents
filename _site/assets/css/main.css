@@ -31,6 +31,8 @@ header a { color: inherit; text-decoration: none; }
 
 header a:hover { cursor: pointer; text-decoration: underline; }
 
+header :nth-child(3) { display: none; }
+
 .nav-up { top: -120px; }
 
 @media only screen and (max-width: 728px) { header { grid-template-columns: 1fr 1fr; padding: 16px; }
