@@ -17,7 +17,7 @@ He isn’t particularly eager for that to be him.
 
 “I don’t know,” says Mark. “Does it matter?”
 
-“Yeah,” says Dave, He gets closer now, feet spread wide apart and awkwardly leaning forward, peering squinty-eyed into the blackness like a golfer after a swing or an appraiser of fine jewels. “Because if the rope’s only hanging like, 10 inches from the bottom, then we can sidle right down there. But if it’s like 10 miles down, then we’d better just move on.”
+“Yeah,” says Dave. He gets closer now, feet spread wide apart and awkwardly leaning forward, peering squinty-eyed into the blackness like a golfer after a swing or an appraiser of fine jewels. “Because if the rope’s only hanging like, 10 inches from the bottom, then we can sidle right down there. But if it’s like 10 miles down, then we’d better just move on.”
 
 “Pussy,” Mark says casually, but he can’t help but agree. This entire day was such a fucking stupid idea. He can hardly stand Dave as it is — handsome, mouthy Dave, far too close with Amanda for Mark’s taste, and too caught up in his weird hobbies.
 
