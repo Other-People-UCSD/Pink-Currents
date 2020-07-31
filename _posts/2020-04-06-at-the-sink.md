@@ -9,7 +9,7 @@ tags:
 - Poetry
 
 ---
-My mother stands there at the sink, washing the dishes<br>That we used just minutes before.<br>And her hands go washing, washing,<br>As she stares at her reflection in the window.
+My mother stands there at the sink, washing the dishes<br>That were used just minutes before.<br>And her hands go washing, washing,<br>As she stares at her reflection in the window.
 
 She’s running towards a jungle,<br>While the sun licks at her mocha skin.<br>And they cry _‘Morena! Morena!’_<br>As she laughs and tries to catch at birds the color of the rainbow.
 
