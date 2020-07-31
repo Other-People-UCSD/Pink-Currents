@@ -5,7 +5,8 @@ title: Through Fuchsia-Colored Glasses
 contributor: Abigail Hora
 date: 2020-04-24T07:00:00.000+00:00
 thumb: ''
-tags: []
+tags:
+- Fiction
 
 ---
 You have work at six in the morning, yoga at six in the evening. Busy enough day for you, as always, but you’re scrolling slowly through Tor at three in the morning anyway. You’re on the search for anything remotely entertaining on a Hidden Wiki. You steer clear of any obvious porn links. Some specify crush porn. Disgusting, but nothing surprising.
