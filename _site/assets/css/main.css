@@ -125,12 +125,16 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; padding-top: 32px; margin
 
 .closebtn { margin-left: auto; margin-right: 0; }
 
+.mobile-nav { margin-top: 64px; }
+
 @media only screen and (max-width: 728px) { .overlay-content { grid-template-columns: 1fr 1fr; padding: 16px; }
   .overlay-content :nth-child(2) { display: none; } }
 
 .content { padding: 32px; margin-left: 256px; margin-right: 256px; }
 
 .content h1 { font-family: Arial; font-size: 1.4rem; font-weight: normal; text-transform: uppercase; margin: 0; padding: 0; margin-top: 64px; margin-bottom: 32px; }
+
+.content h4 { opacity: .5; }
 
 .content h3, .content h4 { line-height: 1.8rem; }
 
