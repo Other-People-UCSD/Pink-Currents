@@ -1,5 +1,6 @@
 ---
-tags: []
+tags:
+- Poetry
 layout: ''
 title: Instructions for Lemonade
 contributor: Hemmy Chun (art and poetry), Other People Editorial Team (caption)
