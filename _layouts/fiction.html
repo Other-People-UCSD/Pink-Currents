@@ -14,17 +14,43 @@
 
 
     <div class="IndexContainer">
-        <img src="../assets/uploads/FullSizeRender 2.jpeg">
+
         <h1 class="index-title">
-            <div class="cssanimation sequence fadeInBottom">Spring 2020 —<br>Collection no.1 </div>
+            <div class="cssanimation sequence fadeInBottom">Fiction </div>
 
           
         </h1>
     </div>
 
+<div class="post-container">
+
+
+
+    {% for post in site.tags['Fiction'] %}
+
+    <a href="{{site.baseurl}}{{ post.url }}">
+        <div class="posts">
+            <div class="post-info">
+                <h2>{{ post.title }}</h2>
+                <div></div>
+                <div>
+                    <h3><span>/ {{ post.contributor }}</span></h3>
+                    <h4>{{ post.tags }}</h4>
+                    <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
+                </div>
+            </div>
+
+        </div>
+    </a>
+
+    {% endfor %}
+
+    </div>
+    
+
 
     {% include header.html %}
-    {% include posts.html %}
+
 
 
     {{ content}}

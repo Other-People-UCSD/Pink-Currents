@@ -10,6 +10,7 @@
             $("svg").css("fill", "var(--background-color)");
             $("header").css("background-color", "var(--light-text-color)");
             $("header").css("color", "var(--background-color)");
+            $(".posts").css("border-color", "var(--background-color)");
 
         } else {
             $("body").css("background-color", "var(--background-color)");
@@ -18,6 +19,7 @@
             $("svg").css("fill", "var(--light-text-color)");
             $("header").css("background-color", "var(--background-color)");
             $("header").css("color", "var(--light-text-color)");
+            $(".posts").css("border-color", "var(--light-text-color)");
 
         }
     });
