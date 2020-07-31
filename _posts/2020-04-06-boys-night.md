@@ -1,10 +1,12 @@
 ---
-category: Fiction
+category: Collection
 layout: Post
 title: Boys’ Night
 contributor: Chloe Esser
 date: 2020-04-06T07:00:00.000+00:00
 thumb: ''
+tags:
+- Fiction
 
 ---
 When Mark throws the ropes down, there is no indication that they’ve hit stone. Instead, the cords, which had seemed so official and needlessly long when Dave handed them to him, hang loosely against rough concrete. This all seems less like the urban rock climbing expedition Dave had promised and more like that one episode of Game of Thrones where Jon Snow and the wildlings are trying to scale that giant ice wall. Mark remembers getting bored during that scene and convincing Amanda to make out instead. But he also remembers rope breaking and the wildlings falling _splat_ down on the ice.
