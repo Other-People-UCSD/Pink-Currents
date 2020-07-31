@@ -27,6 +27,9 @@ fields:
   config:
     maxSize: 64
   label: thumb
+- name: collection
+  type: boolean
+  label: Collection
 pages:
 - _posts/2020-04-24-parasite-draft.md
 - _posts/2020-04-24-through-fuchsia-colored-glasses.md
