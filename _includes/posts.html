@@ -1,7 +1,6 @@
 <div class="post-container">
 
-    {% for post in site.categories['Collection'] %}
-    {% for post in site.categories['Fiction'] limit : 3 %}
+    {% for post in site.categories['Collection'] limit : 3 %}
     <a href="{{site.baseurl}}{{ post.url }}">
         <div class="posts">
             <div class="post-info">
@@ -9,7 +8,36 @@
                 <div></div>
                 <div>
                     <h3><span>/ {{ post.contributor }}</span></h3>
-                    <h4>{{ post.category }}</h4>
+                    <h4>{{ post.tags }}</h4>
+                    <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
+                </div>
+            </div>
+
+        </div>
+    </a>
+    {% endfor %}
+
+
+</div>
+
+
+
+
+<div class="hello"></div>
+<h1 class="post-title"> Explore More </h1>
+
+<div class="post-container">
+
+    {% for post in site.tags['Fiction'] limit : 3 %}
+    <a href="{{site.baseurl}}{{ post.url }}">
+        <div class="posts">
+            <div class="post-info">
+                <h2>{{ post.title }}</h2>
+                <div></div>
+                <div>
+                    <h3><span>/ {{ post.contributor }}</span></h3>
+                    <h4>{{ post.tags }}</h4>
+                    <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
                 </div>
             </div>
 
@@ -19,7 +47,7 @@
 
 
 
-    {% for post in site.categories['Nonfiction'] limit : 3 %}
+    {% for post in site.tags['Nonfiction'] limit : 3 %}
     <a href="{{site.baseurl}}{{ post.url }}">
         <div class="posts">
             <div class="post-info">
@@ -27,7 +55,8 @@
                 <div></div>
                 <div>
                     <h3><span>/ {{ post.contributor }}</span></h3>
-                    <h4>{{ post.category }}</h4>
+                    <h4>{{ post.tags }}</h4>
+                    <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
                 </div>
             </div>
 
@@ -35,7 +64,7 @@
     </a>
     {% endfor %}
 
-    {% for post in site.categories['Poetry'] limit : 3 %}
+    {% for post in site.tags['Poetry'] limit : 3 %}
     <a href="{{site.baseurl}}{{ post.url }}">
         <div class="posts">
             <div class="post-info">
@@ -43,7 +72,8 @@
                 <div></div>
                 <div>
                     <h3><span>/ {{ post.contributor }}</span></h3>
-                    <h4>{{ post.category }}</h4>
+                    <h4>{{ post.tags }}</h4>
+                    <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
                 </div>
             </div>
 
@@ -51,7 +81,7 @@
     </a>
     {% endfor %}
 
-    {% for post in site.categories['Visual Arts'] limit : 3 %}
+    {% for post in site.tags['Visual Arts'] limit : 3 %}
     <a href="{{site.baseurl}}{{ post.url }}">
 
         <div class="posts">
@@ -64,79 +94,13 @@
                 <div></div>
                 <div>
                     <h3><span>/ {{ post.contributor }}</span></h3>
-                    <h4>{{ post.category }}</h4>
+                    <h4>{{ post.tags }}</h4>
+                    <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
                 </div>
             </div>
 
         </div>
     </a>
     {% endfor %}
-
-    {% endfor %}
-
-</div>
-
-
-
-
-<div class="hello"></div>
-<h1 class="post-title"> Web Content </h1>
-
-<div class="post-container">
-
-    <a href="{{site.baseurl}}{{ post.url }}">
-        <div class="posts">
-            <div class="post-info">
-                <h2>Through Fuchsia-Colored Glasses</h2>
-                <div></div>
-                <div>
-                    <h3><span>/ Abigail Hora</span></h3>
-                    <h4>Fiction</h4>
-                </div>
-            </div>
-        </div>
-    </a>
-
-
-
-    <a href="{{site.baseurl}}{{ post.url }}">
-        <div class="posts">
-            <div class="post-info">
-                <h2>Count Sheep in Shakey Graves’ “Can’t Wake Up”</h2>
-                <div></div>
-                <div>
-                    <h3><span>Jasmine Torres</span></h3>
-                    <h4>Nonfiction</h4>
-                </div>
-            </div>
-        </div>
-    </a>
-
-
-    <a href="{{site.baseurl}}{{ post.url }}">
-        <div class="posts">
-            <div class="post-info">
-                <h2>Rain on the Rooftops</h2>
-                <div></div>
-                <div>
-                    <h3><span>Meryem Bahadir</span></h3>
-                    <h4>Fiction</h4>
-                </div>
-            </div>
-        </div>
-    </a>
-
-    <a href="{{site.baseurl}}{{ post.url }}">
-        <div class="posts">
-            <div class="post-info">
-                <h2>In Honor of Parasite</h2>
-                <div></div>
-                <div>
-                    <h3><span>Hemmy Chun</span></h3>
-                    <h4>Nonfiction</h4>
-                </div>
-            </div>
-        </div>
-    </a>
 
 </div>

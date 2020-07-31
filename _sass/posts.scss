@@ -14,6 +14,7 @@
     }
     h4 {
         margin-top: $blockOne;
+        color: gray;
     }
     a {
         color: inherit;
@@ -55,10 +56,9 @@
 }
 
 .post-info {
-
     min-height: 70px;
     display: grid;
-    grid-template-columns: 70% 10% 20%;
+    grid-template-columns: 60% 10% 30%;
     :nth-child(3) {
         text-align: right;
     }
@@ -66,15 +66,14 @@
 
 h1.post-title {
     padding: 0 $blockThree 0 $blockThree;
-    padding-top: $blockThree;
+    padding-top: $blockSix;
     margin-top: $blockThree;
 }
 
 .thumb {
-
-img {
-    width: 100%;
-}
+    img {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 728px) {
