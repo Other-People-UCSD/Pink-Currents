@@ -5,9 +5,6 @@
 
 .IndexContainer {
     img {
-
-
-
         width: 100%; /* width of container */
     height: 500px;
         object-fit: cover;
@@ -72,9 +69,19 @@ h1.index-title {
 
 @media only screen and (max-width: 728px) {
     h1.index-title {
-        padding-top: $blockTwo;
-        margin-top: $blockTwo;
+        padding-top: $blockThree;
+        margin-top: $blockThree;
         padding: 0 $blockTwo 0 $blockTwo;
+    }
+
+
+    .IndexContainer {
+        img {
+      
+        height: 350px;
+
+        }
+    
     }
 }
 
