@@ -22,7 +22,7 @@
 
   <div class="content">
     <h3>/ {{ page.contributor }}</h3>
-    <h4>{{ page.tags }} — {% include minsread.html %}</h4>
+    <h4 class="meta">{{ page.tags }} — {% include minsread.html %}</h4>
 
     <h4 style="color:rgb(255, 153, 0)">{{ page.category }}</h4>
     <br><br>
@@ -38,16 +38,22 @@
 
 
   <div class="post-nav">
+
     <div>
+      <h2>
       {% if page.previous.url %}
-      <a href="{{page.previous.url}}">&laquo;&nbsp;{{page.previous.title}}</a>
+      <a href="{{page.previous.url}}">< {{page.previous.title}}</a>
       {% endif %}
+      </h2>
     </div>
     <div class="post-nav-next">
+      <h2>
       {% if page.next.url %}
-      <a href="{{page.next.url}}">{{page.next.title}}&nbsp;&raquo;</a>
+      <a href="{{page.next.url}}">{{page.next.title}} ></a>
       {% endif %}
+    </h2>
     </div>
+
   </div>
 
   {% include footer.html %}

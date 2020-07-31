@@ -13,9 +13,7 @@
         margin-top: $blockFour;
         margin-bottom: $blockThree;
     }
-    h4{
-        opacity: .5;
-    }
+
     h3,
     h4 {
         line-height: 1.8rem;
@@ -25,6 +23,8 @@
         width: 100%;
     }
 }
+
+.meta {opacity: .5;}
 
 .content-title {
     margin-top: $blockFour;
@@ -36,7 +36,7 @@
 
 .copyright-footer {
     margin-top: $blockThree;
-    opacity: .4;
+    opacity: .3;
 h4{
     line-height: 1.2rem;
 }
@@ -52,7 +52,7 @@ padding: $blockFour;
     a{
         color: $bodyColor;
         text-decoration: none;
-        opacity: .5;
+
     }
     a:hover {
         text-decoration: underline;
