@@ -28,5 +28,6 @@ fields:
     maxSize: 64
   label: thumb
 pages:
+- _posts/2020-04-24-parasite-draft.md
 - _posts/2020-04-24-through-fuchsia-colored-glasses.md
 - _posts/2020-05-02-fronteras.md
