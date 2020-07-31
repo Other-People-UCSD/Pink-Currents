@@ -42,6 +42,29 @@ h4{
 
 
 
+
+.post-nav {
+padding: $blockFour;
+    display: flex;
+    a{
+        color: white;
+        text-decoration: none;
+        opacity: .5;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+.post-nav div {
+    /* flex-grow, flex-shrink, flex-basis */
+    flex: 1 1 0;
+}
+.post-nav-next {
+    text-align: right;
+}
+
+
+
 @media only screen and (max-width: 728px) {
     .content {
         padding: $blockTwo;
@@ -57,6 +80,12 @@ h4{
         margin-left: 0;
         margin-right: 0;
     }
+
+
+
+    .post-nav {
+        padding: $blockThree $blockTwo $blockThree $blockTwo;
+            display: flex;}
 }
 
 

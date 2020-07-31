@@ -142,8 +142,19 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; padding-top: 32px; margin
 
 .copyright-footer h4 { line-height: 1.2rem; }
 
+.post-nav { padding: 64px; display: flex; }
+
+.post-nav a { color: white; text-decoration: none; opacity: .5; }
+
+.post-nav a:hover { text-decoration: underline; }
+
+.post-nav div { /* flex-grow, flex-shrink, flex-basis */ flex: 1 1 0; }
+
+.post-nav-next { text-align: right; }
+
 @media only screen and (max-width: 728px) { .content { padding: 16px; margin-left: 0; margin-right: 0; }
-  .content-title { margin-top: 64px; padding: 16px 16px 0 16px; margin-left: 0; margin-right: 0; } }
+  .content-title { margin-top: 64px; padding: 16px 16px 0 16px; margin-left: 0; margin-right: 0; }
+  .post-nav { padding: 32px 16px 32px 16px; display: flex; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .content { padding: 32px; margin-left: 64px; margin-right: 64px; }
   .content-title { margin-top: 32px; padding: 32px 32px 0 32px; margin-left: 64px; margin-right: 64px; } }
