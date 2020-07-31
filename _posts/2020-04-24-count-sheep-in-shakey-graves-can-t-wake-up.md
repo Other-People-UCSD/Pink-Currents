@@ -1,5 +1,5 @@
 ---
-category: Collection
+category: ''
 layout: Post
 title: Count Sheep in Shakey Graves’ “Can’t Wake Up”
 contributor: Jasmine Torres
