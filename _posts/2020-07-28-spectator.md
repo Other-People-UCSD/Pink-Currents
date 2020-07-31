@@ -1,9 +1,10 @@
 ---
-category: Fiction
-tags: []
+category: ''
+tags:
+- Fiction
 layout: Post
 title: Spectator
-date: 2020-07-28 07:00:00 +0000
+date: 2020-07-28T07:00:00.000+00:00
 contributor: Sanjana Dhamankar
 thumb: ''
 
