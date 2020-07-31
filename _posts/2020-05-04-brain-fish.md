@@ -1,7 +1,7 @@
 ---
 category: Collection
 layout: Post
-title: Brain Fish
+title: BRAIN FISH
 date: 2020-05-04T07:00:00.000+00:00
 contributor: Caroline Laubscher
 thumb: ''
