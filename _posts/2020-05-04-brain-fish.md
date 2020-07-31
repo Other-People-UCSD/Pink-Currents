@@ -9,7 +9,7 @@ tags:
 - Poetry
 
 ---
-![](/uploads/_brainfish.png)
+![](/uploads/brainfish.png)
 
 There are two schools of
 
