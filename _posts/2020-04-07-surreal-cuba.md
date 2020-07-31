@@ -9,4 +9,4 @@ tags:
 - Visual Arts
 
 ---
-![](/uploads/10. Surreal Cuba-1.png)
+![Medium: Photography and Photoshop](/uploads/10. Surreal Cuba-1.png)
