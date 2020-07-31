@@ -1,10 +1,12 @@
 ---
-category: Fiction
+category: Collection
 title: Girls of the Limberlost
 contributor: Savannah Munoz
 date: 2020-04-01T07:00:00.000+00:00
 layout: Post
 thumb: ''
+tags:
+- Fiction
 
 ---
 # Her Name Was Isabelle

@@ -28,6 +28,7 @@ fields:
     maxSize: 64
   label: thumb
 pages:
+- _posts/2020-04-01-girls-of-the-limberlost.md
 - _posts/2020-04-03-skin.md
 - _posts/2020-04-05-ode-to-stan.md
 - _posts/2020-04-05-with-liqour.md
