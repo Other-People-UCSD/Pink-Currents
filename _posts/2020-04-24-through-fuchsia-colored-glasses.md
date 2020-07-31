@@ -1,5 +1,5 @@
 ---
-category: Collection
+category: ''
 layout: Post
 title: Through Fuchsia-Colored Glasses
 contributor: Abigail Hora
