@@ -5,6 +5,12 @@
 
 
     {% for post in site.categories['Collection'] %}
+
+
+
+
+
+
     <a href="{{site.baseurl}}{{ post.url }}">
         <div class="posts">
             <div class="post-info">
@@ -19,7 +25,11 @@
 
         </div>
     </a>
+
+
+
     {% endfor %}
+
 
 
 
@@ -40,7 +50,7 @@
 
 
     {% for post in site.tags['Fiction'] limit : 3 %}
- 
+
     <a href="{{site.baseurl}}{{ post.url }}">
         <div class="posts">
             <div class="post-info">
@@ -98,7 +108,7 @@
     {% endfor %}
 
     {% for post in site.tags['Visual Arts'] limit : 3 %}
-   
+
     <a href="{{site.baseurl}}{{ post.url }}">
 
         <div class="posts">
@@ -118,7 +128,7 @@
 
         </div>
     </a>
- 
+
     {% endfor %}
 
 </div>
