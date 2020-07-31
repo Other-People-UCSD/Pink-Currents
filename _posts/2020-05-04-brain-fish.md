@@ -4,11 +4,13 @@ layout: Post
 title: BRAIN FISH
 date: 2020-05-04T07:00:00.000+00:00
 contributor: Caroline Laubscher
-thumb: ''
+thumb: "/uploads/_brainfish.png"
 tags:
 - Poetry
 
 ---
+![](/uploads/_brainfish.png)
+
 There are two schools of
 
 <p style="text-align:left; font-size:1rem; margin-left:25%">fish darting past my stinging eyes, tender in the salty ocean</p>
