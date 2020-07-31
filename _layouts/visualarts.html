@@ -31,27 +31,27 @@
 
 
         {% for post in site.tags['Visual Arts'] %}
-        <a class="tooltip" href="{{site.baseurl}}{{ post.url }}">
-            <div class="posts">
-                <div class="post-info">
-                    <h2>{{ post.title }}   <img src="{{site.baseurl}}{{ post.thumb }}">
-                        <span id="tooltip-span">
-                            <img src="{{site.baseurl}}{{ post.thumb }}">
-                        </span>
-                 
-                    </h2>
 
-                    
+        <a href="{{site.baseurl}}{{ post.url }}">
+    
+            <div class="posts">
+    
+                <div class="post-info">
+    
+                    <h2>{{ post.title }}
+                        <img src="{{site.baseurl}}{{ post.thumb }}">
+                      </h2>
                     <div></div>
                     <div>
-                        <h3>/ {{ post.contributor }}</h3>
+                        <h3><span>/ {{ post.contributor }}</span></h3>
                         <h4>{{ post.tags }}</h4>
                         <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
                     </div>
                 </div>
-
+    
             </div>
         </a>
+    
         {% endfor %}
 
     </div>
@@ -70,18 +70,6 @@
 
 
 
-
-
-    <script>
-    var tooltipSpan = document.getElementById('tooltip-span');
-
-        window.onmousemove = function (e) {
-            var x = e.clientX,
-                y = e.clientY;
-            tooltipSpan.style.top = (y - 200) + 'px';
-            tooltipSpan.style.left = (x + 20) + 'px';
-        };
-        </script>
 
 
 

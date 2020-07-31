@@ -108,14 +108,6 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; padding-top: 32px; margin
 
 @media only screen and (max-width: 728px) { h1.index-title { padding-top: 16px; margin-top: 16px; padding: 0 16px 0 16px; } }
 
-.tooltip { text-decoration: none; position: relative; }
-
-.tooltip span { display: none; }
-
-.tooltip span img { height: 200px; }
-
-.tooltip:hover span { display: block; position: fixed; overflow: hidden; }
-
 .overlay { height: 0%; width: 100%; position: fixed; z-index: 1; top: 0; left: 0; background: var(--light-text-color); overflow-x: hidden; transition: 0.3s; }
 
 .overlay ul { display: flex; justify-content: space-between; list-style-type: none; margin: 0; padding: 0; cursor: pointer; }

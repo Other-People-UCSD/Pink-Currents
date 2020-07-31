@@ -95,19 +95,3 @@ h1.index-title {
 
 
 
-.tooltip {
-    text-decoration:none;
-    position:relative;
-}
-.tooltip span {
-    display:none;
-    img {
-        height: 200px;
-    }
-}
-.tooltip:hover span {
-    display:block;
-
-    position:fixed;
-    overflow:hidden;
-}
