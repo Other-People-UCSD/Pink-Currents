@@ -9,4 +9,4 @@ tags:
 - Visual Arts
 
 ---
-![](/uploads/Laura Esbensen_Other People Submission - Laura Esbensen.JPG)
+![Medium: Acrylic on wood](/uploads/Laura Esbensen_Other People Submission - Laura Esbensen.JPG)
