@@ -144,7 +144,7 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; padding-top: 32px; margin
 
 .post-nav { padding: 64px; display: flex; }
 
-.post-nav a { color: white; text-decoration: none; opacity: .5; }
+.post-nav a { color: var(--light-text-color); text-decoration: none; opacity: .5; }
 
 .post-nav a:hover { text-decoration: underline; }
 
