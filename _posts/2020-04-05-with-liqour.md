@@ -5,8 +5,7 @@ date: 2020-04-05T07:00:00.000+00:00
 category: Collection
 layout: Post
 thumb: ''
-tags:
-- Fiction
+tags: []
 
 ---
 To Cornell University and Liberty College,<br>(you know who you are)
