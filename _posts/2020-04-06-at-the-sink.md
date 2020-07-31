@@ -21,4 +21,4 @@ But
 
 My mother stands now at the sink, washing the dishes,<br>That I used just minutes before.<br>And her hands go washing, washing,<br>As she stares at her reflection in the window
 
-And sees all those dreams fly away, just like jungle birds<br>The color of the rainbow.
+And sees all those dreams fly away,<br>Just like jungle birds<br>The color of the rainbow.
