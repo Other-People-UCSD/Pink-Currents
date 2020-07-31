@@ -1,7 +1,7 @@
 ---
 category: Collection
 layout: Post
-title: I left my heart in Amsterdam
+title: I Left My Heart in Amsterdam
 contributor: Marcin Kierebinski
 date: 2020-04-06T07:00:00.000+00:00
 thumb: "/uploads/DSC_1188-01 - Marcin Kierebinski.jpeg"
