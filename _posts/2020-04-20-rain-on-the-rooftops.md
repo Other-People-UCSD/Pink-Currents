@@ -75,4 +75,4 @@ They climbed high into the sky, a rooftop abandoned and forgotten. It was beauti
 
 The evening was a blur but of the best kind—a mixture of coffee and colors, music and conversation. And if this is what it felt like to finally live, thirty feet in the air, then so be it.
 
-![](/uploads/PAGE 6.jpg)
+![](/uploads/page-6.jpg)
