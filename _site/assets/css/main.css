@@ -142,7 +142,7 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; padding-top: 32px; margin
 
 .content-title { margin-top: 64px; padding: 32px 32px 0 32px; margin-left: 256px; margin-right: 256px; }
 
-.copyright-footer { margin-top: 32px; opacity: .2; }
+.copyright-footer { margin-top: 32px; opacity: .4; }
 
 .copyright-footer h4 { line-height: 1.2rem; }
 
@@ -162,5 +162,9 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; padding-top: 32px; margin
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .content { padding: 32px; margin-left: 64px; margin-right: 64px; }
   .content-title { margin-top: 32px; padding: 32px 32px 0 32px; margin-left: 64px; margin-right: 64px; } }
+
+footer { padding: 64px 0 64px 0; text-align: center; opacity: .2; }
+
+footer svg { fill: var(--light-text-color); margin-bottom: 8px; display: block; margin-left: auto; margin-right: auto; width: 6rem; }
 
 /*# sourceMappingURL=main.css.map */
