@@ -4,22 +4,22 @@
 // }
 
 .IndexContainer {
+    img {
 
+
+
+        width: 100%; /* width of container */
+    height: 500px;
+        object-fit: cover;
+        animation: fadein 2s;
+        -moz-animation: fadein 2s; /* Firefox */
+        -webkit-animation: fadein 2s; /* Safari and Chrome */
+        -o-animation: fadein 2s; /* Opera */
+    }
 
 }
 
-img {
 
-
-
-    width: 100%; /* width of container */
-height: 500px;
-    object-fit: cover;
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
-}
 
 h1.index-title {
 
