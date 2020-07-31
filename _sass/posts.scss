@@ -43,7 +43,6 @@
     border-style: solid;
     border-width: 1px 0 0px 0;
 
-
     svg {
         width: 60px;
         .st0 {
@@ -61,6 +60,13 @@
     grid-template-columns: 60% 5% 35%;
     :nth-child(3) {
         text-align: right;
+    }
+
+    h2 {
+        img {
+            height: 15px;
+            margin-left: 15px;
+        }
     }
 }
 
@@ -89,15 +95,8 @@ h1.post-title {
     }
 }
 
-
-
-
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
-
     .post-container {
-
         grid-template-columns: 1fr 1fr;
     }
-
-
 }

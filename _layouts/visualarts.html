@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="../assets/js/scrollBackgroundColor.js"></script>
+
+
+
+
+
+
+    <!--Adjust as needed-->
+
 </head>
 
 <body>
@@ -18,35 +26,37 @@
         <h1 class="index-title">
             <div class="cssanimation sequence fadeInBottom">Visual Arts </div>
 
-          
+
         </h1>
     </div>
 
-<div class="post-container">
+    <div class="post-container">
 
 
 
-    {% for post in site.tags['Visual Arts'] %}
+        {% for post in site.tags['Visual Arts'] %}
 
-    <a href="{{site.baseurl}}{{ post.url }}">
-        <div class="posts">
-            <div class="post-info">
-                <h2>{{ post.title }}</h2>
-                <div></div>
-                <div>
-                    <h3><span>/ {{ post.contributor }}</span></h3>
-                    <h4>{{ post.tags }}</h4>
-                    <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
+        <a href="{{site.baseurl}}{{ post.url }}">
+            <div class="posts">
+                <div class="post-info">
+                    <h2>{{ post.title }}
+                        <img src="{{site.baseurl}}{{ post.thumb }}">
+                    </h2>
+                    <div></div>
+                    <div>
+                        <h3><span>/ {{ post.contributor }}</span></h3>
+                        <h4>{{ post.tags }}</h4>
+                        <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
+                    </div>
                 </div>
+
             </div>
+        </a>
 
-        </div>
-    </a>
-
-    {% endfor %}
+        {% endfor %}
 
     </div>
-    
+
 
 
     {% include header.html %}
@@ -54,6 +64,19 @@
 
 
     {{ content}}
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>

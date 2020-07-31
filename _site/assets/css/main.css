@@ -74,6 +74,8 @@ header a:hover { cursor: pointer; text-decoration: underline; }
 
 .post-info :nth-child(3) { text-align: right; }
 
+.post-info h2 img { height: 15px; margin-left: 15px; }
+
 h1.post-title { padding: 0 32px 0 32px; padding-top: 128px; margin-top: 32px; }
 
 .thumb img { width: 100%; }
