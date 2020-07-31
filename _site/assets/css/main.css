@@ -165,6 +165,6 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; padding-top: 32px; margin
 
 footer { padding: 64px 0 64px 0; text-align: center; opacity: .2; }
 
-footer svg { fill: var(--light-text-color); margin-bottom: 8px; display: block; margin-left: auto; margin-right: auto; width: 6rem; }
+footer svg { fill: var(--light-text-color); margin-bottom: 8px; display: block; margin-left: auto; margin-right: auto; width: 5rem; }
 
 /*# sourceMappingURL=main.css.map */
