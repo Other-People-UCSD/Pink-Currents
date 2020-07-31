@@ -1,5 +1,5 @@
 ---
-category: Collection
+category: ''
 tags:
 - Fiction
 layout: Post
