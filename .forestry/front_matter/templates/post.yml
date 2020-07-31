@@ -22,5 +22,9 @@ fields:
   config:
     maxSize: 64
   label: thumb
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 pages:
 - _posts/2020-05-02-fronteras.md
