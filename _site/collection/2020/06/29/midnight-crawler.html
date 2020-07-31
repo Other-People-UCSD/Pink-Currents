@@ -1,66 +1,51 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-        <title>Midnight Crawler - </title>
-        <link rel="stylesheet" href="/assets/css/main.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Midnight Crawler - </title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <header>
+  <header>
     <h2>
         <a href="http://localhost:4000/">Other<br>People ©</a>
     </h2>
     <h2>
-        <a>Poetry</a> / <a>Fiction</a> / <br>
-        <a>Nonfiction</a> / <a>Visual Arts</a>
+            <a href="http://localhost:4000/poetry">Poetry</a> / <a href="http://localhost:4000/fiction">Fiction</a> / <br>
+            <a href="http://localhost:4000/nonfiction">Nonfiction</a> / <a href="http://localhost:4000/visualarts">Visual Arts</a>
     </h2>
     <h2 class="menu" onclick="openNav()">
-<a>
+        <a>
         Menu</a>
 
     </h2>
 </header>
 
-
-
 <div id="myNav" class="overlay">
     <div class="overlay-content">
 
-
-            <h2>
-                <a href="http://localhost:4000/">Other<br>People ©</a>
-            </h2>
-            <h2>
-                <a>Poetry</a> / <a>Fiction</a> / <br>
-                <a>Nonfiction</a> / <a>Visual Arts</a>
-            </h2>
-            <h2 href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-        <a>
+        <h2>
+            <a href="http://localhost:4000/">Other<br>People ©</a>
+        </h2>
+        <h2>
+            <a href="http://localhost:4000/poetry">Poetry</a> / <a href="http://localhost:4000/fiction">Fiction</a> / <br>
+            <a href="http://localhost:4000/nonfiction">Nonfiction</a> / <a href="http://localhost:4000/visualarts">Visual Arts</a>
+        </h2>
+        <h2 href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <a>
                 Close
             </a>
-        
-            </h2>
 
-
-
-
+        </h2>
 
     </div>
 </div>
-
-
-
-
-
-
-
-
 
 <script>
     // Hide Header on on scroll down
@@ -84,9 +69,9 @@
         var st = $(this).scrollTop();
 
         // Make sure they scroll more than delta
-        if (Math.abs(lastScrollTop - st) <= delta)
+        if (Math.abs(lastScrollTop - st) <= delta) 
             return;
-
+        
         // If they scrolled down and are past the navbar, add class .nav-up.
         // This is necessary so you never see what is "behind" the navbar.
         if (st > lastScrollTop && st > navbarHeight) {
@@ -107,7 +92,6 @@
     }
 </script>
 
-
 <script>
     function openNav() {
         document
@@ -124,16 +108,23 @@
     }
 </script>
 
-        <div class="content-title">
-            <h1>
-                <div class="post_title">Midnight Crawler</h1>
-            </div>
+  <div class="content-title">
+    <h1>
+      <div class="post_title">Midnight Crawler
+    </h1>
+  </div>
 
-            <div class="content">
-                <h3>by Abigail Hora</h3>
-                                <h4>Fiction — Collection</h4>
-                <br><br>
-                <p>“Nanay.”</p>
+  <div class="content">
+    <h3>by Abigail Hora</h3>
+    <h4>Fiction —             
+            
+              7 min
+             reading time
+</h4>
+
+    <h4 style="color:rgb(255, 153, 0)">Collection</h4>
+    <br><br>
+    <p>“Nanay.”</p>
 
 <p>Janine locks her hands onto her hips. Her mother looks up from the fridge, swollen belly peeking out from beneath her shirt. The guilt on her face has Janine’s blood boiling.</p>
 
@@ -195,7 +186,56 @@
 
 <p>When Janine finally sees her mother in the hospital bed, her gaze immediately goes to the chocolate brown irises that have grown dull in her mother’s eyes. Her reflection is right side up, but she cannot help the same anger toward the aswang roil within her as she stares at her mother and her deflated stomach, the smell of alcohol strong in the room.</p>
 
-            </div>
-        </body>
 
-    </html>
+    <div class="copyright-footer">
+      <h4>This work belongs to Abigail Hora ©
+        <br> Copy, reproduction, and modification are not permitted without authorization
+      </h4>
+    </div>
+  </div>
+
+
+
+  <div class="page-nav">
+    
+    <a href="/collection/2020/05/04/the-dual-edged-life-of-mary-read.html">
+      <div class="posts">
+        <div class="post-info">
+          <h2>The Dual-Edged Life of Mary Read</h2>
+          <div></div>
+          <div>
+            <h3><span>/ Sydney Kessler</span></h3>
+            <h4>Fiction</h4>
+            <h4 style="color:rgb(255, 153, 0)">Collection</h4>
+          </div>
+        </div>
+
+      </div>
+    </a>
+    
+    <div></div>
+
+    
+    <a href="/2020/07/19/an-homage-to-the-class-of-2020.html">
+      <div class="posts">
+        <div class="post-info">
+          <h2>An Homage to the Class of 2020</h2>
+          <div></div>
+          <div>
+            <h3><span>/ Abigail Hora</span></h3>
+            <h4>Nonfiction</h4>
+            <h4 style="color:rgb(255, 153, 0)"></h4>
+          </div>
+        </div>
+
+      </div>
+    </a>
+    
+  </div>
+
+
+
+
+</body>
+
+</html>

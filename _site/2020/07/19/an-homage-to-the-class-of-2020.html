@@ -1,66 +1,51 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-        <title>An Homage to the Class of 2020 - </title>
-        <link rel="stylesheet" href="/assets/css/main.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>An Homage to the Class of 2020 - </title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <header>
+  <header>
     <h2>
         <a href="http://localhost:4000/">Other<br>People ©</a>
     </h2>
     <h2>
-        <a>Poetry</a> / <a>Fiction</a> / <br>
-        <a>Nonfiction</a> / <a>Visual Arts</a>
+            <a href="http://localhost:4000/poetry">Poetry</a> / <a href="http://localhost:4000/fiction">Fiction</a> / <br>
+            <a href="http://localhost:4000/nonfiction">Nonfiction</a> / <a href="http://localhost:4000/visualarts">Visual Arts</a>
     </h2>
     <h2 class="menu" onclick="openNav()">
-<a>
+        <a>
         Menu</a>
 
     </h2>
 </header>
 
-
-
 <div id="myNav" class="overlay">
     <div class="overlay-content">
 
-
-            <h2>
-                <a href="http://localhost:4000/">Other<br>People ©</a>
-            </h2>
-            <h2>
-                <a>Poetry</a> / <a>Fiction</a> / <br>
-                <a>Nonfiction</a> / <a>Visual Arts</a>
-            </h2>
-            <h2 href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-        <a>
+        <h2>
+            <a href="http://localhost:4000/">Other<br>People ©</a>
+        </h2>
+        <h2>
+            <a href="http://localhost:4000/poetry">Poetry</a> / <a href="http://localhost:4000/fiction">Fiction</a> / <br>
+            <a href="http://localhost:4000/nonfiction">Nonfiction</a> / <a href="http://localhost:4000/visualarts">Visual Arts</a>
+        </h2>
+        <h2 href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <a>
                 Close
             </a>
-        
-            </h2>
 
-
-
-
+        </h2>
 
     </div>
 </div>
-
-
-
-
-
-
-
-
 
 <script>
     // Hide Header on on scroll down
@@ -84,9 +69,9 @@
         var st = $(this).scrollTop();
 
         // Make sure they scroll more than delta
-        if (Math.abs(lastScrollTop - st) <= delta)
+        if (Math.abs(lastScrollTop - st) <= delta) 
             return;
-
+        
         // If they scrolled down and are past the navbar, add class .nav-up.
         // This is necessary so you never see what is "behind" the navbar.
         if (st > lastScrollTop && st > navbarHeight) {
@@ -107,7 +92,6 @@
     }
 </script>
 
-
 <script>
     function openNav() {
         document
@@ -124,16 +108,23 @@
     }
 </script>
 
-        <div class="content-title">
-            <h1>
-                <div class="post_title">An Homage to the Class of 2020</h1>
-            </div>
+  <div class="content-title">
+    <h1>
+      <div class="post_title">An Homage to the Class of 2020
+    </h1>
+  </div>
 
-            <div class="content">
-                <h3>by Abigail Hora</h3>
-                                <h4> — Nonfiction</h4>
-                <br><br>
-                <p>If a screen could be a stage, then there would not be a stage in the first place. No need for the acknowledgement of all our sacrifices and the sacrifices of those who have supported us in our journeys. No point in an opportunity to come together in a meaningful way with family and friends and peers.</p>
+  <div class="content">
+    <h3>by Abigail Hora</h3>
+    <h4>Nonfiction —             
+            
+              2 min
+             reading time
+</h4>
+
+    <h4 style="color:rgb(255, 153, 0)"></h4>
+    <br><br>
+    <p>If a screen could be a stage, then there would not be a stage in the first place. No need for the acknowledgement of all our sacrifices and the sacrifices of those who have supported us in our journeys. No point in an opportunity to come together in a meaningful way with family and friends and peers.</p>
 
 <p>If a screen is not a stage, then we are lost in anonymity, deprived of the respectable recognition for our hard work, sleepless nights, and contributions to a campus community. We sit in front of cold interfaces with bittersweet expressions. We are left wanting for our final moments on campus, especially the culmination of those moments.</p>
 
@@ -151,7 +142,56 @@
 
 <p>Four years end, but we are just beginning.</p>
 
-            </div>
-        </body>
 
-    </html>
+    <div class="copyright-footer">
+      <h4>This work belongs to Abigail Hora ©
+        <br> Copy, reproduction, and modification are not permitted without authorization
+      </h4>
+    </div>
+  </div>
+
+
+
+  <div class="page-nav">
+    
+    <a href="/collection/2020/06/29/midnight-crawler.html">
+      <div class="posts">
+        <div class="post-info">
+          <h2>Midnight Crawler</h2>
+          <div></div>
+          <div>
+            <h3><span>/ Abigail Hora</span></h3>
+            <h4>Fiction</h4>
+            <h4 style="color:rgb(255, 153, 0)">Collection</h4>
+          </div>
+        </div>
+
+      </div>
+    </a>
+    
+    <div></div>
+
+    
+    <a href="/2020/07/28/spectator.html">
+      <div class="posts">
+        <div class="post-info">
+          <h2>Spectator</h2>
+          <div></div>
+          <div>
+            <h3><span>/ Sanjana Dhamankar</span></h3>
+            <h4>Fiction</h4>
+            <h4 style="color:rgb(255, 153, 0)"></h4>
+          </div>
+        </div>
+
+      </div>
+    </a>
+    
+  </div>
+
+
+
+
+</body>
+
+</html>

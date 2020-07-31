@@ -1,30 +1,82 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-        <title>{{ page.title }} - {{ site.title }}</title>
-        <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        {% include header.html %}
+  {% include header.html %}
 
-        <div class="content-title">
-            <h1>
-                <div class="post_title">{{ page.title }}</h1>
-            </div>
+  <div class="content-title">
+    <h1>
+      <div class="post_title">{{ page.title }}
+    </h1>
+  </div>
 
-            <div class="content">
-                <h3>by {{ page.contributor }}</h3>
-                                <h4>{{ page.tags }} — {{ page.category }}</h4>
-                <br><br>
-                {{ content}}
-            </div>
-        </body>
+  <div class="content">
+    <h3>by {{ page.contributor }}</h3>
+    <h4>{{ page.tags }} — {% include minsread.html %}</h4>
 
-    </html>
+    <h4 style="color:rgb(255, 153, 0)">{{ page.category }}</h4>
+    <br><br>
+    {{ content}}
+
+    <div class="copyright-footer">
+      <h4>This work belongs to {{ page.contributor }} ©
+        <br> Copy, reproduction, and modification are not permitted without authorization
+      </h4>
+    </div>
+  </div>
+
+
+
+  <div class="page-nav">
+    {% if page.previous.url %}
+    <a href="{{page.previous.url}}">
+      <div class="posts">
+        <div class="post-info">
+          <h2>{{page.previous.title}}</h2>
+          <div></div>
+          <div>
+            <h3><span>/ {{ page.previous.contributor }}</span></h3>
+            <h4>{{ page.previous.tags }}</h4>
+            <h4 style="color:rgb(255, 153, 0)">{{ page.previous.category }}</h4>
+          </div>
+        </div>
+
+      </div>
+    </a>
+    {% endif %}
+    <div></div>
+
+    {% if page.next.url %}
+    <a href="{{page.next.url}}">
+      <div class="posts">
+        <div class="post-info">
+          <h2>{{page.next.title}}</h2>
+          <div></div>
+          <div>
+            <h3><span>/ {{ page.next.contributor }}</span></h3>
+            <h4>{{ page.next.tags }}</h4>
+            <h4 style="color:rgb(255, 153, 0)">{{ page.next.category }}</h4>
+          </div>
+        </div>
+
+      </div>
+    </a>
+    {% endif %}
+  </div>
+
+
+
+
+</body>
+
+</html>

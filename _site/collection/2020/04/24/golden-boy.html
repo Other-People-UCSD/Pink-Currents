@@ -1,66 +1,51 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-        <title>Golden Boy - </title>
-        <link rel="stylesheet" href="/assets/css/main.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Golden Boy - </title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <header>
+  <header>
     <h2>
         <a href="http://localhost:4000/">Other<br>People ©</a>
     </h2>
     <h2>
-        <a>Poetry</a> / <a>Fiction</a> / <br>
-        <a>Nonfiction</a> / <a>Visual Arts</a>
+            <a href="http://localhost:4000/poetry">Poetry</a> / <a href="http://localhost:4000/fiction">Fiction</a> / <br>
+            <a href="http://localhost:4000/nonfiction">Nonfiction</a> / <a href="http://localhost:4000/visualarts">Visual Arts</a>
     </h2>
     <h2 class="menu" onclick="openNav()">
-<a>
+        <a>
         Menu</a>
 
     </h2>
 </header>
 
-
-
 <div id="myNav" class="overlay">
     <div class="overlay-content">
 
-
-            <h2>
-                <a href="http://localhost:4000/">Other<br>People ©</a>
-            </h2>
-            <h2>
-                <a>Poetry</a> / <a>Fiction</a> / <br>
-                <a>Nonfiction</a> / <a>Visual Arts</a>
-            </h2>
-            <h2 href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-        <a>
+        <h2>
+            <a href="http://localhost:4000/">Other<br>People ©</a>
+        </h2>
+        <h2>
+            <a href="http://localhost:4000/poetry">Poetry</a> / <a href="http://localhost:4000/fiction">Fiction</a> / <br>
+            <a href="http://localhost:4000/nonfiction">Nonfiction</a> / <a href="http://localhost:4000/visualarts">Visual Arts</a>
+        </h2>
+        <h2 href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <a>
                 Close
             </a>
-        
-            </h2>
 
-
-
-
+        </h2>
 
     </div>
 </div>
-
-
-
-
-
-
-
-
 
 <script>
     // Hide Header on on scroll down
@@ -84,9 +69,9 @@
         var st = $(this).scrollTop();
 
         // Make sure they scroll more than delta
-        if (Math.abs(lastScrollTop - st) <= delta)
+        if (Math.abs(lastScrollTop - st) <= delta) 
             return;
-
+        
         // If they scrolled down and are past the navbar, add class .nav-up.
         // This is necessary so you never see what is "behind" the navbar.
         if (st > lastScrollTop && st > navbarHeight) {
@@ -107,7 +92,6 @@
     }
 </script>
 
-
 <script>
     function openNav() {
         document
@@ -124,16 +108,23 @@
     }
 </script>
 
-        <div class="content-title">
-            <h1>
-                <div class="post_title">Golden Boy</h1>
-            </div>
+  <div class="content-title">
+    <h1>
+      <div class="post_title">Golden Boy
+    </h1>
+  </div>
 
-            <div class="content">
-                <h3>by Isaac Kopstein</h3>
-                                <h4>Fiction — Collection</h4>
-                <br><br>
-                <p>When you get down to brass tacks, I’m just a goose. It sounds a little funny to say out loud, but mostly it’s just liberating. When fame hits, you start to get all these expectations of yourself. It becomes easier and easier to feel like you need to be what other people expect you to be. I’m trying to fight that, though, and start normalizing my life again. So yeah, honestly, I ain’t nothing more than a goose. Sometimes I lay golden eggs. No big deal, really. I can lay normal ones, too. That’s what a lot of people don’t realize. They’re so quick to put me in this box as “The Golden Goose” but they never even consider that I enjoy doing regular goose things, too. It’s not all red carpets and cameos. I still catch my own fish and harass random passersby for bread during my spare time.</p>
+  <div class="content">
+    <h3>by Isaac Kopstein</h3>
+    <h4>Fiction —             
+            
+              3 min
+             reading time
+</h4>
+
+    <h4 style="color:rgb(255, 153, 0)">Collection</h4>
+    <br><br>
+    <p>When you get down to brass tacks, I’m just a goose. It sounds a little funny to say out loud, but mostly it’s just liberating. When fame hits, you start to get all these expectations of yourself. It becomes easier and easier to feel like you need to be what other people expect you to be. I’m trying to fight that, though, and start normalizing my life again. So yeah, honestly, I ain’t nothing more than a goose. Sometimes I lay golden eggs. No big deal, really. I can lay normal ones, too. That’s what a lot of people don’t realize. They’re so quick to put me in this box as “The Golden Goose” but they never even consider that I enjoy doing regular goose things, too. It’s not all red carpets and cameos. I still catch my own fish and harass random passersby for bread during my spare time.</p>
 
 <p>After I laid that first golden egg, when all the magazines and newspapers came running, life was pretty good, not gonna lie. I was doing interviews left and right, really capitalizing on the publicity. Everywhere I’d go they’d ask me to do my shtick—​ I was that popular! I’d show up to a mall opening: boom, I’d lay a golden egg. When I hosted the Oscars: boom, golden egg. Invited to a house party? Egg. I was riding high. Everyone was getting rich off me. I had a reality TV show, for Christ’s sake! It was around that time that I fired Jack as my agent. Best decision of my life. We’d always been friends but this was business and that guy was a nobody. I stayed with him early because he kinda “discovered me” but I quickly realized that my star was much brighter than his. We didn’t part on bad terms, though. After letting him go I gave him a full basket of eggs. There must have been at least three dozen in there. Not golden ones, though. Farm Fresh, extra large. I gottem at Costco.</p>
 
@@ -143,7 +134,56 @@
 
 <p>Can’t I?</p>
 
-            </div>
-        </body>
 
-    </html>
+    <div class="copyright-footer">
+      <h4>This work belongs to Isaac Kopstein ©
+        <br> Copy, reproduction, and modification are not permitted without authorization
+      </h4>
+    </div>
+  </div>
+
+
+
+  <div class="page-nav">
+    
+    <a href="/2020/04/24/count-sheep-in-shakey-graves-can-t-wake-up.html">
+      <div class="posts">
+        <div class="post-info">
+          <h2>Count Sheep in Shakey Graves’ “Can’t Wake Up”</h2>
+          <div></div>
+          <div>
+            <h3><span>/ Jasmine Torres</span></h3>
+            <h4>Nonfiction</h4>
+            <h4 style="color:rgb(255, 153, 0)"></h4>
+          </div>
+        </div>
+
+      </div>
+    </a>
+    
+    <div></div>
+
+    
+    <a href="/2020/04/24/parasite-draft.html">
+      <div class="posts">
+        <div class="post-info">
+          <h2>In Honor of Parasite</h2>
+          <div></div>
+          <div>
+            <h3><span>/ Hemmy Chun</span></h3>
+            <h4>Fiction</h4>
+            <h4 style="color:rgb(255, 153, 0)"></h4>
+          </div>
+        </div>
+
+      </div>
+    </a>
+    
+  </div>
+
+
+
+
+</body>
+
+</html>

@@ -1,66 +1,51 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-        <title>Spectator - </title>
-        <link rel="stylesheet" href="/assets/css/main.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Spectator - </title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <header>
+  <header>
     <h2>
         <a href="http://localhost:4000/">Other<br>People ©</a>
     </h2>
     <h2>
-        <a>Poetry</a> / <a>Fiction</a> / <br>
-        <a>Nonfiction</a> / <a>Visual Arts</a>
+            <a href="http://localhost:4000/poetry">Poetry</a> / <a href="http://localhost:4000/fiction">Fiction</a> / <br>
+            <a href="http://localhost:4000/nonfiction">Nonfiction</a> / <a href="http://localhost:4000/visualarts">Visual Arts</a>
     </h2>
     <h2 class="menu" onclick="openNav()">
-<a>
+        <a>
         Menu</a>
 
     </h2>
 </header>
 
-
-
 <div id="myNav" class="overlay">
     <div class="overlay-content">
 
-
-            <h2>
-                <a href="http://localhost:4000/">Other<br>People ©</a>
-            </h2>
-            <h2>
-                <a>Poetry</a> / <a>Fiction</a> / <br>
-                <a>Nonfiction</a> / <a>Visual Arts</a>
-            </h2>
-            <h2 href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-        <a>
+        <h2>
+            <a href="http://localhost:4000/">Other<br>People ©</a>
+        </h2>
+        <h2>
+            <a href="http://localhost:4000/poetry">Poetry</a> / <a href="http://localhost:4000/fiction">Fiction</a> / <br>
+            <a href="http://localhost:4000/nonfiction">Nonfiction</a> / <a href="http://localhost:4000/visualarts">Visual Arts</a>
+        </h2>
+        <h2 href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <a>
                 Close
             </a>
-        
-            </h2>
 
-
-
-
+        </h2>
 
     </div>
 </div>
-
-
-
-
-
-
-
-
 
 <script>
     // Hide Header on on scroll down
@@ -84,9 +69,9 @@
         var st = $(this).scrollTop();
 
         // Make sure they scroll more than delta
-        if (Math.abs(lastScrollTop - st) <= delta)
+        if (Math.abs(lastScrollTop - st) <= delta) 
             return;
-
+        
         // If they scrolled down and are past the navbar, add class .nav-up.
         // This is necessary so you never see what is "behind" the navbar.
         if (st > lastScrollTop && st > navbarHeight) {
@@ -107,7 +92,6 @@
     }
 </script>
 
-
 <script>
     function openNav() {
         document
@@ -124,16 +108,23 @@
     }
 </script>
 
-        <div class="content-title">
-            <h1>
-                <div class="post_title">Spectator</h1>
-            </div>
+  <div class="content-title">
+    <h1>
+      <div class="post_title">Spectator
+    </h1>
+  </div>
 
-            <div class="content">
-                <h3>by Sanjana Dhamankar</h3>
-                                <h4> — Fiction</h4>
-                <br><br>
-                <p>So lonely was the old banyan tree that stood between Huntington Preparatory Academy and Valley Public School, that it reached out its wooden arms and asked the world into its embrace.</p>
+  <div class="content">
+    <h3>by Sanjana Dhamankar</h3>
+    <h4>Fiction —             
+            
+              1 min
+             reading time
+</h4>
+
+    <h4 style="color:rgb(255, 153, 0)"></h4>
+    <br><br>
+    <p>So lonely was the old banyan tree that stood between Huntington Preparatory Academy and Valley Public School, that it reached out its wooden arms and asked the world into its embrace.</p>
 
 <p>It yearned for stories, for adventures, for more than the lines on its leaves.</p>
 
@@ -151,7 +142,41 @@
 
 <p>Little did it know that on life’s road of thorns, the respite it offered was gift enough.</p>
 
-            </div>
-        </body>
 
-    </html>
+    <div class="copyright-footer">
+      <h4>This work belongs to Sanjana Dhamankar ©
+        <br> Copy, reproduction, and modification are not permitted without authorization
+      </h4>
+    </div>
+  </div>
+
+
+
+  <div class="page-nav">
+    
+    <a href="/2020/07/19/an-homage-to-the-class-of-2020.html">
+      <div class="posts">
+        <div class="post-info">
+          <h2>An Homage to the Class of 2020</h2>
+          <div></div>
+          <div>
+            <h3><span>/ Abigail Hora</span></h3>
+            <h4>Nonfiction</h4>
+            <h4 style="color:rgb(255, 153, 0)"></h4>
+          </div>
+        </div>
+
+      </div>
+    </a>
+    
+    <div></div>
+
+    
+  </div>
+
+
+
+
+</body>
+
+</html>

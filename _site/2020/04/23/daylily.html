@@ -1,66 +1,51 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-        <title>Daylily - </title>
-        <link rel="stylesheet" href="/assets/css/main.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Daylily - </title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <header>
+  <header>
     <h2>
         <a href="http://localhost:4000/">Other<br>People ©</a>
     </h2>
     <h2>
-        <a>Poetry</a> / <a>Fiction</a> / <br>
-        <a>Nonfiction</a> / <a>Visual Arts</a>
+            <a href="http://localhost:4000/poetry">Poetry</a> / <a href="http://localhost:4000/fiction">Fiction</a> / <br>
+            <a href="http://localhost:4000/nonfiction">Nonfiction</a> / <a href="http://localhost:4000/visualarts">Visual Arts</a>
     </h2>
     <h2 class="menu" onclick="openNav()">
-<a>
+        <a>
         Menu</a>
 
     </h2>
 </header>
 
-
-
 <div id="myNav" class="overlay">
     <div class="overlay-content">
 
-
-            <h2>
-                <a href="http://localhost:4000/">Other<br>People ©</a>
-            </h2>
-            <h2>
-                <a>Poetry</a> / <a>Fiction</a> / <br>
-                <a>Nonfiction</a> / <a>Visual Arts</a>
-            </h2>
-            <h2 href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-        <a>
+        <h2>
+            <a href="http://localhost:4000/">Other<br>People ©</a>
+        </h2>
+        <h2>
+            <a href="http://localhost:4000/poetry">Poetry</a> / <a href="http://localhost:4000/fiction">Fiction</a> / <br>
+            <a href="http://localhost:4000/nonfiction">Nonfiction</a> / <a href="http://localhost:4000/visualarts">Visual Arts</a>
+        </h2>
+        <h2 href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <a>
                 Close
             </a>
-        
-            </h2>
 
-
-
-
+        </h2>
 
     </div>
 </div>
-
-
-
-
-
-
-
-
 
 <script>
     // Hide Header on on scroll down
@@ -84,9 +69,9 @@
         var st = $(this).scrollTop();
 
         // Make sure they scroll more than delta
-        if (Math.abs(lastScrollTop - st) <= delta)
+        if (Math.abs(lastScrollTop - st) <= delta) 
             return;
-
+        
         // If they scrolled down and are past the navbar, add class .nav-up.
         // This is necessary so you never see what is "behind" the navbar.
         if (st > lastScrollTop && st > navbarHeight) {
@@ -107,7 +92,6 @@
     }
 </script>
 
-
 <script>
     function openNav() {
         document
@@ -124,16 +108,23 @@
     }
 </script>
 
-        <div class="content-title">
-            <h1>
-                <div class="post_title">Daylily</h1>
-            </div>
+  <div class="content-title">
+    <h1>
+      <div class="post_title">Daylily
+    </h1>
+  </div>
 
-            <div class="content">
-                <h3>by Sanjana Dhamankar</h3>
-                                <h4> — Fiction</h4>
-                <br><br>
-                <center>“Fear will be tasted, and goodbyes will be swallowed,<br />Compassion will be forsaken, and hearts will be hollowed,<br />These are the wishes of the shimmering disaster,<br />The disaster that will come to consume us all<br />But little does age-old disaster know<br />That lives are but a joke, and we stand tall,<br />In the knowledge that there will be no suffering in the end,<br />Because we will sleep the peaceful sleep;<br />No hearts to break; no eyes to cry; no wills to bend.”</center>
+  <div class="content">
+    <h3>by Sanjana Dhamankar</h3>
+    <h4>Fiction —             
+            
+              13 min
+             reading time
+</h4>
+
+    <h4 style="color:rgb(255, 153, 0)"></h4>
+    <br><br>
+    <center>“Fear will be tasted, and goodbyes will be swallowed,<br />Compassion will be forsaken, and hearts will be hollowed,<br />These are the wishes of the shimmering disaster,<br />The disaster that will come to consume us all<br />But little does age-old disaster know<br />That lives are but a joke, and we stand tall,<br />In the knowledge that there will be no suffering in the end,<br />Because we will sleep the peaceful sleep;<br />No hearts to break; no eyes to cry; no wills to bend.”</center>
 
 <p>Maya’s eyes flew open with a gasp as the familiar song played in her ears. She remembered this body; fifty years ago, it was hers. She was sitting on the edge of a large swimming pool, her legs dangling in its aggressively blue water. Around her smouldered the remains of revelry; some fifty-odd strangers in various stages of undress, fast asleep on any surface that would accommodate them. Some were sprawled out on deck chairs, feather boas twisted around their limp limbs and chocolate smeared on their faces. Others were propped up against the plastic palm trees, their arms crossed across their sunburned chests and their necks struggling to support their heads and the elaborate headdresses atop them. The rest were passed out on the pool floats drifting from one side of the pool to the other, their empty glasses and bottles nestling next to them. It was far too hot, and bright too, thanks to the halogen warmth and fake sunlight radiating from the domed ceiling above her.</p>
 
@@ -295,7 +286,56 @@
 
 <p>“I was destined to look upon the face of death. And you know what, darling? It’s bloody beautiful.”</p>
 
-            </div>
-        </body>
 
-    </html>
+    <div class="copyright-footer">
+      <h4>This work belongs to Sanjana Dhamankar ©
+        <br> Copy, reproduction, and modification are not permitted without authorization
+      </h4>
+    </div>
+  </div>
+
+
+
+  <div class="page-nav">
+    
+    <a href="/2020/04/20/easy-tea-for-sore-throat.html">
+      <div class="posts">
+        <div class="post-info">
+          <h2>Easy Tea for Sore Throat </h2>
+          <div></div>
+          <div>
+            <h3><span>/ Jasmine Torres (writer), Nicole Lopez (illustrator)</span></h3>
+            <h4>Nonfiction</h4>
+            <h4 style="color:rgb(255, 153, 0)"></h4>
+          </div>
+        </div>
+
+      </div>
+    </a>
+    
+    <div></div>
+
+    
+    <a href="/2020/04/24/count-sheep-in-shakey-graves-can-t-wake-up.html">
+      <div class="posts">
+        <div class="post-info">
+          <h2>Count Sheep in Shakey Graves’ “Can’t Wake Up”</h2>
+          <div></div>
+          <div>
+            <h3><span>/ Jasmine Torres</span></h3>
+            <h4>Nonfiction</h4>
+            <h4 style="color:rgb(255, 153, 0)"></h4>
+          </div>
+        </div>
+
+      </div>
+    </a>
+    
+  </div>
+
+
+
+
+</body>
+
+</html>

@@ -1,66 +1,51 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-        <title>Through Fuchsia-Colored Glasses - </title>
-        <link rel="stylesheet" href="/assets/css/main.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Through Fuchsia-Colored Glasses - </title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <header>
+  <header>
     <h2>
         <a href="http://localhost:4000/">Other<br>People ©</a>
     </h2>
     <h2>
-        <a>Poetry</a> / <a>Fiction</a> / <br>
-        <a>Nonfiction</a> / <a>Visual Arts</a>
+            <a href="http://localhost:4000/poetry">Poetry</a> / <a href="http://localhost:4000/fiction">Fiction</a> / <br>
+            <a href="http://localhost:4000/nonfiction">Nonfiction</a> / <a href="http://localhost:4000/visualarts">Visual Arts</a>
     </h2>
     <h2 class="menu" onclick="openNav()">
-<a>
+        <a>
         Menu</a>
 
     </h2>
 </header>
 
-
-
 <div id="myNav" class="overlay">
     <div class="overlay-content">
 
-
-            <h2>
-                <a href="http://localhost:4000/">Other<br>People ©</a>
-            </h2>
-            <h2>
-                <a>Poetry</a> / <a>Fiction</a> / <br>
-                <a>Nonfiction</a> / <a>Visual Arts</a>
-            </h2>
-            <h2 href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-        <a>
+        <h2>
+            <a href="http://localhost:4000/">Other<br>People ©</a>
+        </h2>
+        <h2>
+            <a href="http://localhost:4000/poetry">Poetry</a> / <a href="http://localhost:4000/fiction">Fiction</a> / <br>
+            <a href="http://localhost:4000/nonfiction">Nonfiction</a> / <a href="http://localhost:4000/visualarts">Visual Arts</a>
+        </h2>
+        <h2 href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <a>
                 Close
             </a>
-        
-            </h2>
 
-
-
-
+        </h2>
 
     </div>
 </div>
-
-
-
-
-
-
-
-
 
 <script>
     // Hide Header on on scroll down
@@ -84,9 +69,9 @@
         var st = $(this).scrollTop();
 
         // Make sure they scroll more than delta
-        if (Math.abs(lastScrollTop - st) <= delta)
+        if (Math.abs(lastScrollTop - st) <= delta) 
             return;
-
+        
         // If they scrolled down and are past the navbar, add class .nav-up.
         // This is necessary so you never see what is "behind" the navbar.
         if (st > lastScrollTop && st > navbarHeight) {
@@ -107,7 +92,6 @@
     }
 </script>
 
-
 <script>
     function openNav() {
         document
@@ -124,16 +108,23 @@
     }
 </script>
 
-        <div class="content-title">
-            <h1>
-                <div class="post_title">Through Fuchsia-Colored Glasses</h1>
-            </div>
+  <div class="content-title">
+    <h1>
+      <div class="post_title">Through Fuchsia-Colored Glasses
+    </h1>
+  </div>
 
-            <div class="content">
-                <h3>by Abigail Hora</h3>
-                                <h4>Fiction — Collection</h4>
-                <br><br>
-                <p>You have work at six in the morning, yoga at six in the evening. Busy enough day for you, as always, but you’re scrolling slowly through Tor at three in the morning anyway. You’re on the search for anything remotely entertaining on a Hidden Wiki. You steer clear of any obvious porn links. Some specify crush porn. Disgusting, but nothing surprising.</p>
+  <div class="content">
+    <h3>by Abigail Hora</h3>
+    <h4>Fiction —             
+            
+              6 min
+             reading time
+</h4>
+
+    <h4 style="color:rgb(255, 153, 0)">Collection</h4>
+    <br><br>
+    <p>You have work at six in the morning, yoga at six in the evening. Busy enough day for you, as always, but you’re scrolling slowly through Tor at three in the morning anyway. You’re on the search for anything remotely entertaining on a Hidden Wiki. You steer clear of any obvious porn links. Some specify crush porn. Disgusting, but nothing surprising.</p>
 
 <p>It’s 3:27 a.m. when you click on a link to a forum selling antique toys. You’re grateful it’s nothing sexual since you’re not sure your corneas can handle any more leaked violence porn videos. The site has an obnoxiously bright fuchsia background that illuminates your complexion with a dull pink hue. Some of the toys are rusted, but the prices pushing five figures catch your attention the most. It all just seems like useless junk, maybe a few vintage items but you’re not entirely sure. The occasional tricycle comes up. The ones with working bells on the handles seem to go for more money. Stuffed animals, some in pristine condition and others dilapidated to the point of being nightmare fuel. A lot of dolls. They’re repainted to look uncannily lifelike.</p>
 
@@ -165,7 +156,56 @@
 
 <p>The glamorization of the dark web in the media has transformed a breeding ground for criminal activity into a seemingly inconsequential matter. Fictional displays of the dark web often focus on the entertainment stereotypes of hacking and cultish followings, ultimately failing to capture the realities of commercialized human suffering. The chilling reality is that every day people use the dark web to commit illegal acts, especially the sale of child pornography. User anonymity discourages consistent action and prevalent advocacy against such criminal acts. Too many of us remain ambivalent about addressing dark web crimes due to the perception that nothing can be done. However, by being conscious of the violence occurring, advocating against both said violence and dark web romanticization, and not turning away emotionally and mentally out of discomfort, we can actively oppose the dark web accessibility of child pornography. The exploitation of minors online may seem daunting and terrifying to face, but a willingness to be aware and advocate for those being subjected to violence is the first step toward making a difference.</p>
 
-            </div>
-        </body>
 
-    </html>
+    <div class="copyright-footer">
+      <h4>This work belongs to Abigail Hora ©
+        <br> Copy, reproduction, and modification are not permitted without authorization
+      </h4>
+    </div>
+  </div>
+
+
+
+  <div class="page-nav">
+    
+    <a href="/2020/04/24/parasite-draft.html">
+      <div class="posts">
+        <div class="post-info">
+          <h2>In Honor of Parasite</h2>
+          <div></div>
+          <div>
+            <h3><span>/ Hemmy Chun</span></h3>
+            <h4>Fiction</h4>
+            <h4 style="color:rgb(255, 153, 0)"></h4>
+          </div>
+        </div>
+
+      </div>
+    </a>
+    
+    <div></div>
+
+    
+    <a href="/2020/05/02/fronteras.html">
+      <div class="posts">
+        <div class="post-info">
+          <h2>Fronteras</h2>
+          <div></div>
+          <div>
+            <h3><span>/ Nicole Lopez</span></h3>
+            <h4>Visual Arts</h4>
+            <h4 style="color:rgb(255, 153, 0)"></h4>
+          </div>
+        </div>
+
+      </div>
+    </a>
+    
+  </div>
+
+
+
+
+</body>
+
+</html>

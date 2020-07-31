@@ -45,3 +45,18 @@
     margin-left: auto;
     margin-right: 0;
 }
+
+
+
+
+@media only screen and (max-width: 728px) {
+
+
+    .overlay-content {
+        grid-template-columns: 1fr 1fr ;
+        padding: $blockTwo;
+    :nth-child(2) {
+        display: none;
+    }
+    }
+}

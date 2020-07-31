@@ -72,9 +72,8 @@ h1.index-title {
 
 @media only screen and (max-width: 728px) {
     h1.index-title {
-        position: absolute;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        padding-top: $blockTwo;
+        margin-top: $blockTwo;
         padding: 0 $blockTwo 0 $blockTwo;
     }
 }

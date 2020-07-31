@@ -9,7 +9,7 @@ h3 { font-family: Arial; font-size: 1rem; font-weight: normal; margin: 0; paddin
 
 h4 { font-family: "basier_circlemonoregular"; text-transform: uppercase; font-size: 0.8rem; font-weight: normal; margin: 0; padding: 0; }
 
-p { line-height: 1.5rem; font-size: 1rem; }
+p { line-height: 1.8rem; font-size: 1rem; }
 
 html, html[data-theme="light"] { --background-color: #ffffff; --light-text-color: #151515; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); }
 
@@ -70,16 +70,18 @@ header a:hover { cursor: pointer; text-decoration: underline; }
 
 .posts svg .st0 { fill: none; stroke: var(--light-text-color); stroke-width: 10rem; stroke-miterlimit: 100; }
 
-.post-info { min-height: 70px; display: grid; grid-template-columns: 60% 10% 30%; }
+.post-info { min-height: 70px; display: grid; grid-template-columns: 60% 5% 35%; }
 
 .post-info :nth-child(3) { text-align: right; }
 
-h1.post-title { padding: 0 32px 0 32px; padding-top: 256px; margin-top: 32px; }
+h1.post-title { padding: 0 32px 0 32px; padding-top: 128px; margin-top: 32px; }
 
 .thumb img { width: 100%; }
 
 @media only screen and (max-width: 728px) { .post-container { padding: 16px; grid-template-columns: 1fr; }
   h1.post-title { padding: 0 16px 0 16px; padding-top: 32px; margin-top: 32px; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .post-container { grid-template-columns: 1fr 1fr; } }
 
 @font-face { font-family: "basier_circlemonoregular"; src: url("../../assets/fonts/basiercirclemono/basiercirclemono-regular-webfont.eot"); src: url("../../assets/fonts/basiercirclemono/basiercirclemono-regular-webfont.eot") format("embedded-opentype"), url("../../assets/fonts/basiercirclemono/basiercirclemono-regular-webfont.woff2") format("woff2"), url("../../assets/fonts/basiercirclemono/basiercirclemono-regular-webfont.woff") format("woff"), url("../../assets/fonts/basiercirclemono/basiercirclemono-regular-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 
@@ -102,7 +104,7 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; padding-top: 32px; margin
   from { opacity: 0; }
   to { opacity: 1; } }
 
-@media only screen and (max-width: 728px) { h1.index-title { position: absolute; display: grid; grid-template-columns: 1fr 1fr; padding: 0 16px 0 16px; } }
+@media only screen and (max-width: 728px) { h1.index-title { padding-top: 16px; margin-top: 16px; padding: 0 16px 0 16px; } }
 
 .overlay { height: 0%; width: 100%; position: fixed; z-index: 1; top: 0; left: 0; background: var(--light-text-color); overflow-x: hidden; transition: 0.3s; }
 
@@ -116,6 +118,9 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; padding-top: 32px; margin
 
 .closebtn { margin-left: auto; margin-right: 0; }
 
+@media only screen and (max-width: 728px) { .overlay-content { grid-template-columns: 1fr 1fr; padding: 16px; }
+  .overlay-content :nth-child(2) { display: none; } }
+
 .content { padding: 32px; margin-left: 256px; margin-right: 256px; }
 
 .content h1 { font-family: Arial; font-size: 1.4rem; font-weight: normal; text-transform: uppercase; margin: 0; padding: 0; margin-top: 64px; margin-bottom: 32px; }
@@ -125,5 +130,31 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; padding-top: 32px; margin
 .content img { width: 100%; }
 
 .content-title { margin-top: 128px; padding: 32px 32px 0 32px; margin-left: 256px; margin-right: 256px; }
+
+.copyright-footer { margin-top: 64px; opacity: .2; }
+
+.copyright-footer h4 { line-height: 1.2rem; }
+
+.page-nav { padding: 32px; margin-top: 32px; display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 32px; }
+
+.page-nav h1 { padding-right: 8px; }
+
+.page-nav h4 { margin-top: 8px; color: gray; }
+
+.page-nav a { color: inherit; text-decoration: none; }
+
+.page-nav a span { background-color: none; }
+
+.page-nav a:hover h2 { text-decoration: underline; }
+
+.page-nav a:hover h3 { color: var(--light-text-color); transition-duration: 0.3s; }
+
+.page-nav a:hover h3 span { background-color: var(--background-color); }
+
+@media only screen and (max-width: 728px) { .content { padding: 16px; margin-left: 0; margin-right: 0; }
+  .content-title { margin-top: 32px; padding: 16px 16px 0 16px; margin-left: 0; margin-right: 0; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .content { padding: 32px; margin-left: 64px; margin-right: 64px; }
+  .content-title { margin-top: 32px; padding: 32px 32px 0 32px; margin-left: 64px; margin-right: 64px; } }
 
 /*# sourceMappingURL=main.css.map */
