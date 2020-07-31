@@ -6,7 +6,7 @@ contributor: Hemmy Chun
 date: 2020-04-24T07:00:00.000+00:00
 thumb: ''
 tags:
-- Fiction
+- Nonfiction
 
 ---
 ![](/uploads/Hemmy (Erin) Chun- content draft.jpg)
