@@ -4,11 +4,13 @@ contributor: Susan Hou
 date: 2020-04-05T07:00:00.000+00:00
 category: Collection
 layout: Post
-thumb: ''
+thumb: "/uploads/with-liquor-title.jpg"
 tags:
 - Nonfiction
 
 ---
+![](/uploads/with-liquor-title.jpg)
+
 To Cornell University and Liberty College,<br>(you know who you are)
 
 I had my black hair whipping back in the wind at dusk. Do not trail behind me, I warn the dying stars, because they do not know where this mind has been before settling into this tame body. Sometimes it shows—in a jerk of the finger, a twitch of the ear, or the annoyed twisting and turnings of the neck. It’s there, a wild soul that had to be bolted down to flesh.
