@@ -22,6 +22,7 @@ fields:
 - type: text
   name: category
   label: Collection
+  description: Input "Collection" in field if part of magazine. (Case Sensitive)
 - name: thumb
   type: file
   config:
