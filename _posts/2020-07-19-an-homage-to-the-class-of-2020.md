@@ -1,9 +1,10 @@
 ---
-category: Nonfiction
-tags: []
+category: ''
+tags:
+- Nonfiction
 layout: Post
 title: An Homage to the Class of 2020
-date: 2020-07-19 07:00:00 +0000
+date: 2020-07-19T07:00:00.000+00:00
 contributor: Abigail Hora
 thumb: ''
 
