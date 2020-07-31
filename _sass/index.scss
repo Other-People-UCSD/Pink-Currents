@@ -4,16 +4,16 @@
 // }
 
 .IndexContainer {
-    height: 100vh;
-    margin-bottom: -160px;
+
+
 }
 
 img {
-    position: absolute;
-    width: 100vw;
-    top: 0;
+
+
+
     width: 100%; /* width of container */
-    height: 70%;
+height: 500px;
     object-fit: cover;
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
@@ -22,38 +22,17 @@ img {
 }
 
 h1.index-title {
-    position: absolute;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
     padding: 0 $blockThree 0 $blockThree;
     bottom: $blockThree;
     padding-top: $blockThree;
     margin-top: $blockThree;
     left: 0;
     right: 0;
-    svg {
-        position: absolute;
-        width: 40px;
-        transform: rotate(135deg);
-        right: $blockThree;
-        bottom: $blockOne;
-        .st0 {
-            fill: none;
-            stroke: $bodyColor;
-            stroke-width: 10rem;
-            stroke-miterlimit: 100;
-        }
-    }
+
 }
 
-h1.index-title:hover {
-    cursor: pointer;
-    text-decoration: underline;
-    svg {
-        bottom: -2px;
-        transition-duration: 0.3s;
-    }
-}
+
 
 @keyframes fadein {
     from {

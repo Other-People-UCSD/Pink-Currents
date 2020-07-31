@@ -12,19 +12,19 @@
 
     <body>
 
-
-
         {% include header.html %}
 
-        <div class="content">
+        <div class="content-title">
+            <h1>
+                <div class="post_title">{{ page.title }}</h1>
+            </div>
 
+            <div class="content">
+                <h3>by {{ page.contributor }}</h3>
+                <h4>{{ page.category }}</h4>
+                <br><br>
+                {{ content}}
+            </div>
+        </body>
 
-
-            <h1><div class="post_title">{{ page.title }}</h1><br>
-    <h2>by {{ page.contributor }}</h2>
-    <br><br>
-            {{ content}}
-        </div>
-    </body>
-
-</html>
+    </html>

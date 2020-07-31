@@ -3,13 +3,13 @@ body { width: 100%; margin: auto; background: var(--background-color); color: va
 
 h1 { font-family: Arial; font-size: 4rem; font-weight: normal; margin: 0; padding: 0; }
 
-h2 { font-family: Arial; font-size: 1.4rem; font-weight: normal; text-transform: uppercase; margin: 0; padding: 0; }
+h2 { font-family: Arial; font-size: 1.2rem; font-weight: normal; text-transform: uppercase; margin: 0; padding: 0; }
 
 h3 { font-family: Arial; font-size: 1rem; font-weight: normal; margin: 0; padding: 0; }
 
 h4 { font-family: "basier_circlemonoregular"; text-transform: uppercase; font-size: 0.8rem; font-weight: normal; opacity: 0.5; margin: 0; padding: 0; }
 
-p { line-height: 1.8rem; font-size: 1.2rem; }
+p { line-height: 1.5rem; font-size: 1rem; }
 
 html, html[data-theme="light"] { --background-color: #ffffff; --light-text-color: #151515; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); }
 
@@ -83,19 +83,9 @@ h1.post-title { padding: 0 32px 0 32px; padding-top: 32px; margin-top: 32px; }
 
 @font-face { font-family: "basier_circlemonoregular"; src: url("../../assets/fonts/basiercirclemono/basiercirclemono-regular-webfont.eot"); src: url("../../assets/fonts/basiercirclemono/basiercirclemono-regular-webfont.eot") format("embedded-opentype"), url("../../assets/fonts/basiercirclemono/basiercirclemono-regular-webfont.woff2") format("woff2"), url("../../assets/fonts/basiercirclemono/basiercirclemono-regular-webfont.woff") format("woff"), url("../../assets/fonts/basiercirclemono/basiercirclemono-regular-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 
-.IndexContainer { height: 100vh; margin-bottom: -160px; }
+img { width: 100%; /* width of container */ height: 500px; object-fit: cover; animation: fadein 2s; -moz-animation: fadein 2s; /* Firefox */ -webkit-animation: fadein 2s; /* Safari and Chrome */ -o-animation: fadein 2s; /* Opera */ }
 
-img { position: absolute; width: 100vw; top: 0; width: 100%; /* width of container */ height: 70%; object-fit: cover; animation: fadein 2s; -moz-animation: fadein 2s; /* Firefox */ -webkit-animation: fadein 2s; /* Safari and Chrome */ -o-animation: fadein 2s; /* Opera */ }
-
-h1.index-title { position: absolute; display: grid; grid-template-columns: 1fr 1fr; padding: 0 32px 0 32px; bottom: 32px; padding-top: 32px; margin-top: 32px; left: 0; right: 0; }
-
-h1.index-title svg { position: absolute; width: 40px; transform: rotate(135deg); right: 32px; bottom: 8px; }
-
-h1.index-title svg .st0 { fill: none; stroke: var(--light-text-color); stroke-width: 10rem; stroke-miterlimit: 100; }
-
-h1.index-title:hover { cursor: pointer; text-decoration: underline; }
-
-h1.index-title:hover svg { bottom: -2px; transition-duration: 0.3s; }
+h1.index-title { padding: 0 32px 0 32px; bottom: 32px; padding-top: 32px; margin-top: 32px; left: 0; right: 0; }
 
 @keyframes fadein { from { opacity: 0; }
   to { opacity: 1; } }
@@ -126,6 +116,12 @@ h1.index-title:hover svg { bottom: -2px; transition-duration: 0.3s; }
 
 .closebtn { margin-left: auto; margin-right: 0; }
 
-.content { padding: 32px; margin-left: 256px; margin-right: 256px; margin-top: 128px; }
+.content { padding: 32px; margin-left: 256px; margin-right: 256px; }
+
+.content h1 { font-family: Arial; font-size: 1.4rem; font-weight: normal; text-transform: uppercase; margin: 0; padding: 0; margin-top: 64px; margin-bottom: 32px; }
+
+.content h3, .content h4 { line-height: 1.8rem; }
+
+.content-title { margin-top: 128px; padding: 32px; margin-left: 256px; margin-right: 256px; }
 
 /*# sourceMappingURL=main.css.map */

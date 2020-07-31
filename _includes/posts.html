@@ -1,4 +1,6 @@
 <div class="post-container">
+
+    {% for post in site.categories['Collection'] %}
     {% for post in site.categories['Fiction'] limit : 3 %}
     <a href="{{site.baseurl}}{{ post.url }}">
         <div class="posts">
@@ -7,10 +9,10 @@
                 <div></div>
                 <div>
                     <h3><span>/ {{ post.contributor }}</span></h3>
-
+                    <h4>{{ post.category }}</h4>
                 </div>
             </div>
-            <h4>{{ post.category }}</h4>
+
         </div>
     </a>
     {% endfor %}
@@ -25,10 +27,10 @@
                 <div></div>
                 <div>
                     <h3><span>/ {{ post.contributor }}</span></h3>
-
+                    <h4>{{ post.category }}</h4>
                 </div>
             </div>
-            <h4>{{ post.category }}</h4>
+
         </div>
     </a>
     {% endfor %}
@@ -41,10 +43,10 @@
                 <div></div>
                 <div>
                     <h3><span>/ {{ post.contributor }}</span></h3>
-
+                    <h4>{{ post.category }}</h4>
                 </div>
             </div>
-            <h4>{{ post.category }}</h4>
+
         </div>
     </a>
     {% endfor %}
@@ -54,25 +56,23 @@
 
         <div class="posts">
             <div class="thumb">
-                <img src="{{site.baseurl}}{{ post.thumb }}">
-              </div>
+
+            </div>
             <div class="post-info">
 
                 <h2>{{ post.title }}</h2>
                 <div></div>
                 <div>
                     <h3><span>/ {{ post.contributor }}</span></h3>
-
+                    <h4>{{ post.category }}</h4>
                 </div>
             </div>
-            <h4>{{ post.category }}</h4>
+
         </div>
     </a>
     {% endfor %}
 
-
-
-
+    {% endfor %}
 
 </div>
 
