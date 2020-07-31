@@ -1,10 +1,12 @@
 ---
-category: Fiction
+category: Collection
 layout: Post
 title: Golden Boy
 contributor: Isaac Kopstein
 date: 2020-04-24T07:00:00.000+00:00
 thumb: ''
+tags:
+- Fiction
 
 ---
 When you get down to brass tacks, I’m just a goose. It sounds a little funny to say out loud, but mostly it's just liberating. When fame hits, you start to get all these expectations of yourself. It becomes easier and easier to feel like you need to be what other people expect you to be. I’m trying to fight that, though, and start normalizing my life again. So yeah, honestly, I ain’t nothing more than a goose. Sometimes I lay golden eggs. No big deal, really. I can lay normal ones, too. That’s what a lot of people don’t realize. They’re so quick to put me in this box as “The Golden Goose” but they never even consider that I enjoy doing regular goose things, too. It’s not all red carpets and cameos. I still catch my own fish and harass random passersby for bread during my spare time.
