@@ -2,9 +2,11 @@
 title: Ode to Stan
 contributor: Kali M.S.
 date: 2020-04-05T07:00:00.000+00:00
-category: Fiction
+category: Collection
 layout: Post
 thumb: ''
+tags:
+- Fiction
 
 ---
 There are no rules, except that gas is blood and green means go. You can be safe here, with me, in the stillness that I create. There are no rules, except that gas is my blood, and this is all mine. It’s all mine.
