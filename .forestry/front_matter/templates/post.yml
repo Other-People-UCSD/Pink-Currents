@@ -3,11 +3,9 @@ label: Post
 hide_body: false
 fields:
 - type: text
-  name: category
-  label: Collection
-- type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: title
   label: title
@@ -17,15 +15,18 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: tags
+  type: tag_list
+  default: []
+  label: Genre
+- type: text
+  name: category
+  label: Collection
 - name: thumb
   type: file
   config:
     maxSize: 64
   label: thumb
-- name: tags
-  type: tag_list
-  default: []
-  label: Genre
 pages:
 - _posts/2020-04-24-through-fuchsia-colored-glasses.md
 - _posts/2020-05-02-fronteras.md
