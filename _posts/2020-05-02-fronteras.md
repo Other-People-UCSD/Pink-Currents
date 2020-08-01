@@ -1,5 +1,5 @@
 ---
-category: ''
+category: Collection
 layout: Post
 title: Fronteras
 contributor: Nicole Lopez
