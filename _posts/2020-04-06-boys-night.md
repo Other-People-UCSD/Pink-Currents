@@ -33,7 +33,7 @@ Dave is beside himself with laughter. “You okay there, dude?”
 
 Mark is still too busy calming down to get properly annoyed, but he still takes the time to extend his middle finger.
 
-_“Please make an effort,”_ Amanda had said. “Y_ou know how much it would mean to me — my boyfriend and my best friend getting along. And Dave really likes you; he never likes any of the guys I date. The fact that he invited you along on one of his trips means a lot.”_
+_“Please make an effort,”_ Amanda had said. “You know how much it would mean to me — my boyfriend and my best friend getting along. And Dave really likes you; he never likes any of the guys I date. The fact that he invited you along on one of his trips means a lot.”
 
 Mark had almost asked Amanda why Dave would like him, especially compared to Amanda’s exes. He’s seen some of the douches she used to date; they seem right up Dave’s alley. Maybe that’s the deal though — Dave can like Mark because he doesn’t drive a car worth twice the price of tuition, so he won’t seem like a threat when Dave decides to finally swoop in on Amanda.
 
