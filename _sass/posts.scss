@@ -72,7 +72,7 @@
 
 h1.post-title {
     padding: 0 $blockThree 0 $blockThree;
-    padding-top: $blockThree;
+
     margin-top: $blockThree;
     // span {
     //     background-color: $backgroundColor;
@@ -81,16 +81,14 @@ h1.post-title {
 }
 
 
-h2.post-title{
+h3.post-title{
     padding: 0 $blockThree 0 $blockThree;
-    padding-top: $blockFive;
+// padding-top: $blockFour;
     margin-top: $blockThree;
     opacity: .5;
 }
 
-h3.post-title {
-    padding: 0 $blockThree 0 $blockThree;  
-}
+
 
 .thumb {
     img {
@@ -106,8 +104,8 @@ h3.post-title {
 
     h1.post-title {
         padding: 0 $blockTwo 0 $blockTwo;
-        padding-top: $blockThree;
-        margin-top: $blockFive;
+
+
     }
 
     h3.post-title {
