@@ -82,10 +82,17 @@ header a:hover { cursor: pointer; text-decoration: underline; }
 
 h1.post-title { padding: 0 32px 0 32px; padding-top: 128px; margin-top: 32px; }
 
+h3.post-title { padding: 0 32px 0 32px; margin-top: 32px; opacity: 0.5; }
+
+h3.post-title a { text-align: center; color: var(--background-color); text-decoration: none; }
+
+h3.post-title a:hover { text-decoration: underline; }
+
 .thumb img { width: 100%; }
 
 @media only screen and (max-width: 728px) { .post-container { padding: 16px; grid-template-columns: 1fr; }
-  h1.post-title { padding: 0 16px 0 16px; padding-top: 32px; margin-top: 128px; } }
+  h1.post-title { padding: 0 16px 0 16px; padding-top: 32px; margin-top: 128px; }
+  h3.post-title { padding: 0 16px 0 16px; margin-top: 32px; opacity: 0.5; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .post-container { grid-template-columns: 1fr 1fr; } }
 
