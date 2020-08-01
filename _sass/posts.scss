@@ -72,20 +72,24 @@
 
 h1.post-title {
     padding: 0 $blockThree 0 $blockThree;
+    padding-top: $blockThree;
+    margin-top: $blockThree;
+    // span {
+    //     background-color: $backgroundColor;
+    //     color: $bodyColor;
+    // }
+}
+
+
+h2.post-title{
+    padding: 0 $blockThree 0 $blockThree;
     padding-top: $blockFive;
     margin-top: $blockThree;
+    opacity: .5;
 }
 
 h3.post-title {
-    padding: 0 $blockThree 0 $blockThree;
-    margin-top: $blockThree;
-    opacity: 0.5;
-    a {
-        text-align: center;
-    color: $backgroundColor;
-    text-decoration: none;
-    }
-    a:hover {text-decoration: underline;}
+    padding: 0 $blockThree 0 $blockThree;  
 }
 
 .thumb {

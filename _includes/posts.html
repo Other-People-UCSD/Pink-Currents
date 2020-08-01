@@ -29,12 +29,12 @@
 
 
 
-<h1 class="post-title"> Web Content </h1>
 
-<h3 class="post-title">Fiction</h3>
+<h2 class="post-title">More Content</h2>
+<h1 class="post-title"><span>Fiction<span></h1>
 <div class="post-container">
     {% for post in site.tags['Fiction'] limit : 6 %}
-    {% unless post.categories contains "Collection"%}
+
     <a href="{{site.baseurl}}{{ post.url }}">
         <div class="posts">
             <div class="post-info">
@@ -52,16 +52,16 @@
             </div>
         </div>
     </a>
-    {% endunless %}
+
     {% endfor %}
 </div>
 <h3 class="post-title" style="text-align:right"><a href="{{ site.url }}{{ site.baseurl }}/fiction">[ See more ]</a></h3>
 
 
-<h3 class="post-title">Nonfiction</h3>
+<h1 class="post-title"><span>Nonfiction<span></h1>
 <div class="post-container">
     {% for post in site.tags['Nonfiction'] limit : 6 %}
-    {% unless post.categories contains "Collection"%}
+
     <a href="{{site.baseurl}}{{ post.url }}">
         <div class="posts">
             <div class="post-info">
@@ -79,17 +79,18 @@
             </div>
         </div>
     </a>
-    {% endunless %}
+
     {% endfor %}
 </div>
-<h3 class="post-title" style="text-align:right"><a href="{{ site.url }}{{ site.baseurl }}/nonfiction">[ See more ]</a></h3>
+<h3 class="post-title" style="text-align:right"><a href="{{ site.url }}{{ site.baseurl }}/nonfiction">[ See more ]</a>
+</h3>
 
 
 
-<h3 class="post-title">Poetry</h3>
+<h1 class="post-title"><span>Poetry<span></h1>
 <div class="post-container">
     {% for post in site.tags['Poetry'] limit : 6 %}
-    {% unless post.categories contains "Collection"%}
+
     <a href="{{site.baseurl}}{{ post.url }}">
         <div class="posts">
             <div class="post-info">
@@ -107,17 +108,17 @@
             </div>
         </div>
     </a>
-    {% endunless %}
+
     {% endfor %}
 </div>
 <h3 class="post-title" style="text-align:right"><a href="{{ site.url }}{{ site.baseurl }}/poetry">[ See more ]</a></h3>
 
 
 
-<h3 class="post-title">Visual Art</h3>
+<h1 class="post-title"><span>Visual Arts<span></h1>
 <div class="post-container">
     {% for post in site.tags['Visual Arts'] limit : 6 %}
-    {% unless post.categories contains "Collection"%}
+
     <a href="{{site.baseurl}}{{ post.url }}">
         <div class="posts">
             <div class="post-info">
@@ -133,7 +134,8 @@
             </div>
         </div>
     </a>
-    {% endunless %}
+
     {% endfor %}
 </div>
-<h3 class="post-title" style="text-align:right"><a href="{{ site.url }}{{ site.baseurl }}/visualarts">[ See more ]</a></h3>
+<h3 class="post-title" style="text-align:right"><a href="{{ site.url }}{{ site.baseurl }}/visualarts">[ See more ]</a>
+</h3>
