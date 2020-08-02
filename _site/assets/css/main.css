@@ -62,6 +62,8 @@ header a:hover { cursor: pointer; text-decoration: underline; }
     transform: translateY(100%); }
   to { opacity: 1; } }
 
+@media only screen and (max-width: 728px) { .cssanimation, .cssanimation span { animation-duration: .5s; animation-fill-mode: both; } }
+
 .post-container { padding: 32px; margin-top: 32px; display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 32px; }
 
 .post-container h1 { padding-right: 8px; }

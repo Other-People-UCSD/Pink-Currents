@@ -16,6 +16,15 @@
 }
 
 
+@media only screen and (max-width: 728px) {
+
+    .cssanimation, .cssanimation span {
+
+        animation-duration: .5s;
+        animation-fill-mode: both;
+    }
 
 
+
+}
 
