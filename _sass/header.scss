@@ -75,7 +75,7 @@ header {
     header {
         grid-template-columns: 1fr 1fr;
         padding: $blockTwo;
-        animation: .5s ease-out 0s .9 slideInFromTop;
+        animation: 0.5s ease-out 0s 0.9 slideInFromTop;
         :nth-child(2) {
             display: none;
         }
@@ -83,6 +83,7 @@ header {
     .header2 {
         grid-template-columns: 1fr 1fr;
         padding: $blockTwo;
+
         :nth-child(2) {
             display: none;
         }
@@ -95,5 +96,4 @@ header {
     .nav-up {
         top: -80px;
     }
-
 }

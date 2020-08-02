@@ -12,6 +12,9 @@
             $("header").css("color", "var(--background-color)");
             $(".posts").css("border-color", "var(--background-color)");
 
+
+   
+
     
      
 
@@ -23,7 +26,6 @@
             $("header").css("background-color", "var(--background-color)");
             $("header").css("color", "var(--light-text-color)");
             $(".posts").css("border-color", "var(--light-text-color)");
-
 
       
 
