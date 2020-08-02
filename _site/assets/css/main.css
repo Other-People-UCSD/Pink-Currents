@@ -17,6 +17,8 @@ p { line-height: 1.8rem; font-size: 1rem; }
 
 ul { line-height: 1.8rem; list-style-type: ">   "; }
 
+sup { color: #ff9900; }
+
 html, html[data-theme="light"] { --background-color: #ffffff; --light-text-color: #151515; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); }
 
 html[data-theme="dark"] { --background-color: #151515; --light-text-color: #ffffff; --link-color: rgb(100, 210, 255); --main-background-color: rgb(28, 28, 30); --main-text-color: rgb(229, 229, 234); }
