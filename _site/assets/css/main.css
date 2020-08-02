@@ -33,6 +33,14 @@ header a { color: inherit; text-decoration: none; }
 
 header a:hover { cursor: pointer; text-decoration: underline; }
 
+.header2 { z-index: 1; background-color: var(--background-color); padding: 32px; left: 0; right: 0; display: grid; grid-template-columns: 1fr 1fr 1fr; position: fixed; top: 0; transition: top 0.3s ease-in-out; }
+
+.header2 :nth-child(3) { text-align: right; }
+
+.header2 a { color: inherit; text-decoration: none; }
+
+.header2 a:hover { cursor: pointer; text-decoration: underline; }
+
 .nav-up { top: -120px; }
 
 @media only screen and (max-width: 728px) { header { grid-template-columns: 1fr 1fr; padding: 16px; }
@@ -137,6 +145,8 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; padding-top: 32px; margin
 @media only screen and (max-width: 728px) { .overlay-content { grid-template-columns: 1fr 1fr; padding: 16px; }
   .overlay-content :nth-child(2) { display: none; } }
 
+.content-title h4 { line-height: 1.8rem; }
+
 .content { padding: 32px; margin-left: 256px; margin-right: 256px; }
 
 .content h1 { font-family: Arial; font-size: 1.4rem; font-weight: normal; text-transform: uppercase; margin: 0; padding: 0; margin-top: 64px; margin-bottom: 32px; }
@@ -173,5 +183,21 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; padding-top: 32px; margin
 footer { padding: 64px 0 64px 0; text-align: center; opacity: .3; }
 
 footer svg { fill: var(--light-text-color); margin-bottom: 8px; display: block; margin-left: auto; margin-right: auto; width: 5rem; }
+
+.team_module { width: 80%; display: grid; grid-template-columns: auto auto auto; grid-gap: 1px; }
+
+.team_module h3 { font-weight: normal; }
+
+.team_module ul { list-style-type: none; margin: 0; padding: 0; }
+
+.team_module li { margin: 10px 0 10px 0; }
+
+.team_module_child { background-color: var(--background-color); color: var(--light-text-color); padding-bottom: 128px; }
+
+@media only screen and (max-width: 728px) { .team_module { width: 95%; margin: auto; padding: 32px 0 80px 0; grid-template-columns: auto; }
+  .team_module_child { background-color: var(--background-color); color: var(--light-text-color); padding: 16px 0 16px 0; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .team_intro_container { padding: 128px 0 0 0; }
+  .team_module { padding: 40px 0 88px 0; grid-template-columns: auto auto; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -45,6 +45,34 @@ header {
 }
 
 
+.header2 {
+    z-index: 1;
+    background-color: $backgroundColor;
+    padding: $blockThree;
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+    position: fixed;
+    top: 0;
+    transition: top 0.3s ease-in-out;
+    :nth-child(3) {
+        text-align: right;
+    }
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+    a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    
+    }
+
+}
+
 
 .nav-up {
     top: -120px;

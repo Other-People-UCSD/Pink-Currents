@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>{{ page.title }} - {{ site.title }}</title>
+        <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+      {% include favicons.html %}
+
+    </head>
+
+    <body>
+        {% include header.html %}
+        {{ content}}
+
+        <div class="index_body">
+
+            <div class="index_column">
+
+                <h1 class="post-title">Team
+                </h1>
+
+            </div>
+
+
+        <div class="team_module">
+
+            <!-- EDITOR-IN-CHIEF -->
+            <div class="team_module_child">
+                <ul>
+                    <h2>Editor in Chief</h2>
+                    {% for editor-in-chief in page.editor-in-chief %}
+                        <li><h3>/ {{ editor-in-chief }}</h3></li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <!-- EDITORIAL -->
+            <div class="team_module_child">
+                <ul>
+                    <h2>Editorial</h2>
+                    {% for editorial in page.editorial %}
+                        <li><h3>/ {{ editorial }}</h3></li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <!-- DESIGN -->
+            <div class="team_module_child">
+                <ul>
+                    <h3>Design</h3>
+                    {% for design_team in page.design_team %}
+                        <li>{{ design_team }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <!-- EVENTS -->
+            <div class="team_module_child">
+                <ul>
+                    <h3>PR + Events</h3>
+                    {% for publicity_events in page.publicity_events %}
+                        <li>{{ publicity_events }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <!-- MEDIA -->
+            <div class="team_module_child">
+                <ul>
+                    <h3>Media</h3>
+                    {% for media in page.media %}
+                        <li>{{ media }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <!-- FINANCE -->
+            <div class="team_module_child">
+                <ul>
+                    <h3>Finance</h3>
+                    {% for finance in page.finance %}
+                        <li>{{ finance }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+        </div>
+        </div>
+
+        {% include footer.html %}
+
+    </body>
+
+</html>
