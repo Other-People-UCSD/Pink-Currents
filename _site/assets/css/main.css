@@ -100,7 +100,7 @@ h1.post-title { padding: 0 32px 0 32px; margin-top: 32px; }
 
 h3.post-title { padding: 0 32px 0 32px; margin-top: 32px; opacity: .5; }
 
-h3.post-title a { color: var(--light-text-color); text-decoration: none; }
+h3.post-title a { color: var(--background-color); text-decoration: none; }
 
 h3.post-title a:hover { text-decoration: underline; }
 
@@ -114,7 +114,7 @@ h3.post-title a:hover { text-decoration: underline; }
 
 @font-face { font-family: "basier_circlemonoregular"; src: url("../../assets/fonts/basiercirclemono/basiercirclemono-regular-webfont.eot"); src: url("../../assets/fonts/basiercirclemono/basiercirclemono-regular-webfont.eot") format("embedded-opentype"), url("../../assets/fonts/basiercirclemono/basiercirclemono-regular-webfont.woff2") format("woff2"), url("../../assets/fonts/basiercirclemono/basiercirclemono-regular-webfont.woff") format("woff"), url("../../assets/fonts/basiercirclemono/basiercirclemono-regular-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 
-.IndexContainer img { width: 100%; /* width of container */ height: 500px; object-fit: cover; animation: fadein 2s; -moz-animation: fadein 2s; /* Firefox */ -webkit-animation: fadein 2s; /* Safari and Chrome */ -o-animation: fadein 2s; /* Opera */ }
+.IndexContainer img { width: 100%; /* width of container */ height: 425px; object-fit: cover; animation: fadein 2s; -moz-animation: fadein 2s; /* Firefox */ -webkit-animation: fadein 2s; /* Safari and Chrome */ -o-animation: fadein 2s; /* Opera */ }
 
 h1.index-title { padding: 0 32px 0 32px; bottom: 32px; margin-top: 64px; left: 0; right: 0; }
 
