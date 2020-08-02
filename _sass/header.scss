@@ -39,11 +39,8 @@ header {
     a:hover {
         cursor: pointer;
         text-decoration: underline;
-    
     }
-
 }
-
 
 .header2 {
     z-index: 1;
@@ -53,7 +50,6 @@ header {
     right: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
 
     position: fixed;
     top: 0;
@@ -68,39 +64,29 @@ header {
     a:hover {
         cursor: pointer;
         text-decoration: underline;
-    
     }
-
 }
-
 
 .nav-up {
     top: -120px;
 }
 
-
-
-
-
-
-
 @media only screen and (max-width: 728px) {
     header {
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr;
         padding: $blockTwo;
-    :nth-child(2) {
-        display: none;
-    }
+        animation: .5s ease-out 0s .9 slideInFromTop;
+        :nth-child(2) {
+            display: none;
+        }
     }
     .header2 {
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr;
         padding: $blockTwo;
-    :nth-child(2) {
-        display: none;
+        :nth-child(2) {
+            display: none;
+        }
     }
-    }
-
-
 
     body {
         padding-top: 80px;
@@ -109,5 +95,5 @@ header {
     .nav-up {
         top: -80px;
     }
-    
+
 }
