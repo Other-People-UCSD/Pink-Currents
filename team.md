@@ -9,7 +9,7 @@ editorial:
 - Sydney Kessler — Editor at Large
 - Abigail Hora — Content
 - Erin Chun — Content
-- Sanjana Dha. — Content
+- Sanjana Dhamankar — Content
 - Jasmine Torres — Content
 - Amy Cheng — Editorial
 - Cathy Huang — Editorial
@@ -27,14 +27,14 @@ design_team:
 - Zhilin Li
 media:
 - Ashley Hirao — Director
-- Makayla Lawr.
+- Makayla Lawrence
 - Samuel Cabrera
 finance:
 - Isaac Kopstein
 publicity_events:
 - Janelle Kim — Director
 - Lisa Pham — Events
-- Abigail Koorn. — Events
+- Abigail Koornwinder — Events
 - Ryan Roden — Events
 - Sara Shor — PR
 - Ruby Hays — PR

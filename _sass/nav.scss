@@ -46,26 +46,24 @@
     margin-right: 0;
 }
 
-
 .mobile-nav {
     margin-top: $blockFour;
+    h1 {
+        line-height: 5rem;
+    }
     h3 {
         margin-top: $blockThree;
-        opacity: .5;
+        opacity: 0.5;
         padding-bottom: $blockThree;
     }
 }
 
-
-
 @media only screen and (max-width: 728px) {
-
-
     .overlay-content {
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr;
         padding: $blockTwo;
-    :nth-child(2) {
-        display: none;
-    }
+        :nth-child(2) {
+            display: none;
+        }
     }
 }

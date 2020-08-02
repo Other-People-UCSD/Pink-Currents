@@ -154,7 +154,9 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; margin-top: 64px; left: 0
 
 .mobile-nav { margin-top: 64px; }
 
-.mobile-nav h3 { margin-top: 32px; opacity: .5; padding-bottom: 32px; }
+.mobile-nav h1 { line-height: 5rem; }
+
+.mobile-nav h3 { margin-top: 32px; opacity: 0.5; padding-bottom: 32px; }
 
 @media only screen and (max-width: 728px) { .overlay-content { grid-template-columns: 1fr 1fr; padding: 16px; }
   .overlay-content :nth-child(2) { display: none; } }
@@ -220,7 +222,9 @@ footer svg { fill: var(--light-text-color); margin-bottom: 8px; display: block; 
 
 .team_module li { margin: 10px 0 10px 0; }
 
-.team_module_child { background-color: var(--background-color); color: var(--light-text-color); padding-top: 32px; }
+.team_module_child { background-color: var(--background-color); color: var(--light-text-color); margin-top: 32px; }
+
+.team_module_child h2 { margin-bottom: 32px; }
 
 @media only screen and (max-width: 728px) { .team_module { padding: 16px; margin-left: 0; margin-right: 0; grid-template-columns: 1fr; } }
 
