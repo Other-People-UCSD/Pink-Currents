@@ -12,14 +12,13 @@ body {
   font-family: $bodyFont;
 
   padding: 0;
-  transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 
   ::selection {
-
-    background: #ffb7b7; 
+    background: #ffb7b7;
   }
   ::-moz-selection {
-    background: #ffb7b7; 
+    background: #ffb7b7;
   }
 }
 
@@ -108,14 +107,8 @@ html[data-theme="dark"] {
   }
 }
 
-
-
 @media only screen and (max-width: 728px) {
-
-
   h1 {
-
     font-size: 3rem;
-
   }
 }

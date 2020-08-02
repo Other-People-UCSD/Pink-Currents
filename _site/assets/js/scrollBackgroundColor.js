@@ -3,7 +3,7 @@
 
     $(window).scroll(function () {
         var wScroll = $(this).scrollTop();
-        if (wScroll >= $('.post-container').offset().top - ($(window).height() / 1.2)) {
+        if (wScroll >= $('.hello').offset().top - ($(window).height() / 3.5)) {
             $("body").css("background-color", "var(--light-text-color)");
             $("body").css("color", "var(--background-color)");
             $(".st0").css("stroke", "var(--background-color)");
@@ -12,11 +12,6 @@
             $("header").css("color", "var(--background-color)");
             $(".posts").css("border-color", "var(--background-color)");
 
-
-   
-
-    
-     
 
         } else {
             $("body").css("background-color", "var(--background-color)");
@@ -31,6 +26,8 @@
 
         }
     });
+
+
 
 
 

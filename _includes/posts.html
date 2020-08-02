@@ -1,5 +1,30 @@
-<div class="post-container">
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<h3 class="post-title">Current Collection</h3>
+    <h1 class="index-title">
+        Spring 2020 —<br>Collection no.1
+
+    </h1>
+
+
+
+<div class="post-container">
     {% for post in site.categories['Collection'] %}
     <a href="{{site.baseurl}}{{ post.url }}">
         <div class="posts">
@@ -30,7 +55,50 @@
 
 
 
-<h3 class="post-title">Keep Reading</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="hello"></div>
+<h3 class="post-title">Recents</h3>
+
+
+<h1 class="post-title"><span>Poetry<span></h1>
+    <div class="post-container">
+        {% for post in site.tags['Poetry'] limit : 6 %}
+    
+        <a href="{{site.baseurl}}{{ post.url }}">
+            <div class="posts">
+                <div class="post-info">
+                    <h2>{{ post.title }}
+                        {% if post.thumb %}
+                        <img src="{{site.baseurl}}{{ post.thumb }}">
+                        {% endif %}
+                    </h2>
+                    <div></div>
+                    <div>
+                        <h3><span>/ {{ post.contributor }}</span></h3>
+                        <h4>{{ post.tags }}</h4>
+                        <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
+                    </div>
+                </div>
+            </div>
+        </a>
+    
+        {% endfor %}
+    </div>
+    <h3 class="post-title" style="text-align:right"><a href="{{ site.url }}{{ site.baseurl }}/poetry">[ See more ]</a></h3>
+
+
 <h1 class="post-title"><span>Fiction<span></h1>
 <div class="post-container">
     {% for post in site.tags['Fiction'] limit : 6 %}
@@ -87,31 +155,7 @@
 
 
 
-<h1 class="post-title"><span>Poetry<span></h1>
-<div class="post-container">
-    {% for post in site.tags['Poetry'] limit : 6 %}
 
-    <a href="{{site.baseurl}}{{ post.url }}">
-        <div class="posts">
-            <div class="post-info">
-                <h2>{{ post.title }}
-                    {% if post.thumb %}
-                    <img src="{{site.baseurl}}{{ post.thumb }}">
-                    {% endif %}
-                </h2>
-                <div></div>
-                <div>
-                    <h3><span>/ {{ post.contributor }}</span></h3>
-                    <h4>{{ post.tags }}</h4>
-                    <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
-                </div>
-            </div>
-        </div>
-    </a>
-
-    {% endfor %}
-</div>
-<h3 class="post-title" style="text-align:right"><a href="{{ site.url }}{{ site.baseurl }}/poetry">[ See more ]</a></h3>
 
 
 
@@ -139,3 +183,7 @@
 </div>
 <h3 class="post-title" style="text-align:right"><a href="{{ site.url }}{{ site.baseurl }}/visualarts">[ See more ]</a>
 </h3>
+
+
+
+

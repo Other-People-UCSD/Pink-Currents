@@ -28,10 +28,10 @@
             text-decoration: underline;
         }
         h3 {
-            color: $bodyColor;
+            color: $backgroundColor;
             transition-duration: 0.3s;
             span {
-                background-color: $backgroundColor;
+                background-color: $bodyColor;
             }
         }
     }
@@ -71,6 +71,7 @@
 }
 
 h1.post-title {
+
     padding: 0 $blockThree 0 $blockThree;
 
     margin-top: $blockThree;
@@ -87,7 +88,7 @@ h3.post-title{
     margin-top: $blockThree;
     opacity: .5;
     a{
-        color: $backgroundColor;
+        color: $bodyColor;
         text-decoration: none;
     }
     a:hover {
