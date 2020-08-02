@@ -71,6 +71,12 @@ p {
   font-size: 1rem;
 }
 
+ul {
+  line-height: 1.8rem;
+  list-style-type: ">   ";
+
+}
+
 html,
 html[data-theme="light"] {
   --background-color: #ffffff;

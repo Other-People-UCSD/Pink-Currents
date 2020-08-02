@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+    {% include favicons.html %}
+
+
+</head>
+
+<body>
+
+    <div class="cssanimation sequence fadeInBottom">
+    <div class="IndexContainer">
+        <div class="content-title">
+            <h1>
+              <div class="post_title">{{ page.title }}
+              </h1>
+    
+            </div>
+    </div>
+</div>
+
+    <div class="content">
+
+
+
+    {{ content}}
+
+
+    </div>
+
+
+
+    {% include header2.html %}
+
+
+
+
+
+
+
+
+
+
+
+
+  {% include footer.html %}
+
+</body>
+
+</html>
