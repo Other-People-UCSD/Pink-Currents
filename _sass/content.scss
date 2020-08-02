@@ -151,3 +151,25 @@
         margin-right: $blockFour;
     }
 }
+
+
+
+@media screen and (min-width: 2400px) {
+    .content, .submissions-content {
+        padding: $blockThree;
+
+    }
+
+    .content-title {
+        margin-top: $blockFive ;
+        padding: $blockThree $blockThree 0 $blockThree;
+
+    }
+
+    body {
+        width: 65%;
+    }
+
+
+    
+  }

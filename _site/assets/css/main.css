@@ -58,6 +58,9 @@ header a:hover { cursor: pointer; text-decoration: underline; }
   body { padding-top: 80px; }
   .nav-up { top: -80px; } }
 
+@media only screen and (max-width: 1024px) and (min-width: 729px) { header, .header2 { grid-template-columns: 1fr 1fr; padding: 32px; }
+  header :nth-child(2), .header2 :nth-child(2) { display: none; } }
+
 .about { margin-top: 256px; padding: 20px; }
 
 .cssanimation, .cssanimation span { animation-duration: 1s; animation-fill-mode: both; }
@@ -163,6 +166,9 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; margin-top: 64px; left: 0
   .mobile-nav { margin-top: 64px; }
   .mobile-nav h1 { line-height: 4rem; } }
 
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .overlay-content { grid-template-columns: 1fr 1fr; padding: 32px; }
+  .overlay-content :nth-child(2) { display: none; } }
+
 .content-title h4 { line-height: 1.8rem; }
 
 .content { padding: 32px; margin-left: 256px; margin-right: 256px; }
@@ -211,6 +217,10 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; margin-top: 64px; left: 0
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .content, .submissions-content { padding: 32px; margin-left: 64px; margin-right: 64px; }
   .content-title { margin-top: 32px; padding: 32px 32px 0 32px; margin-left: 64px; margin-right: 64px; } }
+
+@media screen and (min-width: 2400px) { .content, .submissions-content { padding: 32px; }
+  .content-title { margin-top: 128px; padding: 32px 32px 0 32px; }
+  body { width: 65%; } }
 
 footer { padding: 64px 0 64px 0; text-align: center; opacity: .3; }
 
