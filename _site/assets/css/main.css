@@ -116,7 +116,7 @@ h3.post-title a:hover { text-decoration: underline; }
 
 .IndexContainer img { width: 100%; /* width of container */ height: 500px; object-fit: cover; animation: fadein 2s; -moz-animation: fadein 2s; /* Firefox */ -webkit-animation: fadein 2s; /* Safari and Chrome */ -o-animation: fadein 2s; /* Opera */ }
 
-h1.index-title { padding: 0 32px 0 32px; bottom: 32px; margin-top: 32px; left: 0; right: 0; }
+h1.index-title { padding: 0 32px 0 32px; bottom: 32px; margin-top: 64px; left: 0; right: 0; }
 
 @keyframes fadein { from { opacity: 0; }
   to { opacity: 1; } }
