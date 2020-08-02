@@ -20,11 +20,7 @@
     <h1>
       <div class="post_title">{{ page.title }}
     </h1>
-        <br><br>
-        <h3>/ {{ page.contributor }}</h3>
-    <h4 class="meta">{{ page.tags }} — {% include minsread.html %}</h4>
-
-    <h4 style="color:rgb(255, 153, 0)">{{ page.category }}</h4>
+  
   </div>
 
     </div>
@@ -34,6 +30,11 @@
   <div class="content" >
 
 
+        <h3>/ {{ page.contributor }}</h3>
+    <h4 class="meta">{{ page.tags }} — {% include minsread.html %}</h4>
+
+    <h4 style="color:rgb(255, 153, 0)">{{ page.category }}</h4>
+          <br><br>
     {{ content}}
 
     <div class="copyright-footer">
