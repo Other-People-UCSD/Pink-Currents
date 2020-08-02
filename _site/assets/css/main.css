@@ -159,7 +159,9 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; margin-top: 64px; left: 0
 .mobile-nav h3 { margin-top: 32px; opacity: 0.5; padding-bottom: 32px; }
 
 @media only screen and (max-width: 728px) { .overlay-content { grid-template-columns: 1fr 1fr; padding: 16px; }
-  .overlay-content :nth-child(2) { display: none; } }
+  .overlay-content :nth-child(2) { display: none; }
+  .mobile-nav { margin-top: 64px; }
+  .mobile-nav h1 { line-height: 4rem; } }
 
 .content-title h4 { line-height: 1.8rem; }
 
