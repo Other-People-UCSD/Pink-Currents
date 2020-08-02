@@ -43,7 +43,9 @@ header a:hover { cursor: pointer; text-decoration: underline; }
 
 .nav-up { top: -120px; }
 
-@media only screen and (max-width: 728px) { .header2 { grid-template-columns: 1fr 1fr; padding: 16px; }
+@media only screen and (max-width: 728px) { header { grid-template-columns: 1fr 1fr; padding: 16px; }
+  header :nth-child(2) { display: none; }
+  .header2 { grid-template-columns: 1fr 1fr; padding: 16px; }
   .header2 :nth-child(2) { display: none; }
   body { padding-top: 80px; }
   .nav-up { top: -80px; } }
