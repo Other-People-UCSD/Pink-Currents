@@ -85,7 +85,7 @@ header {
 
 
 @media only screen and (max-width: 728px) {
-    header {
+    .header2 {
         grid-template-columns: 1fr 1fr ;
         padding: $blockTwo;
     :nth-child(2) {
