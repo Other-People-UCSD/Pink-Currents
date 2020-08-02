@@ -1,6 +1,6 @@
 ---
 layout: submissions
-title: Submissions
+title: Submissions are currently closed
 
 ---
 SUBMISSIONS ARE: CLOSED
