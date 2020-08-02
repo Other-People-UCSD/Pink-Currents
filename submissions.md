@@ -29,10 +29,4 @@ We take submissions by Google Form. We will ask for your email address, name, ti
 
 Short and sweet, right?
 
-#### *Multiple submissions are accepted
-
-#### *We do not consider previously published work.
-
-#### *Currently, we do not have the funds to pay our contributors. 
-
-#### ** We highly suggest you do this - here’s a template to get you started. All we want is your name, the title of your work, the word count (if applicable), and a short bio containing your publishing history, if applicable. Addressing it to our editing team is a nice touch.
+#### *Multiple submissions are accepted<br>*We do not consider previously published work.<br>*Currently, we do not have the funds to pay our contributors.<br>** We highly suggest you do this - here’s a template to get you started. All we want is your name, the title of your work, the word count (if applicable), and a short bio containing your publishing history, if applicable. Addressing it to our editing team is a nice touch.
