@@ -3,13 +3,11 @@ layout: submissions
 title: Submissions are currently closed
 
 ---
-SUBMISSIONS ARE: CLOSED
-
-## Reading Period:
+# Reading Period:
 
 Editorial team will be reviewing and sending out acceptances on a rolling basis. Waiting period is approximately three months, but this could vary.
 
-## ‍What we accept:
+# ‍What we accept:
 
 * Prose of any genre under 3k words
 * Poetry
@@ -26,7 +24,7 @@ Editorial team will be reviewing and sending out acceptances on a rolling basis.
 * Written works: PDFs in Standard Manual Format with all personally identifiable information removed. Only the title, word count, and story/poem should be contained in the PDF.
 * Art: High fidelity .pdf, .jpg, .tiff accepted. 
 
-Multiple submissions are accepted -
+Multiple submissions are accepted
 
 We do not consider previously published work.
 
