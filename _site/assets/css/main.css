@@ -152,6 +152,8 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; margin-top: 64px; left: 0
 
 .mobile-nav { margin-top: 64px; }
 
+.mobile-nav h3 { margin-top: 32px; opacity: .5; padding-bottom: 32px; }
+
 @media only screen and (max-width: 728px) { .overlay-content { grid-template-columns: 1fr 1fr; padding: 16px; }
   .overlay-content :nth-child(2) { display: none; } }
 
@@ -165,13 +167,23 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; margin-top: 64px; left: 0
 
 .content img { width: 100%; }
 
-.content ul { line-height: 1.8rem; }
+.submissions-content { padding: 32px; margin-left: 256px; margin-right: 256px; }
 
-.meta { opacity: .5; }
+.submissions-content h1 { font-family: Arial; font-size: 1.4rem; font-weight: normal; text-transform: uppercase; margin: 0; padding: 0; margin-top: 64px; margin-bottom: 32px; }
+
+.submissions-content h1:nth-child(1) { margin-top: 32px; }
+
+.submissions-content h3 { line-height: 1.8rem; }
+
+.submissions-content h4 { margin-top: 32px; opacity: 0.3; line-height: 1.2rem; }
+
+.submissions-content img { width: 100%; }
+
+.meta { opacity: 0.5; }
 
 .content-title { margin-top: 64px; padding: 32px 32px 0 32px; margin-left: 256px; margin-right: 256px; }
 
-.copyright-footer { margin-top: 32px; opacity: .3; }
+.copyright-footer { margin-top: 32px; opacity: 0.3; }
 
 .copyright-footer h4 { line-height: 1.2rem; }
 
@@ -185,11 +197,11 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; margin-top: 64px; left: 0
 
 .post-nav-next { text-align: right; }
 
-@media only screen and (max-width: 728px) { .content { padding: 16px; margin-left: 0; margin-right: 0; }
+@media only screen and (max-width: 728px) { .content, .submissions-content { padding: 16px; margin-left: 0; margin-right: 0; }
   .content-title { margin-top: 64px; padding: 16px 16px 0 16px; margin-left: 0; margin-right: 0; }
   .post-nav { padding: 32px 16px 32px 16px; display: flex; } }
 
-@media only screen and (max-width: 1024px) and (min-width: 729px) { .content { padding: 32px; margin-left: 64px; margin-right: 64px; }
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .content, .submissions-content { padding: 32px; margin-left: 64px; margin-right: 64px; }
   .content-title { margin-top: 32px; padding: 32px 32px 0 32px; margin-left: 64px; margin-right: 64px; } }
 
 footer { padding: 64px 0 64px 0; text-align: center; opacity: .3; }

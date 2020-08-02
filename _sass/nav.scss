@@ -49,6 +49,11 @@
 
 .mobile-nav {
     margin-top: $blockFour;
+    h3 {
+        margin-top: $blockThree;
+        opacity: .5;
+        padding-bottom: $blockThree;
+    }
 }
 
 

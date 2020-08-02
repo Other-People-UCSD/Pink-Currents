@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
-  <title>火 - Other People</title>
-  <link rel="stylesheet" href="/assets/css/main.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <link rel="icon" type="image/svg" href="../assets/favicons/TheFavicon.svg" />
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>火 - Other People</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <link rel="icon" type="image/svg" href="../assets/favicons/TheFavicon.svg" />
   <link rel="icon" type="image/png" sizes="256x256" href="../assets/favicons/TheFavicon(256).png" />
   <link rel="icon" type="image/png" sizes="128x128" href="../assets/favicons/TheFavicon(128).png" />
   <link rel="icon" type="image/png" sizes="64x64" href="../assets/favicons/TheFavicon(64).png" />
@@ -17,17 +17,17 @@
 
 
 
-</head>
+  </head>
 
-<body>
+  <body>
 
-  <div class="header2">
+    <div class="header2">
     <h2>
         <a href="http://localhost:4000/">Other<br>People ©</a>
     </h2>
     <h2>
-            <a href="http://localhost:4000/poetry">Poetry</a> / <a href="http://localhost:4000/fiction">Fiction</a> / <br>
-            <a href="http://localhost:4000/nonfiction">Nonfiction</a> / <a href="http://localhost:4000/visualarts">Visual Arts</a>
+        <a href="http://localhost:4000/poetry">Poetry</a> / <a href="http://localhost:4000/fiction">Fiction</a> / <br>
+        <a href="http://localhost:4000/nonfiction">Nonfiction</a> / <a href="http://localhost:4000/visualarts">Visual Arts</a>
     </h2>
     <h2 class="menu" onclick="openNav()">
         <a>
@@ -52,108 +52,121 @@
             </a>
         </h2>
 
+                <div class="mobile-nav">
+            <h3>Menu</h3>
 
-<div class="mobile-nav">
-<h1>
-    <a href="http://localhost:4000/poetry">Poetry</a><br>
-    <a href="http://localhost:4000/fiction">Fiction</a><br>
-    <a href="http://localhost:4000/nonfiction">Nonfiction</a><br>
-    <a href="http://localhost:4000/visualarts">Visual‎‎‏‏‎Arts</a>
-</h1>
-</div>
-
-
-
-    </div>
-</div>
-
-<script>
-    // Hide Header on on scroll down
-    var didScroll;
-    var lastScrollTop = 0;
-    var delta = 5;
-    var navbarHeight = $('.header2').outerHeight();
-
-    $(window).scroll(function (event) {
-        didScroll = true;
-    });
-
-    setInterval(function () {
-        if (didScroll) {
-            hasScrolled();
-            didScroll = false;
-        }
-    }, 250);
-
-    function hasScrolled() {
-        var st = $(this).scrollTop();
-
-        // Make sure they scroll more than delta
-        if (Math.abs(lastScrollTop - st) <= delta) 
-            return;
-        
-        // If they scrolled down and are past the navbar, add class .nav-up.
-        // This is necessary so you never see what is "behind" the navbar.
-        if (st > lastScrollTop && st > navbarHeight) {
-            // Scroll Down
-            $('.header2')
-                .removeClass('nav-down')
-                .addClass('nav-up');
-        } else {
-            // Scroll Up
-            if (st + $(window).height() < $(document).height()) {
-                $('.header2')
-                    .removeClass('nav-up')
-                    .addClass('nav-down');
-            }
-        }
-
-        lastScrollTop = st;
-    }
-</script>
-
-<script>
-    function openNav() {
-        document
-            .getElementById("myNav")
-            .style
-            .height = "100%";
-    }
-
-    function closeNav() {
-        document
-            .getElementById("myNav")
-            .style
-            .height = "0%";
-    }
-</script>
-
-
-  <div class="cssanimation sequence fadeInBottom">
-  <div class="content-title">
-    <h1>
-      <div class="post_title">火
+            <h1>
+                <a href="http://localhost:4000/submissions">Home</a>
+            </h1>
+        </h1>
+        <h1>
+            <a href="http://localhost:4000/submissions">Submissions</a>
+        </h1>
     </h1>
-  
-  </div>
 
-    </div>
+    <h3>Genres</h3>
+    <h1>
+        <a href="http://localhost:4000/poetry">Poetry</a><br>
+        <a href="http://localhost:4000/fiction">Fiction</a><br>
+        <a href="http://localhost:4000/nonfiction">Nonfiction</a><br>
+        <a href="http://localhost:4000/visualarts">Visual‎‎‏‏‎Arts</a>
+    </h1>
+
+</div>
+
+
+    
+
+</div>
+
+</div>
 
 
 
-  <div class="content" >
 
+<script>
+// Hide Header on on scroll down
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('.header2').outerHeight();
+
+$(window).scroll(function (event) {
+didScroll = true;
+});
+
+setInterval(function () {
+if (didScroll) {
+    hasScrolled();
+    didScroll = false;
+}
+}, 250);
+
+function hasScrolled() {
+var st = $(this).scrollTop();
+
+// Make sure they scroll more than delta
+if (Math.abs(lastScrollTop - st) <= delta) 
+    return;
+
+// If they scrolled down and are past the navbar, add class .nav-up.
+// This is necessary so you never see what is "behind" the navbar.
+if (st > lastScrollTop && st > navbarHeight) {
+    // Scroll Down
+    $('.header2')
+        .removeClass('nav-down')
+        .addClass('nav-up');
+} else {
+    // Scroll Up
+    if (st + $(window).height() < $(document).height()) {
+        $('.header2')
+            .removeClass('nav-up')
+            .addClass('nav-down');
+    }
+}
+
+lastScrollTop = st;
+}
+</script>
+
+<script>
+function openNav() {
+document
+    .getElementById("myNav")
+    .style
+    .height = "100%";
+}
+
+function closeNav() {
+document
+    .getElementById("myNav")
+    .style
+    .height = "0%";
+}
+</script>
+
+    <div class="cssanimation sequence fadeInBottom">
+      <div class="content-title">
+        <h1>
+          <div class="post_title">火
+          </h1>
+
+        </div>
+
+      </div>
+
+      <div class="content" >
 
         <h3>/ Ashley Hirao</h3>
-    <h4 class="meta">Fiction —             
+        <h4 class="meta">Fiction —             
             
               10 min
              reading time
 </h4>
 
-    <h4 style="color:rgb(255, 153, 0)">Collection</h4>
-          <br><br>
-    <p>A hand reaching. The scent of smoke—a fire nearby? There is an underlying sense of urgency, but for what, Sage could not be sure. All she knew was that she had to touch it, and if she did, everything would be okay.</p>
+        <h4 style="color:rgb(255, 153, 0)">Collection</h4>
+        <br><br>
+        <p>A hand reaching. The scent of smoke—a fire nearby? There is an underlying sense of urgency, but for what, Sage could not be sure. All she knew was that she had to touch it, and if she did, everything would be okay.</p>
 
 <p>It was always like this; a supercut of moments that slipped through her fingers before she had a chance to grasp them, intangible emotions that drifted out of reach, here then gone. Afterwards nothing but the memory remained, sometimes not even that.</p>
 
@@ -246,39 +259,35 @@
 <p>She did not dream of fire that night. She did not dream of anything, really. Several more nights passed in the same fashion, until Sage began to miss the burning.</p>
 
 
-    <div class="copyright-footer">
-      <h4>This work belongs to Ashley Hirao ©
+        <div class="copyright-footer">
+          <h4>This work belongs to Ashley Hirao ©
         <br> Copy, reproduction, and modification are not permitted without permission
       </h4>
-    </div>
+        </div>
 
+      </div>
 
+      <div class="post-nav">
 
-  
-  </div>
+        <div>
+          <h4>
+            
+              <a href="/collection/2020/04/07/treasure.html">
+                < prev</a>
+                
+              </h4>
+            </div>
+            <div class="post-nav-next">
+              <h4>
+                
+                  <a href="/2020/04/20/easy-tea-for-sore-throat.html"> next></a>
+                
+              </h4>
+            </div>
 
+          </div>
 
-
-  <div class="post-nav">
-
-    <div>
-      <h4>
-      
-      <a href="/collection/2020/04/07/treasure.html">< prev</a>
-      
-      </h4>
-    </div>
-    <div class="post-nav-next">
-      <h4>
-      
-      <a href="/2020/04/20/easy-tea-for-sore-throat.html"> next></a>
-      
-    </h4>
-    </div>
-
-  </div>
-
-  <footer>
+          <footer>
     <?xml version="1.0" encoding="utf-8"?>
     <!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -324,7 +333,6 @@
 
 </footer>
 
+        </body>
 
-</body>
-
-</html>
+      </html>
