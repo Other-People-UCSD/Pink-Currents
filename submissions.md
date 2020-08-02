@@ -1,6 +1,6 @@
 ---
 layout: submissions
-title: Submissions are currently closed
+title: Submissions
 
 ---
 # Reading Period:
