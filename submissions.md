@@ -14,13 +14,14 @@ Editorial team will be reviewing and sending out acceptances on a rolling basis.
 
 Art (traditional or digital, short comics, photography, graphic text, etc). ‍ If you have a question about what we accept, please email us at otherpeopleucsd@gmail.com* ‍
 
-#  Who we accept from:
+# Who we accept from:
 
 * Current UCSD undergraduates
 * Graduate students
 * UCSD alumni graduated within the last 3 years‍
 
-  # How we want it:
+# How we want it:
+
 * Written works: PDFs in Standard Manual Format with all personally identifiable information removed. Only the title, word count, and story/poem should be contained in the PDF.
 * Art: High fidelity .pdf, .jpg, .tiff accepted. 
 
