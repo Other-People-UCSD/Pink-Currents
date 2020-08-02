@@ -177,9 +177,11 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; margin-top: 64px; left: 0
 
 .submissions-content h3 { line-height: 1.8rem; }
 
-.submissions-content h4 { margin-top: 32px; opacity: 0.3; line-height: 1.2rem; }
+.submissions-content h4 { opacity: 0.3; line-height: 1.2rem; }
 
 .submissions-content img { width: 100%; }
+
+.submissions-status h4 { color: #ff9900; opacity: 1; }
 
 .meta { opacity: 0.5; }
 
@@ -201,7 +203,8 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; margin-top: 64px; left: 0
 
 @media only screen and (max-width: 728px) { .content, .submissions-content { padding: 16px; margin-left: 0; margin-right: 0; }
   .content-title { margin-top: 64px; padding: 16px 16px 0 16px; margin-left: 0; margin-right: 0; }
-  .post-nav { padding: 32px 16px 32px 16px; display: flex; } }
+  .post-nav { padding: 32px 16px 32px 16px; display: flex; }
+  .submissions-status h4 { margin-top: 32px; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .content, .submissions-content { padding: 32px; margin-left: 64px; margin-right: 64px; }
   .content-title { margin-top: 32px; padding: 32px 32px 0 32px; margin-left: 64px; margin-right: 64px; } }
