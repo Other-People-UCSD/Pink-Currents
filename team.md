@@ -19,7 +19,7 @@ editorial:
 design_team:
 - Geraldine Wambersie — Co-Director
 - Eunsoo Lee — Co-Director
-- Jack Yang — Webmaster
+- Jack Yang
 - Elysia Mac
 - Imanol Tovar
 - Kelly Tran
