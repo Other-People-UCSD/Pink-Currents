@@ -84,6 +84,10 @@ h1.post-title { padding: 0 32px 0 32px; margin-top: 32px; }
 
 h3.post-title { padding: 0 32px 0 32px; margin-top: 32px; opacity: .5; }
 
+h3.post-title a { color: var(--background-color); text-decoration: none; }
+
+h3.post-title a:hover { text-decoration: underline; }
+
 .thumb img { width: 100%; }
 
 @media only screen and (max-width: 728px) { .post-container { padding: 16px; grid-template-columns: 1fr; }
