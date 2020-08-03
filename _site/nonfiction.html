@@ -267,6 +267,14 @@
 </script>
 
 
+<script>
+
+    $('input').keyup(function(event) {
+        if (event.which === 13) {
+          $(this).blur();
+        }
+    });
+    </script>
 
 
 
