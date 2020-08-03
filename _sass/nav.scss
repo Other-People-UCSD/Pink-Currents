@@ -53,9 +53,9 @@
     left: 0;
     right: 0;
     color: $backgroundColor;
-
     h1 {
         line-height: 5rem;
+
     }
     h3 {
         margin-top: $blockThree;
@@ -74,7 +74,26 @@
     
 }
 
+.search {
+    opacity: .5;
+ 
+}
+
+.search:hover {
+    opacity: 1;
+
+
+
+}
+
+
+.genres {
+    display: none;
+
+}
+
 .mobile-nav {
+    
     h1:hover svg {
         margin-left: $blockTwo;
     }
@@ -98,6 +117,11 @@
             line-height: 4rem;
         }
     }
+
+    .genres {
+        display: initial;
+    
+    }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
@@ -111,5 +135,10 @@
         :nth-child(2) {
             display: none;
         }
+    }
+
+    .genres {
+        display: initial;
+    
     }
 }

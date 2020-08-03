@@ -163,14 +163,22 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; margin-top: 64px; left: 0
 
 .mobile-nav svg { width: 2rem; fill: none; stroke: var(--background-color); stroke-width: 10rem; stroke-miterlimit: 100; transform: rotate(45deg); }
 
+.search { opacity: .5; }
+
+.search:hover { opacity: 1; }
+
+.genres { display: none; }
+
 .mobile-nav h1:hover svg { margin-left: 16px; }
 
 @media only screen and (max-width: 728px) { .overlay-header, .mobile-nav { grid-template-columns: 1fr 1fr; padding: 16px; }
   .overlay-header :nth-child(2) { display: none; }
-  .mobile-nav h1 { line-height: 4rem; } }
+  .mobile-nav h1 { line-height: 4rem; }
+  .genres { display: initial; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .overlay-header, .mobile-nav { grid-template-columns: 1fr 1fr; padding: 32px; }
-  .overlay-header :nth-child(2) { display: none; } }
+  .overlay-header :nth-child(2) { display: none; }
+  .genres { display: initial; } }
 
 .content-title h4 { line-height: 1.8rem; }
 
