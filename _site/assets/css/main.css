@@ -243,11 +243,13 @@ footer svg { fill: var(--light-text-color); margin-bottom: 8px; display: block; 
 
 input[type="text"] { font-family: Arial; font-size: 4rem; font-weight: normal; margin: 0; padding-bottom: 16px; color: var(--background-color); width: 100%; box-sizing: border-box; border: none; border-bottom: 5px solid var(--background-color); background-color: var(--light-text-color); }
 
-::placeholder { color: var(--background-color); opacity: 1; /* Firefox */ }
+input[type="text2"] { font-family: Arial; font-size: 4rem; font-weight: normal; margin: 0; padding-bottom: 16px; color: var(--light-text-color); width: 100%; box-sizing: border-box; border: none; border-bottom: 5px solid var(--light-text-color); background-color: var(--background-color); }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */ color: var(--background-color); }
+::placeholder { opacity: .2; /* Firefox */ }
 
-::-ms-input-placeholder { /* Microsoft Edge */ color: var(--background-color); }
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ }
+
+::-ms-input-placeholder { /* Microsoft Edge */ }
 
 @media only screen and (max-width: 728px) { .mobile-nav2 { display: none; } }
 
@@ -274,5 +276,29 @@ input[type="text"] { font-family: Arial; font-size: 4rem; font-weight: normal; m
 .mobile-nav2 h4 { opacity: .5; }
 
 .mobile-nav2 li { margin-top: 32px; list-style-type: none; }
+
+.mobile-nav3 { color: var(--light-text-color); }
+
+.mobile-nav3 svg { width: 4rem; }
+
+.mobile-nav3 a { color: var(--light-text-color); text-decoration: none; }
+
+.mobile-nav3 a span { background-color: none; }
+
+.mobile-nav3 a:hover h2 { text-decoration: underline; }
+
+.mobile-nav3 a:hover h3 { color: var(--background-color); transition-duration: 0.3s; }
+
+.mobile-nav3 a:hover h3 span { background-color: var(--light-text-color); }
+
+.mobile-nav3 a:hover h4 { text-decoration: none; }
+
+.mobile-nav3 ul { margin-top: 32px; padding: 0; line-height: auto; }
+
+.mobile-nav3 h3 { margin-top: 0; padding-bottom: 0; opacity: 1; text-decoration: none; }
+
+.mobile-nav3 h4 { opacity: .5; }
+
+.mobile-nav3 li { margin-top: 32px; list-style-type: none; }
 
 /*# sourceMappingURL=main.css.map */
