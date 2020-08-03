@@ -241,18 +241,17 @@ footer svg { fill: var(--light-text-color); margin-bottom: 8px; display: block; 
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .team_module { padding: 32px; margin-left: 64px; margin-right: 64px; } }
 
-input[type="text"] { font-family: Arial; font-size: 4rem; font-weight: normal; margin: 0; padding-bottom: 16px; color: var(--background-color); width: 100%; box-sizing: border-box; border: none; border-bottom: 5px solid var(--background-color); background-color: var(--light-text-color); }
+input[type="text"] { font-family: Arial; font-size: 4rem; font-weight: normal; margin: 0; padding-bottom: 16px; color: var(--background-color); width: 100%; box-sizing: border-box; border: none; border-bottom: 5px solid var(--background-color); background-color: var(--light-text-color); -webkit-padding-start: 0; }
 
-input[type="text2"] { font-family: Arial; font-size: 4rem; font-weight: normal; margin: 0; padding-bottom: 16px; color: var(--light-text-color); width: 100%; box-sizing: border-box; border: none; border-bottom: 5px solid var(--light-text-color); background-color: var(--background-color); }
+input[type="text2"] { font-family: Arial; font-size: 4rem; font-weight: normal; margin: 0; padding-bottom: 16px; color: var(--light-text-color); width: 100%; box-sizing: border-box; border: none; border-bottom: 5px solid var(--light-text-color); background-color: var(--background-color); -webkit-padding-start: 0; }
 
-::placeholder { opacity: .2; /* Firefox */ }
+::placeholder { opacity: 0.2; /* Firefox */ }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */ }
 
 ::-ms-input-placeholder { /* Microsoft Edge */ }
 
-@media only screen and (max-width: 728px) { input[type="text"] { font-family: Arial; font-size: 3rem; font-weight: normal; margin: 0; padding-bottom: 16px; }
-  input[type="text2"] { font-family: Arial; font-size: 3rem; font-weight: normal; margin: 0; padding-bottom: 16px; }
+@media only screen and (max-width: 728px) { input[type="text"], input[type="text2"] { font-size: 3rem; }
   .mobile-nav2 { display: none; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .mobile-nav2 { display: none; } }
@@ -275,7 +274,7 @@ input[type="text2"] { font-family: Arial; font-size: 4rem; font-weight: normal; 
 
 .mobile-nav2 h3 { margin-top: 0; padding-bottom: 0; opacity: 1; text-decoration: none; }
 
-.mobile-nav2 h4 { opacity: .5; }
+.mobile-nav2 h4 { opacity: 0.5; }
 
 .mobile-nav2 li { margin-top: 32px; list-style-type: none; }
 
@@ -299,7 +298,7 @@ input[type="text2"] { font-family: Arial; font-size: 4rem; font-weight: normal; 
 
 .mobile-nav3 h3 { margin-top: 0; padding-bottom: 0; opacity: 1; text-decoration: none; }
 
-.mobile-nav3 h4 { opacity: .5; }
+.mobile-nav3 h4 { opacity: 0.5; }
 
 .mobile-nav3 li { margin-top: 32px; list-style-type: none; }
 
