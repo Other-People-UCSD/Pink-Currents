@@ -254,7 +254,7 @@ input[type="text"] { font-family: Arial; font-size: 4rem; font-weight: normal; m
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .mobile-nav2 { display: none; } }
 
-.search-container li { color: red; font-size: 9rem; }
+.mobile-nav2 svg { width: 4rem; }
 
 .mobile-nav2 a { color: inherit; text-decoration: none; }
 

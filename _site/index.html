@@ -9,6 +9,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="../assets/js/scrollBackgroundColor.js"></script>
         <script src="../assets/js/search-script.js"></script>
+    
           <link rel="icon" type="image/svg" href="../assets/favicons/TheFavicon.svg" />
   <link rel="icon" type="image/png" sizes="256x256" href="../assets/favicons/TheFavicon(256).png" />
   <link rel="icon" type="image/png" sizes="128x128" href="../assets/favicons/TheFavicon(128).png" />
@@ -63,12 +64,17 @@
                 </a>
             </h2>
         </div>
-        <div class="mobile-nav">
+        
+
+
+<div class="mobile-nav">
 
     <div class="mobile-nav2">
         <!-- Html Elements for Search -->
         <div id="search-container">
             <input type="text" id="search-input" placeholder="Search">
+
+
             <ul id="results-container"></ul>
         </div>
 
@@ -79,10 +85,10 @@
         <script>
             SimpleJekyllSearch({ searchInput: document.getElementById('search-input'), resultsContainer: document.getElementById('results-container'), json: '/search.json' })
         </script>
-            <br>
+        <br>
     </div>
 
-<div></div>
+    <div></div>
 
     <h3>Menu</h3>
 
@@ -109,6 +115,24 @@
     </h1>
 
 </div>
+
+
+
+<script>
+
+    19
+
+    $('input').focus(function () {
+        $(this).attr('placeholder', '')
+    }).blur(function () {
+        $(this).attr('placeholder', 'Search')
+    })
+</script>
+
+
+
+
+
     </div>
 </div>
 

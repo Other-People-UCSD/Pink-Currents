@@ -1,9 +1,14 @@
+
+
+
 <div class="mobile-nav">
 
     <div class="mobile-nav2">
         <!-- Html Elements for Search -->
         <div id="search-container">
             <input type="text" id="search-input" placeholder="Search">
+
+
             <ul id="results-container"></ul>
         </div>
 
@@ -14,10 +19,10 @@
         <script>
             SimpleJekyllSearch({ searchInput: document.getElementById('search-input'), resultsContainer: document.getElementById('results-container'), json: '/search.json' })
         </script>
-            <br>
+        <br>
     </div>
 
-<div></div>
+    <div></div>
 
     <h3>Menu</h3>
 
@@ -44,3 +49,20 @@
     </h1>
 
 </div>
+
+
+
+<script>
+
+    19
+
+    $('input').focus(function () {
+        $(this).attr('placeholder', '')
+    }).blur(function () {
+        $(this).attr('placeholder', 'Search')
+    })
+</script>
+
+
+
+
