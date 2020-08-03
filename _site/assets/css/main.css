@@ -253,17 +253,17 @@ input[type="text2"] { font-family: Arial; font-size: 4rem; font-weight: normal; 
 
 input:focus, select:focus, textarea:focus, button:focus { outline: none; -webkit-focus-ring-color: none; }
 
-@media only screen and (max-width: 728px) { input[type="text"], input[type="text2"] { font-size: 3rem; } }
-
 .mobile-nav2 a { color: inherit; text-decoration: none; }
 
 .mobile-nav2 a span { background-color: none; }
 
+.mobile-nav2 a:hover { text-decoration: none; }
+
 .mobile-nav2 a:hover h2 { text-decoration: underline; }
 
-.mobile-nav2 a:hover h3 { color: var(--light-text-color); transition-duration: 0.3s; }
+.mobile-nav2 a:hover h3 { color: var(--background-color); transition-duration: 0.3s; }
 
-.mobile-nav2 a:hover h3 span { background-color: var(--background-color); }
+.mobile-nav2 a:hover h3 span { background-color: var(--light-text-color); }
 
 .mobile-nav2 a:hover h4 { text-decoration: none; }
 
@@ -285,9 +285,9 @@ input:focus, select:focus, textarea:focus, button:focus { outline: none; -webkit
 
 .mobile-nav3 a:hover h2 { text-decoration: underline; }
 
-.mobile-nav3 a:hover h3 { color: var(--background-color); transition-duration: 0.3s; }
+.mobile-nav3 a:hover h3 { color: var(--light-text-color); transition-duration: 0.3s; }
 
-.mobile-nav3 a:hover h3 span { background-color: var(--light-text-color); }
+.mobile-nav3 a:hover h3 span { background-color: var(--background-color); }
 
 .mobile-nav3 a:hover h4 { text-decoration: none; }
 
@@ -298,5 +298,7 @@ input:focus, select:focus, textarea:focus, button:focus { outline: none; -webkit
 .mobile-nav3 h4 { opacity: 0.5; }
 
 .mobile-nav3 li { margin-top: 32px; list-style-type: none; }
+
+@media only screen and (max-width: 728px) { input[type="text"], input[type="text2"] { font-size: 3rem; } }
 
 /*# sourceMappingURL=main.css.map */
