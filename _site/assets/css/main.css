@@ -251,7 +251,7 @@ input[type="text2"] { font-family: Arial; font-size: 4rem; font-weight: normal; 
 
 ::-ms-input-placeholder { /* Microsoft Edge */ }
 
-input:focus, select:focus, textarea:focus, button:focus { outline: none; }
+input:focus, select:focus, textarea:focus, button:focus { outline: none; -webkit-focus-ring-color: none; }
 
 @media only screen and (max-width: 728px) { input[type="text"], input[type="text2"] { font-size: 3rem; } }
 

@@ -48,13 +48,13 @@ select:focus,
 textarea:focus,
 button:focus {
     outline: none;
+    -webkit-focus-ring-color: none;
 }
 
 @media only screen and (max-width: 728px) {
     input[type="text"],
     input[type="text2"] {
         font-size: 3rem;
-
     }
 
     // .mobile-nav2 {
@@ -69,7 +69,6 @@ button:focus {
 }
 
 .mobile-nav2 {
-
     a {
         color: inherit;
         text-decoration: none;
