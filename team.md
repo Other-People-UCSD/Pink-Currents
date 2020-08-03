@@ -8,7 +8,7 @@ editor-in-chief:
 editorial:
 - Sydney Kessler — Editor at Large
 - Abigail Hora — Content
-- Erin Chun — Content
+- Hemmy Chun — Content
 - Sanjana Dhamankar — Content
 - Jasmine Torres — Content
 - Amy Cheng — Editorial
