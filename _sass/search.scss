@@ -50,9 +50,9 @@ input[type="text2"] {
 
     }
 
-    .mobile-nav2 {
-        display: none;
-    }
+    // .mobile-nav2 {
+    //     display: none;
+    // }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
@@ -62,9 +62,6 @@ input[type="text2"] {
 }
 
 .mobile-nav2 {
-    svg {
-        width: 4rem;
-    }
 
     a {
         color: inherit;
