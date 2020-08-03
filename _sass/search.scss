@@ -43,6 +43,13 @@ input[type="text2"] {
     /* Microsoft Edge */
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
 @media only screen and (max-width: 728px) {
     input[type="text"],
     input[type="text2"] {
@@ -56,9 +63,9 @@ input[type="text2"] {
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
-    .mobile-nav2 {
-        display: none;
-    }
+    // .mobile-nav2 {
+    //     display: none;
+    // }
 }
 
 .mobile-nav2 {
