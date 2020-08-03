@@ -155,7 +155,7 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; margin-top: 64px; left: 0
 
 .closebtn { margin-left: auto; margin-right: 0; }
 
-.mobile-nav { padding: 32px; left: 0; right: 0; color: var(--background-color); margin-top: 32px; }
+.mobile-nav { padding: 32px; left: 0; right: 0; color: var(--background-color); }
 
 .mobile-nav h1 { line-height: 5rem; }
 
@@ -163,7 +163,6 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; margin-top: 64px; left: 0
 
 @media only screen and (max-width: 728px) { .overlay-header, .mobile-nav { grid-template-columns: 1fr 1fr; padding: 16px; }
   .overlay-header :nth-child(2) { display: none; }
-  .mobile-nav { margin-top: 64px; }
   .mobile-nav h1 { line-height: 4rem; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .overlay-header, .mobile-nav { grid-template-columns: 1fr 1fr; padding: 32px; }
