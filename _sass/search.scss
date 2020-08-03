@@ -1,0 +1,28 @@
+input[type="text"] {
+    font-family: Arial;
+    font-size: 4rem;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: $blockTwo;
+    color: $backgroundColor;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 5px solid $backgroundColor;
+    background-color: $bodyColor;
+}
+
+::placeholder {
+    color: $backgroundColor;
+    opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: $backgroundColor;
+}
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: $backgroundColor;
+}
+
+

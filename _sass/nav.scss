@@ -12,6 +12,18 @@
     overflow-x: hidden;
     transition: 0.3s;
 
+
+}
+
+.overlay-header {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    padding: $blockThree;
+    left: 0;
+    right: 0;
+    color: $backgroundColor;
     ul {
         display: flex;
         justify-content: space-between;
@@ -23,14 +35,7 @@
 }
 
 .overlay-content {
-    position: absolute;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
 
-    padding: $blockThree;
-    left: 0;
-    right: 0;
-    color: $backgroundColor;
     a {
         color: $backgroundColor;
         text-decoration: none;
@@ -47,7 +52,15 @@
 }
 
 .mobile-nav {
-    margin-top: $blockFour;
+
+    padding: $blockThree;
+    left: 0;
+    right: 0;
+    color: $backgroundColor;
+
+margin-top: $blockThree;
+
+
     h1 {
         line-height: 5rem;
     }
@@ -59,15 +72,13 @@
 }
 
 @media only screen and (max-width: 728px) {
-    .overlay-content {
+    .overlay-header, .mobile-nav {
         grid-template-columns: 1fr 1fr;
         padding: $blockTwo;
         :nth-child(2) {
             display: none;
         }
     }
-
-
 
     .mobile-nav {
         margin-top: $blockFour;
@@ -82,7 +93,7 @@
 
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
-    .overlay-content {
+    .overlay-header, .mobile-nav {
         grid-template-columns: 1fr 1fr;
         padding: $blockThree;
         :nth-child(2) {
