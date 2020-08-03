@@ -7,6 +7,7 @@
       "title"    : "{{ post.title | escape }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "category" : "{{ post.category }}",
+      "contributor" : "{{ post.contributor }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
       "date"     : "{{ post.date }}"
 

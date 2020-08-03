@@ -11,8 +11,6 @@
 
     overflow-x: hidden;
     transition: 0.3s;
-
-
 }
 
 .overlay-header {
@@ -35,7 +33,6 @@
 }
 
 .overlay-content {
-
     a {
         color: $backgroundColor;
         text-decoration: none;
@@ -52,14 +49,12 @@
 }
 
 .mobile-nav {
-
     padding: $blockThree;
     left: 0;
     right: 0;
     color: $backgroundColor;
 
-margin-top: $blockThree;
-
+    margin-top: $blockThree;
 
     h1 {
         line-height: 5rem;
@@ -72,9 +67,14 @@ margin-top: $blockThree;
 }
 
 @media only screen and (max-width: 728px) {
-    .overlay-header, .mobile-nav {
+    .overlay-header,
+    .mobile-nav {
         grid-template-columns: 1fr 1fr;
         padding: $blockTwo;
+
+    }
+
+    .overlay-header {
         :nth-child(2) {
             display: none;
         }
@@ -85,20 +85,20 @@ margin-top: $blockThree;
         h1 {
             line-height: 4rem;
         }
-
     }
 }
 
-
-
-
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
-    .overlay-header, .mobile-nav {
+    .overlay-header,
+    .mobile-nav {
         grid-template-columns: 1fr 1fr;
         padding: $blockThree;
+
+    }
+
+    .overlay-header {
         :nth-child(2) {
             display: none;
         }
     }
 }
-
