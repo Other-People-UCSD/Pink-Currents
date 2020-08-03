@@ -161,6 +161,10 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; margin-top: 64px; left: 0
 
 .mobile-nav h3 { margin-top: 32px; opacity: 0.5; padding-bottom: 32px; }
 
+.mobile-nav svg { width: 2rem; fill: none; stroke: var(--background-color); stroke-width: 10rem; stroke-miterlimit: 100; transform: rotate(45deg); }
+
+.mobile-nav h1:hover svg { margin-left: 16px; }
+
 @media only screen and (max-width: 728px) { .overlay-header, .mobile-nav { grid-template-columns: 1fr 1fr; padding: 16px; }
   .overlay-header :nth-child(2) { display: none; }
   .mobile-nav h1 { line-height: 4rem; } }
@@ -245,7 +249,7 @@ input[type="text"] { font-family: Arial; font-size: 4rem; font-weight: normal; m
 
 input[type="text2"] { font-family: Arial; font-size: 4rem; font-weight: normal; margin: 0; padding-bottom: 16px; color: var(--light-text-color); width: 100%; box-sizing: border-box; border: none; border-bottom: 5px solid var(--light-text-color); background-color: var(--background-color); -webkit-padding-start: 0; }
 
-::placeholder { opacity: 0.2; /* Firefox */ }
+::placeholder { opacity: 0.5; /* Firefox */ }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */ }
 

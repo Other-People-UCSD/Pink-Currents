@@ -54,8 +54,6 @@
     right: 0;
     color: $backgroundColor;
 
-
-
     h1 {
         line-height: 5rem;
     }
@@ -63,7 +61,22 @@
         margin-top: $blockThree;
         opacity: 0.5;
         padding-bottom: $blockThree;
+    }
+    svg {
+        width: 2rem;
+        fill: none;
+        stroke: $backgroundColor;
+        stroke-width: 10rem;
+        stroke-miterlimit: 100;
+        transform: rotate(45deg);
 
+    }
+    
+}
+
+.mobile-nav {
+    h1:hover svg {
+        margin-left: $blockTwo;
     }
 }
 
@@ -72,7 +85,6 @@
     .mobile-nav {
         grid-template-columns: 1fr 1fr;
         padding: $blockTwo;
-
     }
 
     .overlay-header {
@@ -82,7 +94,6 @@
     }
 
     .mobile-nav {
-
         h1 {
             line-height: 4rem;
         }
@@ -94,7 +105,6 @@
     .mobile-nav {
         grid-template-columns: 1fr 1fr;
         padding: $blockThree;
-
     }
 
     .overlay-header {
