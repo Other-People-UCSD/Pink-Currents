@@ -49,6 +49,23 @@ input[type="text2"] {
 
 @media only screen and (max-width: 728px) {
 
+
+    input[type="text"] {
+        font-family: Arial;
+        font-size: 3rem;
+        font-weight: normal;
+        margin: 0;
+        padding-bottom: $blockTwo;}
+
+        input[type="text2"] {
+            font-family: Arial;
+            font-size: 3rem;
+            font-weight: normal;
+            margin: 0;
+            padding-bottom: $blockTwo;}
+
+
+
     .mobile-nav2 {
         display: none;
     }

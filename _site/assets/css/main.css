@@ -251,7 +251,9 @@ input[type="text2"] { font-family: Arial; font-size: 4rem; font-weight: normal; 
 
 ::-ms-input-placeholder { /* Microsoft Edge */ }
 
-@media only screen and (max-width: 728px) { .mobile-nav2 { display: none; } }
+@media only screen and (max-width: 728px) { input[type="text"] { font-family: Arial; font-size: 3rem; font-weight: normal; margin: 0; padding-bottom: 16px; }
+  input[type="text2"] { font-family: Arial; font-size: 3rem; font-weight: normal; margin: 0; padding-bottom: 16px; }
+  .mobile-nav2 { display: none; } }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) { .mobile-nav2 { display: none; } }
 
