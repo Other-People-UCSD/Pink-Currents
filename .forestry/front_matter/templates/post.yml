@@ -17,20 +17,8 @@ fields:
   name: date
   label: date
 - name: tags
-  type: select
+  type: tag_list
   default: []
-  config:
-    required: false
-    options:
-    - Poetry
-    - Fiction
-    - Nonfiction
-    - Visual Arts
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
   label: Genre
 - type: text
   name: category
