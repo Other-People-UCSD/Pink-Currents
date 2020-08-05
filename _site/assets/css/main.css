@@ -137,6 +137,8 @@ h3.post-title a:hover { text-decoration: underline; }
 
 h1.index-title { padding: 0 32px 0 32px; bottom: 32px; left: 0; right: 0; }
 
+h1.page-title { padding: 0 32px 0 32px; bottom: 32px; margin-top: 32px; left: 0; right: 0; }
+
 @keyframes fadein { from { opacity: 0; }
   to { opacity: 1; } }
 
@@ -152,7 +154,8 @@ h1.index-title { padding: 0 32px 0 32px; bottom: 32px; left: 0; right: 0; }
   from { opacity: 0; }
   to { opacity: 1; } }
 
-@media only screen and (max-width: 728px) { h1.index-title { padding-top: 32px; margin-top: 8px; padding: 0 16px 0 16px; }
+@media only screen and (max-width: 728px) { h1.index-title { padding-top: 32px; margin-top: 16px; padding: 0 16px 0 16px; }
+  h1.page-title { padding: 0 16px 0 16px; margin-top: 64px; }
   .IndexContainer img { height: 350px; }
   .IndexContainer h2, .IndexContainer h3, .IndexContainer h4 { text-align: right; padding: 16px 16px 16px 16px; } }
 
