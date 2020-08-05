@@ -16,8 +16,9 @@
     <body>
 
         <div class="IndexContainer">
-            <img src="../assets/uploads/landing-01.png">
+           <a href="{{ page.featured_link }}"> <img src="{{ page.image }}">
 
+<h4>{{ page.featured_piece_name }} by {{ page.featured_contributor }} ></h4></a>
         </div>
 
         {% include header.html %}

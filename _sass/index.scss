@@ -6,7 +6,7 @@
 .IndexContainer {
     img {
         width: 100%; /* width of container */
-    height: 425px;
+    height: 525px;
         object-fit: cover;
         animation: fadein 2s;
         -moz-animation: fadein 2s; /* Firefox */
@@ -14,7 +14,28 @@
         -o-animation: fadein 2s; /* Opera */
     }
 
+    a{
+
+        text-decoration: none;
+        color: inherit;
+        h4 {opacity: .2;}
+    }
+    a:hover {
+        opacity: 1;
+        cursor: pointer;
+        h4 {opacity: .5;}
+    }
+
+    h2, h3, h4 {
+
+        text-align: right;
+        padding: $blockTwo $blockThree $blockTwo $blockThree ;
+
+
+    }
+
 }
+
 
 
 
