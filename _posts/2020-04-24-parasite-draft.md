@@ -5,8 +5,7 @@ title: In Honor of Parasite
 contributor: Hemmy Chun
 date: 2020-04-24T07:00:00.000+00:00
 thumb: ''
-tags:
-- Nonfiction
+tags: Nonfiction
 
 ---
 ![](/uploads/Hemmy (Erin) Chun- content draft.jpg)
