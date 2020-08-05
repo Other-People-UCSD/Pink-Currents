@@ -25,6 +25,7 @@ fields:
     - Poetry
     - Fiction
     - Nonfiction
+    - Visual Arts
     source:
       type: simple
       section: 
