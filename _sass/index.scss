@@ -6,7 +6,7 @@
 .IndexContainer {
     img {
         width: 100%; /* width of container */
-    height: 525px;
+        height: 525px;
         object-fit: cover;
         animation: fadein 2s;
         -moz-animation: fadein 2s; /* Firefox */
@@ -14,43 +14,36 @@
         -o-animation: fadein 2s; /* Opera */
     }
 
-    a{
-
+    a {
         text-decoration: none;
         color: inherit;
-        h4 {opacity: .2;}
+        h4 {
+            opacity: 0.2;
+        }
     }
     a:hover {
         opacity: 1;
         cursor: pointer;
-        h4 {opacity: .5;}
+        h4 {
+            opacity: 0.5;
+        }
     }
 
-    h2, h3, h4 {
-
+    h2,
+    h3,
+    h4 {
         text-align: right;
-        padding: $blockTwo $blockThree $blockTwo $blockThree ;
-
-
+        padding: $blockTwo $blockThree $blockTwo $blockThree;
     }
-
 }
 
-
-
-
 h1.index-title {
-
     padding: 0 $blockThree 0 $blockThree;
     bottom: $blockThree;
 
-    margin-top: $blockFour;
     left: 0;
     right: 0;
-
 }
-
-
 
 @keyframes fadein {
     from {
@@ -91,35 +84,19 @@ h1.index-title {
 @media only screen and (max-width: 728px) {
     h1.index-title {
         padding-top: $blockThree;
-        margin-top: $blockThree;
+        margin-top: $blockOne;
         padding: 0 $blockTwo 0 $blockTwo;
     }
 
-
     .IndexContainer {
         img {
-      
-        height: 350px;
-
+            height: 350px;
         }
-    
+        h2,
+        h3,
+        h4 {
+            text-align: right;
+            padding: $blockTwo $blockTwo $blockTwo $blockTwo;
+        }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
