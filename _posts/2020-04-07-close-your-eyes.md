@@ -5,7 +5,8 @@ title: Close Your Eyes
 contributor: Montanna Harling
 date: 2020-04-07T07:00:00.000+00:00
 thumb: "/uploads/close-your-eyes-01.png"
-tags: Fiction
+tags:
+- Fiction
 
 ---
 ![](/uploads/close-your-eyes-01.png)

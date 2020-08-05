@@ -5,7 +5,8 @@ title: Rain on the Rooftops
 contributor: Meryem Bahadir
 date: 2020-05-04T07:00:00.000+00:00
 thumb: ''
-tags: Fiction
+tags: 
+- Fiction
 
 ---
 There’s a certain indescribable chill that accompanies trudging home to an empty apartment. The young man felt it in the doorway to his home, on the stairway to the thirteenth floor, in the hallway of the eerily quiet apartment complex. He felt it when the knob jingled at ten past midnight, when he walked in and his steps were quiet, unsure and tired from the dragging day.

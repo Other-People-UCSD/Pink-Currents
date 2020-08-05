@@ -1,6 +1,7 @@
 ---
 layout: Post
-tags: Poetry
+tags: 
+- Poetry
 title: A Love Letter to the UCSD-PROTECTED Wifi
 contributor: Janelle Kim
 date: 2020-07-31T07:00:00.000+00:00
