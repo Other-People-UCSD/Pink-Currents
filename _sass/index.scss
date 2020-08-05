@@ -45,14 +45,6 @@ h1.index-title {
     right: 0;
 }
 
-h1.page-title {
-    padding: 0 $blockThree 0 $blockThree;
-    bottom: $blockThree;
-margin-top: $blockThree;
-    left: 0;
-    right: 0;
-}
-
 @keyframes fadein {
     from {
         opacity: 0;
@@ -94,13 +86,6 @@ margin-top: $blockThree;
         padding-top: $blockThree;
         margin-top: $blockOne;
         padding: 0 $blockTwo 0 $blockTwo;
-    }
-
-    h1.page-title {
-        padding: 0 $blockTwo 0 $blockTwo;
-        bottom: $blockThree;
-    margin-top: $blockThree;
-
     }
 
     .IndexContainer {
