@@ -181,13 +181,17 @@ h1.page-title { padding: 0 32px 0 32px; bottom: 32px; margin-top: 32px; left: 0;
 
 .mobile-nav svg { width: 2rem; fill: none; stroke: var(--background-color); stroke-width: 10rem; stroke-miterlimit: 100; transform: rotate(45deg); }
 
-.search { opacity: .5; }
+.search { opacity: 0.5; }
 
 .search:hover { opacity: 1; }
 
 .genres { display: none; }
 
 .mobile-nav h1:hover svg { margin-left: 16px; }
+
+.mobile-nav footer { text-align: left; padding: 0; margin-top: 32px; margin-bottom: 32px; }
+
+.mobile-nav footer h4 { line-height: 1.2rem; }
 
 @media only screen and (max-width: 728px) { .overlay-header, .mobile-nav { grid-template-columns: 1fr 1fr; padding: 16px; }
   .overlay-header :nth-child(2) { display: none; }

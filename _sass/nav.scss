@@ -55,7 +55,6 @@
     color: $backgroundColor;
     h1 {
         line-height: 5rem;
-
     }
     h3 {
         margin-top: $blockThree;
@@ -69,36 +68,35 @@
         stroke-width: 10rem;
         stroke-miterlimit: 100;
         transform: rotate(45deg);
-
     }
-    
 }
 
 .search {
-  
-    opacity: .5;
- 
+    opacity: 0.5;
 }
 
 .search:hover {
     opacity: 1;
-
-
-
 }
-
 
 .genres {
     display: none;
-
 }
 
 .mobile-nav {
-    
     h1:hover svg {
         margin-left: $blockTwo;
     }
 }
+
+.mobile-nav footer {
+text-align: left;
+padding: 0;
+margin-top: $blockThree;
+margin-bottom: $blockThree;
+h4{ line-height: 1.2rem;}
+}
+
 
 @media only screen and (max-width: 728px) {
     .overlay-header,
@@ -120,14 +118,11 @@
     }
 
     .search {
-  
-  margin-top: $blockOne;
-     
+        margin-top: $blockOne;
     }
 
     .genres {
         display: initial;
-    
     }
 }
 
@@ -146,6 +141,5 @@
 
     .genres {
         display: initial;
-    
     }
 }
