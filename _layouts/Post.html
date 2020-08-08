@@ -1,84 +1,72 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
-  <title>{{ page.title }} - {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-  {% include favicons.html %}
-</head>
+    {% include favicons.html %}
+  </head>
 
-<body>
+  <body>
 
-  {% include header3.html %}
+    {% include header3.html %}
 
-  <div class="cssanimation sequence fadeInBottom">
-    <div class="content-title">
-      <h1>
-        <div class="post_title">{{ page.title }}
-      </h1>
+    <div class="cssanimation sequence fadeInBottom">
+      <div class="content-title">
+        <h1>
+          <div class="post_title">{{ page.title }}
+          </h1>
 
-    </div>
+        </div>
 
-  </div>
+      </div>
 
-  <div class="content">
+      <div class="content">
 
-    <h3>/ {{ page.contributor }}</h3>
-    <h4 class="meta">{{ page.tags }} — {% include minsread.html %}</h4>
+        <h3>/ {{ page.contributor }}</h3>
+        <h4 class="meta">{{ page.tags }} — {% include minsread.html %}</h4>
 
-    <h4 style="color:rgb(255, 153, 0)">{{ page.category }}</h4>
-    <br><br>
-    {{ content}}
 
-    <div class="copyright-footer">
-      <h4>This work belongs to {{ page.contributor }} ©
+       {% if page.featured == true %}
+        <h4 style="color:rgb(255, 153, 0)">No. {{ page.category }}</h4>
+        {% endif %}
+        <br><br>
+        {{ content}}
+
+        <div class="copyright-footer">
+          <h4>This work belongs to {{ page.contributor }} ©
         <br> Copy, reproduction, and modification are not permitted without permission
       </h4>
-    </div>
+        </div>
 
-  </div>
+      </div>
 
-  <div class="post-nav">
+      <div class="post-nav">
 
-    <div>
-      <h4>
-        {% if page.previous.url %}
-        <a href="{{page.previous.url}}">
-          < prev</a>
-            {% endif %}
-      </h4>
-    </div>
-    <div class="post-nav-next">
-      <h4>
-        {% if page.next.url %}
-        <a href="{{page.next.url}}"> next></a>
-        {% endif %}
-      </h4>
-    </div>
+        <div>
+          <h4>
+            {% if page.previous.url %}
+              <a href="{{page.previous.url}}">
+                < prev</a>
+                {% endif %}
+              </h4>
+            </div>
+            <div class="post-nav-next">
+              <h4>
+                {% if page.next.url %}
+                  <a href="{{page.next.url}}"> next></a>
+                {% endif %}
+              </h4>
+            </div>
 
-  </div>
+          </div>
 
-  {% include footer.html %}
+          {% include footer.html %}
 
+        </body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-
-</html>
+      </html>

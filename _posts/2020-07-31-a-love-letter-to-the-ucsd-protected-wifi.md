@@ -5,8 +5,9 @@ tags:
 title: A Love Letter to the UCSD-PROTECTED Wifi
 contributor: Janelle Kim
 date: 2020-07-31T07:00:00.000+00:00
-category: Collection
+category: 1
 thumb: ''
+featured: true
 
 ---
 Dear UCSD wifi, you quirky gal,<br>You’re the ultimate femme fatale:<br>Mysterious, fragile, an insurmountable shell-<br>Being cast from your side is unbearable hell. 

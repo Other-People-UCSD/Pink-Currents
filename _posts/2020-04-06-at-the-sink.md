@@ -1,5 +1,5 @@
 ---
-category: Collection
+category: 1
 layout: Post
 title: At the Sink
 contributor: Gabriela Schnepp
@@ -7,6 +7,7 @@ date: 2020-04-06T07:00:00.000+00:00
 thumb: "/uploads/sink2.jpg"
 tags: 
 - Poetry
+featured: true
 
 ---
 ![](/uploads/sink2.jpg)

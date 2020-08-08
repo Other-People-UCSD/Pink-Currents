@@ -1,5 +1,5 @@
 ---
-category: Collection
+category: 1
 layout: Post
 title: Boys’ Night
 contributor: Chloe Esser
@@ -7,6 +7,7 @@ date: 2020-04-06T07:00:00.000+00:00
 thumb: "/uploads/opboysnight.png"
 tags: 
 - Fiction
+featured: true
 
 ---
 ![](/uploads/opboysnight.png)

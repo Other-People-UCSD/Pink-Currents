@@ -5,222 +5,162 @@
 
 <h3 class="post-title">Poetry</h3>
 <div class="post-container">
-    {% for post in site.categories['Collection'] %}
-        {% unless post.tags contains "Fiction" %}
-            {% unless post.tags contains "Nonfiction" %}
-                {% unless post.tags contains "Visual Arts" %}
-
-
-                    <a href="{{site.baseurl}}{{ post.url }}">
-                        <div class="posts">
-                            <div class="post-info">
-
-                                <h2>{{ post.title }}
-                                    {% if post.thumb %}
-                                        <img src="{{site.baseurl}}{{ post.thumb }}">
-                                    {% endif %}
-
-                                </h2>
-                                <div></div>
-                                <div>
-                                    <h3>
-                                        <span>/ {{ post.contributor }}</span></h3>
-                                    <h4>{{ post.tags }}</h4>
-                                    <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
-                                </div>
-                            </div>
-
-                        </div>
-                    </a>
-                {% endunless %}
-            {% endunless %}
-        {% endunless %}
-    {% endfor %}
-</div>
-
-<br>
-
-<h3 class="post-title">Fiction</h3>
-<div class="post-container">
-    {% for post in site.categories['Collection'] %}
-        {% unless post.tags contains "Visual Arts" %}
-            {% unless post.tags contains "Nonfiction" %}
-                {% unless post.tags contains "Poetry" %}
-
-                    <a href="{{site.baseurl}}{{ post.url }}">
-                        <div class="posts">
-                            <div class="post-info">
-
-                                <h2>{{ post.title }}
-                                    {% if post.thumb %}
-                                        <img src="{{site.baseurl}}{{ post.thumb }}">
-                                    {% endif %}
-
-                                </h2>
-                                <div></div>
-                                <div>
-                                    <h3>
-                                        <span>/ {{ post.contributor }}</span></h3>
-                                    <h4>{{ post.tags }}</h4>
-                                    <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
-                                </div>
-                            </div>
-
-                        </div>
-                    </a>
-                {% endunless %}
-            {% endunless %}
-        {% endunless %}
-    {% endfor %}
-</div>
-
-<br>
-
-<h3 class="post-title">Nonfiction</h3>
-<div class="post-container">
-    {% for post in site.categories['Collection'] %}
-        {% unless post.tags contains "Fiction" %}
-            {% unless post.tags contains "Visual Arts" %}
-                {% unless post.tags contains "Poetry" %}
-
-                    <a href="{{site.baseurl}}{{ post.url }}">
-                        <div class="posts">
-                            <div class="post-info">
-
-                                <h2>{{ post.title }}
-                                    {% if post.thumb %}
-                                        <img src="{{site.baseurl}}{{ post.thumb }}">
-                                    {% endif %}
-
-                                </h2>
-                                <div></div>
-                                <div>
-                                    <h3>
-                                        <span>/ {{ post.contributor }}</span></h3>
-                                    <h4>{{ post.tags }}</h4>
-                                    <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
-                                </div>
-                            </div>
-
-                        </div>
-                    </a>
-                {% endunless %}
-            {% endunless %}
-        {% endunless %}
-    {% endfor %}
-</div>
-
-<br>
-
-<h3 class="post-title">Visual Arts</h3>
-<div class="post-container">
-    {% for post in site.categories['Collection'] %}
-        {% unless post.tags contains "Fiction" %}
-            {% unless post.tags contains "Nonfiction" %}
-                {% unless post.tags contains "Poetry" %}
-
-                    <a href="{{site.baseurl}}{{ post.url }}">
-                        <div class="posts">
-                            <div class="post-info">
-
-                                <h2>{{ post.title }}
-                                    {% if post.thumb %}
-                                        <img src="{{site.baseurl}}{{ post.thumb }}">
-                                    {% endif %}
-
-                                </h2>
-                                <div></div>
-                                <div>
-                                    <h3>
-                                        <span>/ {{ post.contributor }}</span></h3>
-                                    <h4>{{ post.tags }}</h4>
-                                    <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
-                                </div>
-                            </div>
-
-                        </div>
-                    </a>
-                {% endunless %}
-            {% endunless %}
-        {% endunless %}
-    {% endfor %}
-</div>
-
-
-<div class="hello"></div>
-
-
-
-
-
-
-
-<h1 class="post-title">Keep Reading</h1>
-
-<h3 class="post-title">
-    <span>Poetry<span></h3>
-        <div class="post-container">
-            {% for post in site.tags['Poetry'] limit : 6 %}
-
-                <a href="{{site.baseurl}}{{ post.url }}">
-                    <div class="posts">
-                        <div class="post-info">
-                            <h2>{{ post.title }}
-                                {% if post.thumb %}
-                                    <img src="{{site.baseurl}}{{ post.thumb }}">
-                                {% endif %}
-                            </h2>
-                            <div></div>
-                            <div>
-                                <h3>
-                                    <span>/ {{ post.contributor }}</span></h3>
-                                <h4>{{ post.tags }}</h4>
-                                <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-            {% endfor %}
-        </div>
-        <h3 class="post-title" style="text-align:right">
-            <a href="{{ site.url }}{{ site.baseurl }}/poetry">[ See more ]</a>
-        </h3>
-
-        <h3 class="post-title">
-            <span>Fiction<span></h3>
-                <div class="post-container">
-                    {% for post in site.tags['Fiction'] limit : 6 %}
+    {% for post in site.posts %}
+        {% if post.featured == true %}
+            {% unless post.tags contains "Fiction" %}
+                {% unless post.tags contains "Nonfiction" %}
+                    {% unless post.tags contains "Visual Arts" %}
 
                         <a href="{{site.baseurl}}{{ post.url }}">
                             <div class="posts">
                                 <div class="post-info">
+
                                     <h2>{{ post.title }}
                                         {% if post.thumb %}
                                             <img src="{{site.baseurl}}{{ post.thumb }}">
                                         {% endif %}
+
                                     </h2>
                                     <div></div>
                                     <div>
                                         <h3>
                                             <span>/ {{ post.contributor }}</span></h3>
                                         <h4>{{ post.tags }}</h4>
-                                        <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
+                                        <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
                                     </div>
                                 </div>
+
                             </div>
                         </a>
+                    {% endunless %}
+                {% endunless %}
+            {% endunless %}
+            {%endif%}
+        {% endfor %}
+    </div>
 
+    <br>
+
+    <h3 class="post-title">Fiction</h3>
+    <div class="post-container">
+        {% for post in site.posts %}
+            {% if post.featured == true %}
+                {% unless post.tags contains "Visual Arts" %}
+                    {% unless post.tags contains "Nonfiction" %}
+                        {% unless post.tags contains "Poetry" %}
+
+                            <a href="{{site.baseurl}}{{ post.url }}">
+                                <div class="posts">
+                                    <div class="post-info">
+
+                                        <h2>{{ post.title }}
+                                            {% if post.thumb %}
+                                                <img src="{{site.baseurl}}{{ post.thumb }}">
+                                            {% endif %}
+
+                                        </h2>
+                                        <div></div>
+                                        <div>
+                                            <h3>
+                                                <span>/ {{ post.contributor }}</span></h3>
+                                            <h4>{{ post.tags }}</h4>
+                                            <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </a>
+                        {% endunless %}
+                    {% endunless %}
+                {% endunless %}
+                {%endif%}
+            {% endfor %}
+        </div>
+
+        <br>
+
+        <h3 class="post-title">Nonfiction</h3>
+        <div class="post-container">
+            {% for post in site.posts %}
+                {% if post.featured == true %}
+                    {% unless post.tags contains "Fiction" %}
+                        {% unless post.tags contains "Visual Arts" %}
+                            {% unless post.tags contains "Poetry" %}
+
+                                <a href="{{site.baseurl}}{{ post.url }}">
+                                    <div class="posts">
+                                        <div class="post-info">
+
+                                            <h2>{{ post.title }}
+                                                {% if post.thumb %}
+                                                    <img src="{{site.baseurl}}{{ post.thumb }}">
+                                                {% endif %}
+
+                                            </h2>
+                                            <div></div>
+                                            <div>
+                                                <h3>
+                                                    <span>/ {{ post.contributor }}</span></h3>
+                                                <h4>{{ post.tags }}</h4>
+                                                <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </a>
+                            {% endunless %}
+                        {% endunless %}
+                    {% endunless %}
+                    {%endif%}
+                {% endfor %}
+            </div>
+
+            <br>
+
+            <h3 class="post-title">Visual Arts</h3>
+            <div class="post-container">
+                {% for post in site.posts %}
+                    {% if post.featured == true %}
+                        {% unless post.tags contains "Fiction" %}
+                            {% unless post.tags contains "Nonfiction" %}
+                                {% unless post.tags contains "Poetry" %}
+
+                                    <a href="{{site.baseurl}}{{ post.url }}">
+                                        <div class="posts">
+                                            <div class="post-info">
+
+                                                <h2>{{ post.title }}
+                                                    {% if post.thumb %}
+                                                        <img src="{{site.baseurl}}{{ post.thumb }}">
+                                                    {% endif %}
+
+                                                </h2>
+                                                <div></div>
+                                                <div>
+                                                    <h3>
+                                                        <span>/ {{ post.contributor }}</span></h3>
+                                                    <h4>{{ post.tags }}</h4>
+                                                    <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                {% endunless %}
+                            {% endunless %}
+                        {% endunless %}
+                        {%endif%}
                     {% endfor %}
                 </div>
-                <h3 class="post-title" style="text-align:right">
-                    <a href="{{ site.url }}{{ site.baseurl }}/fiction">[ See more ]</a>
-                </h3>
+
+                <div class="hello"></div>
+
+                <h1 class="post-title">Keep Reading</h1>
 
                 <h3 class="post-title">
-                    <span>Nonfiction<span></h3>
+                    <span>Poetry<span></h3>
                         <div class="post-container">
-                            {% for post in site.tags['Nonfiction'] limit : 6 %}
+                            {% for post in site.tags['Poetry'] limit : 6 %}
 
                                 <a href="{{site.baseurl}}{{ post.url }}">
                                     <div class="posts">
@@ -235,7 +175,9 @@
                                                 <h3>
                                                     <span>/ {{ post.contributor }}</span></h3>
                                                 <h4>{{ post.tags }}</h4>
-                                                <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
+                                                      {% if post.featured == true %}
+                                                    <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
+                                                {% endif %}
                                             </div>
                                         </div>
                                     </div>
@@ -244,26 +186,30 @@
                             {% endfor %}
                         </div>
                         <h3 class="post-title" style="text-align:right">
-                            <a href="{{ site.url }}{{ site.baseurl }}/nonfiction">[ See more ]</a>
+                            <a href="{{ site.url }}{{ site.baseurl }}/poetry">[ See more ]</a>
                         </h3>
 
                         <h3 class="post-title">
-                            <span>Visual Arts<span></h3>
+                            <span>Fiction<span></h3>
                                 <div class="post-container">
-                                    {% for post in site.tags['Visual Arts'] limit : 6 %}
+                                    {% for post in site.tags['Fiction'] limit : 6 %}
 
                                         <a href="{{site.baseurl}}{{ post.url }}">
                                             <div class="posts">
                                                 <div class="post-info">
                                                     <h2>{{ post.title }}
-                                                        <img src="{{site.baseurl}}{{ post.thumb }}">
+                                                        {% if post.thumb %}
+                                                            <img src="{{site.baseurl}}{{ post.thumb }}">
+                                                        {% endif %}
                                                     </h2>
                                                     <div></div>
                                                     <div>
                                                         <h3>
                                                             <span>/ {{ post.contributor }}</span></h3>
                                                         <h4>{{ post.tags }}</h4>
-                                                        <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
+                                                              {% if post.featured == true %}
+                                                            <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
+                                                        {% endif %}
                                                     </div>
                                                 </div>
                                             </div>
@@ -272,5 +218,67 @@
                                     {% endfor %}
                                 </div>
                                 <h3 class="post-title" style="text-align:right">
-                                    <a href="{{ site.url }}{{ site.baseurl }}/visualarts">[ See more ]</a>
+                                    <a href="{{ site.url }}{{ site.baseurl }}/fiction">[ See more ]</a>
                                 </h3>
+
+                                <h3 class="post-title">
+                                    <span>Nonfiction<span></h3>
+                                        <div class="post-container">
+                                            {% for post in site.tags['Nonfiction'] limit : 6 %}
+
+                                                <a href="{{site.baseurl}}{{ post.url }}">
+                                                    <div class="posts">
+                                                        <div class="post-info">
+                                                            <h2>{{ post.title }}
+                                                                {% if post.thumb %}
+                                                                    <img src="{{site.baseurl}}{{ post.thumb }}">
+                                                                {% endif %}
+                                                            </h2>
+                                                            <div></div>
+                                                            <div>
+                                                                <h3>
+                                                                    <span>/ {{ post.contributor }}</span></h3>
+                                                                <h4>{{ post.tags }}</h4>
+                                                                      {% if post.featured == true %}
+                                                                    <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
+                                                                {% endif %}
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+
+                                            {% endfor %}
+                                        </div>
+                                        <h3 class="post-title" style="text-align:right">
+                                            <a href="{{ site.url }}{{ site.baseurl }}/nonfiction">[ See more ]</a>
+                                        </h3>
+
+                                        <h3 class="post-title">
+                                            <span>Visual Arts<span></h3>
+                                                <div class="post-container">
+                                                    {% for post in site.tags['Visual Arts'] limit : 6 %}
+
+                                                        <a href="{{site.baseurl}}{{ post.url }}">
+                                                            <div class="posts">
+                                                                <div class="post-info">
+                                                                    <h2>{{ post.title }}
+                                                                        <img src="{{site.baseurl}}{{ post.thumb }}">
+                                                                    </h2>
+                                                                    <div></div>
+                                                                    <div>
+                                                                        <h3>
+                                                                            <span>/ {{ post.contributor }}</span></h3>
+                                                                        <h4>{{ post.tags }}</h4>
+                                                                    {% if post.featured == true %}
+                                                                            <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
+                                                                        {% endif %}
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+
+                                                    {% endfor %}
+                                                </div>
+                                                <h3 class="post-title" style="text-align:right">
+                                                    <a href="{{ site.url }}{{ site.baseurl }}/visualarts">[ See more ]</a>
+                                                </h3>

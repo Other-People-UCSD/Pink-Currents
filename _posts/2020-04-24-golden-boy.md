@@ -1,5 +1,5 @@
 ---
-category: Collection
+category: 1
 layout: Post
 title: Golden Boy
 contributor: Isaac Kopstein
@@ -7,6 +7,7 @@ date: 2020-04-24T07:00:00.000+00:00
 thumb: "/uploads/golden-boy.png"
 tags: 
 - Fiction
+featured: true
 
 ---
 ![](/uploads/golden-boy.png)

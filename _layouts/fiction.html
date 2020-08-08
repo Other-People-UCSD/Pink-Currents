@@ -41,7 +41,9 @@
                 <div>
                     <h3><span>/ {{ post.contributor }}</span></h3>
                     <h4>{{ post.tags }}</h4>
-                    <h4 style="color:rgb(255, 153, 0)">{{ post.category }}</h4>
+                                                   {% if post.featured == true %}
+                                                            <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
+                                                        {% endif %}
                 </div>
             </div>
 

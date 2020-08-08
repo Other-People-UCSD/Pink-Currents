@@ -2,11 +2,12 @@
 title: 'With Liqour '
 contributor: Susan Hou
 date: 2020-04-05T07:00:00.000+00:00
-category: Collection
+category: 1
 layout: Post
 thumb: "/uploads/with-liquor-title.jpg"
 tags: 
 - Nonfiction
+featured: true
 
 ---
 ![](/uploads/with-liquor-title.jpg)

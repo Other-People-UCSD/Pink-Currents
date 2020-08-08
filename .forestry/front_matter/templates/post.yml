@@ -31,7 +31,7 @@ fields:
   label: thumb
 - type: boolean
   name: featured
-  label: Featured
+  label: Collection
   default: false
   hidden: true
 pages:
