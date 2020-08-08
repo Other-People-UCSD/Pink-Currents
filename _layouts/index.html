@@ -15,25 +15,19 @@
 
     <body>
 
-        {% for post in site.posts %}
+        <div class="IndexContainer">
+            <a href="{{ page.featured_link }}">
+                <img src="{{ page.image }}">
+                <h4>{{ page.featured_piece_name }} by {{ page.featured_contributor }} ></h4>
+            </a>
+        </div>
 
-            {% if post.featured %}
-                <div class="IndexContainer">
-                    <a href="{{site.baseurl}}{{ post.url }}">
-                        <img src="{{ post.thumb }}">
+        {% include header.html %}
+        {% include posts.html %}
 
-                        <h4>{{ post.title }} by {{ post.contributor }} ></h4>
-                    </a>
-                </div>
-                {%endif%}
-            {% endfor %}
+        {{ content}}
 
-            {% include header.html %}
-            {% include posts.html %}
+        {% include footer.html %}
+    </body>
 
-            {{ content}}
-
-            {% include footer.html %}
-        </body>
-
-    </html>
+</html>
