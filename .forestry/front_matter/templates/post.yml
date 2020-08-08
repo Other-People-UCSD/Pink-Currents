@@ -13,27 +13,31 @@ fields:
 - type: text
   name: contributor
   label: contributor
-- type: datetime
-  name: date
-  label: date
 - name: tags
   type: tag_list
   default: []
   label: Genre
+- type: boolean
+  name: featured
+  label: Collection
+  default: false
+  hidden: false
+  description: Is this piece part of a collection?
 - type: text
   name: category
-  label: Collection
-  description: Input "Collection" in field if part of magazine. (Case Sensitive)
+  label: Collection No.
+  description: Numerical values only.
+  showOnly:
+    field: featured
+    value: true
+- type: datetime
+  name: date
+  label: date
 - name: thumb
   type: file
   config:
     maxSize: 64
   label: thumb
-- type: boolean
-  name: featured
-  label: Collection
-  default: false
-  hidden: true
 pages:
 - _posts/2020-04-01-girls-of-the-limberlost.md
 - _posts/2020-04-03-skin.md
