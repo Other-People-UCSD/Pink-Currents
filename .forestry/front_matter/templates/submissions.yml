@@ -11,3 +11,5 @@ fields:
 - name: status
   type: boolean
   label: Submission Status
+pages:
+- submissions.md
