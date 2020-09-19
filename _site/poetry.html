@@ -211,16 +211,12 @@
                 </a>
             </h2>
         </div>
-        
-
-
-<div class="mobile-nav">
+        <div class="mobile-nav">
 
     <div class="mobile-nav2">
         <!-- Html Elements for Search -->
         <div id="search-container">
             <input type="text" id="search-input" placeholder="Search">
-
 
             <ul id="results-container"></ul>
         </div>
@@ -230,13 +226,12 @@
 
         <!-- Configuration -->
         <script>
-            SimpleJekyllSearch({ searchInput: document.getElementById('search-input'), resultsContainer: document.getElementById('results-container'), json: '/search.json' })
+            SimpleJekyllSearch({searchInput: document.getElementById('search-input'), resultsContainer: document.getElementById('results-container'), json: '/search.json'})
         </script>
         <br>
     </div>
 
     <div></div>
-
 
     <div class="genres">
         <h3>Genres</h3>
@@ -248,20 +243,21 @@
         </h1>
     </div>
 
-
-
-
     <h3>Menu</h3>
 
     <h1>
 
-<h1>
-    <a href="https://issuu.com/otherpeoplesd" target="_blank">Issuu</a>
-</h1>
+        <h1>
+            <a href="http://localhost:4000/about">About</a>
+        </h1>
 
-<h1>
-    <a href="https://www.instagram.com/otherpeoplesd/" target="_blank">Instagram</a>
-</h1>
+        <h1>
+            <a href="https://issuu.com/otherpeoplesd" target="_blank">Issuu</a>
+        </h1>
+
+        <h1>
+            <a href="https://www.instagram.com/otherpeoplesd/" target="_blank">Instagram</a>
+        </h1>
 
         <h1>
             <a href="http://localhost:4000/submissions">Submissions</a>
@@ -271,42 +267,34 @@
         </h1>
     </h1>
 
-
-
-<footer class="mobile-nav">
-    <h4>Other People © 2020 <br>ALL RIGHTS RESERVED
+    <footer class="mobile-nav">
+        <h4>Other People © 2020
+            <br>ALL RIGHTS RESERVED
 </h4>
-</footer>
+    </footer>
 </div>
-
-
-
-
-
 
 <script>
 
     19
 
-    $('input').focus(function () {
-        $(this).attr('placeholder', '')
-    }).blur(function () {
-        $(this).attr('placeholder', 'Search')
-    })
+    $('input')
+        .focus(function () {
+            $(this).attr('placeholder', '')
+        })
+        .blur(function () {
+            $(this).attr('placeholder', 'Search')
+        })
 </script>
-
 
 <script>
 
-    $('input').keyup(function(event) {
+    $('input').keyup(function (event) {
         if (event.which === 13) {
-          $(this).blur();
+            $(this).blur();
         }
     });
-    </script>
-
-
-
+</script>
     </div>
 </div>
 
@@ -420,7 +408,7 @@ document
     </g>
     </svg>
 <h4>© 2020 All Rights Reserved</h4>
-<h4>Version 2.1.96</h4>
+<h4>Version 2.1.97</h4>
 
 </footer>
     </body>

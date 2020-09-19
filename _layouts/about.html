@@ -6,23 +6,37 @@
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-             <script src="../assets/js/search-script.js"></script>
-          {% include favicons.html %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+       <script src="../assets/js/search-script.js"></script>
+    {% include favicons.html %}
+
+
 </head>
 
 <body>
 
-    {% include header.html %}
+    <div class="cssanimation sequence fadeInBottom">
+        <div class="IndexContainer">
+            <div class="content-title">
+                <h1>
+                    <div class="post_title">{{ page.title }}
+                </h1>
 
-
-
-<div class="about">
-<div class="cssanimation sequence fadeInBottom">
-    {{ content}}
+            </div>
+        </div>
     </div>
+
+    <div class="submissions-content">
+
+
+        {{ content}}
+
+
     </div>
 
+    {% include header2.html %}
+    {% include footer.html %}
 
 </body>
 
