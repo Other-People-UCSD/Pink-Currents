@@ -8,3 +8,6 @@ fields:
 - type: text
   name: title
   label: title
+- name: status
+  type: boolean
+  label: Submission Status
