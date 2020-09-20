@@ -6,7 +6,9 @@ editor-in-chief:
 - Nicole Lopez
 - Montanna Harling
 editorial:
-- Sydney Kessler — Editor at Large
+- Sydney Kessler — Editor-at-Large
+- Isaac Kopstein — Head Editor
+- Ashley Hirao — Head Copy Editor
 - Abigail Hora — Content
 - Hemmy Chun — Content
 - Sanjana Dhamankar — Content
@@ -25,10 +27,7 @@ design_team:
 - Kelly Tran
 - Kristy Lee
 - Zhilin Li
-media:
-- Ashley Hirao — Director
-- Makayla Lawrence
-- Samuel Cabrera
+media: []
 finance:
 - Isaac Kopstein
 publicity_events:
