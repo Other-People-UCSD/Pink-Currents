@@ -17,6 +17,10 @@ p { line-height: 1.8rem; font-size: 1rem; }
 
 ul { line-height: 1.8rem; list-style-type: ">   "; }
 
+a { color: var(--light-text-color); text-decoration: underline; }
+
+a:hover { text-decoration: none; }
+
 sup { font-family: "basier_circlemonoregular"; text-transform: uppercase; font-weight: normal; margin: 0; padding: 0; color: #ff9900; }
 
 html, html[data-theme="light"] { --background-color: #ffffff; --light-text-color: #151515; --link-color: rgb(0, 112, 201); --main-background-color: rgb(255, 255, 255); --main-text-color: rgb(51, 51, 51); }

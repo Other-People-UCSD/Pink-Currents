@@ -75,7 +75,15 @@ p {
 ul {
   line-height: 1.8rem;
   list-style-type: ">   ";
+}
 
+a {
+  color: $bodyColor;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 sup {

@@ -15,15 +15,15 @@ Our Editorial team reviews submissions individually and votes on their favorite 
 
 **OUR MISSION**
 
-<center>_Other People_</center>
+<center><i>Other People</i></center>
 
-<center>_A place to explore the timeless human experience_
+<center><i>A place to explore the timeless human experience;</i>
 
-_A place to revere the joys and struggles of our journeys through life_
+<br><i>A place to revere the joys and struggles of our journeys through life;</i>
 
-_A place to celebrate the uniqueness of the human spirit_
+<br><i>A place to celebrate the uniqueness of the human spirit;</i>
 
-_Through a fusion of Language, Art, Image, and Technology_</center>
+<br><i>Through a fusion of Language, Art, Image, and Technology.</i></center>
 
 **OUR STORY**
 
