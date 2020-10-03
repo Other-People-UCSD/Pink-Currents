@@ -1,6 +1,7 @@
 ---
 layout: Post
-tags: []
+tags:
+- Fiction
 title: In the Glass House
 contributor: Hemmy Chun
 featured: false
