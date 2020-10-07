@@ -23,10 +23,10 @@ Art (traditional or digital, short comics, photography, graphic text, etc). ‍ 
 
 # How we want it:
 
-* Written works: PDFs in Standard Manual Format with all personally identifiable information removed. Only the title, word count, and story/poem should be contained in the PDF.
+* Written works: PDFs in Standard Manual Format with all personally identifiable information removed (including from file names). Only the title, word count, and story/poem should be contained in the PDF.
 * Art: High fidelity .pdf, .jpg, .tiff accepted.
 
-We take submissions by Google Form. We will ask for your email address, name, title of your story, and what type of work it is (prose, poetry, art, other), and an anonymized copy of your work. Optional: tell us anything you want us to know about your work and its meaning.
+We take submissions by [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScNpkibdlE3FXiW42uzo5RTSDAnw_bfJChmBrTeA7F09RyS9A/viewform?usp=sf_link). We will ask for your email address, name, title of your story, and what type of work it is (prose, poetry, art, other), and an anonymized copy of your work. Optional: tell us anything you want us to know about your work and its meaning.
 
 Short and sweet, right?
 
