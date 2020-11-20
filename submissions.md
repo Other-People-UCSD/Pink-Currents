@@ -1,7 +1,7 @@
 ---
 layout: submissions
 title: Submissions
-status: true
+status: false
 
 ---
 # Reading Period:
