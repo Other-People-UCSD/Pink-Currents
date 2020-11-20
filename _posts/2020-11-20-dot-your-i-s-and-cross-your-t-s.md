@@ -90,7 +90,7 @@ They sulked and thrashed and cried within,
 
 Even through her proud graduation day.
 
-    Thus, into the world went dear little A,
+Thus, into the world went dear little A,
 
 A shell of success and broken dreams,
 
