@@ -26,6 +26,8 @@ Just like The Academy did.
 
 That was the logic by which she lived.
 
+<center> </center>
+
 “Now dot your i's and cross your t’s!”
 
 “There are no do-overs in reality!”
@@ -41,6 +43,8 @@ That was the logic by which she lived.
 “Stability, security, respectability!”
 
 “You don’t just get this stuff for free!”
+
+<center> </center>
 
 The rules were routine, comfort, peace even,
 
@@ -58,6 +62,8 @@ They had treasure chests bursting at the seams,
 
 And pegasi and fairy taverns.
 
+<center> </center>
+
 But would dreams get her a real job?
 
 It’s not like they would pay her rent,
@@ -74,6 +80,8 @@ Of wonder replaced by bitter laments.
 
 That was her fate, and she was resigned.
 
+<center> </center>
+
 She’d made her choice all those years ago,
 
 When the Academy had taken her in,
@@ -89,6 +97,8 @@ They never truly went away,
 They sulked and thrashed and cried within,
 
 Even through her proud graduation day.
+
+<center> </center>
 
 Thus, into the world went dear little A,
 
