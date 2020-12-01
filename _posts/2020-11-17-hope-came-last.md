@@ -1,8 +1,6 @@
 ---
 layout: Post
-tags:
-- fiction
-- Fiction
+tags: []
 title: Hope Came Last
 contributor: Janelle Kim
 featured: false
