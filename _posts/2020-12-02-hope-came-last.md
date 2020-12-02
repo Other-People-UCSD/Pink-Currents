@@ -6,7 +6,7 @@ title: HOPE CAME LAST
 contributor: Janelle Kim
 featured: false
 category: ''
-date: 2020-12-02 08:00:00 +0000
+date: 2020-12-02T08:00:00.000+00:00
 thumb: ''
 
 ---
