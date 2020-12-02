@@ -2,12 +2,11 @@
 layout: Post
 tags:
 - Poetry
-- poetry
 title: Dot Your i's and Cross Your t's
 contributor: Sanjana Dhamankar
 featured: false
 category: ''
-date: 2020-11-20 08:00:00 +0000
+date: 2020-11-20T08:00:00.000+00:00
 thumb: ''
 
 ---
