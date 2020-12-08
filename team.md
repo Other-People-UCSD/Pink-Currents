@@ -6,18 +6,23 @@ editor-in-chief:
 - Nicole Lopez
 - Montanna Harling
 editorial:
-- Sydney Kessler — Editor-at-Large
 - Isaac Kopstein — Head Editor
 - Ashley Hirao — Head Copy Editor
-- Abigail Hora — Content
-- Hemmy Chun — Content
-- Sanjana Dhamankar — Content
-- Jasmine Torres — Content
-- Amy Cheng — Editorial
+- Janelle Kim — Head Content
 - Cathy Huang — Editorial
-- Chloe Esser — Editorial
 - Stephanie Duncan — Editorial
 - Zoe Wong — Editorial
+- Rachel Seo — Editorial
+- Sanjana Dhamankar — Content
+- Ruisi Shu — Content
+- Jennifer Khuu — Content
+- Spencer Vossman — Content
+- Abigail Hora — Content (2019-20)
+- Hemmy Chun — Content (2019-20)
+- Jasmine Torres — Content (2019-20)
+- Chloe Esser — Editorial (2019-20)
+- Amy Cheng — Editorial
+- Sydney Kessler — Editor-at-Large (2019-20)
 design_team:
 - Geraldine Wambersie — Co-Director
 - Eunsoo Lee — Co-Director
