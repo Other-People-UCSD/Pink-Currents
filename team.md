@@ -21,7 +21,7 @@ editorial:
 - Hemmy Chun — Content (2019-20)
 - Jasmine Torres — Content (2019-20)
 - Chloe Esser — Editorial (2019-20)
-- Amy Cheng — Editorial
+- Amy Cheng — Editorial (2019-20)
 - Sydney Kessler — Editor-at-Large (2019-20)
 design_team:
 - Geraldine Wambersie — Co-Director
