@@ -1,7 +1,7 @@
 ---
 layout: Post
 tags:
-- Fiction
+- Poetry
 title: On Reaching for the Stars
 contributor: Jennifer Khuu
 featured: false
