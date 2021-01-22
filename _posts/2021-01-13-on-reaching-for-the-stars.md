@@ -12,7 +12,7 @@ thumb: ''
 ---
 **On Reaching for the Stars**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\- _from the lifetime of a toy_
+     - _from the lifetime of a toy_
 
 You’ve forgotten now
 
@@ -40,7 +40,7 @@ that burn on nothing more
 
 than grand ambitions running
 
-<div style = "text-indent: 50px">fantasy bound.</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fantasy bound.
 
 In a distant haze,
 
@@ -52,14 +52,14 @@ consumed by fever dreams,
 
 cruel night terrors,
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the birth of Doubt.
+     the birth of Doubt.
 
 Your heartbeat thumps against my ear,
 
 heaving with that helpless dread.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Invincibility taking its slumber
+     Invincibility taking its slumber
 
 as your tears find the fine strands of my hair,
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the stars are burning a little less brightly tonight.
+     the stars are burning a little less brightly tonight.
