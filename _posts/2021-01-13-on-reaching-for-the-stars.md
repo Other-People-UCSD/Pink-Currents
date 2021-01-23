@@ -40,7 +40,7 @@ that burn on nothing more
 
 than grand ambitions running
 
-fantasy bound.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fantasy bound.
 
 <br>In a distant haze,
 
@@ -52,17 +52,17 @@ consumed by fever dreams,
 
 cruel night terrors,
 
-the birth of Doubt.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the birth of Doubt.
 
 Your heartbeat thumps against my ear,
 
 heaving with that helpless dread.
 
-Invincibility taking its slumber
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Invincibility taking its slumber
 
 as your tears find the fine strands of my hair,
 
-the stars are burning a little less brightly tonight.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the stars are burning a little less brightly tonight.
 
 <br>Before we know it,
 
