@@ -22,10 +22,12 @@ Editorial team will be reviewing and sending out acceptances on a rolling basis.
 
 # How we want it:
 
-* Written works: PDFs in Standard Manual Format with **all personally identifiable information REMOVED (please do not leave your personally identifiable information anywhere in the document name or text)**. Only the title, word count, and story/poem should be contained in the PDF so that we can review them anonymously. 
+* Written works: PDFs in Standard Manual Format with **all personally identifiable information REMOVED (please do not leave your personally identifiable information anywhere in the document name or text)**. 
+* The name of your file should only include the title of your story/poem/artwork etc.
+* Only the piece's title, word count, and story/poem should be contained in the PDF so that we can review them anonymously.
 * Art: High fidelity .pdf, .jpg, .tiff accepted.
 
-We take submissions by [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScNpkibdlE3FXiW42uzo5RTSDAnw_bfJChmBrTeA7F09RyS9A/viewform?usp=sf_link). We will ask for your email address, name, title of your story, and what type of work it is (prose, poetry, art, other), and an **anonymized** copy of your work. Optional: tell us anything you want us to know about your work and its meaning.
+We take submissions by [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScNpkibdlE3FXiW42uzo5RTSDAnw_bfJChmBrTeA7F09RyS9A/viewform?usp=sf_link). In this form, please answer the questions about the genre of your work, input your email address and name, and attach an **anonymized** copy of your work. Optional: tell us anything you want us to know about your work and its meaning.
 
 Short and sweet, right?
 
