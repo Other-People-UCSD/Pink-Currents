@@ -14,24 +14,46 @@ thumb: ''
 
 “I know, and I should’ve known it was going to.”
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A mother and her daughter,
+     A mother and her daughter,
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Soaked in seawater,
+     Soaked in seawater,
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oblivious to the stranger
+     Oblivious to the stranger
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Who watches in amusement
+     Who watches in amusement
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As they sink into revelries,
+     As they sink into revelries,
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Forming childhood memories,
+     Forming childhood memories,
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stumbling through the sand,
+     Stumbling through the sand,
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;And clasping hands,
+     And clasping hands,
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shivering in their nicest dresses,
+     Shivering in their nicest dresses,
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Which still bubble with seafoam
+     Which still bubble with seafoam
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* _Don’t Tell Your Father When We Get Home / Let’s Find a Towel_
+          - _Don’t Tell Your Father When We Get Home / Let’s Find a Towel_
+
+<br>Like the drilling of acrylic nails drumming on clicking keyboards,
+
+Or the popping static voiced by spinning, ragged records,
+
+Or the dance of bacon grease leaping out of a feverish pan,
+
+Quite roughly, metronomically:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Raindrops scattered on dim windshields,
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As wipers rest, rejoin, reveal:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The dashboard canvas, an artful blur,
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Smeared watercolor
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Of high-beam white and stoplight red
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Through squinted eyes and halting turns
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Drive Safely / Text Me When You’re Home_
