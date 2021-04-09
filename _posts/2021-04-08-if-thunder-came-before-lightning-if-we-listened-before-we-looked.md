@@ -44,19 +44,19 @@ Or the dance of bacon grease leaping out of a feverish pan,
 
 Quite roughly, metronomically:
 
-Raindrops scattered on dim windshields,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Raindrops scattered on dim windshields,
 
-As wipers rest, rejoin, reveal:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As wipers rest, rejoin, reveal:
 
-The dashboard canvas, an artful blur,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The dashboard canvas, an artful blur,
 
-Smeared watercolor
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Smeared watercolor
 
-Of high-beam white and stoplight red
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Of high-beam white and stoplight red
 
-Through squinted eyes and halting turns
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Through squinted eyes and halting turns
 
-\-_Drive Safely / Text Me When You’re Home_
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\-_Drive Safely / Text Me When You’re Home_
 
 <br>Almost louder than the scratching pens
 
