@@ -8,7 +8,7 @@ editor-in-chief:
 editorial:
 - Isaac Kopstein — Head Editor
 - Ashley Hirao — Head Copy Editor
-- Janelle Kim — Head Content
+- Janelle Kim — Head Content Writer
 - Cathy Huang — Editorial
 - Stephanie Duncan — Editorial
 - Zoe Wong — Editorial
