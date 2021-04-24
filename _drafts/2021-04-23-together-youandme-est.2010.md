@@ -57,69 +57,69 @@ Other times twisting and turning<br>
 so fast<br>
 
 That you can hear the shink of our blades.<br>
-  
-</p>
-
-We still have
-
-those lively argumentsthat you say mirror
-
-The one we had
-
-That dayIn this library--
-
-so many years ago
-
-<p style="text-align:right">
-
-Home is a bed with a cat.
-  
-And our limbs
-  
-and our wordsand our hearts
-  
-Intertwined.
 
 </p>
 
-Time hit us.
+We still have<br>
 
-With every lashing
+those lively argumentsthat you say mirror<br>
 
-we grew together
+The one we had<br>
 
-and apart
+That dayIn this library--<br>
 
-and back together again.
-
-You gave me t-shirts, comfort, baked goods, and bad advice.
-
-I gave you books, confusion, a baking set, and mixed messages.
-
-We wanted to be doctors marine biologists lawyers teachers professors writers editors
-
-And now we want to be
-
-Married.
+so many years ago<br>
 
 <p style="text-align:right">
 
-Home is with you.
-  
-Wherever you areis where I want to be
-  
-(unless it’s one of those places that doesn’t exist--
-  
-like Wyoming)
-  
+Home is a bed with a cat.<br>
+
+And our limbs<br>
+
+and our wordsand our hearts<br>
+
+Intertwined.<br>
+
+</p>
+
+Time hit us.<br>
+
+With every lashing<br>
+
+we grew together<br>
+
+and apart<br>
+
+and back together again.<br>
+
+You gave me t-shirts, comfort, baked goods, and bad advice.<br>
+
+I gave you books, confusion, a baking set, and mixed messages.<br>
+
+We wanted to be doctors marine biologists lawyers teachers professors writers editors<br>
+
+And now we want to be<br>
+
+Married.<br>
+
+<p style="text-align:right">
+
+Home is with you.<br>
+
+Wherever you areis where I want to be<br>
+
+(unless it’s one of those places that doesn’t exist--<br>
+
+like Wyoming)<br>
+
 </p>
 
 <p style="text-align:center">
 
-One day we will stand there,
+One day we will stand there,<br>
 
-Together, YouandMe.
+Together, YouandMe.<br>
 
-And agree to stay in that place forever.
-  
+And agree to stay in that place forever.<br>
+
 </p>
