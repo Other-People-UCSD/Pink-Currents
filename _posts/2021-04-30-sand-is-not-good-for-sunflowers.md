@@ -11,6 +11,8 @@ date: 2021-04-30 07:00:00 +0000
 thumb: "/uploads/paradiseless-illustration-by-geraldine.png"
 
 ---
+![](/uploads/paradiseless-illustration-by-geraldine.png)
+
 This was a bad idea.
 
 If there was anything Zoya was sure of, it was that this was a bad idea. Her mom was going to kill her. So was Nana \[Hindi word for Grandfather\]. And Uncle Dan. You didn’t just do this kind of thing and expect to get away with it.
