@@ -2,7 +2,7 @@
 layout: Post
 tags:
 - Poetry
-title: butterflies
+title: Our Butterfly
 contributor: Ruisi Shu
 featured: false
 category: ''
