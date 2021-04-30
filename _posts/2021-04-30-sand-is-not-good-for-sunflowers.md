@@ -2,7 +2,6 @@
 layout: Post
 tags:
 - Fiction
-- Visual art
 title: SAND IS NOT GOOD FOR SUNFLOWERS
 contributor: Sanjana Dhamankar (Writer), Geraldine Wambersie (Illustrator)
 featured: false
