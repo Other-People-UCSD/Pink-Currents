@@ -40,6 +40,8 @@ T’was our gossamer wings bringing us high<br>
 
 Praise our choices made as our butterfly.<br>
 
+</p>
+
 With you your compass, me my trusty sailboat<br>
 
 A pair from birth, the day we set adrift<br>
