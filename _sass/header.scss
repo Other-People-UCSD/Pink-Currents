@@ -7,6 +7,7 @@
     0% {
         transform: translateY(-100%);
     }
+
     100% {
         transform: translateY(0);
     }
@@ -29,13 +30,16 @@ header {
     position: fixed;
     top: 0;
     transition: top 0.3s ease-in-out;
+
     :nth-child(3) {
         text-align: right;
     }
+
     a {
         color: inherit;
         text-decoration: none;
     }
+
     a:hover {
         cursor: pointer;
         text-decoration: underline;
@@ -54,13 +58,16 @@ header {
     position: fixed;
     top: 0;
     transition: top 0.3s ease-in-out;
+
     :nth-child(3) {
         text-align: right;
     }
+
     a {
         color: inherit;
         text-decoration: none;
     }
+
     a:hover {
         cursor: pointer;
         text-decoration: underline;
@@ -76,10 +83,12 @@ header {
         grid-template-columns: 1fr 1fr;
         padding: $blockTwo;
         animation: 0.5s ease-out 0s 0.9 slideInFromTop;
+
         :nth-child(2) {
             display: none;
         }
     }
+
     .header2 {
         grid-template-columns: 1fr 1fr;
         padding: $blockTwo;
@@ -105,6 +114,7 @@ header {
     header, .header2 {
         grid-template-columns: 1fr 1fr;
         padding: $blockThree;
+        
         :nth-child(2) {
             display: none;
         }

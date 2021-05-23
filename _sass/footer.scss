@@ -2,14 +2,14 @@ footer {
     padding: $blockFour 0 $blockFour 0;
     text-align: center;
     opacity: .3;
+
     svg {
         fill: $bodyColor;
-margin-bottom: $blockOne;
+        margin-bottom: $blockOne;
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 5rem;
-
     }
 }
 

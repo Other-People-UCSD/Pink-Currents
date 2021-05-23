@@ -1,34 +1,32 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
 
-    <head>
-        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
-        <meta charset="utf-8">
-        <title>{{ page.title }} - {{ site.title }}</title>
-        <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="../assets/js/scrollBackgroundColor.js"></script>
-        <script src="../assets/js/search-script.js"></script>
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/scrollBackgroundColor.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/search-script.js"></script>
+    {% include favicons.html %}
+</head>
 
+<body>
+    <div class="IndexContainer">
+        <!-- Featured link is a full permalink, page.image is a relative link -->
+        <a href="{{ page.featured_link }}">
+            <img src="{{ site.baseurl }}{{ page.image }}"> 
+            <h4>{{ page.featured_piece_name }} by {{ page.featured_contributor }} ></h4>
+        </a>
+    </div>
 
-        {% include favicons.html %}
-    </head>
+    {% include header.html %}
+    {% include posts.html %}
 
-    <body>
+    {{ content }}
 
-        <div class="IndexContainer">
-            <a href="{{ page.featured_link }}">
-                <img src="{{ page.image }}">
-                <h4>{{ page.featured_piece_name }} by {{ page.featured_contributor }} ></h4>
-            </a>
-        </div>
-
-        {% include header.html %}
-        {% include posts.html %}
-
-        {{ content}}
-
-        {% include footer.html %}
-    </body>
+    {% include footer.html %}
+</body>
 
 </html>

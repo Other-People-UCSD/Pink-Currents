@@ -1,65 +1,51 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-        <title>{{ page.title }} - {{ site.title }}</title>
-        <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/search-script.js"></script>
+    {% include favicons.html %}
+</head>
 
-        <script src="../assets/js/search-script.js"></script>
-        {% include favicons.html %}
+<body>
+    <div class="IndexContainer">
+        <h1 class="page-title">
+            <div class="cssanimation sequence fadeInBottom">Visual Arts </div>
+        </h1>
+    </div>
 
-    </head>
-
-    <body>
-
-        <div class="IndexContainer">
-
-            <h1 class="page-title">
-                <div class="cssanimation sequence fadeInBottom">Visual Arts </div>
-
-            </h1>
-        </div>
-
-        <div class="post-container">
-
-            {% for post in site.tags['Visual Arts'] %}
-
-                <a href="{{site.baseurl}}{{ post.url }}">
-
-                    <div class="posts">
-
-                        <div class="post-info">
-
-                            <h2>{{ post.title }}
-                                <img src="{{site.baseurl}}{{ post.thumb }}">
-                            </h2>
-                            <div></div>
-                            <div>
-                                <h3>
-                                    <span>/ {{ post.contributor }}</span></h3>
-                                <h4>{{ post.tags }}</h4>
-                                {% if post.featured == true %}
-                                    <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
-                                {% endif %}
-                            </div>
-                        </div>
-
+    <div class="post-container">
+        {% for post in site.tags['Visual Arts'] %}
+        <a href="{{site.baseurl}}{{ post.url }}">
+            <div class="posts">
+                <div class="post-info">
+                    <h2>{{ post.title }}
+                        <img src="{{site.baseurl}}{{ post.thumb }}">
+                    </h2>
+                    <div></div>
+                    <div>
+                        <h3><span>/ {{ post.contributor }}</span></h3>
+                        <h4>{{ post.tags }}</h4>
+                        {% if post.featured == true %}
+                            <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
+                        {% endif %}
                     </div>
-                </a>
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
 
-            {% endfor %}
+    {% include header2.html %}
 
-        </div>
+    {{ content }}
 
-        {% include header2.html %}
+    {% include footer.html %}
 
-        {{ content}}
-
-        {% include footer.html %}
-
-    </body>
+</body>
 
 </html>
