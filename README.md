@@ -3,7 +3,7 @@
 
 See the `CHANGELOG.md` for a summary of updates.
 
-[Pull Request Demo](https://github.com/Kevin-Jjang/Pink-Currents/pull/1)
+[Pull Request Demos](https://github.com/Kevin-Jjang/Pink-Currents/pulls?q=is%3Apr+is%3Aclosed)
 
 ### Agenda
 - Create wireframes for includes logic
