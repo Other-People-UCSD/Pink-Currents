@@ -1,3 +1,8 @@
+### 3.0.3 (5/22/21)
+- Refactored layouts for the four genres as well as the index.html file into defaultMain
+  - Moved the dissimilar code into the main top-level pages
+- 404 Page now has a header and footer due to refactoring layouts!
+
 ### 3.0.2 (5/22/21)
 - Included the three Jekyll recommended plugins (feed, seo, sitemap) that improve search engine ranking (SEO). 
   - Feed creates an RSS feed for the posts
