@@ -2,29 +2,29 @@
 <html lang="{{ site.lang | default: 'en-US' }}">
 
 <head>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    {% if page.title == 'Home' %}
     <script src="{{ site.baseurl }}/assets/js/scrollBackgroundColor.js"></script>
+    {% endif %}
     <script src="{{ site.baseurl }}/assets/js/search-script.js"></script>
     {% include favicons.html %}
+    {% feed_meta %}
+    {% seo %}
 </head>
 
 <body>
-    <div class="IndexContainer">
-        <!-- Featured link is a full permalink, page.image is a relative link -->
-        <a href="{{ page.featured_link }}">
-            <img src="{{ site.baseurl }}{{ page.image }}"> 
-            <h4>{{ page.featured_piece_name }} by {{ page.featured_contributor }} ></h4>
-        </a>
-    </div>
-
-    {% include header.html %}
-    {% include posts.html %}
-
-    {{ content }}
+    {% if page.title == 'Home' %}
+        {% include header.html %}
+        {{ content }}
+        {% include posts.html %}
+    {% else %}
+        {% include header2.html %}
+        {{ content }}
+    {% endif %}
 
     {% include footer.html %}
 </body>

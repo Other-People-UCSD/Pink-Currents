@@ -1,5 +1,0 @@
----
-layout: poetry
-title: "Poetry"
----
-
