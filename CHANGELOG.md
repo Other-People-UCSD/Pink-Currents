@@ -1,21 +1,31 @@
 ### 3.0.3 (5/22/21)
-- Refactored layouts for the four genres as well as the index.html file into defaultMain
-  - Moved the dissimilar code into the main top-level pages
+- Refactored layouts for the four genres as well as the index.html file into defaultMain.
+  - Moved the dissimilar code into the main top-level pages.
 - 404 Page now has a header and footer due to refactoring layouts!
+- Removed a redundant script to `search-script` in `mobile-nav.html`.
 
 ### 3.0.2 (5/22/21)
 - Included the three Jekyll recommended plugins (feed, seo, sitemap) that improve search engine ranking (SEO). 
-  - Feed creates an RSS feed for the posts
-  - SEO Tag automatically adds the meta tags for better SEO and the previews you see when you share links
+  - Feed creates an RSS feed for the posts.
+  - SEO Tag automatically adds the meta tags for better SEO and the previews you see when you share links.
   - Sitemap was implicitly there but the plugin explicitly shows it. Sitemaps are used to help search engine bots crawl the website to index it for better SEO ranking.
-- Cleaned up minor syntax of most files to prevent formatting errors
+- Cleaned up minor syntax of most files to prevent formatting errors.
+  - Removed lots of newlines and whitespace.
+  - Set spaces on some unstandardized pages back to 4.
+  - Changed all occurrences of 1-up relative links `..` to `{{ site.baseurl }}`.
+- **Bugfix**: unintentionally fixed an error with loading favicons on all posts
+  - Posts have a link format of .../collection/date/title, so going up one directory meant favicons were attempted to be found in a non-existent date directory.
+    - Post URL: `https://otherpeoplesd.com/1/2020/04/07/monotony.html`
+    - Request URL: `https://otherpeoplesd.com/1/2020/04/assets/favicons/TheFavicon(64).png`
+    - Actual URL: `https://otherpeoplesd.com/assets/favicons/TheFavicon(64).png`
+  - Favicons were referenced through `..`, so changing this to `{{ site.baseurl }}` fixed the location the favicons were being searched under.
 
 ### 3.0.0 (5/21/21)
 - Included the default Jekyll `Gemfile` to properly run (`bundle exec jekyll serve --incremental`) Jekyll locally.
 - Created a pull request template in `.github/pull_request_template.md` to strengthen control over collaborative changes towards Collection creation, design changes, development implementations.
 - Restructured the post permalinks to remove the date and the file extension. The dates are irrelevant to a literary magazine that publishes posts in Collections and a shorter permalink makes it easier to remember and share amongst each other. Removing the file extension hides the implementation details and makes the URLs more professional.
 - Included a 404 Page Not Found page to address the change to permalinks :)
-  - 404 Pages can show something humorous and it's open to design ideas
+  - 404 Pages can show something humorous and it's open to design ideas.
 - **IMPORTANT: .gitignore** I included a `.gitignore` file that contains the default Jekyll gitignore for the following reasons:
   - _site is what actually gets deployed and is what you see on the website. GH Pages automatically integrates Jekyll into its build workflow, so _site is generated within GitHub's server. Jekyll's website even recommends ignoring this folder. In addition, _site is just a copy of all the files but in a final website-readable format. It basically doubles the size of the repository due to creating a copy of every image within the its uploads folder.
   - caches are for local deployment and have no impact on the final website.
