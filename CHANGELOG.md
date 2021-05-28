@@ -1,10 +1,19 @@
+### v3.0.5 (5/28/21)
+- Now keyboard users can open the menu!
+  - Hid the content in the menu when it is closed so tabbing will not go over those unshown elements. (Using vanilla JS, no JQuery)
+  - Changed the `h2` tag on the Menu/Close to a `button` to allow keyboard users to tab onto the text and trigger the onclick function through a spacebar/enter key press.
+  - Matched the Menu margins to the Close margins because it was possible to open the menu by clicking anywhere between the genres and menu keyword. Now you must click on the Menu/Close text in order to show/hide the menu. 
+- Search page: moved the header includes prior to the content for proper tab-ordering.
+- **HTML Validation**: changed all `h1` tags in the menu to `<ul><li><a>` because there should only be one heading one tag on an HTML page. 
+  - Visually identical to v2.1.97
+
 ### 3.0.3 (5/22/21)
 - Refactored layouts for the four genres as well as the index.html file into defaultMain.
   - Moved the dissimilar code into the main top-level pages.
 - 404 Page now has a header and footer due to refactoring layouts!
-- Removed a redundant script to `search-script` in `mobile-nav.html`.
+- v3.0.4 Removed a redundant script to `search-script` in `mobile-nav.html`.
 
-### 3.0.2 (5/22/21)
+### v3.0.2 (5/22/21)
 - Included the three Jekyll recommended plugins (feed, seo, sitemap) that improve search engine ranking (SEO). 
   - Feed creates an RSS feed for the posts.
   - SEO Tag automatically adds the meta tags for better SEO and the previews you see when you share links.
@@ -20,7 +29,7 @@
     - Actual URL: `https://otherpeoplesd.com/assets/favicons/TheFavicon(64).png`
   - Favicons were referenced through `..`, so changing this to `{{ site.baseurl }}` fixed the location the favicons were being searched under.
 
-### 3.0.0 (5/21/21)
+### v3.0.0 (5/21/21)
 - Included the default Jekyll `Gemfile` to properly run (`bundle exec jekyll serve --incremental`) Jekyll locally.
 - Created a pull request template in `.github/pull_request_template.md` to strengthen control over collaborative changes towards Collection creation, design changes, development implementations.
 - Restructured the post permalinks to remove the date and the file extension. The dates are irrelevant to a literary magazine that publishes posts in Collections and a shorter permalink makes it easier to remember and share amongst each other. Removing the file extension hides the implementation details and makes the URLs more professional.

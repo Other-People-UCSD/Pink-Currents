@@ -8,9 +8,9 @@
         <a href="{{ site.baseurl }}/nonfiction">Nonfiction</a> / <a
             href="{{ site.baseurl }}/visualarts">Visual Arts</a>
     </h2>
-    <h2 class="menu" onclick="openNav()">
+    <button class="menu" onclick="openNav()" aria-label="Open Menu">
         <a>Menu</a>
-    </h2>
+    </button>
 </header>
 
 <div id="myNav" class="overlay">
@@ -26,9 +26,9 @@
                     href="{{ site.baseurl }}/visualarts">Visual Arts</a>
             </h2>
             <!-- <h2 href="javascript:void(0)" class="closebtn" onclick="closeNav()"> -->
-            <h2 class="closebtn" onclick="closeNav()">
+            <button class="closebtn" onclick="closeNav()" aria-label="Close Menu">
                 <a>Close</a>
-            </h2>
+            </button>
         </div>
         {% include mobile-nav.html %}
     </div>

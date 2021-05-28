@@ -41,7 +41,7 @@ h1 {
     padding: 0;
 }
 
-h2 {
+h2, button {
     font-family: Arial;
     font-size: 1.2rem;
     font-weight: normal;
@@ -84,6 +84,11 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+button {
+    background-color: inherit;
+    border: none;
 }
 
 sup {
