@@ -88,6 +88,19 @@
     display: none;
 }
 
+.nav-menu {
+    margin: 0 0;
+    padding-left: 0px;
+    font-family: Arial;
+    font-size: 4rem;
+    list-style: none;
+
+    li {
+        line-height: 80px;
+        
+    }
+}
+
 .mobile-nav {
     h1:hover svg {
         margin-left: $blockTwo;
