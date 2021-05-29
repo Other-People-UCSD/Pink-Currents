@@ -6,10 +6,10 @@ See the `CHANGELOG.md` for a summary of updates.
 [Pull Request Demo](https://github.com/Kevin-Jjang/Pink-Currents/pull/1)
 
 ### Agenda
-- Create wireframes for includes logic
-- Create wireframes for JS logic
-- Review wireframes with Eunsoo
-- Refactor the includes folder (three headers and two mobile navs)
+- [x] Create wireframes for includes logic
+- [ ] Create wireframes for JS logic
+- [ ] Review wireframes with Eunsoo
+- [ ] Refactor the includes folder (three headers and two mobile navs)
 
 
 ### Jekyll Repository File Map
@@ -24,7 +24,7 @@ otherpeoplesd.com/
 |
 ├── uploads             # Folder for media and images from forestry.io
 ├── _sass               # CSS with variables
-├── assets              # Upload images, pdfs, etc. in here
+├── assets              # Styling the website
 |   ├── css             # Consolidates the sass files into one
 |   ├── favicons
 |   ├── fonts           # Basier Mono Circle
@@ -34,9 +34,9 @@ otherpeoplesd.com/
 ├── submissions.md      # Submissions Page
 ├── team.md             # Team Page
 ├── about.md            # About Page
-├── fiction.html        
-├── nonfiction.html     
-├── poetry.html         
+├── fiction.html        # Fiction Page
+├── nonfiction.html     # Nonfiction Page
+├── poetry.html         # Poetry Page
 ├── search.md           # Implemented by search layout
 ├── 404.html            # 404 Not Found Page
 |
@@ -44,7 +44,7 @@ otherpeoplesd.com/
 ├── _config.yml         # Configuration for Jekyll website
 ├── Gemfile             # Builds the Jekyll website
 |
-└── .forestry           # 3-rd party CMS manager for non-developers
-    ├── front_matter\templates  # Configures front matter on selected titles
+└── .forestry           # 3rd party CMS manager for non-developers
+    ├── front_matter/templates  # Configures front matter on selected titles
     └── settings.yml    # Configuration to preview site on forestryio
 ```

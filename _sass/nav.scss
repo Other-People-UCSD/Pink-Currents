@@ -107,6 +107,10 @@
         line-height: 80px;
         
     }
+
+    a:hover #arrowRight {
+        margin-left: $blockTwo;
+    }
 }
 
 .mobile-nav {

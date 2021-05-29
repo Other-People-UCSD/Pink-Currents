@@ -1,3 +1,5 @@
+
+
 ### v3.0.5 (5/28/21)
 - Now keyboard users can open the menu!
   - Hid the content in the menu when it is closed so tabbing will not go over those unshown elements. (Using vanilla JS, no JQuery)
@@ -6,8 +8,11 @@
 - Search page: moved the header includes prior to the content for proper tab-ordering.
 - **HTML Validation**: changed all `h1` tags in the menu to `<ul><li><a>` because there should only be one heading one tag on an HTML page. 
   - Visually identical to v2.1.97
+- v3.0.6 (5/29/21)
+  - Fixed color with Menu text when scrolling to bottom of homepage
+  - Included the SVG arrow graphic to external links (Issuu, Instagram) for better UX visibility
 
-### 3.0.3 (5/22/21)
+### v3.0.3 (5/22/21)
 - Refactored layouts for the four genres as well as the index.html file into defaultMain.
   - Moved the dissimilar code into the main top-level pages.
 - 404 Page now has a header and footer due to refactoring layouts!
