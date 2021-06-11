@@ -10,6 +10,8 @@ tags:
 featured: true
 
 ---
+<strong>Based On An Interview With Sharon Park, Author of <a href="{{ site.baseurl }}/2/toast">Toast</a></strong>
+
 Sharon stopped on her way to the kitchen to mark yesterday off the 2020 calendar on the wall; another day closer to the workshop deadline’s highlighted date. Writer’s block wouldn’t be such an issue if she were where she’d normally be on a spring quarter Sunday: on southbound train tracks, speeding towards San Diego, maybe stopping off at the usual Oceanside coffee shop for their crunchy honey toast. She missed when public transportation was not a hazard; when daily bus rides were only temporary communal limbos with repeated strangers. She missed wondering and writing about where they were coming from and to whom they were returning.
 
 The morning sunlight was almost painfully bright, but the whipped coffee (the latest quarantine trend) foamed at the lip of her favorite mug, and there was something deeply satisfying about the way syrup trickled and the steamed over a slightly crisp French toast. 

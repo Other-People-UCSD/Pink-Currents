@@ -4,7 +4,7 @@ layout: Post
 title: Fishbowl Brain
 contributor: Riley Sutton (Writer), Caroline Tjoe (Illustrator)
 date: 2021-05-08 07:00:00 +0000
-thumb: "/uploads/Fishbowl-Brain-Caroline-Tjoe.JPG"
+thumb: "/uploads/Fishbowl-Brain-Caroline-Tjoe-2.jpg"
 tags: 
 - Nonfiction
 featured: true

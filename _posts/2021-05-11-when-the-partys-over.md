@@ -12,9 +12,12 @@ featured: true
 ---
 ![]({{ site.baseurl }}{{ page.thumb }})
 
+<em>Winner of the 2020 Saier Memorial Award in Fiction</em>
+
 If she closes her eyes, she can see it clearly: the pink lemonade in the crystal-clear flutes, tiny sausages wrapped in phyllo, fairy lights spiderwebbing across the ceiling. <em>SABRINA’S SWEET SIXTEEN</em>, stretched in lacy letters out over the cake table. 
 
 The cake, of course, is from Beverly’s, lemon with vanilla buttercream. Sabrina Haverford smells it from all the way up here in her bedroom, even though the cake table is a floor below in the family ballroom. If she tries hard enough, she can almost pretend she’s down there with the guests––dancing, laughing, smiling. Can almost forget the Gordian knot in her chest. 
+
 Can almost prevent herself from imagining what would happen if she sliced it through. Sharp edge of steel cutting through tangled mass. 
 
 Because why not? Alexander the Great did. <em>Whoosh</em>. Problem solved. 
@@ -24,6 +27,7 @@ Sabrina turns over in her bed.
 <em>Problem not solved</em>, she can hear her therapist saying in her head. He’s never actually said that to her, but he might. She likes that he doesn’t treat her like she’s made of glass. She hates that she sometimes feels like she is. The smallest things happen, and then she shatters. 
 
 <em>Problem not solved</em>, she reminds herself. <em>Problem not solved</em>. Still, her lungs constrict. Her heart stutters. Her world spins. 
+
 As if on cue, someone knocks on the door. 
 
 “Who is it,” Sabrina manages to say.  
