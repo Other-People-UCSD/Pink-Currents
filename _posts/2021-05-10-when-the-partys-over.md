@@ -4,7 +4,7 @@ layout: Post
 title: When the Party's Over
 contributor: Rachel Seo (Writer), Hana Tobias (Illustrator)
 date: 2021-05-10 07:00:00 +0000
-thumb: "/uploads/when-the-partys-over-Hana-Tobias.png"
+thumb: "/uploads/when-the-partys-over-Hana-Tobias.PNG"
 tags: 
 - Fiction
 featured: true
