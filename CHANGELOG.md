@@ -1,5 +1,8 @@
 ## v3.1.0 (6/10/21)
-- Uploaded Winter 2021 Collection no. 2
+- Uploaded Winter 2021 Collection no. 2. The following require further styling:
+  - Blood Pacts
+  - Little Doll
+  - When the Party's Over
 - Deleted the /assets/uploads folder as it wastes space since no images are referenced in any post
 
 #### v3.0.7 (6/10/21)
