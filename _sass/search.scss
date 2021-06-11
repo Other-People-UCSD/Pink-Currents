@@ -48,10 +48,9 @@ input[type="text2"] {
 
 input:focus,
 select:focus,
-textarea:focus,
-button:focus {
+textarea:focus {
     outline: none;
-    -webkit-focus-ring-color: none;
+    // -webkit-focus-ring-color: none;
 }
 
 
