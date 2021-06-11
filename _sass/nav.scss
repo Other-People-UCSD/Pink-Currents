@@ -1,4 +1,8 @@
 // MOBILENAV
+.menu {
+    margin-left: auto;
+    margin-right: 0px;
+}
 
 .overlay {
     height: 0%;
@@ -22,6 +26,7 @@
     left: 0;
     right: 0;
     color: $backgroundColor;
+
     ul {
         display: flex;
         justify-content: space-between;
@@ -37,6 +42,7 @@
         color: $backgroundColor;
         text-decoration: none;
     }
+
     a:hover {
         text-decoration: underline;
         cursor: pointer;
@@ -48,19 +54,26 @@
     margin-right: 0;
 }
 
+.hidden {
+    display: none;
+}
+
 .mobile-nav {
     padding: $blockThree;
     left: 0;
     right: 0;
     color: $backgroundColor;
+
     h1 {
         line-height: 5rem;
     }
+
     h3 {
         margin-top: $blockThree;
         opacity: 0.5;
         padding-bottom: $blockThree;
     }
+
     svg {
         width: 2rem;
         fill: none;
@@ -83,6 +96,23 @@
     display: none;
 }
 
+.nav-menu {
+    margin: 0 0;
+    padding-left: 0px;
+    font-family: Arial;
+    font-size: 4rem;
+    list-style: none;
+
+    li {
+        line-height: 80px;
+        
+    }
+
+    a:hover #arrowRight {
+        margin-left: $blockTwo;
+    }
+}
+
 .mobile-nav {
     h1:hover svg {
         margin-left: $blockTwo;
@@ -90,17 +120,19 @@
 }
 
 .mobile-nav footer {
-text-align: left;
-padding: 0;
-margin-top: $blockThree;
-margin-bottom: $blockThree;
-h4{ line-height: 1.2rem;}
+    text-align: left;
+    padding: 0;
+    margin-top: $blockThree;
+    margin-bottom: $blockThree;
+
+    h4 { 
+        line-height: 1.2rem;
+    }
 }
 
 
 @media only screen and (max-width: 728px) {
-    .overlay-header,
-    .mobile-nav {
+    .overlay-header, .mobile-nav {
         grid-template-columns: 1fr 1fr;
         padding: $blockTwo;
     }
@@ -127,8 +159,7 @@ h4{ line-height: 1.2rem;}
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
-    .overlay-header,
-    .mobile-nav {
+    .overlay-header, .mobile-nav {
         grid-template-columns: 1fr 1fr;
         padding: $blockThree;
     }

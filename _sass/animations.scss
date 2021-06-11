@@ -1,30 +1,30 @@
 .cssanimation, .cssanimation span {
-
     animation-duration: 1s;
     animation-fill-mode: both;
 }
 
-.cssanimation span { display: inline-block }
+.cssanimation span { 
+    display: inline-block; 
+}
 
-.fadeInBottom { animation-name: fadeInBottom }
+.fadeInBottom { 
+    animation-name: fadeInBottom;
+}
+
 @keyframes fadeInBottom {
     from {
         opacity: 0;
         transform: translateY(100%);
     }
-    to { opacity: 1 }
+    to { 
+        opacity: 1;
+    }
 }
 
-
 @media only screen and (max-width: 728px) {
-
     .cssanimation, .cssanimation span {
-
         animation-duration: .5s;
         animation-fill-mode: both;
     }
-
-
-
 }
 

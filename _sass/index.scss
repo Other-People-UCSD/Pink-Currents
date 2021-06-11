@@ -17,6 +17,7 @@
     a {
         text-decoration: none;
         color: inherit;
+
         h4 {
             opacity: 0.2;
         }
@@ -24,14 +25,13 @@
     a:hover {
         opacity: 1;
         cursor: pointer;
+
         h4 {
             opacity: 0.5;
         }
     }
 
-    h2,
-    h3,
-    h4 {
+    h2, h3, h4 {
         text-align: right;
         padding: $blockTwo $blockThree $blockTwo $blockThree;
     }
@@ -48,7 +48,7 @@ h1.index-title {
 h1.page-title {
     padding: 0 $blockThree 0 $blockThree;
     bottom: $blockThree;
-margin-top: $blockThree;
+    margin-top: $blockThree;
     left: 0;
     right: 0;
 }
@@ -70,6 +70,7 @@ margin-top: $blockThree;
         opacity: 1;
     }
 }
+
 @-webkit-keyframes fadein {
     /* Safari and Chrome */
     from {
@@ -79,6 +80,7 @@ margin-top: $blockThree;
         opacity: 1;
     }
 }
+
 @-o-keyframes fadein {
     /* Opera */
     from {
@@ -98,32 +100,17 @@ margin-top: $blockThree;
 
     h1.page-title {
         padding: 0 $blockTwo 0 $blockTwo;
-
-    margin-top: $blockFour;
-
+        margin-top: $blockFour;
     }
 
     .IndexContainer {
         img {
             height: 350px;
         }
-        h2,
-        h3,
-        h4 {
+        
+        h2, h3, h4 {
             text-align: right;
             padding: $blockTwo $blockTwo $blockTwo $blockTwo;
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-

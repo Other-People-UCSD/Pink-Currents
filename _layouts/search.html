@@ -1,91 +1,50 @@
-    
-    
-    <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
 
-    <head>
-        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
-        <meta charset="utf-8">
-        <title>{{ page.title }} - {{ site.title }}</title>
-        <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="../assets/js/scrollBackgroundColor.js"></script>
-        <script src="../assets/js/search-script.js"></script>
-    
-        {% include favicons.html %}
-    </head>
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/scrollBackgroundColor.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/search-script.js"></script>
+    {% include favicons.html %}
+</head>
 
-    <body>
+<body>
+    {% include header3.html %}
 
-<div class="mobile-nav">
+    <div class="mobile-nav">
+        <div class="mobile-nav3">
+            <!-- Html Elements for Search -->
+            <div id="search-container">
+                <input type="text2" id="search-input" placeholder="Search" autofocus="autofocus"
+                    onfocus="this.select()" aria-placeholder="Type here to search">
+                <ul id="results-container"></ul>
+            </div>
 
-    <div class="mobile-nav3">
-        <!-- Html Elements for Search -->
-        <div id="search-container">
-            <input type="text2" id="search-input" placeholder="Search" autofocus="autofocus" onfocus="this.select()">
+            <!-- Script pointing to search-script.js -->
+            <script src="{{ site.baseurl }}/assets/js/search-script.js" type="text/javascript"></script>
 
-
-            <ul id="results-container"></ul>
+            <!-- Configuration -->
+            <script>
+                SimpleJekyllSearch({ searchInput: document.getElementById('search-input'), resultsContainer: document.getElementById('results-container'), json: '/search.json' })
+            </script>
+            <br>
         </div>
-
-        <!-- Script pointing to search-script.js -->
-        <script src="../assets/js/search-script.js" type="text/javascript"></script>
-
-        <!-- Configuration -->
-        <script>
-            SimpleJekyllSearch({ searchInput: document.getElementById('search-input'), resultsContainer: document.getElementById('results-container'), json: '/search.json' })
-        </script>
-        <br>
     </div>
 
-    </div>
-
-        {% include header3.html %}
+    {% include footer.html %}
 
 
+    <script>
+        $('input').keyup(function (event) {
+            if (event.which === 13) {   // Upon releasing the Enter key (kinda deprecated)
+                $(this).blur();
+            }
+        });
+    </script>
 
-
-        {% include footer.html %}
-
-
-
-
-
-
-<script>
-
-$('input').keyup(function(event) {
-    if (event.which === 13) {
-      $(this).blur();
-    }
-});
-</script>
-
-
-
-    </body>
-
+</body>
 </html>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    

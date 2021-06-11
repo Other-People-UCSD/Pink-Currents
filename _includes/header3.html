@@ -1,100 +1,97 @@
 <div class="header2">
     <h2>
-        <a href="{{ site.url }}{{ site.baseurl }}/">Other<br>People ©</a>
+        <a href="{{ site.baseurl }}/">Other<br>People ©</a>
     </h2>
     <h2>
-        <a href="{{ site.url }}{{ site.baseurl }}/poetry">Poetry</a> / <a href="{{ site.url }}{{ site.baseurl }}/fiction">Fiction</a> / <br>
-        <a href="{{ site.url }}{{ site.baseurl }}/nonfiction">Nonfiction</a> / <a href="{{ site.url }}{{ site.baseurl }}/visualarts">Visual Arts</a>
+        <a href="{{ site.baseurl }}/poetry">Poetry</a> / <a
+            href="{{ site.baseurl }}/fiction">Fiction</a> / <br>
+        <a href="{{ site.baseurl }}/nonfiction">Nonfiction</a> / <a
+            href="{{ site.baseurl }}/visualarts">Visual Arts</a>
     </h2>
-    <h2 class="menu" onclick="openNav()">
-        <a>
-        Menu</a>
-
-    </h2>
+    <button class="menu" onclick="openNav()" aria-label="Open Menu">
+        <a>Menu</a>
+    </button>
 </div>
 
 <div id="myNav" class="overlay">
-    <div class="overlay-content">
+    <div id="navContent" class="overlay-content hidden">
         <div class="overlay-header">
             <h2>
-                <a href="{{ site.url }}{{ site.baseurl }}/">Other<br>People ©</a>
+                <a href="{{ site.baseurl }}/">Other<br>People ©</a>
             </h2>
             <h2>
-                <a href="{{ site.url }}{{ site.baseurl }}/poetry">Poetry</a> / <a
-                    href="{{ site.url }}{{ site.baseurl }}/fiction">Fiction</a> / <br>
-                <a href="{{ site.url }}{{ site.baseurl }}/nonfiction">Nonfiction</a> / <a
-                    href="{{ site.url }}{{ site.baseurl }}/visualarts">Visual Arts</a>
+                <a href="{{ site.baseurl }}/poetry">Poetry</a> / <a
+                    href="{{ site.baseurl }}/fiction">Fiction</a> / <br>
+                <a href="{{ site.baseurl }}/nonfiction">Nonfiction</a> / <a
+                    href="{{ site.baseurl }}/visualarts">Visual Arts</a>
             </h2>
-            <h2 href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-                <a>
-                    Close
-                </a>
-            </h2>
+            <button class="closebtn" onclick="closeNav()" aria-label="Close Menu">
+                <a>Close</a>
+            </button>
         </div>
         {% include mobile-nav2.html %}
     </div>
 </div>
 
-
-
-
 <script>
-// Hide Header on on scroll down
-var didScroll;
-var lastScrollTop = 0;
-var delta = 5;
-var navbarHeight = $('.header2').outerHeight();
+    // Hide Header on on scroll down
+    var didScroll;
+    var lastScrollTop = 0;
+    var delta = 5;
+    var navbarHeight = $('.header2').outerHeight();
 
-$(window).scroll(function (event) {
-didScroll = true;
-});
+    $(window).scroll(function (event) {
+        didScroll = true;
+    });
 
-setInterval(function () {
-if (didScroll) {
-    hasScrolled();
-    didScroll = false;
-}
-}, 250);
+    setInterval(function () {
+        if (didScroll) {
+            hasScrolled();
+            didScroll = false;
+        }
+    }, 250);
 
-function hasScrolled() {
-var st = $(this).scrollTop();
+    function hasScrolled() {
+        var st = $(this).scrollTop();
 
-// Make sure they scroll more than delta
-if (Math.abs(lastScrollTop - st) <= delta) 
-    return;
+        // Make sure they scroll more than delta
+        if (Math.abs(lastScrollTop - st) <= delta)
+            return;
 
-// If they scrolled down and are past the navbar, add class .nav-up.
-// This is necessary so you never see what is "behind" the navbar.
-if (st > lastScrollTop && st > navbarHeight) {
-    // Scroll Down
-    $('.header2')
-        .removeClass('nav-down')
-        .addClass('nav-up');
-} else {
-    // Scroll Up
-    if (st + $(window).height() < $(document).height()) {
-        $('.header2')
-            .removeClass('nav-up')
-            .addClass('nav-down');
+        // If they scrolled down and are past the navbar, add class .nav-up.
+        // This is necessary so you never see what is "behind" the navbar.
+        if (st > lastScrollTop && st > navbarHeight) {
+            // Scroll Down
+            $('.header2')
+                .removeClass('nav-down')
+                .addClass('nav-up');
+        } else {
+            // Scroll Up
+            if (st + $(window).height() < $(document).height()) {
+                $('.header2')
+                    .removeClass('nav-up')
+                    .addClass('nav-down');
+            }
+        }
+
+        lastScrollTop = st;
     }
-}
-
-lastScrollTop = st;
-}
 </script>
 
 <script>
-function openNav() {
-document
-    .getElementById("myNav")
-    .style
-    .height = "100%";
-}
+    function openNav() {
+        document
+            .getElementById("myNav")
+            .style
+            .height = "100%";
+            document.getElementById('navContent').classList.remove('hidden');
+    }
 
-function closeNav() {
-document
-    .getElementById("myNav")
-    .style
-    .height = "0%";
-}
+    function closeNav() {
+        document
+            .getElementById("myNav")
+            .style
+            .height = "0%";
+            document.getElementById('navContent').classList.add('hidden');
+    }
 </script>

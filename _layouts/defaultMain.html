@@ -7,30 +7,26 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    {% if page.title == 'Home' %}
+    <script src="{{ site.baseurl }}/assets/js/scrollBackgroundColor.js"></script>
+    {% endif %}
     <script src="{{ site.baseurl }}/assets/js/search-script.js"></script>
     {% include favicons.html %}
+    {% feed_meta %}
+    {% seo %}
 </head>
 
 <body>
-    {% include header2.html %}
-
-    <div class="cssanimation sequence fadeInBottom">
-        <div class="IndexContainer">
-            <div class="content-title">
-                <h1>
-                    <div class="post_title">{{ page.title }}
-                </h1>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="submissions-content">
+    {% if page.title == 'Home' %}
+        {% include header.html %}
         {{ content }}
-    </div>
+        {% include posts.html %}
+    {% else %}
+        {% include header2.html %}
+        {{ content }}
+    {% endif %}
 
     {% include footer.html %}
-
 </body>
 
 </html>

@@ -34,21 +34,23 @@ input[type="text2"] {
 }
 
 ::placeholder {
-    opacity: 0.5; /* Firefox */
+    /* Firefox */
+    opacity: 0.5; 
 }
 :-ms-input-placeholder {
     /* Internet Explorer 10-11 */
+    opacity: 0.5;
 }
 ::-ms-input-placeholder {
     /* Microsoft Edge */
+    opacity: 0.5;
 }
 
 input:focus,
 select:focus,
-textarea:focus,
-button:focus {
+textarea:focus {
     outline: none;
-    -webkit-focus-ring-color: none;
+    // -webkit-focus-ring-color: none;
 }
 
 
@@ -60,11 +62,13 @@ button:focus {
             background-color: none;
         }
     }
+
     a:hover {
         text-decoration: none;
         h2 {
             text-decoration: underline;
         }
+
         h3 {
             color: $backgroundColor;
             transition-duration: 0.3s;
@@ -74,6 +78,7 @@ button:focus {
          
             }
         }
+
         h4 {
             text-decoration: none;
         }
@@ -87,6 +92,7 @@ button:focus {
         padding: 0;
         line-height: auto;
     }
+
     h3 {
         margin-top: 0;
         padding-bottom: 0;
@@ -122,6 +128,7 @@ button:focus {
         h2 {
             text-decoration: underline;
         }
+
         h3 {
             color: $bodyColor;
             transition-duration: 0.3s;
@@ -129,6 +136,7 @@ button:focus {
                 background-color: $backgroundColor;
             }
         }
+
         h4 {
             text-decoration: none;
         }
@@ -159,14 +167,11 @@ button:focus {
 
 
 @media only screen and (max-width: 728px) {
-    input[type="text"],
-    input[type="text2"] {
+    input[type="text"], input[type="text2"] {
         font-size: 3rem;
     }
-
-
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 729px) {
+// @media only screen and (max-width: 1024px) and (min-width: 729px) {
 
-}
+// }

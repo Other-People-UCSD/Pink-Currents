@@ -1,5 +1,0 @@
----
-layout: fiction
-title: "Fiction"
----
-

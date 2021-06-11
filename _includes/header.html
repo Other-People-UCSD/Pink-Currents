@@ -1,37 +1,34 @@
 <header>
     <h2>
-        <a href="{{ site.url }}{{ site.baseurl }}/">Other<br>People ©</a>
+        <a href="{{ site.baseurl }}/">Other<br>People ©</a>
     </h2>
     <h2>
-        <a href="{{ site.url }}{{ site.baseurl }}/poetry">Poetry</a> / <a
-            href="{{ site.url }}{{ site.baseurl }}/fiction">Fiction</a> / <br>
-        <a href="{{ site.url }}{{ site.baseurl }}/nonfiction">Nonfiction</a> / <a
-            href="{{ site.url }}{{ site.baseurl }}/visualarts">Visual Arts</a>
+        <a href="{{ site.baseurl }}/poetry">Poetry</a> / <a
+            href="{{ site.baseurl }}/fiction">Fiction</a> / <br>
+        <a href="{{ site.baseurl }}/nonfiction">Nonfiction</a> / <a
+            href="{{ site.baseurl }}/visualarts">Visual Arts</a>
     </h2>
-    <h2 class="menu" onclick="openNav()">
-        <a>
-            Menu</a>
-
-    </h2>
+    <button class="menu" onclick="openNav()" aria-label="Open Menu">
+        <a>Menu</a>
+    </button>
 </header>
 
 <div id="myNav" class="overlay">
-    <div class="overlay-content">
+    <div id="navContent" class="overlay-content hidden">
         <div class="overlay-header">
             <h2>
-                <a href="{{ site.url }}{{ site.baseurl }}/">Other<br>People ©</a>
+                <a href="{{ site.baseurl }}/">Other<br>People ©</a>
             </h2>
             <h2>
-                <a href="{{ site.url }}{{ site.baseurl }}/poetry">Poetry</a> / <a
-                    href="{{ site.url }}{{ site.baseurl }}/fiction">Fiction</a> / <br>
-                <a href="{{ site.url }}{{ site.baseurl }}/nonfiction">Nonfiction</a> / <a
-                    href="{{ site.url }}{{ site.baseurl }}/visualarts">Visual Arts</a>
+                <a href="{{ site.baseurl }}/poetry">Poetry</a> / <a
+                    href="{{ site.baseurl }}/fiction">Fiction</a> / <br>
+                <a href="{{ site.baseurl }}/nonfiction">Nonfiction</a> / <a
+                    href="{{ site.baseurl }}/visualarts">Visual Arts</a>
             </h2>
-            <h2 href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-                <a>
-                    Close
-                </a>
-            </h2>
+            <!-- <h2 href="javascript:void(0)" class="closebtn" onclick="closeNav()"> -->
+            <button class="closebtn" onclick="closeNav()" aria-label="Close Menu">
+                <a>Close</a>
+            </button>
         </div>
         {% include mobile-nav.html %}
     </div>
@@ -88,12 +85,11 @@
             .getElementById("myNav")
             .style
             .height = "100%";
+        document.getElementById('navContent').classList.remove('hidden');
     }
 
     function closeNav() {
-        document
-            .getElementById("myNav")
-            .style
-            .height = "0%";
+        document.getElementById("myNav").style.height = "0%";
+        document.getElementById('navContent').classList.add('hidden');
     }
 </script>
