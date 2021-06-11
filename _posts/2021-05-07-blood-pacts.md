@@ -19,9 +19,11 @@ By the time the morning comes, we’re sitting in the deputy’s office. The man
 We know he’s lying. He won’t shoot his investments. Not until we pay ourselves off.
 I’m sixteen years old when I have my first time, stoic and unfeeling in Southern California. The sea swallows up the gunshot and we throw the body into the Pacific, then sit and watch the waves. We talk about anarchy and death and after an hour, we take your car to an In-N-Out and eat burgers on the freeway. From the passenger seat, I stare at the side of your face. You’ve always been so intense, so paranoid, watching the cars as though they’re enemies on the hunt. Your knuckles are white against the steering wheel, but I say something stupid and you still smile. The moon is our witness, and it follows us from the crime scene all the way down the I-5. 
 
-<p class="mobile">At ninety miles an hour, I think I am loved. With the rock radio shaking the car, I think I am loved. As the three of us squeeze into a single motel bed, I think I am loved. But how could I tell? There’s blood on my hoodie, but none of us realize it until morning.</p>
+At ninety miles an hour, I think I am loved. With the rock radio shaking the car, I think I am loved. As the three of us squeeze into a single motel bed, I think I am loved.
 
-<div class="blood-pacts desktop">how<br/>
+<div class="blood-pacts desktop">
+But<br/>
+how<br/>
 could<br/>
 I tell?<br/>
 The-<br/>

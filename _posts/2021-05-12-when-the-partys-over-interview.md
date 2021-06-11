@@ -10,7 +10,7 @@ tags:
 featured: true
 
 ---
-<strong>AN INTERVIEW WITH RACHEL SEO (AUTHOR OF WHEN THE PARTY’S OVER)</strong><br/>
+<strong>AN INTERVIEW WITH RACHEL SEO (AUTHOR OF <a href="{{ site.baseurl }}/2/when-the-partys-over">WHEN THE PARTY’S OVER</a>)</strong><br/>
 Questions Asked by Sanjana Dhamankar, Content Writer
 
 <strong>Q: Let’s talk first about your creative inclinations. What kind of writing do you gravitate towards? How do you come up with ideas for them?</strong>

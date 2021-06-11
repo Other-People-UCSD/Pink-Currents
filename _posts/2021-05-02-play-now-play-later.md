@@ -2,7 +2,7 @@
 category: 2
 layout: Post
 title: Play Now, Play Later
-contributor: Janelle Kim, inspired by Now Playing by Kristy Lee
+contributor: Janelle Kim
 date: 2021-05-02 07:00:00 +0000
 thumb: ""
 tags: 
@@ -10,6 +10,8 @@ tags:
 featured: true
 
 ---
+<strong>Inspired by <a href="{{ site.baseurl}}/2/now-playing">Now Playing</a> by Kristy Lee</strong>
+
 The gentle thud of record needles catching vinyl grooves had always sounded like a beating heart. She found out later on that they left scratches, priceless records wrecked by reckless gashes, but neither of them noticed till they were old enough to care.
 
 They watched it for the first few loops. Bina imagined the needle to be a little race car, breathing not exhaust fumes, but music instead, tracing round the racing track. Adults always bent down to see the records at eye level, crouching to the height that Bina stood at. She practiced standing on her tippie toes and stooping down to feel like she, too, was old, and therefore tall. Grass-stained ballet flats kissed the wooden floors in time to the music; tiptoes raised and lowered to the beat.

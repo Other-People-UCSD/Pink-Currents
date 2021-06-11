@@ -179,8 +179,7 @@ h3.post-title{
     display: none;
     padding-top: 30px;
     padding-left: 25px;
-        height: calc(728px * 1.25);
-
+    height: 760px;
     background-image: url("https://otherpeoplesd.com/uploads/Little-Doll-Kristy-Lee.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -190,15 +189,13 @@ h3.post-title{
     @media only screen and (min-width: 500px) {
         display: block;
     }
+
     @media only screen and (min-width: 620px) {
-        min-height: calc(1024px * 1.25);
+        // min-height: calc(1024px * 1.25);
         line-height: 3rem;
     }
-    @media only screen and (min-width: 620px) {
-        // min-height: 100%;
-    }
-    @media only screen and (min-width: 1024px) and (max-width: 1060px) {
-        min-height: calc(1024px * 1.25);
-        line-height: 2.5rem;
+
+    @media only screen and (min-width: 1080px) {
+        min-height: 760px;
     }
 }
