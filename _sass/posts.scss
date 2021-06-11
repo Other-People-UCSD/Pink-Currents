@@ -121,6 +121,12 @@ h3.post-title{
     }
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 @media only screen and (max-width: 728px) {
     .post-container {
         padding: $blockTwo;
