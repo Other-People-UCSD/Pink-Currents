@@ -2,7 +2,7 @@
 
 * Status: Proposed
 * Author: Kevin Jang
-* Deciders: Montanna, Geraldine (editorial and design directors)
+* Deciders: Montanna, Nicole, Geraldine (editorial and design directors)
 * Date: June 1, 2021
 
 ## Context and Problem Statement
@@ -45,7 +45,7 @@ Chosen option: "[option 1]", because [justification. e.g., only option, which me
 
 * Remove date: We publish *biannually*, so there is no need to have a date to describe when we actually uploaded the post to the website. The date on the file should only be used internally to cycle through next and previous posts.
 * Remove file extension: The file extension is irrelevant to a literary magazine. Removing the extension masks our implementation of the website
-* **Changing permalinks will affect all old post links, so accessing those old links will redirect to the 404 page!**
+* **Changing permalinks will affect all 41 post links, so accessing those old links will redirect to the 404 page!**
 
 ### 2. Leave Permalinks As the Jekyll Default
 
@@ -62,7 +62,7 @@ Example: `https://otherpeoplesd.com/1/2020/07/31/a-love-letter-to-the-ucsd-prote
 
 * Distinguishes same-title posts from each other by the author's last name in the link.
 * Inherits the masking of date and file extension as described in Option 1.
-* **Changing permalinks will affect all old post links, so accessing those old links will redirect to the 404 page!**
+* **Changing permalinks will affect all 41 post links, so accessing those old links will redirect to the 404 page!**
 * Internally searching for this particular file might be confusing because there is no date to easily reference. The categories are inside the file's front matter so the management experience is worse than that of the end user.
  
 ## Unresolved Issues

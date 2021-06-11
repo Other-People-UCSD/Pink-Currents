@@ -1,10 +1,12 @@
+/**
+ * 
+ */
 $(window).scroll(function () {
     var wScroll = $(this).scrollTop();
     // class="hello" is the divider right before Keep Reading on _includes/index.html
-    if (wScroll >= $('.hello').offset().top - ($(window).height() / 3.5)) {
+    if (wScroll >= $('.w2b').offset().top - ($(window).height() / 3.5)) {
         $("body").css("background-color", "var(--light-text-color)");
         $("body").css("color", "var(--background-color)");
-        // class="st0" is the Other People logo (_includes/posts.html)
         $(".logoOutline").css("stroke", "var(--background-color)"); 
         $("#logo").css("fill", "var(--background-color)");
         $("header").css("background-color", "var(--light-text-color)");

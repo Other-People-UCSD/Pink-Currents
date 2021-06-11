@@ -1,4 +1,16 @@
+#### v3.0.7 (6/10/21)
+- Fixed typos in genre pages
+- Refactored logic in search script to reduce complexity
+- TODO: Add search bar to 404 page
 
+#### v3.0.6 (5/29/21)
+- Fixed color with Menu text when scrolling to bottom of homepage
+- Included the SVG arrow graphic to external links (Issuu, Instagram) for better UX visibility
+- Fixed genre titles (because they were copy-pasted with Nonfiction's code)
+- Class Name Semantics
+  - SVG: `st0` -> `logoOutline`
+  - Scroll background trigger: `hello` -> `w2b` and moved class onto "Keep Reading" heading
+- ARIA screen reader search input on header nav. The search page does not screen-read properly.
 
 ### v3.0.5 (5/28/21)
 - Now keyboard users can open the menu!
@@ -8,9 +20,7 @@
 - Search page: moved the header includes prior to the content for proper tab-ordering.
 - **HTML Validation**: changed all `h1` tags in the menu to `<ul><li><a>` because there should only be one heading one tag on an HTML page. 
   - Visually identical to v2.1.97
-- v3.0.6 (5/29/21)
-  - Fixed color with Menu text when scrolling to bottom of homepage
-  - Included the SVG arrow graphic to external links (Issuu, Instagram) for better UX visibility
+
 
 ### v3.0.3 (5/22/21)
 - Refactored layouts for the four genres as well as the index.html file into defaultMain.

@@ -40,18 +40,17 @@
   </div>
 
   <div class="post-nav">
-    <div>
-      <!-- .post-nav-prev? -->
+    <div class="post-nav-prev">
       <h4>
         {% if page.previous.url %}
-        <a href="{{page.previous.url}}"> prev</a>
+        <a href="{{page.previous.url}}">&ltprev</a>
         {% endif %}
       </h4>
     </div>
     <div class="post-nav-next">
       <h4>
         {% if page.next.url %}
-        <a href="{{page.next.url}}"> next></a>
+        <a href="{{page.next.url}}">next&gt</a>
         {% endif %}
       </h4>
     </div>

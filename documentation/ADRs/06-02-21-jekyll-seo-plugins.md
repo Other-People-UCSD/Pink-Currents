@@ -2,7 +2,7 @@
 
 * Status: Proposed
 * Author: Kevin Jang
-* Deciders: Montanna, Geraldine (editorial and design directors)
+* Deciders: Montanna, Nicole, Geraldine (editorial and design directors)
 * Date: June 2, 2021
 
 ## Context and Problem Statement
