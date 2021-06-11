@@ -10,7 +10,7 @@ tags:
 featured: true
 
 ---
-<strong>AN INTERVIEW WITH RACHEL SEO (AUTHOR OF WHEN THE PARTY’S OVER)</strong>
+<strong>AN INTERVIEW WITH RACHEL SEO (AUTHOR OF <a href="{{ site.baseurl }}/2/when-the-partys-over">WHEN THE PARTY’S OVER</a>)</strong><br/>
 Questions Asked by Sanjana Dhamankar, Content Writer
 
 <strong>Q: Let’s talk first about your creative inclinations. What kind of writing do you gravitate towards? How do you come up with ideas for them?</strong>
@@ -25,12 +25,14 @@ A: I enjoy structure and organization, so I usually don’t like starting a proj
 
 A: Structure, flow, and quality of prose are the most important to me as a writer. I wish I could say I focus on character, but the truth is that the stories I love the most are the ones that feel deliberate in both their progression and presentation, and those emphases definitely inform how I approach writing. Story ideas come to me not through character, but in the form of full concepts, usually about the action that transpires within the story, and then I figure out the details later. I will say, though, that my favorite part of the whole writing process is trying to come up with different ways to say things that have already been said. The actual practice of getting the words down on the page and revising them over and over again to make them sound just right all together is torturously fun.
 
-Q: Let’s dig deeper into When the Party’s Over. This piece felt very timely to me because of the ideas expressed about privilege and mental health. I was also intrigued by the protagonist Sabrina and wanted to learn more about her life. What came first for you when coming up with this story: the concepts you wanted to expand on, or the character of Sabrina herself?
+<strong>Q: Let’s dig deeper into When the Party’s Over. This piece felt very timely to me because of the ideas expressed about privilege and mental health. I was also intrigued by the protagonist Sabrina and wanted to learn more about her life. What came first for you when coming up with this story: the concepts you wanted to expand on, or the character of Sabrina herself?</strong>
+
 A: The first mental image that popped into my head was this idea of a girl who couldn’t attend her own birthday party that was happening inside her own house. Then I started thinking of reasons why she wasn’t able to attend her own birthday party––was she trapped? By what, by whom? It all just spun from there.
 
 <strong>Q: The piece talks about the various ways in which mental health issues impact not just the person who is affected but also the people in their life. What made you decide to write about this topic? </strong>
 
 A: I wrote about this topic because I’ve experienced these issues myself, and I’ve had to rely on other people to help me through them, which then affects them by proximity. Asking people to come to your aid triggers this guilt that is a lot to handle and infuriatingly self-referential––it’s like, you need people to help you out of whatever mental hole into which you’ve dug yourself, but at the same time you feel bad, because you feel like you’re dragging them down along with you, which then leads you to think that maybe you should distance yourself, which then of course exacerbates your issues, and so on. One of the things that I appreciate about writing fiction, though, is that it establishes distance. 
+
 <strong>Q: Was there a specific reason you chose to write it in third person limited in a stream-of-consciousness style?</strong>
 
 A: Writing third person limited is soothing, because zooming out relieves you of the burden of looking through your own eyes and plants you firmly into someone else’s body and life, which establishes greater perspective. As for the stream-of-consciousness section, I read a lot of young adult contemporary fiction, so to take some of the expectations of that genre––the concreteness of the narrative, flashbacks, the straightforward voice––and then to try to subvert those at the end by including passages that were a little more unorthodox was really fun. I like starting with a strong framework and then loosening the screws in it, because it surprises the reader in a way that extends beyond the standard plot twist. 

@@ -3,7 +3,7 @@ category: 2
 layout: Post
 title: Blood Pacts
 contributor: Cathy Huang (Writer), Kevin Phan (Illustrator)
-date: 2021-05-06 07:00:00 +0000
+date: 2021-05-07 07:00:00 +0000
 thumb: "/uploads/blood-pacts.png"
 tags: 
 - Fiction
@@ -19,7 +19,19 @@ By the time the morning comes, we’re sitting in the deputy’s office. The man
 We know he’s lying. He won’t shoot his investments. Not until we pay ourselves off.
 I’m sixteen years old when I have my first time, stoic and unfeeling in Southern California. The sea swallows up the gunshot and we throw the body into the Pacific, then sit and watch the waves. We talk about anarchy and death and after an hour, we take your car to an In-N-Out and eat burgers on the freeway. From the passenger seat, I stare at the side of your face. You’ve always been so intense, so paranoid, watching the cars as though they’re enemies on the hunt. Your knuckles are white against the steering wheel, but I say something stupid and you still smile. The moon is our witness, and it follows us from the crime scene all the way down the I-5. 
 
-At ninety miles an hour, I think I am loved. With the rock radio shaking the car, I think I am loved. As the three of us squeeze into a single motel bed, I think I am loved. But how could I tell? There’s blood on my hoodie, but none of us realize it until morning. 
+At ninety miles an hour, I think I am loved. With the rock radio shaking the car, I think I am loved. As the three of us squeeze into a single motel bed, I think I am loved.
+
+<div class="blood-pacts desktop">
+But<br/>
+how<br/>
+could<br/>
+I tell?<br/>
+The-<br/>
+re’s<br/>
+blood<br/>
+on my<br/>
+hoodie, but none of us<br/>
+realize it until morning.</div>
 
 Mr. Poker Face makes us stop calling him Mr. Poker Face. It’s Mr. Claude Quintal, and we begrudgingly repeat it in the daylight. But he takes us to Berlin, Moscow, Zanzibar City, New York City. In Times Square, we manage to break away from him, only for a moment, to run into the crowd as giggling teenagers. Lila looks up into the cloudy sky and yells like a warrior going off into war, and no one stops to look or care. We run into the M&M store and buy fifty dollars of custom candies with our initials all together. Even with the noise, it took Mr. Poker Face Quintal an hour to find us again. 
 
