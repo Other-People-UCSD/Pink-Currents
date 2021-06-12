@@ -115,7 +115,6 @@ h3.post-title{
 }
 
 
-
 .thumb {
     img {
         width: 100%;
@@ -128,15 +127,7 @@ h3.post-title{
     text-align: center;
 }
 
-.blood-pacts {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 78px;
-    width: 432px;
-    background-image: url('https://otherpeoplesd.com/uploads/blood-pacts.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 @media only screen and (max-width: 728px) {
     .post-container {
         padding: $blockTwo;
@@ -153,45 +144,10 @@ h3.post-title{
         margin-top: $blockThree;
         opacity: 0.5;
     }
-
-    .blood-pacts .desktop {
-        display: none;
-    }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
     .post-container {
         grid-template-columns: 1fr 1fr;
-    }
-}
-
-.little-doll-mobile {
-    @media only screen and (min-width: 500px) {
-        display: none;
-    }
-}
-
-.little-doll-desktop {
-    display: none;
-    padding-top: 30px;
-    padding-left: 25px;
-    height: 760px;
-    background-image: url("https://otherpeoplesd.com/uploads/Little-Doll-Kristy-Lee.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    color: white;
-    line-height: 2rem;
-    
-    @media only screen and (min-width: 500px) {
-        display: block;
-    }
-
-    @media only screen and (min-width: 620px) {
-        // min-height: calc(1024px * 1.25);
-        line-height: 3rem;
-    }
-
-    @media only screen and (min-width: 1080px) {
-        min-height: 760px;
     }
 }

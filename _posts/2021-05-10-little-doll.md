@@ -11,7 +11,7 @@ featured: true
 
 ---
 
-<div class="little-doll-desktop">
+<div class="little-doll-main">
 <strong><em>Little Doll</em></strong><br/>
 My mouth sewn into a smile,<br/>
 that constant pulling at my strings.<br/>

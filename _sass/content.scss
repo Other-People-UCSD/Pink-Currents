@@ -3,16 +3,14 @@
 //     border-width: 1px;
 // }
 
-.content-title {
-    h4 {
-        line-height: 1.8rem;
-    }
-}
 
 .content {
     padding: $blockThree;
-    margin-left: $blockSix;
-    margin-right: $blockSix;
+    // margin-left: $blockSix;
+    // margin-right: $blockSix;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 
     h1 {
         font-family: Arial;
@@ -80,8 +78,19 @@
 .content-title {
     margin-top: $blockFour;
     padding: $blockThree $blockThree 0 $blockThree;
+    margin-left: auto; // $blockFour; // $blockSix;
+    margin-right: auto; // $blockFour; // $blockSix;
+    width: 80%;
+
+    h4 {
+        line-height: 1.8rem;
+    }
+}
+
+.IndexContainer .content-title {
     margin-left: $blockSix;
     margin-right: $blockSix;
+    // width: 100%;
 }
 
 .copyright-footer {
@@ -113,15 +122,28 @@
 }
 
 @media only screen and (max-width: 728px) {
-    .content, .submissions-content {
+    .content {
         padding: $blockTwo;
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
     }
 
     .content-title {
         margin-top: $blockFour;
         padding: $blockTwo $blockTwo 0 $blockTwo;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;;
+    }
+
+    .submissions-content {
+        padding: $blockTwo;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .IndexContainer .content-title {
         margin-left: 0;
         margin-right: 0;
     }
@@ -135,15 +157,22 @@
 
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
-    .content, .submissions-content {
+    .content-title {
+        margin-top: $blockThree;
+        padding: $blockThree $blockThree 0 $blockThree;
+        margin-left: $blockFour;
+        margin-right: $blockFour;
+    }
+
+    .submissions-content {
         padding: $blockThree;
         margin-left: $blockFour;
         margin-right: $blockFour;
     }
 
-    .content-title {
-        margin-top: $blockThree;
-        padding: $blockThree $blockThree 0 $blockThree;
+
+
+    .IndexContainer .content-title {
         margin-left: $blockFour;
         margin-right: $blockFour;
     }
@@ -158,7 +187,7 @@
     }
 
     .content-title {
-        margin-top: $blockFive ;
+        margin-top: $blockFive;
         padding: $blockThree $blockThree 0 $blockThree;
 
     }
