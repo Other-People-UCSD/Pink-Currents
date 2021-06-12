@@ -1,0 +1,67 @@
+.blood-pacts-bg {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 61.90%; // calc(2886px / 4662px * 100%);
+    background-image: url('https://otherpeoplesd.com/uploads/blood-pacts-kevin-phan.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blood-pacts-content-overlay {
+    position: absolute;
+    top: auto;
+    left: 0;
+    right: auto;
+    bottom: 0;
+}
+
+.little-doll-main {
+    display: none;
+    padding-top: 30px;
+    padding-left: 25px;
+    height: 760px;
+    background-image: url("https://otherpeoplesd.com/uploads/Little-Doll-Kristy-Lee.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    line-height: 2rem;
+}
+
+.mobile, .laptop, .desktop { 
+    display: none;
+}
+
+@media only screen and (min-width: 525px) {
+    .little-doll-main { // Little Doll
+        display: block;
+    }
+
+    .little-doll-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 624px) { // Blood Pacts
+    .mobile {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 625px) {
+    .little-doll-main { // Little Doll
+        line-height: 3rem;
+    }
+
+    @media only screen and (max-width: 768px) { // Blood Pacts
+        .laptop {
+            display: block;
+        }
+    }
+}
+
+@media only screen and (min-width: 769px) { // Blood Pacts
+    .desktop {
+        display: block;
+    }
+}
