@@ -4,7 +4,7 @@ layout: Post
 title: Blood Pacts
 contributor: Cathy Huang (Writer), Kevin Phan (Illustrator)
 date: 2021-05-07 07:00:00 +0000
-thumb: "/uploads/blood-pacts.png"
+thumb: "/uploads/blood-pacts-kevin-phan.jpg"
 tags: 
 - Fiction
 featured: true
@@ -21,17 +21,18 @@ I’m sixteen years old when I have my first time, stoic and unfeeling in Southe
 
 At ninety miles an hour, I think I am loved. With the rock radio shaking the car, I think I am loved. As the three of us squeeze into a single motel bed, I think I am loved.
 
-<div class="blood-pacts desktop">
-But<br/>
-how<br/>
-could<br/>
-I tell?<br/>
-The-<br/>
-re’s<br/>
-blood<br/>
-on my<br/>
-hoodie, but none of us<br/>
-realize it until morning.</div>
+<div class="blood-pacts">
+    <p class="blood-pacts-content-overlay">
+    But<br/>
+    how<br/>
+    could<br/>
+    I tell?<br/>
+    There’s<br/>
+    blood<br/>
+    on my<br/>
+    hoodie, but none of us<br/>
+    realize it until morning.</p>
+</div>
 
 Mr. Poker Face makes us stop calling him Mr. Poker Face. It’s Mr. Claude Quintal, and we begrudgingly repeat it in the daylight. But he takes us to Berlin, Moscow, Zanzibar City, New York City. In Times Square, we manage to break away from him, only for a moment, to run into the crowd as giggling teenagers. Lila looks up into the cloudy sky and yells like a warrior going off into war, and no one stops to look or care. We run into the M&M store and buy fifty dollars of custom candies with our initials all together. Even with the noise, it took Mr. Poker Face Quintal an hour to find us again. 
 
