@@ -38,6 +38,11 @@ fields:
   config:
     maxSize: 64
   label: thumb
+- type: textarea
+  name: thumb_alt
+  label: Thumbnail Alt Text
+  description: Alt-text is used to provide a description of the image in the event that it does not load. This field should be filled out if an image is selected for thumb. If additional media is included in the post, please write the alt text between the square brackets (![ALT TEXT](img src)). Refer to the ADR on alt text in GDrive for examples.
+
 pages:
 - _posts/2020-04-01-girls-of-the-limberlost.md
 - _posts/2020-04-03-skin.md
