@@ -52,6 +52,12 @@
 .closebtn {
     margin-left: auto;
     margin-right: 0;
+    color: white;
+}
+
+.closebtn:hover, .menu:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .hidden {
