@@ -5,11 +5,14 @@ featured_contributor: Ally Lawler
 image: "/uploads/IMG_1657 - Ally Lawler.jpg"
 featured_piece_name: Monotony
 featured_link: "/1/monotony"
+featured_alt: "The featured image for Other People is *Monotony* by Ally Lawler. 
+Light shines through slits to form a trapezoidal distortion against a concrete wall with drill holes. 
+A student walks left while reading from his phone, while a man on the right moves in the other direction."
 
 ---
 <div class="IndexContainer">
     <a href="{{ site.baseurl }}{{ page.featured_link }}">
-        <img src="{{ site.baseurl }}{{ page.image }}">
+        <img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.featured_alt }}">
         <h4>{{ page.featured_piece_name }} by {{ page.featured_contributor }} ></h4>
     </a>
 </div>
