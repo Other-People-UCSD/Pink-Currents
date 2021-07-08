@@ -1,3 +1,9 @@
+## v3.1.1 (7/7/21)
+- Menu buttons: Removed the `<a>` tags and restyled buttons to underline text and change cursor to pointer on hover.
+  - This improves SEO rating by issuing all `<a>` links as crawlable.
+- Security: Added `rel="noopener"` to external links (Issu and Instagram). These are trusted websites, but "noopener" will ensure that no redirects are triggered by following these links.
+- Tested alt text and Forestry configurations
+
 ## v3.1.0 (6/10/21)
 - Uploaded Winter 2021 Collection no. 2. The following require further styling:
   - Blood Pacts
