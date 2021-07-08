@@ -1,16 +1,9 @@
+# [Other People Website](https://otherpeoplesd.com)
 ## Refer to the changelog for updates
-### This forked repository does not deploy to GitHub Pages.
 
 See the `CHANGELOG.md` for a summary of updates.
 
-[Pull Request Demos](https://github.com/Kevin-Jjang/Pink-Currents/pulls?q=is%3Apr+is%3Aclosed)
-
-### Agenda
-- [x] Create wireframes for includes logic
-- [ ] Create wireframes for JS logic
-- [ ] Review wireframes with Eunsoo
-- [ ] Refactor the includes folder (three headers and two mobile navs)
-
+[Pull Request History](https://github.com/Other-People-UCSD/Pink-Currents/pulls?q=is%3Apr+is%3Aclosed)
 
 ### Jekyll Repository File Map
 
@@ -48,3 +41,9 @@ otherpeoplesd.com/
     ├── front_matter/templates  # Configures front matter on selected titles
     └── settings.yml    # Configuration to preview site on forestryio
 ```
+
+### Agenda
+- [x] Create wireframes for includes logic
+- [ ] Create wireframes for JS logic
+- [ ] Review wireframes with Eunsoo
+- [ ] Refactor the includes folder (three headers and two mobile navs)
