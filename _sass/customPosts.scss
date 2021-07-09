@@ -1,3 +1,14 @@
+.hr40 {
+    margin-top: 40px; 
+    margin-bottom: 40px; 
+    width: 40px;
+}
+
+#pomegranate {
+    width: 100%;
+    max-width: 350px;
+}
+
 .blood-pacts-bg {
     position: relative;
     margin-left: auto;
@@ -28,12 +39,23 @@
     line-height: 2rem;
 }
 
+.grandfather-main {
+    display: none;
+    padding-top: 30px;
+    padding-left: 25px;
+    height: 760px;
+    background-image: url("https://otherpeoplesd.com/uploads/grandfather-elysia-mac.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+}
+
 .mobile, .laptop, .desktop { 
     display: none;
 }
 
 @media only screen and (min-width: 525px) {
-    .little-doll-main { // Little Doll
+    .little-doll-main, .grandfather-main { // Little Doll
         display: block;
     }
 
