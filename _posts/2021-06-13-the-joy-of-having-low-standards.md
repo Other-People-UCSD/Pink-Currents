@@ -10,7 +10,7 @@ tags:
 featured: true
 
 ---
-![]({{ site.baseurl }}/uploads/the-joy-of-having-low-standards-hana-tobias.jpg)
+![A human heart with red membranes attaching to it from all sides.]({{ site.baseurl }}/uploads/the-joy-of-having-low-standards-hana-tobias.jpg)
 
 The morning of June’s nineteenth birthday, she was very aware that he was planning to
 end things. She knew this to be true, and just like that, she was right. Self-fulfilling prophecy,
@@ -86,7 +86,6 @@ mind spiraled as she imagined a mother raccoon, hungry and cold, searching for a
 anything to take home to her litter of frail kits. How eagerly she would seize the ashy remains of
 the joint, triumphantly returning to her nest (or wherever raccoons live), only to accidentally
 poison her children. She’d wail in despair, and collapse to the unforgiving pavement, and it
-
 would be all June’s fault. The end. Fourteen more of these raccoon-laden scenarios later, June
 realized it was 4AM and the date was over. The guy was telling her he had a great time, he really
 liked her, yeah yeah yeah. By the time June had invested 32 hours into their talking phase, they

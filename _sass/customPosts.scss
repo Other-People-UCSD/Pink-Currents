@@ -4,6 +4,10 @@
     width: 40px;
 }
 
+.w450 { max-width: 450px; }
+.w650 { max-width: 650px; }
+.white { color: #fff; }
+
 #pomegranate {
     width: 100%;
     max-width: 350px;
@@ -35,7 +39,6 @@
     background-image: url("https://otherpeoplesd.com/uploads/Little-Doll-Kristy-Lee.png");
     background-repeat: no-repeat;
     background-size: contain;
-    color: white;
     line-height: 2rem;
 }
 
@@ -47,19 +50,18 @@
     background-image: url("https://otherpeoplesd.com/uploads/grandfather-elysia-mac.png");
     background-repeat: no-repeat;
     background-size: contain;
-    color: white;
 }
 
-.mobile, .laptop, .desktop { 
+.mobile, .laptop, .desktop {
     display: none;
 }
 
 @media only screen and (min-width: 525px) {
-    .little-doll-main, .grandfather-main { // Little Doll
+    .little-doll-main, .grandfather-main { // Little Doll, Grandfather
         display: block;
     }
 
-    .little-doll-mobile {
+    .little-doll-mobile, .grandfather-mobile {
         display: none;
     }
 }

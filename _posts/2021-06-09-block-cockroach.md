@@ -11,7 +11,7 @@ featured: true
 
 ---
 
-![]({{ site.baseurl}}/uploads/roach-kevin-phan.jpg)
+![A college girl lies on her back in her room. She looks towards the viewer or door where the large shadow of a cockroach reaches towards her. The blue light coming from the door illuminates her eyebrows to her chest. A bottle of cleaner and her glasses sit atop her desk.]({{ site.baseurl}}/uploads/roach-kevin-phan.jpg)
 
 You feel that? Fuck yeah, black mold. You get closer—why? You haven’t put your glasses on
 and everything is blurry. Three years ago, you learned dorm rooms looked better that way. If you

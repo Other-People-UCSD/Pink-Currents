@@ -10,7 +10,7 @@ tags:
 featured: true
 
 ---
-An Interview with Mariah v.n., Author of <em>Blame and Balm</em><br/>
+An Interview with Mariah v.n., Author of <em><a href="{{ site.baseurl }}/3/blame-and-balm">Blame and Balm</a></em><br/>
 Questions Asked by Isaac Kopstein
 
 <strong>Q: Over the past year we’ve seen a lot of people making art centered around family. This 

@@ -10,6 +10,8 @@ tags:
 featured: true
 
 ---
+Based on an Interview with Xiaoxing, Artist of “<a href="{{ site.baseurl }}/3/mother-moon">mother moon</a>”<br/>
+Creative Write-up by Janelle Kim
 
 There will be time enough later for noticing the grass stuck in her hair, the ants crawling
 across the curves of her ankles, and the morning dew soaking sweatpants that had been warm in

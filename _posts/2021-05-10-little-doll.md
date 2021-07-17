@@ -11,7 +11,7 @@ featured: true
 
 ---
 
-<div class="little-doll-main" title="A blonde-haired doll with a scribbled pink blouse lies on the floor. Her purple smile is finished being sewn.">
+<div class="little-doll-main white" title="A blonde-haired doll with a scribbled pink blouse lies on the floor. Her purple smile is finished being sewn.">
 <strong><em>Little Doll</em></strong><br/>
 My mouth sewn into a smile,<br/>
 that constant pulling at my strings.<br/>

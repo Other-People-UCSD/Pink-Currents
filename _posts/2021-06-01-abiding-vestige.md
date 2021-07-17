@@ -10,4 +10,4 @@ tags:
 featured: true
 
 ---
-![]({{ page.thumb }})
+![A blurred person's profile hides the body of the woman in the mirror. One can see that woman's hands and fishnet stockings in this monochromatic photograph.]({{ page.thumb }})

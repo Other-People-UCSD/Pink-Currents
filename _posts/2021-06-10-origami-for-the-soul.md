@@ -10,7 +10,7 @@ tags:
 featured: true
 
 ---
-![]({{ site.baseurl }}/uploads/Origami-for-the-Soul-Matthew-Wills.JPG)
+![Four different color variations of the same flower origami layout. There are eight leaves in each flower. Top-left: lime green and yellow alternate with the green and blue leaves; top-right: an assortment of strong colors in each leaf; bottom-left: an assortment of darker colors in each leaf; bottom-right: orange and pink alternate with green and blue leaves.]({{ site.baseurl }}/uploads/Origami-for-the-Soul-Matthew-Wills.JPG)
 
 <em>Origami model folded and photographed by Matthew Wills. Model, "Flores de la Montaña,” originally designed by and published here with the permission of origami artist Diana Horta Ruiz.</em>
 

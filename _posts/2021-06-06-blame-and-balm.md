@@ -33,4 +33,8 @@ but i couldn’t wake her from her coma
 
 no, she has woken me from mine
 
-![]({{ site.baseurl}}/uploads/blame-and-balm-caroline-tjoe.jpg)
+
+<img src="{{ site.baseurl }}/uploads/blame-and-balm-caroline-tjoe.jpg" 
+    alt="A young woman applies balm to her cheek while looking at herself in the mirror.
+Reflected is a crib and two faces of her mom and sister. Peeking above the makeup table is a ghost of her younger self." 
+    class="w450">

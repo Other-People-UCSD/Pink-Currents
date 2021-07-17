@@ -4,7 +4,7 @@ layout: Post
 title: "The Middle of All Middles: On Quiet Tears and the Manifestation of Guilt"
 contributor: Hannah Xu (Writer)
 date: 2021-06-03 07:00:00 +0000
-thumb: "/uploads/say-grace-hana-tobias.png"
+thumb: ""
 tags: 
 - Nonfiction
 featured: true
@@ -69,7 +69,7 @@ back, my cousins gave me a white head scarf and white cape-like drape to wrap ar
 shoulders. They asked, “Do you have anything white to wear?” I pretended to check my
 suitcase, but I already knew — everything I had packed was black.
 
-I learned that evening that white is the color of death in China. Funny, I thought.
+I learned that evening that white is the color of death in China. <em>Funny</em>, I thought.
 <em>Where I’m from, white is the color of life<em>.
 
 Luckily, my mom had a pair of white jeans and a neutral shirt that I could wear. The
@@ -134,7 +134,7 @@ remember that.”
 
 What my sister felt that day is what writer Cathy Park Hong would call “political
 shame.” It’s a kind of shame that manifests from not knowing your place in a social hierarchy,
-being both the afflicter and afflicted of stifling social expectations. For my sister and I, it’s
+being both the afflicter and afflicted of stifling social expectations. For my sister and me, it’s
 knowing that even though we will never measure up to our white colleagues, we will also never
 have to work nearly as hard as those in the Chinese countryside to earn a livable wage. For my
 parents, it’s knowing that they’ve turned their backs on their families and on their pasts in order
