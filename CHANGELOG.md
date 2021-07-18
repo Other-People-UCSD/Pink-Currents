@@ -1,3 +1,7 @@
+## v3.1.2 (7/17/21)
+- Developed a slideshow on the front page to cycle through more featured posts and links to Issuu collections.
+- Resolved security vulnerabilites on Gemfile
+
 ## v3.1.1 (7/7/21)
 - Menu buttons: Removed the `<a>` tags and restyled buttons to underline text and change cursor to pointer on hover.
   - This improves SEO rating by issuing all `<a>` links as crawlable.

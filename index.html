@@ -6,7 +6,7 @@ titles: ["Monotony", "Blood Pacts", "Life Cycle"]
 contributors: ["Ally Lawler",
 "Cathy Huang (Writer)&#44 Kevin Phan (Illustrator)",
 "Geraldine Wambersie"]
-links: ["/1/monotony", "/2/blood-pacts", "https://issuu.com/otherpeoplesd.com"]
+links: ["/1/monotony", "/2/blood-pacts", "https://issuu.com/otherpeoplesd"]
 
 images: ["/uploads/IMG_1657 - Ally Lawler.jpg",
 "/uploads/blood-pacts-kevin-phan.jpg",
@@ -30,8 +30,8 @@ White petals surrounding yellow stamens blossom from the ends of the branches."]
     </a>
     {% endfor %}
 
-    <button class="slide-prev" onclick="jumpSlide(-1)">&#10094;</button>
-    <button class="slide-next" onclick="jumpSlide(1)">&#10095;</button>
+    <button class="slide-prev" onclick="jumpSlide(-1)" aria-label="Show previous slide.">&#10094;</button>
+    <button class="slide-next" onclick="jumpSlide(1)" aria-label="Show next slide.">&#10095;</button>
 
     <div class="slide-dot-container">
         {% assign len = page.titles.size %}
