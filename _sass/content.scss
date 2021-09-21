@@ -75,6 +75,14 @@
     opacity: 0.5;
 }
 
+.landing-title { // About, Team
+    margin-top: $blockFour;
+    padding: $blockThree 0 0 $blockThree;
+    margin-left: auto; // $blockFour; // $blockSix;
+    margin-right: auto; // $blockFour; // $blockSix;
+    width: 80%;
+}
+
 .content-title {
     margin-top: $blockFour;
     padding: $blockThree $blockThree 0 $blockThree;
@@ -87,7 +95,7 @@
     }
 }
 
-.IndexContainer .content-title {
+.IndexContainer .content-title, .IndexContainer .landing-title {
     margin-left: $blockSix;
     margin-right: $blockSix;
     // width: 100%;
