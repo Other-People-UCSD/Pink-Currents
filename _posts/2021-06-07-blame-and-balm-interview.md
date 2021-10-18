@@ -1,7 +1,7 @@
 ---
 category: 3
 layout: Post
-title: Blame and Balm (Interview)
+title: blame and balm (Interview)
 contributor: Isaac Kopstein (Interviewer), Mariah v.n. (Interviewee)
 date: 2021-06-07 07:00:00 +0000
 thumb: ""
@@ -10,7 +10,7 @@ tags:
 featured: true
 
 ---
-An Interview with Mariah v.n., Author of <em><a href="{{ site.baseurl }}/3/blame-and-balm">Blame and Balm</a></em><br/>
+An Interview with Mariah v.n., Author of <em><a href="{{ site.baseurl }}/3/blame-and-balm">blame and balm</a></em><br/>
 Questions Asked by Isaac Kopstein
 
 <strong>Q: Over the past year we’ve seen a lot of people making art centered around family. This 
@@ -18,7 +18,7 @@ piece stands out in that it is not entirely rose-tinted in its depiction of a fa
 kind of place were you in, artistically, which prompted you to write about this part of your life?
 </strong>
 
-A: I think it would be unfair to say that my piece necessarily stands out because it's not exactly a
+<strong>A:</strong> I think it would be unfair to say that my piece necessarily stands out because it's not exactly a
 rose-tinted description. Rather, I think family itself has its ups and downs. There are beautiful yet
 ugly things about family and this is simply a poem that reflects on the more "ugly" parts. They're
 not necessarily ugly because these details ... expose a complex truth behind family dynamics.
@@ -34,7 +34,7 @@ mind to create anything. I'm human and I just choose to create something out of 
 <strong>Q: Did you feel that the conflict explored in this poem defined your relationship with your 
 grandmother?</strong>
 
-A: I can say that my relationship with almost anyone in my family is strained, often due to
+<strong>A:</strong> I can say that my relationship with almost anyone in my family is strained, often due to
 intergenerational conflict. I think the first thing that struck me with my grandmother's death was
 how little I knew about her. Going through her photo albums and other items made me realize I
 didn't really know her as I thought I did. When it comes to defining a relationship with her, it's
@@ -47,7 +47,7 @@ best way to explain it.
 
 <strong>Q: How did experiences like these change the way you interacted with the greater world?</strong>
 
-A: How I interact with the world is based on the knowledge that there are many different sides to
+<strong>A:</strong> How I interact with the world is based on the knowledge that there are many different sides to
 someone — but that doesn't make them false or invalidated. Rather, we all choose to show sides
 of ourselves that we want to. In my family, there's often a need to put on some kind of front.
 Often my older family members put up a front to establish their historical traditions while it’s
@@ -60,7 +60,7 @@ the world with a forgiving lens because I am at fault as well.
 <strong>Q: Is family a privilege or an obligation? How in your mind, can it lift us up or weigh us 
 down?</strong>
 
-A: There is a fun — well, not too fun — saying in my family that the older generation drinks
+<strong>A:</strong> There is a fun — well, not too fun — saying in my family that the older generation drinks
 from their war trauma and the younger generation drinks from the older generation's trauma.
 Family is both a privilege and an obligation; a privilege in that you will have those who will
 forgive you for the front you need to put up or the flaws you decide to show. As for obligation,

@@ -10,12 +10,16 @@ tags:
 featured: true
 
 ---
-![A human heart with red membranes attaching to it from all sides.]({{ site.baseurl }}/uploads/the-joy-of-having-low-standards-hana-tobias.jpg)
+<div class="center">
+    <img src="{{ site.baseurl }}/uploads/the-joy-of-having-low-standards-hana-tobias.jpg"
+        alt="A human heart with red membranes attaching to it from all sides."
+        class="w650">
+</div>
 
 The morning of June’s nineteenth birthday, she was very aware that he was planning to
 end things. She knew this to be true, and just like that, she was right. Self-fulfilling prophecy,
 intuitive manifestation, observing what was objectively there: call it whatever you want, she was
-right. Whatever unholy bond that existed between June and that boy was unceremoniously torn
+right. Whatever unholy bond that existed between June and that <em>boy</em> was unceremoniously torn
 apart. Like the breaking of a wish-bone, she took home the bulk of the splintered carcass (make a
 wish!). With the decaying remains of something that was supposed to mean more than it was,
 June entered her last year as a teenager. Make a wish.
@@ -24,7 +28,7 @@ The end of this union was much like the beginning: uncomfortably comfortable in 
 situation that was designed, by nature, to be terrible. The first couple dates are always atrocious,
 right? June knew this to be true. With her small sample size, she could pick out ludicrous
 moments worth sharing over cheap vodka like bingo numbers. There was that scruffy beanie kid
-that told June, with a little bit too much pointed enthusiasm, that he just “adores <em>Asian</em> culture”
+that told June, with a little bit too much pointed enthusiasm, that he just “adores <em>Asian culture</em>”
 (completely unprompted, of course). The sweet and shy boy from class that admitted, on the
 second date, that he’s had fantasies about saving her from a murderous white supremacist (with,
 like, a machete or something). The guy that started crying when she refused to give him head in a
@@ -54,7 +58,7 @@ chest swirl. All of the freedom, the opportunities (for a new boyfriend)! Images
 shops, cute tote bags, cute boys who don't hate women. June and Him, Him and June—reading a
 book together on a campus lawn, over-exposed and blurry pictures, staying up late in his dorm
 room. She fixated on these possibilities; maybe the key to reinvention would be a cultured
-college boyfriend. No more settling for the backseat of old Toyotas with obnoxiously loud
+<em>college</em> boyfriend. No more settling for the backseat of old Toyotas with obnoxiously loud
 engines. No, the new one would be different. Cheers to change!
 
 Strategically, June conceptualized the person she would be in college, and she knew

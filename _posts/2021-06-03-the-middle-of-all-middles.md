@@ -2,7 +2,7 @@
 category: 3
 layout: Post
 title: "The Middle of All Middles: On Quiet Tears and the Manifestation of Guilt"
-contributor: Hannah Xu (Writer)
+contributor: Hannah Xu (Writer), Kristy Lee (Illustrator)
 date: 2021-06-03 07:00:00 +0000
 thumb: ""
 tags: 
@@ -10,6 +10,11 @@ tags:
 featured: true
 
 ---
+<div class="center">
+    <img src="{{ site.baseurl }}/uploads/MoAM-kristy-lee-cover.png" 
+        alt="A girl in a purple t-shirt looks forward. Blue and pink outlines of her head and face are transposed to the sides of her"
+        class="w650">
+</div>
 
 Sometimes I wonder how I will feel when my parents die.
 
@@ -34,11 +39,23 @@ days of his diagnosis, I assumed that she thought taking care of her father was 
 bear, despite having two brothers, since she had experience taking care of cancer patients. Did
 she feel she neglected him? Pursued a “better life” and left her family in the dust?
 
+<p class="center">
+    <img src="{{ site.baseurl }}/uploads/MoAM-kristy-lee-2.png" 
+        alt="An airplane flies from California to China." 
+        class="w650">
+</p>
+
 We flew to China on a Saturday. After a grueling 16-hour flight, my dad, sister, and I
 took a train ride to my parents’ hometown, a small rural village eight hours south of Beijing. On
 a bullet train, the trip takes only two-and-a-half hours — not nearly enough time to mentally
 prepare for the coming weeks. Upon arrival, my oldest uncle met us at the train station to take us
 to the hospital. We would be saying good-bye to my grandfather soon.
+
+<p class="center">
+    <img src="{{ site.baseurl }}/uploads/MoAM-kristy-lee-2.5.png" 
+    alt="A blank calendar with a Saturday circled in red." 
+    class="w450">
+</p>
 
 The concept of China is something of a mystery to me. It’s one of those places that I
 know but I don’t. Every other year until I was ten, I spent my summers at my parents’ old
@@ -142,6 +159,12 @@ to have a so-called “better life” and yet have to endure being called racist
 workplace. The shame you feel when you trip and fall in front of people eventually dissipates.
 Political shame follows you everywhere.
 
+<div class="center">
+    <img src="{{ site.baseurl }}/uploads/MoAM-kristy-lee-3.png" 
+    alt="A girl hangs her head down as a group of people look towards her."
+    class="w650">
+</div>
+
 <hr class="hr40">
 
 On the last day of my grandpa’s funeral, we had to take his body to the crematorium and
@@ -211,8 +234,8 @@ of faces that my TAs will inevitably confuse me with. Despite my family’s root
 guarantee that once my parents die I will want to visit China anymore. I can’t even
 communicate with my extended family, so what’s the point? The guilt lingers because I have
 paradoxically become accustomed to Chinese culture while separating myself from it. Have I
-turned away too much in my attempt to find success in this country? This is a uniquely first-
-generation American problem. No one else has to pick and choose the pieces of their culture
+turned away too much in my attempt to find success in this country? This is a uniquely first-generation
+American problem. No one else has to pick and choose the pieces of their culture
 that they want to keep or want to discard.
 
 My sister once asked my parents if they would like a traditional Chinese funeral or an

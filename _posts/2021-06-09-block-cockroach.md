@@ -11,20 +11,21 @@ featured: true
 
 ---
 
-![A college girl lies on her back in her room. She looks towards the viewer or door where the large shadow of a cockroach reaches towards her. The blue light coming from the door illuminates her eyebrows to her chest. A bottle of cleaner and her glasses sit atop her desk.]({{ site.baseurl}}/uploads/roach-kevin-phan.jpg)
+<img src="{{ site.baseurl}}/uploads/roach-kevin-phan.jpg"
+    alt="A college girl lies on her back in her room. She looks towards the viewer or door where the large shadow of a cockroach reaches towards her. The blue light coming from the door illuminates her eyebrows to her chest. A bottle of cleaner and her glasses sit atop her desk."
+    class="w650">
 
 You feel that? Fuck yeah, black mold. You get closer—why? You haven’t put your glasses on
 and everything is blurry. Three years ago, you learned dorm rooms looked better that way. If you
 were a masochist, you’d take a blacklight, absolutely. If you wanted to make a night of it, you’d
-make a shroom tea first. Or one of those mugwort teas you keep seeing on tiktok. I could see a
-psychedelic sludge being more pleasant. Maybe the sludge would then appear to you as a
-collective of cute little friends greeting you from the cute little darkened corners of your cute
-little residential cubicle. Hiiii.
+make a shroom tea first. Or one of those mugwort teas you keep seeing on TikTok. I could see a
+psychedelic sludge being more pleasant. Maybe it would appear to you as little friends greeting you
+from the cute little darkened corners of your cute little residential cubicle. Hiiii.
 
-Heyyy...what’s that? You’re doing yoga because you promised yourself you would try to be
+Heyyy... what’s that? You’re doing yoga because you promised yourself you would try to be
 flexible this year. You’re on the ground, face up. You glance to the right, and what do you see? A
-cockroach. Obviously not a registered student, and frankly really disrespectful when there’s a no-
-guest policy in effect here at the university. Literally so incredibly rude. It’s the largest insect
+cockroach. Obviously not a registered student, and frankly really disrespectful when there’s a no-guest
+policy in effect here at the university. Literally so incredibly rude. It’s the largest insect
 you’ve ever seen in your life, and you lie completely still as you watch it scuttle about with its
 spiny disgusting legs. Back it up right now!! Too, too close. You have to bust out the household
 cleaner. You have to. It gives you the ideal bug-to-self ratio, though you must mind the furniture.
