@@ -4,36 +4,24 @@
 // }
 
 @keyframes slideInFromTop {
-    0% {
-        transform: translateY(-100%);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(0); }
 }
 
-body {
-    padding-top: 120px;
-}
+body { padding-top: 142px }
+.nav-up { top: -142px; }
 
 header {
-    z-index: 1;
-    background-color: $backgroundColor;
-    padding: $blockThree;
-    left: 0;
-    right: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    animation: 1s ease-out 0s 1 slideInFromTop;
-
+    display: block;
     position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    padding-top: $blockThree;
+    background-color: $backgroundColor;
+    animation: 1s ease-out 0s 1 slideInFromTop;
     transition: top 0.3s ease-in-out;
-
-    :nth-child(3) {
-        text-align: right;
-    }
 
     a, button {
         color: inherit;
@@ -46,76 +34,65 @@ header {
     }
 }
 
-.header2 {
-    z-index: 1;
-    background-color: $backgroundColor;
-    padding: $blockThree;
-    left: 0;
-    right: 0;
+.header-main {
     display: grid;
+    padding-left: $blockThree;
+    padding-right: $blockThree;
+    padding-bottom: $blockThree;
     grid-template-columns: 1fr 1fr 1fr;
-
-    position: fixed;
-    top: 0;
-    transition: top 0.3s ease-in-out;
-
-    :nth-child(3) {
-        text-align: right;
-    }
-
-    a {
-        color: inherit;
-        text-decoration: none;
-    }
-
-    a:hover {
-        cursor: pointer;
-        text-decoration: underline;
-    }
 }
 
-.nav-up {
-    top: -120px;
+header .announcement {
+    margin: 0;
+    padding: 8px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    // background-color: #36184a;
+    background-color: #dca646;
+    // background-color: #c59c9a;
+    // color: #fdf9ee;
 }
 
 @media only screen and (max-width: 728px) {
     header {
+        padding-top: $blockTwo;
+    }
+
+    .header-main {
         grid-template-columns: 1fr 1fr;
-        padding: $blockTwo;
+        padding-left: $blockTwo;
+        padding-right: $blockTwo;
+        padding-bottom: $blockTwo;
+
         animation: 0.5s ease-out 0s 0.9 slideInFromTop;
 
-        :nth-child(2) {
+        .nav-genres {
             display: none;
+        }
+        .menu {
+            display: block;
         }
     }
 
-    .header2 {
-        grid-template-columns: 1fr 1fr;
-        padding: $blockTwo;
-
-        :nth-child(2) {
-            display: none;
-        }
-    }
-
-    body {
-        padding-top: 80px;
-    }
-
-    .nav-up {
-        top: -80px;
-    }
+    body { padding-top: 128px }
+    .nav-up { top: -128px; }
 }
 
 
 
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
-    header, .header2 {
+    header {
+        padding-top: $blockThree;
+    }
+    .header-main {
         grid-template-columns: 1fr 1fr;
-        padding: $blockThree;
+        padding-left: $blockThree;
+        padding-right: $blockThree;
+        padding-bottom: $blockThree;
         
-        :nth-child(2) {
+        .nav-genres {
             display: none;
         }
     }

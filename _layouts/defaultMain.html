@@ -17,13 +17,10 @@
 </head>
 
 <body>
+    {% include headerMain.html %}
+    {{ content }}
     {% if page.title == 'Home' %}
-        {% include header.html %}
-        {{ content }}
         {% include posts.html %}
-    {% else %}
-        {% include header2.html %}
-        {{ content }}
     {% endif %}
 
     {% include footer.html %}

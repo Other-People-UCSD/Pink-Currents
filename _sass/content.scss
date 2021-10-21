@@ -82,6 +82,7 @@
     margin-right: auto; // $blockFour; // $blockSix;
     width: 80%;
 }
+
 .content-title {
     margin-top: $blockFour;
     padding: $blockThree $blockThree 0 $blockThree;
@@ -128,6 +129,60 @@
     text-align: right;
 }
 
+.left { text-align: left; }
+.right { text-align: right; }
+
+.showcase {
+    
+    max-width: 800px;
+
+    h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .subtitle {
+        margin-top: 0px;
+    }
+    
+    .collection {
+        margin-bottom: 24px;
+    }
+}
+.logo-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+}
+
+.staticGIF {
+    max-width: 800px;
+}
+
+.showcase-grid {
+    display: flex;
+    padding-left: 0px;
+    list-style-type: none;
+    
+    h3 {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    li {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        padding: 16px 16px;
+        flex-grow: 1;
+        flex-basis: 0;
+        border-left: 2px solid #e7e7e7;
+    }
+    li:first-child {
+        border-left: none;
+    }
+    p {
+        text-align: left;
+    }
+}
 @media only screen and (max-width: 728px) {
     .content {
         padding: $blockTwo;
@@ -150,7 +205,7 @@
         margin-right: 0;
     }
 
-    .IndexContainer .content-title {
+    .IndexContainer .content-title, .IndexContainer .landing-title {
         margin-left: 0;
         margin-right: 0;
     }
@@ -160,8 +215,21 @@
         display: flex;
     }
 
+    .showcase-grid {
+        display: block;
+
+        li {
+            border-left: none;
+            border-bottom: 2px solid #e7e7e7;
+        }
+    }
 }
 
+@media only screen and (max-width: 728px) {
+    .staticGIF {
+        max-width: 100%;
+    }
+}
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
     .content-title {
