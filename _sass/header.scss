@@ -44,15 +44,37 @@ header {
 
 header .announcement {
     margin: 0;
-    padding: 8px;
+    // padding: 8px;
     font-family: Arial;
     font-weight: bold;
     text-align: center;
-    // background-color: #36184a;
-    background-color: #dca646;
+    // background-color: #dca646;
     // background-color: #c59c9a;
+    background-color: #ff9900b0;
     // color: #fdf9ee;
+    // display: grid;
+    // grid-template-columns: 0.9fr 0.1fr;
+    display: flex;
+    
+    :first-child {
+        flex-grow: 19;
+        padding: 8px;
+    }
+
+    #close-notice {
+        flex-grow: 1;
+        margin-left: 8px;
+        width: fit-content;
+        font-family: cursive;
+        font-weight: bold;
+        background-color: #ffb94f;
+    }
+
+    #close-notice:hover {
+        cursor: pointer;
+    }
 }
+
 
 @media only screen and (max-width: 728px) {
     header {
