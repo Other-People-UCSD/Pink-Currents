@@ -2,7 +2,7 @@
 🚨 Please review the checklist below before submitting your pull request!
 
 - [ ] Make sure you are requesting to **pull a *development* branch. Don't pull the *published* branch!**.
-- [ ] Is the Gemfile's `gem "github-pages", "~> 213", group: :jekyll_plugins` line uncommented? (This is meant to run the website on GitHub Pages) 
+- [ ] Is the Gemfile's `gem "github-pages", "~> [LATEST VERSION e.g. 219]", group: :jekyll_plugins` line uncommented? This is meant to run the website on GitHub Pages. The latest version of dependencies can be found at [https://pages.github.com/versions/](https://pages.github.com/versions/)
 - [ ] Have you tested the website on VS Code by running `jekyll serve` or `bundle exec jekyll serve`?
 
 ### Types of changes:
