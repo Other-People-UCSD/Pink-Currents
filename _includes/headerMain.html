@@ -11,12 +11,12 @@
         </h2>
         <button class="menu" onclick="openNav()" aria-label="Open Menu">Menu</button>
     </div>
-    <a href="https://www.eventbrite.com/e/collection-no-3-launch-party-tickets-193166725877"
-    target="_blank" rel="noopener noreferrer">
-        <div class="announcement">
-            Click here to register for Collection No. 3's launch party on Friday, Oct. 22!
-        </div>
-    </a>
+    <div class="announcement" id="announcement">
+        <a href="{{ site.baseurl }}/submissions">
+                Submissions for Fall 2021 are now open!
+        </a>
+        <button id="close-notice" onclick="hideAnnouncement()" aria-label="Hide the Announcement">X</button>
+    </div>
 </header>
 
 <div id="myNav" class="overlay">

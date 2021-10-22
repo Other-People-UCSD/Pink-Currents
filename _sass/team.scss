@@ -11,6 +11,7 @@
     grid-template-columns: 1fr;
     grid-gap: 1px;
     h3 {
+        font-family: Arial;
         font-weight: normal;
     }
   
@@ -30,6 +31,7 @@
     margin-top: $blockThree;
 
     h2 {
+        font-family: Arial;
         margin-bottom: $blockThree;
     }
 }
