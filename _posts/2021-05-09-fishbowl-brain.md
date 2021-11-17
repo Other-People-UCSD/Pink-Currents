@@ -10,7 +10,7 @@ tags:
 featured: true
 
 ---
-![]({{ site.baseurl }}{{ page.thumb }})
+![A filled fishbowl replaces a lady in yellow's head. She places her head against the bowl.]({{ site.baseurl }}{{ page.thumb }})
 
 If the summer of 2016 had a smell, it would be hydrangeas. Hydrangeas, and moss, and whatever those green little weeds are that sprout out from under the dirt, whenever you walk loose-toed hiking trails. Because yes, we were hiking that summer. We were in Arkansas, and that was the only thing to do that didn’t involve stuffing ourselves with various meats. You were a vegetarian, anyway. So we hiked. 
 

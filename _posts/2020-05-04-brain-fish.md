@@ -3,14 +3,14 @@ category: "1"
 layout: Post
 title: BRAIN FISH
 date: 2020-05-04T07:00:00.000+00:00
-contributor: August Laubscher
-thumb: "/uploads/brainfish.png"
+contributor: August Laubscher (Writer), Zhilin Li (Illustrator)
+thumb: "/uploads/brain-fish-zhilin-li.png"
 tags:
 - Poetry
 featured: true
 
 ---
-![](/uploads/brainfish.png)
+![A monochromatic woman is suspended in the air. A bouquet of flowers replaces her brain. A fish is sliced intro three pieces.](/uploads/brain-fish-zhilin-li.png)
 
 There are two schools of
 

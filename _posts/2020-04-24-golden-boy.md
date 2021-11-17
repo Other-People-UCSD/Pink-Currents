@@ -2,15 +2,15 @@
 category: 1
 layout: Post
 title: Golden Boy
-contributor: Isaac Kopstein
+contributor: Isaac Kopstein (Writer), Kelly Tran (Illustrator)
 date: 2020-04-24T07:00:00.000+00:00
-thumb: "/uploads/golden-boy.png"
+thumb: "/uploads/golden-boy-kelly-tran.png"
 tags: 
 - Fiction
 featured: true
 
 ---
-![](/uploads/golden-boy.png)
+![White and yellow feathers fall down the illustration. Two goose heads stick into the poster, with the lower goose wearing a pair of shades.](/uploads/golden-boy-kelly-tran.png)
 
 When you get down to brass tacks, I’m just a goose. It sounds a little funny to say out loud, but mostly it's just liberating. When fame hits, you start to get all these expectations of yourself. It becomes easier and easier to feel like you need to be what other people expect you to be. I’m trying to fight that, though, and start normalizing my life again. So yeah, honestly, I ain’t nothing more than a goose. Sometimes I lay golden eggs. No big deal, really. I can lay normal ones, too. That’s what a lot of people don’t realize. They’re so quick to put me in this box as “The Golden Goose” but they never even consider that I enjoy doing regular goose things, too. It’s not all red carpets and cameos. I still catch my own fish and harass random passersby for bread during my spare time.
 

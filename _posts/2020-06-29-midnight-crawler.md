@@ -31,7 +31,7 @@ The figure slinks completely out of sight, but not before Janine catches sight o
 
 Janine shakes her head in her hands to rid herself of the thoughts. Urban legends. Superstitions. Everything but the thought of her pregnant mother and the aswang’s taste for fetus hearts.
 
-<center>~</center>
+<p class="centering">~</p>
 
 The nipa hut is quiet. Janine rolls over in her bed to keep the window in sight. It is hard to see in the dark, especially through the mosquito net over her bed. She drags a clammy hand through her sweat-matted hair. She must be overreacting. No such thing as a sigbin. No such thing as an aswang.
 
@@ -49,7 +49,7 @@ The aswang stands to its full height, muscles and tendons showing through its sk
 
 She blinks and it is gone. Out the window of her mother’s room, the _click-click-click_ getting louder and louder as it runs away.
 
-<center>~</center>
+<p class="centering">~</p>
 
 “An intrauterine fetal demise, in other words, a stillbirth.”
 

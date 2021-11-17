@@ -11,7 +11,7 @@ featured: false
 thumb_alt: A recipe sheet on a lined piece of paper. A bee is flying around a teacup.
 
 ---
-![A recipe sheet on a lined piece of paper. A bee is flying around a teacup.](/uploads/image-from-ios.png)
+![A recipe sheet on a lined piece of paper. A bee is flying around a teacup.](/uploads/easy-tea-for-sore-throat.png)
 
 **Ingredients**
 

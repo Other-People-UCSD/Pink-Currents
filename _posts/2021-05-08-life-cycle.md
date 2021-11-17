@@ -10,4 +10,4 @@ tags:
 featured: true
 
 ---
-![]({{ site.baseurl }}{{ page.thumb }})
+![An illustration of a white dogwood (Cornus florida). The leaning stem uprights itself while its branches droop outward. White petals surrounding yellow stamens blossom from the ends of the branches.]({{ site.baseurl }}{{ page.thumb }})
