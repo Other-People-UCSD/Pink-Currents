@@ -1,3 +1,8 @@
+### v3.1.1 (12/5/21)
+- Closed Editorial team applications
+- Changed announcment to reflect submissions status
+## v3.1.0 (12/2/21)
+- Included Mailchimp newsletter subscription form in the footer
 ## v3.1.1 (7/7/21)
 - Menu buttons: Removed the `<a>` tags and restyled buttons to underline text and change cursor to pointer on hover.
   - This improves SEO rating by issuing all `<a>` links as crawlable.
