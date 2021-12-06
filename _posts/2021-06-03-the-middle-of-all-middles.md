@@ -4,7 +4,7 @@ layout: Post
 title: "The Middle of All Middles: On Quiet Tears and the Manifestation of Guilt"
 contributor: Hannah Xu (Writer), Kristy Lee (Illustrator)
 date: 2021-06-03 07:00:00 +0000
-thumb: ""
+thumb: "/uploads/MoAM-kristy-lee-cover.png"
 tags: 
 - Nonfiction
 featured: true
