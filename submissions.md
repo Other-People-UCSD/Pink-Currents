@@ -4,6 +4,9 @@ title: Submissions
 status: true
 
 ---
+* [Literary Submission](https://forms.gle/H7QZ4D3TLWc5BviS9)
+* [Visual Arts Submission](https://forms.gle/3oSH5rHUKsuUdWsD6)
+
 # Reading Period:
 
 Editorial team will be reviewing and sending out acceptances on a rolling basis. Waiting period is approximately three months, but this could vary.
