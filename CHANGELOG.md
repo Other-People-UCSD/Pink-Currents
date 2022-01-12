@@ -1,3 +1,7 @@
+### v3.1.3 (1/12/22)
+- Uploaded TAGS: VACCINE, VIGNETTES, SLICE OF LIFE to fiction
+- TODO: Communicate with the design team about changes to the homepage's display of posts to improve new content writing piece visibility
+
 ### v3.1.2 (12/5/21)
 - Uploaded missing illustrations and thumbnails for 火, c/o 2020, MoAM, Parasite, Tea for Sore Throat
 
