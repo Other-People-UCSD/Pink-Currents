@@ -1,15 +1,21 @@
 ---
 layout: Post
+title: In the Glass House
+contributor: Hemmy Chun (Writer), Helen Huang (Illustrator)
+date: 2020-10-03 07:00:00 +0000
+thumb: '/uploads/In-The-Glass-House-Helen-Huang.png'
 tags:
 - Fiction
-title: In the Glass House
-contributor: Hemmy Chun
 featured: false
-category: ''
-date: 2020-10-03 07:00:00 +0000
-thumb: ''
-
 ---
+
+
+<div class="center">
+    <img src="{{ site.baseurl }}/uploads/In-The-Glass-House-Helen-Huang.png"
+        alt="An extracted molar's shadow forms a house. Light illuminates the singular window at the center of the shadow."
+        class="w450">
+</div>
+
 Take me back to the glass house in Denver. Back to when you cried and i didn’t understand why, when the culprit behind your leaking seared irises was NOT because i was sleeping in my neighbor’s crib that was forsaken to burn with the plastic trash (you remember, the one with the etched profanity that you painted over but the scars in the wood still remained). Not because i was crawling on my hands and knees already learning how to submit to men...not because my eyes were squeezed shut and my mouth ajar...but because the rain outside was pouring so hard i couldn’t hear the tears rolling down your swollen cheeks. Because the only thing i could feel was your shaking bones and the only thing i could see was your eyelashes and teeth. Bared teeth, teeth bared like a feral creature shot with metal sticks (POW!) who could not escape from succumbing to the red hands belonging to the sons of men, creatures whose heads are chopped off (SQUELCH!) and then skinned from their flesh and turned into a rug. But who’s to say it wasn’t a smile? Teeth are teeth.
 
 The house that wasn’t really a house but a closet with transparent walls seven floors above the sidewalk gum. We were on display to entertain the streets. Glass cage where white observers could peer in and watch us eat dollar spaghetti exchanged for crumpled food stamps.
