@@ -96,7 +96,7 @@ It is funny, really, to watch, and I am thankful that the mask hides my blatant 
 
 ‘God, this is what I get for coming to a government centre; this isn’t a line, it’s a fish-market!’
 
-‘Who died and made her queen of the line? What does she think we are; her father’s servants?’
+‘Who died and made <em>her</em> queen of the line? What does she think we are; her father’s servants?’
 
 ‘Jeez, could you back up a bit? Waiting in the crawlspace between my ass cheeks won’t guarantee you a vaccine appointment!’
 
@@ -123,6 +123,7 @@ I feel nauseous and clutch my mother’s hand tighter. We are humbled, and it is
 <hr class="hr40">
 
 Fifty-two people get turned away that day. My mother is not one of them.
+
 I watch them plead with the government officers; I watch the officers helplessly inform them that there are simply no more vaccines to give, and that they must try again tomorrow.
 
 The stray dog jumps up on them as they talk, paws scrabbling insistently at their pant legs. I want to tell you that he does it for righteous reasons; that he has the courage to do what I cannot; that he has the courage to protest this indifference.
