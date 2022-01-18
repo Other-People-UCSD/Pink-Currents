@@ -28,5 +28,3 @@ fields:
   config:
     required: false
   label: Featured Link
-pages:
-- index.md

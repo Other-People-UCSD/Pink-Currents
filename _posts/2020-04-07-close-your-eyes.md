@@ -2,15 +2,15 @@
 category: 1
 layout: Post
 title: Close Your Eyes
-contributor: Montanna Harling
+contributor: Montanna Harling (Writer), Zhilin Li (Illustrator)
 date: 2020-04-07T07:00:00.000+00:00
-thumb: "/uploads/close-your-eyes-01.png"
+thumb: "/uploads/close-your-eyes-zhilin-li.png"
 tags:
 - Fiction
 featured: true
 
 ---
-![](/uploads/close-your-eyes-01.png)
+![](/uploads/close-your-eyes-zhilin-li.png)
 
 The lake was most beautiful during the in-between times. At the cool hush of just before dawn, when the ducks glided silently across the still water, trailing soft ripples, the entire world seemed to drift along with them. Now, at dusk, it was nearly as beautiful as dawn, the water lit silver from a fading sun and the pine trees a fragrant green smudge on the opposite bank.
 

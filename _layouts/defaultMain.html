@@ -11,19 +11,17 @@
     <script src="{{ site.baseurl }}/assets/js/scrollBackgroundColor.js"></script>
     {% endif %}
     <script src="{{ site.baseurl }}/assets/js/search-script.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/announcement.js"></script>
     {% include favicons.html %}
     {% feed_meta %}
     {% seo %}
 </head>
 
 <body>
+    {% include headerMain.html %}
+    {{ content }}
     {% if page.title == 'Home' %}
-        {% include header.html %}
-        {{ content }}
         {% include posts.html %}
-    {% else %}
-        {% include header2.html %}
-        {{ content }}
     {% endif %}
 
     {% include footer.html %}

@@ -1,5 +1,5 @@
 <h1 class="index-title">
-    <div class="cssanimation sequence fadeInBottom">Winter 2021 — <br>Collection No. 2<br/>MIDNIGHT OIL</div>
+    <div class="cssanimation sequence fadeInBottom">Summer 2021 — <br>Collection No. 3<br/>MIDNIGHT OIL</div>
 </h1>
 
 <h3 class="post-title">Poetry</h3>
@@ -60,7 +60,9 @@
                         <span>/ {{ post.contributor }}</span>
                     </h3>
                     <h4>{{ post.tags }}</h4>
+                    <!-- {% unless post.category == nil %} -->
                     <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
+                    <!-- {% endunless %} -->
                 </div>
             </div>
         </div>

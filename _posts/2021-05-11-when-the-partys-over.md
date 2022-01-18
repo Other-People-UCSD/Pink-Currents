@@ -10,7 +10,7 @@ tags:
 featured: true
 
 ---
-![]({{ site.baseurl }}{{ page.thumb }})
+![A chipped champagne glass filled with pink liquid.]({{ site.baseurl }}{{ page.thumb }})
 
 <em>Winner of the 2020 Saier Memorial Award in Fiction</em>
 

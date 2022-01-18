@@ -1,9 +1,12 @@
 ---
 layout: submissions
 title: Submissions
-status: false
+status: true
 
 ---
+* [Literary Submission](https://forms.gle/H7QZ4D3TLWc5BviS9)
+* [Visual Arts Submission](https://forms.gle/3oSH5rHUKsuUdWsD6)
+
 # Reading Period:
 
 Editorial team will be reviewing and sending out acceptances on a rolling basis. Waiting period is approximately three months, but this could vary.
@@ -28,7 +31,10 @@ Editorial team will be reviewing and sending out acceptances on a rolling basis.
 * Only the piece's title, word count, and story/poem should be contained in the PDF.
 * Art: High fidelity .pdf, .jpg, .tiff accepted.
 
-We take submissions by [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScNpkibdlE3FXiW42uzo5RTSDAnw_bfJChmBrTeA7F09RyS9A/viewform?usp=sf_link). In this form, please answer the questions about the genre of your work, input your email address and name, and attach an **anonymized** copy of your work. Optional: tell us anything you want us to know about your work and its meaning.
+We take submissions by (Google Form. In this form, please answer the questions about the genre of your work, input your email address and name, and attach an **anonymized** copy of your work. Optional: tell us anything you want us to know about your work and its meaning.
+
+* [Literary Submission](https://forms.gle/H7QZ4D3TLWc5BviS9)
+* [Visual Arts Submission](https://forms.gle/3oSH5rHUKsuUdWsD6)
 
 Short and sweet, right?
 

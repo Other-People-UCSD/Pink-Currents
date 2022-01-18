@@ -100,6 +100,10 @@ sup {
     color: rgb(255, 153, 0);
 }
 
+iframe {
+    max-width: 980px;
+}
+
 html, html[data-theme="light"] {
     --background-color: #ffffff;
     --light-text-color: #151515;

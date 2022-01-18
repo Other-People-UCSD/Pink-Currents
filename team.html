@@ -1,0 +1,168 @@
+---
+layout: defaultMain
+title: Team
+team: []
+editor-in-chief:
+- Nicole Lopez — Publicity & Events
+- Montanna Harling — Editorial & Production
+editorial:
+- Isaac Kopstein — Head Editor & Finance
+- Ashley Hirao — Head Copy Editor
+- Janelle Kim — Head Content Writer, Former PR Director
+- Zoe Wong — Editorial
+- Eunice Kim — Editorial
+- Leilani Dewindt — Editorial
+- Olivia Koutsky — Editorial
+- Jennifer Khuu — Content
+- Ruisi Shu — Content
+- Sanjana Dhamankar — Content
+- Spencer Vossman — Content
+- Katie Clemmer — Content
+- Sophia Donner — Content
+- Violet Ford — Content
+
+- Cathy Huang — Editorial (2019-21)
+- Rachel Seo — Editorial (2019-21)
+- Stephanie Duncan — Editorial (2019-21)
+- Sydney Kessler — Editor-at-Large (2019-20)
+- Amy Cheng — Editorial (2019-20)
+- Chloe Esser — Editorial (2019-20)
+- Abigail Hora — Content (2019-20)
+- Hemmy Chun — Content (2019-20)
+- Jasmine Torres — Content (2019-20)
+
+design_team:
+- Caroline Tjoe — Co-Design Director
+- Kristy Lee — Co-Design Director
+- Kevin Jang — Web Production & UX Design
+- Hana Tobias — Design Illustrator
+- Jaiden McCrann — Design Illustrator
+- Kaley Chun — Design Illustrator
+- Kevin Phan — Design Illustrator
+
+- Geraldine Wambersie — Design Director (2019-21)
+- Elysia Mac — Design Illustrator (2019-21)
+- Eunsoo Lee — Co-Design Director (2019-20)
+- Jack Yang — Web Design (2019-20)
+- Imanol Tovar — Design Illustrator (2019-20)
+- Meryem Bahadir — Design Illustrator (2019-20)
+- Kelly Tran — Design Illustrator (2019-20)
+- Zhilin Li — Design Illustrator (2019-20)
+
+publicity_events:
+- Ana Castro — PR
+- Kela Sowell — PR
+- Kelly Nham — PR
+- Riley Sutton — PR
+
+- Katrina Ngo — PR (2019-21)
+- Sara Shor — PR (2019-20)
+- Valeria Castro Abril — Marketing (2019-20)
+- Lisa Pham — Events (2019-20)
+- Abigail Koornwinder — Events (2019-20)
+- Ryan Roden — Events (2019-20)
+- Ruby Hays — PR (2019-20)
+---
+<!-- <h2 class="center">Team Applications</h2>
+<ul class="landing-container showcase-grid">
+    <li>
+        <h3>Editorial & Content</h3>
+        <p>Editors review and edit submissions, then produce the pages of the magazine. Content writers create
+            exclusive prose, interview submittors about their
+            stories, and may write articles of their choice. </p>
+            <p style="text-align: center;">(Applications Closed)</p>
+    </li>
+    <li>
+        <h3>Design</h3>
+        <p>Design illustrators create artwork to complement accepted prose. We publish digital and print copies of
+            issues, as well as designing inclusive access to artistic expression through our website.</p>
+            <p style="text-align: center;">(Applications Closed)</p>
+        </li>
+    <li>
+        <h3>Marketing & Events</h3>
+        <p>Promote the magazine through social media, plan open mic nights, fundraisers, socials, etc. Marketing and
+            event planners help fund the magazine and increase our outreach beyond the campus.</p>
+            <p style="text-align: center;">(Applications Closed)</p>
+    </li>
+</ul> -->
+
+<div class="cssanimation sequence fadeInBottom">
+    <div class="IndexContainer">
+        <div class="landing-title">
+            <h1>
+                <div class="post_title">OUR TEAM
+            </h1>
+        </div>
+    </div>
+</div>
+
+
+<div class="team_module">
+    <!-- EDITOR-IN-CHIEF -->
+    <div class="team_module_child">
+        <ul>
+            <h2>Editor in Chief</h2>
+            {% for editor-in-chief in page.editor-in-chief %}
+            <li>
+                <h3>/ {{ editor-in-chief }}</h3>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- EDITORIAL -->
+    <div class="team_module_child">
+        <ul>
+            <h2>Editorial</h2>
+            {% for editorial in page.editorial %}
+            <li>
+                <h3>/ {{ editorial }}</h3>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- DESIGN -->
+    <div class="team_module_child">
+        <ul>
+            <h2>Design</h2>
+            {% for design_team in page.design_team %}
+            <li>
+                <h3>/ {{ design_team }}</h3>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- EVENTS -->
+    <div class="team_module_child">
+        <ul>
+            <h2>PR + Events</h2>
+            {% for publicity_events in page.publicity_events %}
+            <li>
+                <h3>/ {{ publicity_events }}</h3>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- MEDIA
+        <div class="team_module_child">
+            <ul>
+                <h2>Media</h2>
+                {% for media in page.media %}
+                <li>/ {{ media }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        FINANCE 
+        <div class="team_module_child">
+            <ul>
+                <h2>Finance</h2>
+                {% for finance in page.finance %}
+                <li>/ {{ finance }}</li>
+                {% endfor %}
+            </ul>
+        </div> -->
+</div>

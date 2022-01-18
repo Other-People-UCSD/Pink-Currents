@@ -4,13 +4,13 @@ contributor: Susan Hou
 date: 2020-04-05T07:00:00.000+00:00
 category: 1
 layout: Post
-thumb: "/uploads/with-liquor-title.jpg"
+thumb: "/uploads/with-liquor-susan-hou.jpg"
 tags: 
 - Nonfiction
 featured: true
 
 ---
-![](/uploads/with-liquor-title.jpg)
+![A view of the beach and the space. The ocean waves and cosmos are colored from blue to purple.](/uploads/with-liquor-susan-hou.jpg)
 
 To Cornell University and Liberty College,<br>(you know who you are)
 

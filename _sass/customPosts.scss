@@ -1,3 +1,25 @@
+.indent { text-indent: 40px; }
+.left40 { margin-left: 40px; }
+
+.hr40 {
+    margin-top: 40px; 
+    margin-bottom: 40px; 
+    width: 40px;
+}
+
+.w450 { max-width: 450px; }
+.w650 { max-width: 650px; }
+.white { color: #fff; }
+
+.mobile, .laptop, .desktop {
+    display: none;
+}
+
+#pomegranate {
+    width: 100%;
+    max-width: 350px;
+}
+
 .blood-pacts-bg {
     position: relative;
     margin-left: auto;
@@ -24,20 +46,37 @@
     background-image: url("https://otherpeoplesd.com/uploads/Little-Doll-Kristy-Lee.png");
     background-repeat: no-repeat;
     background-size: contain;
-    color: white;
     line-height: 2rem;
 }
 
-.mobile, .laptop, .desktop { 
+.grandfather-main {
     display: none;
+    padding-top: 30px;
+    padding-left: 25px;
+    height: 760px;
+    background-image: url("https://otherpeoplesd.com/uploads/grandfather-elysia-mac.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.daylily {
+    display: grid;
+    max-width: 1080px;
+    grid-template-columns: auto 1fr;
+    column-gap: 1rem;
+
+    .daylily-poem {
+        align-self: center;
+        line-height: 3rem;
+    }
 }
 
 @media only screen and (min-width: 525px) {
-    .little-doll-main { // Little Doll
+    .little-doll-main, .grandfather-main { // Little Doll, Grandfather
         display: block;
     }
 
-    .little-doll-mobile {
+    .little-doll-mobile, .grandfather-mobile {
         display: none;
     }
 }
@@ -63,5 +102,21 @@
 @media only screen and (min-width: 769px) { // Blood Pacts
     .desktop {
         display: block;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .daylily {
+        display: block;
+        
+        .daylily-img {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        .daylily-poem {
+            line-height: 2rem;
+        }
     }
 }

@@ -8,17 +8,19 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/search-script.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/announcement.js"></script>
+
     {% include favicons.html %}
     {% feed_meta %}
     {% seo %}
 </head>
 
 <body>
-    {% include header2.html %}
+    {% include headerMain.html %}
 
     <div class="cssanimation sequence fadeInBottom">
         <div class="IndexContainer">
-            <div class="content-title">
+            <div class="landing-title">
                 <h1>
                     <div class="post_title">{{ page.title }}
                 </h1>

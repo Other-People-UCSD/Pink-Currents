@@ -1,6 +1,18 @@
-## v3.1.2 (7/17/21)
+### v3.1.3 (1/12/22)
+- Uploaded TAGS: VACCINE, VIGNETTES, SLICE OF LIFE to fiction
+- TODO: Communicate with the design team about changes to the homepage's display of posts to improve new content writing piece visibility
+
+### v3.1.2 (12/5/21)
+- Uploaded missing illustrations and thumbnails for 火, c/o 2020, MoAM, Parasite, Tea for Sore Throat
 - Developed a slideshow on the front page to cycle through more featured posts and links to Issuu collections.
 - Resolved security vulnerabilites on Gemfile
+
+### v3.1.1 (12/5/21)
+- Closed Editorial team applications
+- Changed announcment to reflect submissions status
+
+## v3.1.0 (12/2/21)
+- Included Mailchimp newsletter subscription form in the footer
 
 ## v3.1.1 (7/7/21)
 - Menu buttons: Removed the `<a>` tags and restyled buttons to underline text and change cursor to pointer on hover.

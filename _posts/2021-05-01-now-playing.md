@@ -10,4 +10,4 @@ tags:
 featured: true
 
 ---
-![Now Playing by Kristy Lee]({{ site.baseurl }}/uploads/Now-Playing-Kristy-Lee.jpg)
+![A canvas artwork of a record player and three white flowers.]({{ site.baseurl }}/uploads/Now-Playing-Kristy-Lee.jpg)

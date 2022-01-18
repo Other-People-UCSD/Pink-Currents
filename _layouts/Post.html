@@ -7,6 +7,9 @@
   <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/search-script.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/announcement.js"></script>
+
   {% include favicons.html %}
   {% feed_meta %}
   {% seo %}
@@ -14,7 +17,7 @@
 
 <body>
 
-  {% include header3.html %}
+  {% include headerMain.html %}
 
   <div class="cssanimation sequence fadeInBottom">
     <div class="content-title">
