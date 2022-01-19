@@ -2,7 +2,7 @@
 category: 3
 layout: Post
 title: The Joy of Having Low Standards
-contributor: Jillian Calilung (Writer), Hana Tobias (Illustrator)
+contributor: Jillian C. (Writer), Hana Tobias (Illustrator)
 date: 2021-06-13 07:00:00 +0000
 thumb: "/uploads/the-joy-of-having-low-standards-hana-tobias.jpg"
 tags: 
