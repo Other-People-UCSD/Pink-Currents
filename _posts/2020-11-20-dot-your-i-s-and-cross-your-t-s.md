@@ -7,7 +7,6 @@ contributor: Sanjana Dhamankar
 featured: false
 category: ''
 date: 2020-11-20T08:00:00.000+00:00
-thumb: ''
 
 ---
 Tamed hair made free by a wildflower crown,

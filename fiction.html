@@ -15,7 +15,8 @@ title: "Fiction"
             <div class="post-info">
                 <h2>{{ post.title }}
                     {% if post.thumb %}
-                    <img src="{{site.baseurl}}{{ post.thumb }}">
+                    <img src="{{site.baseurl}}/assets/thumbs/{{ post.thumb }}"
+                        alt="{{ post.title }}">
                     {% endif %}
                 </h2>
                 <div></div>

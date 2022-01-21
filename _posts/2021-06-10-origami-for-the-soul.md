@@ -4,7 +4,7 @@ layout: Post
 title: Origami for the Soul
 contributor: Matthew Wills
 date: 2021-06-10 07:00:00 +0000
-thumb: "/uploads/Origami-for-the-Soul-Matthew-Wills.JPG"
+thumb: "Origami-for-the-Soul-Matthew-Wills.webp"
 tags: 
 - Visual Arts
 featured: true

@@ -5,7 +5,7 @@ date: 2020-04-03T07:00:00.000+00:00
 category: 1
 featured: true
 layout: Post
-thumb: "/uploads/skin-elysia-mac.jpg"
+thumb: "skin-elysia-mac.webp"
 tags:
 - Poetry
 

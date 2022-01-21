@@ -7,7 +7,6 @@ contributor: Minnie Nelson
 featured: true
 category: "1"
 date: 2021-04-23 07:00:00 +0000
-thumb: ''
 
 ---
 The air was still hot.<br>

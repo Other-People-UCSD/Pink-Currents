@@ -4,7 +4,6 @@ layout: Post
 title: "Self-Identity: Editor's Note"
 contributor: Montanna Harling, Isaac Kopstein
 date: 2021-06-01 00:00:00 +0000
-thumb: ""
 tags: 
 - Nonfiction
 featured: true

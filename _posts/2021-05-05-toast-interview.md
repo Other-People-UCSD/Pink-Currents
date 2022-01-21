@@ -4,7 +4,6 @@ layout: Post
 title: Interview (Toast)
 contributor: Janelle Kim
 date: 2021-05-05 07:00:00 +0000
-thumb: ""
 tags: 
 - Nonfiction
 featured: true

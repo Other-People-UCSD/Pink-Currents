@@ -7,7 +7,6 @@ contributor: Ruisi Shu
 featured: false
 category: ''
 date: 2021-04-30 07:00:00 +0000
-thumb: ''
 
 ---
 <p style="text-align:right">

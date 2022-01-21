@@ -4,7 +4,7 @@ layout: Post
 title: Blood Pacts
 contributor: Cathy Huang (Writer), Kevin Phan (Illustrator)
 date: 2021-05-07 07:00:00 +0000
-thumb: "/uploads/blood-pacts-kevin-phan.jpg"
+thumb: "blood-pacts-kevin-phan.webp"
 tags: 
 - Fiction
 featured: true

@@ -3,7 +3,6 @@ layout: Post
 title: "TAGS: VACCINE, VIGNETTES, SLICE OF LIFE"
 contributor: Sanjana Dhamankar
 date: 2022-01-12 07:00:00 +0000
-thumb: ''
 tags: 
 - Fiction
 

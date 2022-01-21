@@ -4,7 +4,7 @@ layout: Post
 title: Dissonance
 contributor: Laura Esbensen
 date: 2020-04-06T07:00:00.000+00:00
-thumb: "/uploads/dissonance-laura-esbensen.jpg"
+thumb: "dissonance-laura-esbensen.webp"
 tags: 
 - Visual Arts
 featured: true

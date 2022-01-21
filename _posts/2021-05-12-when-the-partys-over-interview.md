@@ -4,7 +4,6 @@ layout: Post
 title: When the Party's Over (Interview)
 contributor: Sanjana Dhamankar (Writer), Rachel Seo (Interviewee)
 date: 2021-05-11 07:00:00 +0000
-thumb: ""
 tags: 
 - Nonfiction
 featured: true
