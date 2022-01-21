@@ -1,5 +1,7 @@
 ### v3.1.4 (1/20/22)
 - Converted images into 80px height thumbnails to reduce the 50 MB network payload on the homepage and genre pages
+- Made minor syntax fixes on more HTML validation issues
+
 ### v3.1.3 (1/12/22)
 - Uploaded TAGS: VACCINE, VIGNETTES, SLICE OF LIFE to fiction
 - TODO: Communicate with the design team about changes to the homepage's display of posts to improve new content writing piece visibility
