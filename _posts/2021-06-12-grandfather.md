@@ -4,7 +4,7 @@ layout: Post
 title: Grandfather
 contributor: Katrina Ngo (Writer), Elysia Mac (Illustrator)
 date: 2021-06-12 07:00:00 +0000
-thumb: "/uploads/grandfather-elysia-mac.png"
+thumb: "grandfather-elysia-mac.webp"
 tags: 
 - Poetry
 featured: true

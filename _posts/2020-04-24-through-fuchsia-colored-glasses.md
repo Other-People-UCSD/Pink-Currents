@@ -4,7 +4,6 @@ layout: Post
 title: Through Fuchsia-Colored Glasses
 contributor: Abigail Hora
 date: 2020-04-24T07:00:00.000+00:00
-thumb: ''
 tags: 
 - Fiction
 

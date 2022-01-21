@@ -4,13 +4,13 @@ layout: Post
 title: May Flowers
 contributor: SDG (Writer), Elysia Mac (Illustrator)
 date: 2021-05-03 07:00:00 +0000
-thumb: "/uploads/may-flowers-cover.png"
+thumb: "may-flowers-cover.webp"
 tags: 
 - Nonfiction
 featured: true
 
 ---
-![A butterfly hovers above purple lilies.]({{ site.baseurl }}{{page.thumb}})
+![A butterfly hovers above purple lilies.]({{ site.baseurl }}/uploads/may-flowers-cover.png)
 
 Are you allowed to grieve the right choice? 
 

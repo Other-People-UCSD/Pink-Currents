@@ -7,7 +7,7 @@ contributor: Sanjana Dhamankar (Writer), Geraldine Wambersie (Illustrator)
 featured: false
 category: ''
 date: 2021-04-30 07:00:00 +0000
-thumb: "/uploads/paradiseless-illustration-by-geraldine.png"
+thumb: "paradiseless-illustration-by-geraldine.webp"
 
 ---
 ![A view from the La Jolla, San Diego beach cliffs. A silhouetted man smokes and looks ahead. The sky is replaced by a field of giant sunflower heads.](/uploads/paradiseless-illustration-by-geraldine.png)

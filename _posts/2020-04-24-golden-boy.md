@@ -4,7 +4,7 @@ layout: Post
 title: Golden Boy
 contributor: Isaac Kopstein (Writer), Kelly Tran (Illustrator)
 date: 2020-04-24T07:00:00.000+00:00
-thumb: "/uploads/golden-boy-kelly-tran.png"
+thumb: "golden-boy-kelly-tran.webp"
 tags: 
 - Fiction
 featured: true

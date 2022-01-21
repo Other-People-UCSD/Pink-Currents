@@ -4,7 +4,7 @@ layout: Post
 title: Block Cockroach
 contributor: Marina Lee (Writer), Kevin Phan (Illustrator)
 date: 2021-06-09 07:00:00 +0000
-thumb: "/uploads/roach-kevin-phan.jpg"
+thumb: "roach-kevin-phan.webp"
 tags: 
 - Nonfiction
 featured: true

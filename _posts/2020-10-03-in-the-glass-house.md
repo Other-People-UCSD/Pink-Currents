@@ -3,7 +3,7 @@ layout: Post
 title: In the Glass House
 contributor: Hemmy Chun (Writer), Helen Huang (Illustrator)
 date: 2020-10-03 07:00:00 +0000
-thumb: '/uploads/In-The-Glass-House-Helen-Huang.png'
+thumb: "In-The-Glass-House-Helen-Huang.webp"
 tags:
 - Fiction
 featured: false
