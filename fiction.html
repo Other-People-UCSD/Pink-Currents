@@ -7,28 +7,9 @@ title: "Fiction"
         <div class="cssanimation sequence fadeInBottom">Fiction</div>
     </h1>
 </div>
-
+ 
 <div class="post-container">
     {% for post in site.tags['Fiction'] %}
-    <a href="{{site.baseurl}}{{ post.url }}">
-        <div class="posts">
-            <div class="post-info">
-                <h2>{{ post.title }}
-                    {% if post.thumb %}
-                    <img src="{{site.baseurl}}/assets/thumbs/{{ post.thumb }}"
-                        alt="{{ post.title }}">
-                    {% endif %}
-                </h2>
-                <div></div>
-                <div>
-                    <h3><span>/ {{ post.contributor }}</span></h3>
-                    <h4>{{ post.tags }}</h4>
-                    {% if post.featured == true %}
-                    <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
-                    {% endif %}
-                </div>
-            </div>
-        </div>
-    </a>
+        {% include genre.html %}
     {% endfor %}
 </div>

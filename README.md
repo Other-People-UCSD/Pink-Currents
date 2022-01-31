@@ -42,8 +42,4 @@ otherpeoplesd.com/
     └── settings.yml    # Configuration to preview site on forestryio
 ```
 
-### Agenda
-- [x] Create wireframes for includes logic
-- [ ] Create wireframes for JS logic
-- [ ] Review wireframes with Eunsoo
-- [ ] Refactor the includes folder (three headers and two mobile navs)
+Font Awesome license for use of the Instagram, Facebook, and Mail icons: [https://fontawesome.com/license](https://fontawesome.com/license)

@@ -1,19 +1,30 @@
-### v3.1.4 (1/20/22)
+# Changelog 
+## v3.1.7 (1/31/22)
+- Published "The Ode To Venture Capitalism" and "Validation"
+- Moved team page into about and renamed
+- Slowed down the animation that changes the color theme on the homepage from 300ms to 800ms (coded in seconds).
+- Reformatted the "post-cards" to enlarge the thumbnails and organize components line-by-line for better presentation
+- Refactored the genre pages and homepage so the "post-card" is a modular component that can be used to iterate through the specified genre's array when it is included.  
+- Removed unused files (drafts that we did not have permission to publish, unused templates, unused pages)
+- Added a social footer into the menu and converted our social links to icons with ARIA support.
+- Font Awesome Icon license: [https://fontawesome.com/license](https://fontawesome.com/license)
+
+### v3.1.6 (1/20/22)
 - Converted images into 80px height thumbnails to reduce the 50 MB network payload on the homepage and genre pages
 - Made minor syntax fixes on more HTML validation issues
 
-### v3.1.3 (1/12/22)
+### v3.1.5 (1/12/22)
 - Uploaded TAGS: VACCINE, VIGNETTES, SLICE OF LIFE to fiction
 - TODO: Communicate with the design team about changes to the homepage's display of posts to improve new content writing piece visibility
 
-### v3.1.2 (12/5/21)
+### v3.1.4 (12/5/21)
 - Uploaded missing illustrations and thumbnails for 火, c/o 2020, MoAM, Parasite, Tea for Sore Throat
 
-### v3.1.1 (12/5/21)
+### v3.1.3 (12/5/21)
 - Closed Editorial team applications
 - Changed announcment to reflect submissions status
 
-## v3.1.0 (12/2/21)
+## v3.1.2 (12/2/21)
 - Included Mailchimp newsletter subscription form in the footer
 
 ## v3.1.1 (7/7/21)
