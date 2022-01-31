@@ -10,26 +10,8 @@
     {% unless post.tags contains "Nonfiction" %}
     {% unless post.tags contains "Visual Arts" %}
 
-    <a href="{{site.baseurl}}{{ post.url }}">
-        <div class="posts">
-            <div class="post-info">
-                <h2>{{ post.title }}
-                    {% if post.thumb %}
-                    <img src="{{site.baseurl}}/assets/thumbs/{{ post.thumb }}" 
-                        alt="{{ post.title }}">
-                    {% endif %}
-                </h2>
-                <div></div>
-                <div>
-                    <h3>
-                        <span>/ {{ post.contributor }}</span>
-                    </h3>
-                    <h4>{{ post.tags }}</h4>
-                    <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
-                </div>
-            </div>
-        </div>
-    </a>
+    {% include genre.html %}
+
     {% endunless %}
     {% endunless %}
     {% endunless %}
@@ -47,28 +29,8 @@
     {% unless post.tags contains "Nonfiction" %}
     {% unless post.tags contains "Poetry" %}
 
-    <a href="{{site.baseurl}}{{ post.url }}">
-        <div class="posts">
-            <div class="post-info">
-                <h2>{{ post.title }}
-                    {% if post.thumb %}
-                    <img src="{{site.baseurl}}/assets/thumbs/{{ post.thumb }}" 
-                        alt="{{ post.title }}">
-                    {% endif %}
-                </h2>
-                <div></div>
-                <div>
-                    <h3>
-                        <span>/ {{ post.contributor }}</span>
-                    </h3>
-                    <h4>{{ post.tags }}</h4>
-                    <!-- {% unless post.category == nil %} -->
-                    <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
-                    <!-- {% endunless %} -->
-                </div>
-            </div>
-        </div>
-    </a>
+    {% include genre.html %}
+
     {% endunless %}
     {% endunless %}
     {% endunless %}
@@ -86,26 +48,8 @@
     {% unless post.tags contains "Visual Arts" %}
     {% unless post.tags contains "Poetry" %}
 
-    <a href="{{site.baseurl}}{{ post.url }}">
-        <div class="posts">
-            <div class="post-info">
-                <h2>{{ post.title }}
-                    {% if post.thumb %}
-                    <img src="{{site.baseurl}}/assets/thumbs/{{ post.thumb }}" 
-                        alt="{{ post.title }}">
-                    {% endif %}
-                </h2>
-                <div></div>
-                <div>
-                    <h3>
-                        <span>/ {{ post.contributor }}</span>
-                    </h3>
-                    <h4>{{ post.tags }}</h4>
-                    <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
-                </div>
-            </div>
-        </div>
-    </a>
+    {% include genre.html %}
+
     {% endunless %}
     {% endunless %}
     {% endunless %}
@@ -123,26 +67,8 @@
     {% unless post.tags contains "Nonfiction" %}
     {% unless post.tags contains "Poetry" %}
 
-    <a href="{{site.baseurl}}{{ post.url }}">
-        <div class="posts">
-            <div class="post-info">
-                <h2>{{ post.title }}
-                    {% if post.thumb %}
-                    <img src="{{site.baseurl}}/assets/thumbs/{{ post.thumb }}" 
-                        alt="{{ post.title }}">
-                    {% endif %}
-                </h2>
-                <div></div>
-                <div>
-                    <h3>
-                        <span>/ {{ post.contributor }}</span>
-                    </h3>
-                    <h4>{{ post.tags }}</h4>
-                    <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
-                </div>
-            </div>
-        </div>
-    </a>
+    {% include genre.html %}
+
     {% endunless %}
     {% endunless %}
     {% endunless %}
@@ -156,28 +82,7 @@
 <div class="post-container">
     {% for post in site.tags['Poetry'] limit : 6 %}
 
-    <a href="{{site.baseurl}}{{ post.url }}">
-        <div class="posts">
-            <div class="post-info">
-                <h2>{{ post.title }}
-                    {% if post.thumb %}
-                    <img src="{{site.baseurl}}/assets/thumbs/{{ post.thumb }}" 
-                        alt="{{ post.title }}">
-                    {% endif %}
-                </h2>
-                <div></div>
-                <div>
-                    <h3>
-                        <span>/ {{ post.contributor }}</span>
-                    </h3>
-                    <h4>{{ post.tags }}</h4>
-                    {% if post.featured == true %}
-                    <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
-                    {% endif %}
-                </div>
-            </div>
-        </div>
-    </a>
+    {% include genre.html %}
 
     {% endfor %}
 </div>
@@ -189,28 +94,7 @@
 <div class="post-container">
     {% for post in site.tags['Fiction'] limit : 6 %}
 
-    <a href="{{site.baseurl}}{{ post.url }}">
-        <div class="posts">
-            <div class="post-info">
-                <h2>{{ post.title }}
-                    {% if post.thumb %}
-                    <img src="{{site.baseurl}}/assets/thumbs/{{ post.thumb }}" 
-                        alt="{{ post.title }}">
-                    {% endif %}
-                </h2>
-                <div></div>
-                <div>
-                    <h3>
-                        <span>/ {{ post.contributor }}</span>
-                    </h3>
-                    <h4>{{ post.tags }}</h4>
-                    {% if post.featured == true %}
-                    <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
-                    {% endif %}
-                </div>
-            </div>
-        </div>
-    </a>
+    {% include genre.html %}
 
     {% endfor %}
 </div>
@@ -222,28 +106,7 @@
 <div class="post-container">
     {% for post in site.tags['Nonfiction'] limit : 6 %}
 
-    <a href="{{site.baseurl}}{{ post.url }}">
-        <div class="posts">
-            <div class="post-info">
-                <h2>{{ post.title }}
-                    {% if post.thumb %}
-                    <img src="{{site.baseurl}}/assets/thumbs/{{ post.thumb }}" 
-                        alt="{{ post.title }}">
-                    {% endif %}
-                </h2>
-                <div></div>
-                <div>
-                    <h3>
-                        <span>/ {{ post.contributor }}</span>
-                    </h3>
-                    <h4>{{ post.tags }}</h4>
-                    {% if post.featured == true %}
-                    <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
-                    {% endif %}
-                </div>
-            </div>
-        </div>
-    </a>
+    {% include genre.html %}
 
     {% endfor %}
 </div>
@@ -255,26 +118,7 @@
 <div class="post-container">
     {% for post in site.tags['Visual Arts'] limit : 6 %}
 
-    <a href="{{site.baseurl}}{{ post.url }}">
-        <div class="posts">
-            <div class="post-info">
-                <h2>{{ post.title }}
-                    <img src="{{site.baseurl}}/assets/thumbs/{{ post.thumb }}" 
-                        alt="{{ post.title }}">
-                </h2>
-                <div></div>
-                <div>
-                    <h3>
-                        <span>/ {{ post.contributor }}</span>
-                    </h3>
-                    <h4>{{ post.tags }}</h4>
-                    {% if post.featured == true %}
-                    <h4 style="color:rgb(255, 153, 0)">No. {{ post.category }}</h4>
-                    {% endif %}
-                </div>
-            </div>
-        </div>
-    </a>
+    {% include genre.html %}
 
     {% endfor %}
 </div>
