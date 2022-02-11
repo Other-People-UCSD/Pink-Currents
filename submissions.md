@@ -1,11 +1,9 @@
 ---
 layout: submissions
 title: Submissions
-status: true
+status: false
 
 ---
-* [Literary Submission](https://forms.gle/H7QZ4D3TLWc5BviS9)
-* [Visual Arts Submission](https://forms.gle/3oSH5rHUKsuUdWsD6)
 
 # Reading Period:
 
@@ -33,8 +31,6 @@ Editorial team will be reviewing and sending out acceptances on a rolling basis.
 
 We take submissions by (Google Form. In this form, please answer the questions about the genre of your work, input your email address and name, and attach an **anonymized** copy of your work. Optional: tell us anything you want us to know about your work and its meaning.
 
-* [Literary Submission](https://forms.gle/H7QZ4D3TLWc5BviS9)
-* [Visual Arts Submission](https://forms.gle/3oSH5rHUKsuUdWsD6)
 
 Short and sweet, right?
 
