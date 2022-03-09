@@ -1,4 +1,8 @@
 # Changelog 
+### v3.1.8 (3/9/22)
+- Resolving nokogiri and CommonMarker security vulnerabilities by updating the gemfile
+- Updated gem for github pages from 219 to 225
+
 ## v3.1.7 (1/31/22)
 - Published "The Ode To Venture Capitalism" and "Validation"
 - Moved team page into about and renamed
