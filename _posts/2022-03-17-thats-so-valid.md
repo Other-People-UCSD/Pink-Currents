@@ -4,7 +4,7 @@ title: "That's So Valid!"
 contributor: Nandika Mishra
 date: 2022-03-17 07:00:00 +0000
 tags: 
-- Fiction
+- Nonfiction
 
 ---
 “...anyways, I won’t be back on campus for a while because of it.”
