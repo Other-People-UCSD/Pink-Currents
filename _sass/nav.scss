@@ -88,6 +88,22 @@
         stroke-miterlimit: 100;
         transform: rotate(45deg);
     }
+    
+    .social-footer {
+        display: grid;
+        padding-left: 0px;
+        max-width: 500px;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 60px;
+        list-style: none;
+
+        svg {
+            width: 3rem;
+            stroke: initial;
+            transform: none;
+        }
+    }
+
 }
 
 .search {
@@ -150,8 +166,8 @@
     }
 
     .mobile-nav {
-        h1 {
-            line-height: 4rem;
+        li {
+            font-size: 4rem;
         }
     }
 

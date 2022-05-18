@@ -4,7 +4,7 @@ layout: Post
 title: Rain on the Rooftops
 contributor: Meryem Bahadir
 date: 2020-05-04T07:00:00.000+00:00
-thumb: ''
+thumb: "rain-on-the-rooftops-meryem-bahadir.webp"
 tags: 
 - Fiction
 
@@ -21,7 +21,7 @@ From this high up in the apartment, even the moon’s luminescence couldn’t re
 
 He couldn’t find it in himself to really care. With a restless shift, he knocked over his cup from the coffee table and fell into a dreamless slumber.
 
-<center>—</center>
+<hr class="hr40 centering">
 
 The coffee stain had already set in by the time he woke up, but he was running late enough that to spare a second thinking about how to get another spill off his carpet would be too much brainwork. And so he didn’t think. He flopped off the couch and flew out the door with only a single button fastened on his bag, his floral study textbooks all but spilling out in cascading colors of white and black onto the staircase.
 
@@ -33,7 +33,7 @@ He wasn’t condemning them for being preoccupied, nor did he want to strike up 
 
 “_Now exiting, Municipio Station_.”
 
-![](/uploads/Image from iOS.JPG)
+![A man's head is open where white scribbles escape his thought bubble into the story.](/uploads/rain-on-the-rooftops-1-meryem-bahadir.jpg)
 
 The walk to the flower shop he interned at was not a hard walk. Naples was beautiful this time of year and visually there was always something that could occupy his wandering thoughts. To his right, the most beautiful bouquet of flowers sat in the arms of a newly engaged woman (perhaps even more than beauty, wedding proposals were prominent in the wintertime Italian seaside) and to his left a team of children sang in laughter, an aging soccer ball passing between little legs.
 
@@ -47,13 +47,13 @@ Because in a place, on a day, hell, in a month where everything seemed to be ble
 
 He coughed (choked, really), diverted his eyes, and walked away.
 
-![](/uploads/Image from iOS (1).JPG)
+![The man talks to a woman holding a cup of coffee by her lips.](/uploads/rain-on-the-rooftops-2-meryem-bahadir.jpg)
 
 For three weeks, he purposefully took the same route to the flower shop to test his luck, hoping to see the woman again, and each time he was surprised that it worked. For three weeks they observed one another from afar—by now they were in some tango of distant acquaintances; he would pass by, she would wave, and they would both give a soft sort of smile. Not once did it occur to him to walk inside (seeing as he was usually already running late) and she was never there when he walked in during the afternoon to grab his coffee.
 
 And then on the fourth week, half asleep on the metro and barely keeping himself from falling on the couple sitting in front of him, he turned around only to come face to face with the mysterious woman from the coffee shop. If her shocked expression was anything to go by, she was just as surprised as he was to see him there, gripping tiredly to the rusty handrail.
 
-![](/uploads/Image from iOS (2).JPG)
+![The man and woman's bodies face away from each other, but they smile at each other on the subway. Both of them are standing and holding two different poles.](/uploads/rain-on-the-rooftops-3-meryem-bahadir.jpg)
 
 Just like that, the warmth and softness was almost all gone.
 
@@ -75,4 +75,4 @@ They climbed high into the sky, a rooftop abandoned and forgotten. It was beauti
 
 The evening was a blur but of the best kind—a mixture of coffee and colors, music and conversation. And if this is what it felt like to finally live, thirty feet in the air, then so be it.
 
-![](/uploads/page-6.jpg)
+![The man and woman sit on a brick wall late at night and chat with cups of coffee. In the apartment background, a couple in a romantic embrace can be seen through the second-floor window.](/uploads/rain-on-the-rooftops-4-meryem-bahadir.jpg)

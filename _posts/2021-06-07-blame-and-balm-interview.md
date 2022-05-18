@@ -4,7 +4,6 @@ layout: Post
 title: blame and balm (Interview)
 contributor: Isaac Kopstein (Interviewer), Mariah v.n. (Interviewee)
 date: 2021-06-07 07:00:00 +0000
-thumb: ""
 tags: 
 - Nonfiction
 featured: true

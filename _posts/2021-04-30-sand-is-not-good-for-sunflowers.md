@@ -7,10 +7,10 @@ contributor: Sanjana Dhamankar (Writer), Geraldine Wambersie (Illustrator)
 featured: false
 category: ''
 date: 2021-04-30 07:00:00 +0000
-thumb: "/uploads/paradiseless-illustration-by-geraldine.png"
+thumb: "paradiseless-illustration-by-geraldine.webp"
 
 ---
-![](/uploads/paradiseless-illustration-by-geraldine.png)
+![A view from the La Jolla, San Diego beach cliffs. A silhouetted man smokes and looks ahead. The sky is replaced by a field of giant sunflower heads.](/uploads/paradiseless-illustration-by-geraldine.png)
 
 This was a bad idea.
 
@@ -46,7 +46,7 @@ The longer they stayed out, the more weeks would be added to her sentence. Maybe
 
 “A bad influence, huh?” he mused, smiling a secret sort of smile, like he was sharing a private joke with himself. “My Sunflower would be so disappointed in me.”
 
-<center>******</center>
+<p class="centering">******</p>
 
 “Here you go, Gramps. One Budweiser pint.”
 
@@ -246,7 +246,7 @@ And there was something childishly obstinate, but heartbreakingly beautiful abou
 
 Like Romeo and Juliet.
 
-<center>******</center>
+<p class="centerin">******</p>
 
 In the end, Gramps did not die next month.
 

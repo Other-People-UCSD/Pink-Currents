@@ -6,7 +6,6 @@ layout: Post
 title: Spectator
 date: 2020-07-28T07:00:00.000+00:00
 contributor: Sanjana Dhamankar
-thumb: ''
 
 ---
 So lonely was the old banyan tree that stood between Huntington Preparatory Academy and Valley Public School, that it reached out its wooden arms and asked the world into its embrace.

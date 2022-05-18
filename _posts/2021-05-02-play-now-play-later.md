@@ -4,7 +4,6 @@ layout: Post
 title: Play Now, Play Later
 contributor: Janelle Kim
 date: 2021-05-02 07:00:00 +0000
-thumb: ""
 tags: 
 - Fiction
 featured: true

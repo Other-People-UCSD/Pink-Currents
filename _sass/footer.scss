@@ -1,7 +1,9 @@
 footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: $blockFour 0 $blockFour 0;
     text-align: center;
-    opacity: .3;
+    align-items: end;
 
     svg {
         fill: $bodyColor;
@@ -10,7 +12,15 @@ footer {
         margin-left: auto;
         margin-right: auto;
         width: 5rem;
+        opacity: 0.3;
+    }
+    h4 {
+        opacity: 0.3;
     }
 }
 
-
+@media only screen and (max-width: 728px) {
+    footer {
+        display: block;
+    }
+}

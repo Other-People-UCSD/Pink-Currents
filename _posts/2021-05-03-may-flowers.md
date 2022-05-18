@@ -4,13 +4,13 @@ layout: Post
 title: May Flowers
 contributor: SDG (Writer), Elysia Mac (Illustrator)
 date: 2021-05-03 07:00:00 +0000
-thumb: "/uploads/may-flowers-cover.png"
+thumb: "may-flowers-cover.webp"
 tags: 
 - Nonfiction
 featured: true
 
 ---
-![]({{ site.baseurl }}{{page.thumb}})
+![A butterfly hovers above purple lilies.]({{ site.baseurl }}/uploads/may-flowers-cover.png)
 
 Are you allowed to grieve the right choice? 
 
@@ -33,7 +33,7 @@ Now you can’t stop shaking. Why didn’t you hold your baby? You would never g
 
 He moves back home. You tell him you asked for your ultrasound pictures from the doctor. He says it was a bad idea, but you know you need it. You keep crying yourself to a sleep full of nightmares. It's been over a month and it isn’t getting better. You never held your baby; you need something to hold onto now.
 
-![]({{ site.baseurl }}/uploads/may-flowers-2.png)
+![A green hummingbird sips nectar from yellow buds of a flower.]({{ site.baseurl }}/uploads/may-flowers-2.png)
 
 <p class="center"><em>8 Weeks After</em></p>
 

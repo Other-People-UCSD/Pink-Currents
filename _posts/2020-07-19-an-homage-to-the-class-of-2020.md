@@ -5,10 +5,14 @@ tags:
 layout: Post
 title: An Homage to the Class of 2020
 date: 2020-07-19T07:00:00.000+00:00
-contributor: Abigail Hora
-thumb: ''
+contributor: Abigail Hora (Writer), Emily Baer (Illustrator)
+thumb: "class-of-2020-emily-baer.webp"
 
 ---
+<p class="center">
+    <img src="{{ site.baseurl }}/uploads/class-of-2020-emily-baer.jpg" alt="Class of 2020" class="w450">
+</p>
+
 If a screen could be a stage, then there would not be a stage in the first place. No need for the acknowledgement of all our sacrifices and the sacrifices of those who have supported us in our journeys. No point in an opportunity to come together in a meaningful way with family and friends and peers.
 
 If a screen is not a stage, then we are lost in anonymity, deprived of the respectable recognition for our hard work, sleepless nights, and contributions to a campus community. We sit in front of cold interfaces with bittersweet expressions. We are left wanting for our final moments on campus, especially the culmination of those moments.

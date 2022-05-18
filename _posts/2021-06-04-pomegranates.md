@@ -4,7 +4,7 @@ layout: Post
 title: Pomegranates
 contributor: Dharma Gutierrez (Writer), Kristy Lee (Illustrator)
 date: 2021-06-04 07:00:00 +0000
-thumb: "/uploads/pomegranate-kristy-lee.gif"
+thumb: "pomegranate-kristy-lee.webp"
 tags: 
 - Poetry
 featured: true

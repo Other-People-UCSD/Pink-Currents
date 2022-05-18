@@ -4,7 +4,7 @@ layout: Post
 title: blame and balm
 contributor: Mariah v.n. (Writer), Caroline Tjoe (Illustrator)
 date: 2021-06-06 07:00:00 +0000
-thumb: "/uploads/blame-and-balm-caroline-tjoe.jpg"
+thumb: "blame-and-balm-caroline-tjoe.webp"
 tags: 
 - Poetry
 featured: true

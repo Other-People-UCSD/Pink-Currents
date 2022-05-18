@@ -4,7 +4,6 @@ layout: Post
 title: mother moon (Interview)
 contributor: Janelle Kim (Writer), Xiaoxing (Interviewee)
 date: 2021-06-15 07:00:00 +0000
-thumb: ""
 tags: 
 - Nonfiction
 featured: true
