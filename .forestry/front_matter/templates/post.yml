@@ -47,8 +47,6 @@ fields:
     between the square brackets (![ALT TEXT](img src)). Refer to the ADR on alt text
     in GDrive for examples.
 pages:
-- _posts/2020-04-01-girls-of-the-limberlost.md
-- _posts/2020-04-05-ode-to-stan.md
 - _posts/2020-04-05-with-liqour.md
 - _posts/2020-04-06-at-the-sink.md
 - _posts/2020-04-06-boys-night.md
@@ -65,7 +63,6 @@ pages:
 - _posts/2020-04-24-daylily.md
 - _posts/2020-04-24-golden-boy.md
 - _posts/2020-04-24-instructions-for-lemonade.md
-- _posts/2020-04-24-parasite-draft.md
 - _posts/2020-04-24-through-fuchsia-colored-glasses.md
 - _posts/2020-05-02-fronteras.md
 - _posts/2020-05-04-brain-fish.md
