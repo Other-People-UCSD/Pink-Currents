@@ -38,6 +38,9 @@ fields:
   config:
     maxSize: 64
   label: thumb
+  showOnly:
+    field: featured
+    value: false
 - type: textarea
   name: thumb_alt
   label: Thumbnail Alt Text
@@ -46,6 +49,8 @@ fields:
     for thumb. If additional media is included in the post, please write the alt text
     between the square brackets (![ALT TEXT](img src)). Refer to the ADR on alt text
     in GDrive for examples.
+  showOnly:
+    field: featured
 pages:
 - _posts/2020-04-05-with-liqour.md
 - _posts/2020-04-06-at-the-sink.md
