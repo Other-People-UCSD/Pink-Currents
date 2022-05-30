@@ -40,7 +40,7 @@ fields:
   label: thumb
   showOnly:
     field: featured
-    value: false
+    value: true
 - type: textarea
   name: thumb_alt
   label: Thumbnail Alt Text
@@ -51,6 +51,7 @@ fields:
     in GDrive for examples.
   showOnly:
     field: featured
+    value: true
 pages:
 - _posts/2020-04-05-with-liqour.md
 - _posts/2020-04-06-at-the-sink.md
