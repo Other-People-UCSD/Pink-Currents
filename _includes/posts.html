@@ -1,10 +1,16 @@
 <h1 class="index-title">
-    <div class="cssanimation sequence fadeInBottom">Summer 2021 — <br>Collection No. 3<br/>MIDNIGHT OIL</div>
+    <div class="cssanimation sequence fadeInBottom">Spring 2022 — <br>Collection No. 4<br/>REFRACTION</div>
 </h1>
 
 <h3 class="post-title">Poetry</h3>
 <div class="post-container">
-    {% for post in site.posts %}
+    {% for post in site.tags['Poetry'] limit : 15 %}
+
+    {% include genre.html %}
+
+    {% endfor %}
+
+    <!-- {% for post in site.posts %}
     {% if post.featured == true %}
     {% unless post.tags contains "Fiction" %}
     {% unless post.tags contains "Nonfiction" %}
@@ -16,14 +22,20 @@
     {% endunless %}
     {% endunless %}
     {%endif%}
-    {% endfor %}
+    {% endfor %} -->
 </div>
 
 <br>
 
 <h3 class="post-title">Fiction</h3>
 <div class="post-container">
-    {% for post in site.posts %}
+    {% for post in site.tags['Fiction'] limit : 9 %}
+
+    {% include genre.html %}
+    
+    {% endfor %}
+
+    <!-- {% for post in site.posts %}
     {% if post.featured == true %}
     {% unless post.tags contains "Visual Arts" %}
     {% unless post.tags contains "Nonfiction" %}
@@ -35,14 +47,20 @@
     {% endunless %}
     {% endunless %}
     {%endif%}
-    {% endfor %}
+    {% endfor %} -->
 </div>
 
 <br>
 
 <h3 class="post-title">Nonfiction</h3>
 <div class="post-container">
-    {% for post in site.posts %}
+    {% for post in site.tags['Nonfiction'] limit : 4 %}
+
+    {% include genre.html %}
+    
+    {% endfor %}
+
+    <!-- {% for post in site.posts %}
     {% if post.featured == true %}
     {% unless post.tags contains "Fiction" %}
     {% unless post.tags contains "Visual Arts" %}
@@ -54,14 +72,20 @@
     {% endunless %}
     {% endunless %}
     {%endif%}
-    {% endfor %}
+    {% endfor %} -->
 </div>
 
 <br>
 
 <h3 class="post-title">Visual Arts</h3>
 <div class="post-container">
-    {% for post in site.posts %}
+    {% for post in site.tags['Visual Arts'] limit : 11 %}
+
+    {% include genre.html %}
+    
+    {% endfor %}
+
+    <!-- {% for post in site.posts %}
     {% if post.featured == true %}
     {% unless post.tags contains "Fiction" %}
     {% unless post.tags contains "Nonfiction" %}
@@ -73,14 +97,14 @@
     {% endunless %}
     {% endunless %}
     {%endif%}
-    {% endfor %}
+    {% endfor %} -->
 </div>
 
 <h2 class="w2b post-title">Keep Reading</h2>
 
 <h3 class="post-title">Poetry</h3>
 <div class="post-container">
-    {% for post in site.tags['Poetry'] limit : 6 %}
+    {% for post in site.tags['Poetry'] offset: 15 limit: 9 %}
 
     {% include genre.html %}
 
@@ -92,7 +116,7 @@
 
 <h3 class="post-title">Fiction</h3>
 <div class="post-container">
-    {% for post in site.tags['Fiction'] limit : 6 %}
+    {% for post in site.tags['Fiction'] offset:9 limit: 9 %}
 
     {% include genre.html %}
 
@@ -104,7 +128,7 @@
 
 <h3 class="post-title">Nonfiction</h3>
 <div class="post-container">
-    {% for post in site.tags['Nonfiction'] limit : 6 %}
+    {% for post in site.tags['Nonfiction'] offset: 4 limit: 9 %}
 
     {% include genre.html %}
 
@@ -116,7 +140,7 @@
 
 <h3 class="post-title">Visual Arts</h3>
 <div class="post-container">
-    {% for post in site.tags['Visual Arts'] limit : 6 %}
+    {% for post in site.tags['Visual Arts'] offset: 11 limit: 9 %}
 
     {% include genre.html %}
 

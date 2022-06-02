@@ -81,7 +81,7 @@
 .w450 { max-width: 450px; }
 .w650 { max-width: 650px; }
 .white { color: #fff; }
-
+.blackout { background-color: #000; color: #fff}
 .mobile, .laptop, .desktop {
     display: none;
 }
@@ -176,6 +176,15 @@
     .paddingleft16 { padding-left: 240px;}
 }
 
+.human-geography {
+    max-width: 345px;
+    padding: 10px;
+    text-align: justify;
+    span {
+        background-color: #fff;
+        color: #000;
+    }
+}
 .poem-img-col {
     display: grid;
     grid-template-columns: 1fr 1fr;
