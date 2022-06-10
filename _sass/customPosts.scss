@@ -16,6 +16,57 @@
         height: 300px;
     }
 }
+
+.content-warning {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 8;
+
+    .warning {
+        position: relative;
+        margin: 200px auto;
+        width: 80%;
+        height: auto;
+        .title {
+            font-size: larger;
+            font-weight: bold;
+        }
+    }
+    .options {
+        display: grid;
+        width: fit-content;
+        grid-template-columns: 1fr 1fr;
+        text-transform: uppercase;
+        font-size: larger;
+        column-gap: 25px;
+    }
+    a {
+        display: block;
+        padding: 8px 16px;
+        border: 2px solid #333;
+        border-radius: 25px;
+        background-color: #fff;
+        text-decoration: none;
+        width: fit-content;
+    }
+
+    button {
+        padding: 8px 16px;
+        border: 2px solid #ccc;
+        border-radius: 25px;
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+        width: fit-content;
+    }
+}
+
 .indent { text-indent: 40px; }
 .left40 { margin-left: 40px; }
 .right-50-block { margin-left: auto; width: 50%;}
@@ -30,7 +81,7 @@
 .w450 { max-width: 450px; }
 .w650 { max-width: 650px; }
 .white { color: #fff; }
-
+.blackout { background-color: #000; color: #fff}
 .mobile, .laptop, .desktop {
     display: none;
 }
@@ -125,6 +176,23 @@
     .paddingleft16 { padding-left: 240px;}
 }
 
+.human-geography {
+    max-width: 345px;
+    padding: 10px;
+    text-align: justify;
+    span {
+        background-color: #fff;
+        color: #000;
+    }
+}
+.poem-img-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    img { position: absolute; }
+}
+
+
 @media only screen and (max-width: 768px) {
     .kalbelia {
         display: block;
@@ -148,6 +216,11 @@
         .paddingleft14 { padding-left: 20px;}
         .paddingleft15 { padding-left: 22px;}
         .paddingleft16 { padding-left: 24px;}
+    }
+
+    .poem-img-col {
+        display: block;
+        img { position: static; }
     }
 }
 

@@ -38,6 +38,9 @@ fields:
   config:
     maxSize: 64
   label: thumb
+  showOnly:
+    field: featured
+    value: true
 - type: textarea
   name: thumb_alt
   label: Thumbnail Alt Text
@@ -46,9 +49,10 @@ fields:
     for thumb. If additional media is included in the post, please write the alt text
     between the square brackets (![ALT TEXT](img src)). Refer to the ADR on alt text
     in GDrive for examples.
+  showOnly:
+    field: featured
+    value: true
 pages:
-- _posts/2020-04-01-girls-of-the-limberlost.md
-- _posts/2020-04-05-ode-to-stan.md
 - _posts/2020-04-05-with-liqour.md
 - _posts/2020-04-06-at-the-sink.md
 - _posts/2020-04-06-boys-night.md
@@ -65,7 +69,6 @@ pages:
 - _posts/2020-04-24-daylily.md
 - _posts/2020-04-24-golden-boy.md
 - _posts/2020-04-24-instructions-for-lemonade.md
-- _posts/2020-04-24-parasite-draft.md
 - _posts/2020-04-24-through-fuchsia-colored-glasses.md
 - _posts/2020-05-02-fronteras.md
 - _posts/2020-05-04-brain-fish.md
@@ -86,3 +89,4 @@ pages:
 - _posts/2021-04-23-together-youandme-est.2010.md
 - _posts/2021-04-30-butterflies.md
 - _posts/2021-04-30-sand-is-not-good-for-sunflowers.md
+- _posts/shore-walking.md
