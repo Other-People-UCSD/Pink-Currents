@@ -1,9 +1,11 @@
 ---
 layout: submissions
 title: Submissions
-status: false
+status: true
 
 ---
+* [Literary Submission](https://docs.google.com/forms/d/e/1FAIpQLSfzfy_KEpyS4qFiDo5VlFKet23bLjt7i_RWIoet3uvhAC8UTQ/viewform?usp=sf_link)
+* [Visual Arts Submission](https://docs.google.com/forms/d/e/1FAIpQLSfb0td_Tgq030MsCGDhKPHaOm1CeKelObgPqRVmFjtpUv9LvA/viewform?usp=sf_link)
 
 # Reading Period:
 
