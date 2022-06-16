@@ -4,8 +4,8 @@ title: Submissions
 status: true
 
 ---
-* [Literary Submission](https://docs.google.com/forms/d/e/1FAIpQLSfzfy_KEpyS4qFiDo5VlFKet23bLjt7i_RWIoet3uvhAC8UTQ/viewform?usp=sf_link)
-* [Visual Arts Submission](https://docs.google.com/forms/d/e/1FAIpQLSfb0td_Tgq030MsCGDhKPHaOm1CeKelObgPqRVmFjtpUv9LvA/viewform?usp=sf_link)
+* [Written Submissions](https://docs.google.com/forms/d/e/1FAIpQLSfzfy_KEpyS4qFiDo5VlFKet23bLjt7i_RWIoet3uvhAC8UTQ/viewform?usp=sf_link)
+* [Visual Arts Submissions](https://docs.google.com/forms/d/e/1FAIpQLSfb0td_Tgq030MsCGDhKPHaOm1CeKelObgPqRVmFjtpUv9LvA/viewform?usp=sf_link)
 
 # Reading Period:
 
@@ -30,9 +30,9 @@ Editorial team will be reviewing and sending out acceptances on a rolling basis.
 * Written works: please submit a PDF in standard manuscript format.
 * Only the piece's title, word count, and story/poem should be contained in the PDF.
 * Art: High fidelity .pdf, .jpg, .tiff accepted.
+  * If you would like to submit a series, please create an individual submission for each work.
 
 We take submissions by (Google Form. In this form, please answer the questions about the genre of your work, input your email address and name, and attach an **anonymized** copy of your work. Optional: tell us anything you want us to know about your work and its meaning.
-
 
 Short and sweet, right?
 
