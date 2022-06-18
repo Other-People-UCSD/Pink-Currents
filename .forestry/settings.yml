@@ -4,6 +4,16 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: _sass
+  label: Styles
+  create: documents
+  match: "**/*"
+- type: directory
+  path: assets/thumbs
+  label: Thumbnails
+  create: documents
+  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
