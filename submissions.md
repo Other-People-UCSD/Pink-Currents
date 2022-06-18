@@ -9,13 +9,15 @@ status: true
 
 # Reading Period:
 
-Editorial team will be reviewing and sending out acceptances on a rolling basis. Waiting period is approximately three months, but this could vary.
+The editorial team will be reviewing and sending out acceptances on a rolling basis. Our waiting period is approximately three months, but this could vary.
 
 # ‍What we accept:
 
 * Prose of any genre under 3k words
 * Poetry
-* Art (traditional or digital, short comics, photography, graphic text, etc). ‍ If you have a question about what we accept, please email us at otherpeopleucsd@gmail.com.<sup>\[1\]</sup>
+* Art (traditional or digital, short comics, photography, graphic text, etc). ‍
+* We encourage you to submit spoken word, performance, experimental, cross-genre, and other forms of work! 
+* If you have a question about what we accept, please email us at otherpeopleucsd@gmail.com.<sup>\[1\]</sup>
 
 # Who we accept from:
 
