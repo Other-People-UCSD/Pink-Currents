@@ -34,13 +34,8 @@ fields:
   name: date
   label: date
 - name: thumb
-  type: file
-  config:
-    maxSize: 64
+  type: text
   label: thumb
-  showOnly:
-    field: featured
-    value: true
 - type: textarea
   name: thumb_alt
   label: Thumbnail Alt Text
