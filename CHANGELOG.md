@@ -1,4 +1,8 @@
 # Changelog 
+### v3.2.2 (9/19/22)
+- Opened all team applications
+- Changed announcement link to team applications
+
 ### v3.2.1 (8/29/22)
 - Updated about/team page with current members
 - Updated submissions page with theme
