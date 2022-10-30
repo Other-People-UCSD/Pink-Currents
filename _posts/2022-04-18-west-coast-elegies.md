@@ -1,12 +1,18 @@
 ---
 layout: Post
 title: "West Coast Elegies"
-contributor: Ploy Techawatanasuk
+contributor: Ploy Techawatanasuk (Writer), Amy Stukenholtz (Illustrator)
 date: 2022-04-18 07:00:00 +0000
+thumb: "west-coast-elegies-amy-stukenholtz.webp"
 tags: 
 - Poetry
 
 ---
+
+<img src="{{ site.baseurl }}/uploads/west-coast-elegies-amy-stukenholtz.jpg"
+    alt=""
+    class="w450">
+
 Have you ever been to where<br />
 the trees went to sleep on St Helen’s?<br />
 I heard the birds don’t know which way is which<br />
