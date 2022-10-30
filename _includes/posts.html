@@ -6,6 +6,7 @@
 <div class="post-container">
     {% for post in site.tags['Poetry'] limit : 15 %}
 
+
     {% include genre.html %}
 
     {% endfor %}
@@ -105,6 +106,7 @@
 <h3 class="post-title">Poetry</h3>
 <div class="post-container">
     {% for post in site.tags['Poetry'] offset: 15 limit: 9 %}
+
 
     {% include genre.html %}
 
