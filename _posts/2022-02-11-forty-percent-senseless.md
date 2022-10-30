@@ -1,12 +1,16 @@
 ---
 layout: Post
 title: "Forty Percent Senseless"
-contributor: Spencer Vossman
+contributor: Spencer Vossman (Writer), Allison Gable (Illustrator)
 date: 2022-02-11 07:00:00 +0000
 tags: 
 - Poetry
 
 ---
+<img src="{{ site.baseurl }}/uploads/forty-percent-senseless-allison-gable.jpg"
+    alt="An open strawberry Yoplait cup with a spoon inside the yogurt."
+    class="w450">
+
 Yoplait, please <br />
 don’t play with me. <br />
 You call this strawberry? <br />
