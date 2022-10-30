@@ -3,6 +3,7 @@ layout: Post
 title: "Forty Percent Senseless"
 contributor: Spencer Vossman (Writer), Allison Gable (Illustrator)
 date: 2022-02-11 07:00:00 +0000
+thumb: "forty-percent-senseless-allison-gable.webp"
 tags: 
 - Poetry
 
