@@ -1,9 +1,12 @@
 # Changelog 
 ## v3.2.3 (10/29/22)
 - Closed Collection No. 5 submissions
+- Updated the submission page with FAQ and removed redundant phrases
 - Closed design/social media team applications
 - Removed announcement banner
-- Uploaded illustration for "Forty Percent Senseless"
+- Uploaded illustrations for "Forty Percent Senseless" and "West Coast Elegies"
+- Fixed typos in team page and UC Magazine page
+- Added MIAC and Maximalist Magazine to the UC Magazine page
 
 ### v3.2.2 (9/19/22)
 - Opened all team applications
