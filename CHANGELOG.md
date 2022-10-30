@@ -1,4 +1,10 @@
 # Changelog 
+## v3.2.3 (10/29/22)
+- Closed Collection No. 5 submissions
+- Closed design/social media team applications
+- Removed announcement banner
+- Uploaded illustration for "Forty Percent Senseless"
+
 ### v3.2.2 (9/19/22)
 - Opened all team applications
 - Changed announcement link to team applications
