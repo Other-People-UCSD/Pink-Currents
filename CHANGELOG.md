@@ -1,4 +1,19 @@
 # Changelog 
+### v3.2.2 (9/19/22)
+- Opened all team applications
+- Changed announcement link to team applications
+
+### v3.2.1 (8/29/22)
+- Updated about/team page with current members
+- Updated submissions page with theme
+- Changed announcement headline to "submissions open status"
+- Removed one unpublished draft
+- Updated README with updated architecture
+- Updated forestry.io configuration for thumbnails (needs to be extensively tested)
+
+## v3.2.0 (5/20/22)
+- Published Collection No. 4, Refraction.
+
 ### v3.1.8 (3/9/22)
 - Resolving nokogiri and CommonMarker security vulnerabilities by updating the gemfile
 - Updated gem for github pages from 219 to 225

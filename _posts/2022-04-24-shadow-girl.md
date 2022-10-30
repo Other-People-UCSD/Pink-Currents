@@ -11,4 +11,5 @@ tags:
 featured: true
 ---
 <img src="{{ site.baseurl }}/uploads/shadow-girl-bri-conlon.jpg" 
-    alt="a">
+    alt="a"
+    class="w650">
