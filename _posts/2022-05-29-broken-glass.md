@@ -3,9 +3,15 @@ layout: Post
 title: "Broken Glass"
 contributor: Violet Ford
 date: 2022-04-29 07:00:00 +0000
+thumb: "broken-glass-helen-huang.webp"
 tags: 
 - Poetry
 ---
+
+<img src="{{ site.baseurl }}/uploads/broken-glass-helen-huang.jpg"
+    alt="Watercolor. A person faces a broken window. Their shadow covers the left two panes and an eye appears from the top left pane."
+    class="w450">
+
 Thirty-five degrees under the still-falling snow,<br />
 I’d stand outside the door, half hoping you’d show
 

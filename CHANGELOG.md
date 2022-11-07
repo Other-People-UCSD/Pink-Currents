@@ -1,4 +1,7 @@
 # Changelog 
+### v3.2.4 (11/7/22)
+- Uploaded illustrations for "Apathy" and "Broken Glass"
+
 ## v3.2.3 (10/29/22)
 - Closed Collection No. 5 submissions
 - Updated the submission page with FAQ and removed redundant phrases
