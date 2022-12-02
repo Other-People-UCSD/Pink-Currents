@@ -1,16 +1,15 @@
 ---
 layout: submissions
 title: Submissions
-status: false
+status: true
 
 ---
 
+[Written Submissions](https://docs.google.com/forms/d/e/1FAIpQLSfEQZ1kqsKQULPjS_xTCzi_6UmKO8HmmgU8EgeSdPRgZ8HFbQ/viewform?usp=sf_link)
 
-# Collection No. 5: Eclipse
-Eclipse. The cycle starts anew. A mystical, mysterious, spiritual, psychological, or physical shift in patterns and livelihood. It marks a new age, a doing away of the old. The eclipse is a place within shadow, where people may look to the sky and marvel in raw truth. It’s where blood moons and refracted light draw monumental power, whose influence fluctuates from mind to mind. Raising nations, turning the tide of wars. Brightening up the gloom or shadowing elated emotions, and dispelling arcs of light that bleed through darkness.
+[Visual Arts Submissions](https://docs.google.com/forms/d/e/1FAIpQLSf31QF97LOK5PYwRtKhlYOK-SjeUu1_c4pHpnpMXf-gFfOHww/viewform?usp=sf_link)
 
-Eclipse. A place of transformation. A place of renewal. A time for evolution, when the wheel turns, and light and alignment reflect a greater part of ourselves.
-It is time for rebirth.  
+(There are two other open submissions at UC San Diego that can be located on our discord! <a href="https://discord.gg/Z9eFGkd9bU" rel="noreferer noopener">https://discord.gg/Z9eFGkd9bU</a>)
 
 *Magazine submissions will be selected based on quality, originality, creativity, and the creator's interpretation of our theme, Eclipse!
 
