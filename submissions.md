@@ -11,7 +11,7 @@ status: true
 
 (There are two other open submissions at UC San Diego that can be located on our discord! <a href="https://discord.gg/Z9eFGkd9bU" rel="noreferer noopener">https://discord.gg/Z9eFGkd9bU</a>)
 
-*Magazine submissions will be selected based on quality, originality, creativity, and the creator's interpretation of our theme, Eclipse!
+*Magazine submissions will be selected based on quality, originality, creativity, and the creator's intent!
 
 # Reading Period:
 
