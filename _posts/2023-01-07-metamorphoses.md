@@ -1,14 +1,10 @@
 ---
 layout: Post
-tags:
-- Poetry
 title: Metamorphoses
 contributor: Jennifer Chen
-featured: false
-category: ''
 date: 2023-01-07 15:00:00 +0000
-thumb: ''
-thumb_alt: ''
+tags:
+- Poetry
 
 ---
 The humming of the<br />
