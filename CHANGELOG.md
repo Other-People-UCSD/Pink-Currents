@@ -1,3 +1,6 @@
+## v3.2.5 (2/3/23)
+- Added copy-protections to protect published works from users. Refer to the ADR for more details.
+
 ### v3.1.3 (1/12/22)
 - Uploaded TAGS: VACCINE, VIGNETTES, SLICE OF LIFE to fiction
 - TODO: Communicate with the design team about changes to the homepage's display of posts to improve new content writing piece visibility

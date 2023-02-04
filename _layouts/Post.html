@@ -9,6 +9,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="{{ site.baseurl }}/assets/js/search-script.js"></script>
   <script src="{{ site.baseurl }}/assets/js/announcement.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/copyright.js"></script>
 
   {% include favicons.html %}
   {% feed_meta %}
@@ -19,7 +20,7 @@
 
   {% include headerMain.html %}
 
-  <div class="cssanimation sequence fadeInBottom">
+  <main class="cssanimation sequence fadeInBottom">
     <div class="content-title">
       <h1>
         <div class="post_title">{{ page.title }}
@@ -27,7 +28,7 @@
     </div>
   </div>
 
-  <div class="content">
+  <article class="content">
     <h3>/ {{ page.contributor }}</h3>
     <h4 class="meta">{{ page.tags }} — {% include minsread.html %}</h4>
 
@@ -35,7 +36,10 @@
     <h4 style="color:rgb(255, 153, 0)">No. {{ page.category }}</h4>
     {% endif %}
     <br />
-    {{ content }}
+
+    <article id="cr-article">
+      {{ content }}
+    </article>
 
     <div class="copyright-footer">
       <h4>This work belongs to {{ page.contributor }} ©
@@ -59,7 +63,7 @@
         {% endif %}
       </h4>
     </div>
-  </div>
+  </main>
 
   {% include footer.html %}
 
