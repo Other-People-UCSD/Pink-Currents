@@ -4,7 +4,7 @@ layout: Post
 title: At the Sink
 contributor: Gabriela Schnepp (Writer), Imanol Tovar (Illustrator)
 date: 2020-04-06T07:00:00.000+00:00
-thumb: "/uploads/sink-imanol-tovar.jpg"
+thumb: "sink-imanol-tovar.webp"
 tags: 
 - Poetry
 featured: true

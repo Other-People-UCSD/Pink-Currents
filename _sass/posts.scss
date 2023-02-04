@@ -70,17 +70,26 @@
 .post-info {
     min-height: 70px;
     display: grid;
-    grid-template-columns: 60% 5% 35%;
-    :nth-child(3) {
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    justify-content: space-between;
+
+    :nth-child(3), .card-info {
         text-align: right;
     }
 
-    h2 {
-        img {
-            height: 15px;
-            margin-left: 15px;
-        }
+    .small-title {
+        font-size: 1.1rem;
     }
+
+    img {
+        max-width: 60px;
+    }
+
+    .delimiter {
+        transform: scale(0.8);
+    }
+
 }
 
 h2.post-title {
@@ -127,7 +136,15 @@ h3.post-title{
     text-align: center;
 }
 
+.gold {
+    color:#ff9900;
+}
 
+.uc-cards {
+    p {
+        margin: 0;
+    }
+}
 @media only screen and (max-width: 728px) {
     .post-container {
         padding: $blockTwo;

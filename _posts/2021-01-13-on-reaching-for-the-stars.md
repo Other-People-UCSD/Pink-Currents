@@ -7,7 +7,6 @@ contributor: Jennifer Khuu
 featured: false
 category: ''
 date: 2021-01-13 08:00:00 +0000
-thumb: ''
 
 ---
 **On Reaching for the Stars**

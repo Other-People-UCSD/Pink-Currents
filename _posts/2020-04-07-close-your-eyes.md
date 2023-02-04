@@ -4,7 +4,7 @@ layout: Post
 title: Close Your Eyes
 contributor: Montanna Harling (Writer), Zhilin Li (Illustrator)
 date: 2020-04-07T07:00:00.000+00:00
-thumb: "/uploads/close-your-eyes-zhilin-li.png"
+thumb: "close-your-eyes-zhilin-li.webp"
 tags:
 - Fiction
 featured: true

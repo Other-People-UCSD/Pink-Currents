@@ -11,22 +11,22 @@
   <script src="{{ site.baseurl }}/assets/js/announcement.js"></script>
   <script src="{{ site.baseurl }}/assets/js/copyright.js"></script>
 
-  {% include favicons.html %}
-  {% feed_meta %}
-  {% seo %}
+    {% include favicons.html %}
+    {% feed_meta %}
+    {% seo title=false %}
 </head>
 
 <body>
 
-  {% include headerMain.html %}
+    {% include headerMain.html %}
 
-  <main class="cssanimation sequence fadeInBottom">
-    <div class="content-title">
-      <h1>
-        <div class="post_title">{{ page.title }}
-      </h1>
+    <div class="cssanimation sequence fadeInBottom">
+        <div class="content-title">
+            <h1>
+                <div class="post_title">{{ page.title }}
+            </h1>
+        </div>
     </div>
-  </div>
 
   <article class="content">
     <h3>/ {{ page.contributor }}</h3>
@@ -41,31 +41,32 @@
       {{ content }}
     </article>
 
-    <div class="copyright-footer">
-      <h4>This work belongs to {{ page.contributor }} ©
-        <br /> Copy, reproduction, and modification are not permitted without permission
-      </h4>
+        <div class="copyright-footer">
+            <h4>This work belongs to {{ page.contributor }} ©
+                <br /> Copy, reproduction, and modification are not permitted without permission
+            </h4>
+        </div>
     </div>
-  </div>
 
-  <div class="post-nav">
-    <div class="post-nav-prev">
-      <h4>
-        {% if page.previous.url %}
-        <a href="{{page.previous.url}}">&ltprev</a>
-        {% endif %}
-      </h4>
-    </div>
-    <div class="post-nav-next">
-      <h4>
-        {% if page.next.url %}
-        <a href="{{page.next.url}}">next&gt</a>
-        {% endif %}
-      </h4>
+    <div class="post-nav">
+        <div class="post-nav-prev">
+            <h4>
+                {% if page.previous.url %}
+                <a href="{{page.previous.url}}">&ltprev</a>
+                {% endif %}
+            </h4>
+        </div>
+        <div class="post-nav-next">
+            <h4>
+                {% if page.next.url %}
+                <a href="{{page.next.url}}">next&gt</a>
+                {% endif %}
+            </h4>
+        </div>
     </div>
   </main>
 
-  {% include footer.html %}
+    {% include footer.html %}
 
 </body>
 

@@ -4,18 +4,35 @@ title: Submissions
 status: true
 
 ---
-* [Literary Submission](https://forms.gle/H7QZ4D3TLWc5BviS9)
-* [Visual Arts Submission](https://forms.gle/3oSH5rHUKsuUdWsD6)
+
+[Written Submissions](https://docs.google.com/forms/d/e/1FAIpQLSfEQZ1kqsKQULPjS_xTCzi_6UmKO8HmmgU8EgeSdPRgZ8HFbQ/viewform?usp=sf_link)
+
+[Visual Arts Submissions](https://docs.google.com/forms/d/e/1FAIpQLSf31QF97LOK5PYwRtKhlYOK-SjeUu1_c4pHpnpMXf-gFfOHww/viewform?usp=sf_link)
+
+(There are two other open submissions at UC San Diego that can be located on our discord! <a href="https://discord.gg/Z9eFGkd9bU" rel="noreferer noopener">https://discord.gg/Z9eFGkd9bU</a>)
+
+*Magazine submissions will be selected based on quality, originality, creativity, and the creator's intent!
 
 # Reading Period:
 
-Editorial team will be reviewing and sending out acceptances on a rolling basis. Waiting period is approximately three months, but this could vary.
+The editorial team will be reviewing and sending out acceptances on a rolling basis. Our waiting period is approximately three months, but this could vary.
 
 # ‍What we accept:
 
 * Prose of any genre under 3k words
 * Poetry
-* Art (traditional or digital, short comics, photography, graphic text, etc). ‍ If you have a question about what we accept, please email us at otherpeopleucsd@gmail.com.<sup>\[1\]</sup>
+* Art (traditional or digital, short comics, photography, graphic text, etc). ‍
+* We encourage you to submit spoken word, performance, experimental, cross-genre, and other forms of work! 
+* If you have a question about what we accept, please email us at otherpeopleucsd@gmail.com.<sup>\[1\]</sup>
+
+# How we want it:
+* **Please create an individual submission for each work.** 
+* Remove your name and other personally identifying information from the document. Files should be ANONYMIZED - do not include your name anywhere so that our team can review submissions anonymously.
+* Written works: please submit a PDF in standard manuscript format.
+* Only the piece's title, word count, and story/poem should be contained in the PDF.
+* Art: High fidelity .pdf, .jpg, .tiff accepted.
+  * If you would like to submit a series, please create an individual submission for each work.
+* More detailed instructions are listed in the Google Form submission form as well! In this form, please answer the questions about the genre of your work, input your email address and name, and attach an **anonymized** copy of your work. Optional: tell us anything you want us to know about your work and its meaning.
 
 # Who we accept from:
 
@@ -23,21 +40,15 @@ Editorial team will be reviewing and sending out acceptances on a rolling basis.
 * Graduate students
 * UCSD alumni graduated within the last 3 years‍
 
-# How we want it:
-
-* Remove your name and other personally identifying information from the document. Files should be ANONYMIZED - do not include your name anywhere so that our team can review submissions anonymously.
-* For the title of the file: include ONLY the TITLE of your art/story/poem etc. (Do not include your name in the file name).
-* Written works: please submit a PDF in standard manuscript format.
-* Only the piece's title, word count, and story/poem should be contained in the PDF.
-* Art: High fidelity .pdf, .jpg, .tiff accepted.
-
-We take submissions by (Google Form. In this form, please answer the questions about the genre of your work, input your email address and name, and attach an **anonymized** copy of your work. Optional: tell us anything you want us to know about your work and its meaning.
-
-* [Literary Submission](https://forms.gle/H7QZ4D3TLWc5BviS9)
-* [Visual Arts Submission](https://forms.gle/3oSH5rHUKsuUdWsD6)
-
 Short and sweet, right?
 
-<br>
-
-#### \[1a\] Multiple submissions are accepted<br>\[1b\] We do not consider previously published work.<br>\[1c\] Currently, we do not have the funds to pay our contributors.<br>
+# FAQ
+- Q: Can we submit multiple submissions?
+  - A: Yes. Please submit them in individual files. There is no limit to number of submissions as we review each work anonymously.
+- Q: When do your submission periods usually open?
+  - A: End of Spring Quarter - Early Fall Quarter
+  - & Late Fall Quarter - End of Winter Quarter
+ 
+#### \[1A\] We do not consider previously published work.
+#### \[1B\] Currently, we do not have the funds to pay our contributors.
+<br />

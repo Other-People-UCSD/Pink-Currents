@@ -4,7 +4,7 @@ layout: Post
 title: Rain on the Rooftops
 contributor: Meryem Bahadir
 date: 2020-05-04T07:00:00.000+00:00
-thumb: ''
+thumb: "rain-on-the-rooftops-meryem-bahadir.webp"
 tags: 
 - Fiction
 

@@ -4,7 +4,7 @@ contributor: Susan Hou
 date: 2020-04-05T07:00:00.000+00:00
 category: 1
 layout: Post
-thumb: "/uploads/with-liquor-susan-hou.jpg"
+thumb: "with-liquor-susan-hou.webp"
 tags: 
 - Nonfiction
 featured: true

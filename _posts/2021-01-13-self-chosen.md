@@ -7,7 +7,6 @@ contributor: Ruisi Shu
 featured: false
 category: ''
 date: 2021-01-13 08:00:00 +0000
-thumb: ''
 
 ---
 _A fortnight ago,_

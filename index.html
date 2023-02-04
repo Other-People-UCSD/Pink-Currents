@@ -1,32 +1,17 @@
 ---
 layout: defaultMain
 title: Home
-numSlides: 3
-titles: ["Monotony", "Blood Pacts", "Life Cycle"]
-contributors: ["Ally Lawler",
-"Cathy Huang (Writer)&#44 Kevin Phan (Illustrator)",
-"Geraldine Wambersie"]
-links: ["/1/monotony", "/2/blood-pacts", "https://issuu.com/otherpeoplesd"]
-
-images: ["/uploads/IMG_1657 - Ally Lawler.jpg",
-"/uploads/blood-pacts-kevin-phan.jpg",
-"/uploads/Life-Cycle-Geraldine-Wambersie.jpg"]
-
-alts: ["Light shines through slits to form a trapezoidal distortion against a concrete wall with drill holes.
-A student walks left while reading from his phone, while a man on the right moves in the other direction.",
-"The full moon blocks the arm of a tuxedo man shooting a pistol across the horizon. The smoke envelops part of the work
-as a car speeds down the highway.",
-"An illustration of a white dogwood (Cornus florida). The leaning stem uprights itself while its branches droop outward.
-White petals surrounding yellow stamens blossom from the ends of the branches."]
+featured_contributor: Caroline Tjoe
+image: "/uploads/refraction-cover-caroline-tjoe.jpg"
+featured_piece_name: Refraction (Cover)
+featured_link: "https://docs.google.com/forms/d/e/1FAIpQLSefZRm-KcEr7U9o3GY9_gsVNHu_IoQ735ZUFSHnslRpZSEjhQ/viewform?usp=sf_link"
+featured_alt: "(Digital Art by Caroline Tjoe) The cover for Collection No. 4, Refraction!"
 
 ---
-
-<div class="featured-container">
-    {% assign len = page.titles.size | minus: 1 %}
-    {% for i in (0..len) %}
-    <a href="{{ page.links[i] }}" class="slide-img">
-        <img src="{{ site.baseurl }}{{ page.images[i] }}" alt="{{ page.alts[i] }}">
-        <h4 class="slide-text">{{ page.titles[i] }} BY {{ page.contributors[i]}} &gt;</h4>
+<div class="IndexContainer">
+    <a href="{{ site.baseurl }}{{ page.featured_link }}" target="_blank" rel="noopener">
+        <img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.featured_alt }}">
+        <h4>{{ page.featured_piece_name }} by {{ page.featured_contributor }} ></h4>
     </a>
     {% endfor %}
 

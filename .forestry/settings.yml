@@ -10,6 +10,11 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
+- type: directory
+  path: _includes
+  label: Includes
+  create: all
+  match: "**/headerMain.html"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
@@ -23,5 +28,5 @@ build:
   preview_docker_image: forestryio/ruby:2.6
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
-    -d _site
+  instant_preview_command: bundle exec jekyll serve --drafts --unpublished --incremental
+    --future -d _site

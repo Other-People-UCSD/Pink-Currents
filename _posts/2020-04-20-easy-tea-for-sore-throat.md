@@ -6,7 +6,7 @@ layout: Post
 title: 'Easy Tea for Sore Throat '
 date: 2020-04-20T07:00:00.000+00:00
 contributor: Jasmine Torres
-thumb: '/uploads/easy-tea-for-sore-throat.png'
+thumb: 'easy-tea-for-sore-throat.webp'
 featured: false
 thumb_alt: A recipe sheet on a lined piece of paper. A bee is flying around a teacup.
 

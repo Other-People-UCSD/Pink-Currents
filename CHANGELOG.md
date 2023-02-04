@@ -1,20 +1,66 @@
+# Changelog 
 ## v3.2.5 (2/3/23)
 - Added copy-protections to protect published works from users. Refer to the ADR for more details.
 
-### v3.1.3 (1/12/22)
+### v3.2.4 (11/7/22)
+- Uploaded illustrations for "Apathy" and "Broken Glass"
+
+## v3.2.3 (10/29/22)
+- Closed Collection No. 5 submissions
+- Updated the submission page with FAQ and removed redundant phrases
+- Closed design/social media team applications
+- Removed announcement banner
+- Uploaded illustrations for "Forty Percent Senseless" and "West Coast Elegies"
+- Fixed typos in team page and UC Magazine page
+- Added MIAC and Maximalist Magazine to the UC Magazine page
+
+### v3.2.2 (9/19/22)
+- Opened all team applications
+- Changed announcement link to team applications
+
+### v3.2.1 (8/29/22)
+- Updated about/team page with current members
+- Updated submissions page with theme
+- Changed announcement headline to "submissions open status"
+- Removed one unpublished draft
+- Updated README with updated architecture
+- Updated forestry.io configuration for thumbnails (needs to be extensively tested)
+
+## v3.2.0 (5/20/22)
+- Published Collection No. 4, Refraction.
+
+### v3.1.8 (3/9/22)
+- Resolving nokogiri and CommonMarker security vulnerabilities by updating the gemfile
+- Updated gem for github pages from 219 to 225
+
+## v3.1.7 (1/31/22)
+- Published "The Ode To Venture Capitalism" and "Validation"
+- Moved team page into about and renamed
+- Slowed down the animation that changes the color theme on the homepage from 300ms to 800ms (coded in seconds).
+- Reformatted the "post-cards" to enlarge the thumbnails and organize components line-by-line for better presentation
+- Refactored the genre pages and homepage so the "post-card" is a modular component that can be used to iterate through the specified genre's array when it is included.  
+- Removed unused files (drafts that we did not have permission to publish, unused templates, unused pages)
+- Added a social footer into the menu and converted our social links to icons with ARIA support.
+- Font Awesome Icon license: [https://fontawesome.com/license](https://fontawesome.com/license)
+
+### v3.1.6 (1/20/22)
+- Converted images into 80px height thumbnails to reduce the 50 MB network payload on the homepage and genre pages
+- Made minor syntax fixes on more HTML validation issues
+
+### v3.1.5 (1/12/22)
 - Uploaded TAGS: VACCINE, VIGNETTES, SLICE OF LIFE to fiction
 - TODO: Communicate with the design team about changes to the homepage's display of posts to improve new content writing piece visibility
 
-### v3.1.2 (12/5/21)
+### v3.1.4 (12/5/21)
 - Uploaded missing illustrations and thumbnails for 火, c/o 2020, MoAM, Parasite, Tea for Sore Throat
 - Developed a slideshow on the front page to cycle through more featured posts and links to Issuu collections.
 - Resolved security vulnerabilites on Gemfile
 
-### v3.1.1 (12/5/21)
+### v3.1.3 (12/5/21)
 - Closed Editorial team applications
 - Changed announcment to reflect submissions status
 
-## v3.1.0 (12/2/21)
+## v3.1.2 (12/2/21)
 - Included Mailchimp newsletter subscription form in the footer
 
 ## v3.1.1 (7/7/21)

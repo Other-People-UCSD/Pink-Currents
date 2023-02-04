@@ -7,7 +7,6 @@ contributor: Janelle Kim
 featured: false
 category: ''
 date: 2020-12-02T08:00:00.000+00:00
-thumb: ''
 
 ---
 It was heavy; she wondered what it could possibly contain that made it weigh so much. And despite being on her feet all day every day, she was nowhere near in good enough shape to be running a damn marathon.

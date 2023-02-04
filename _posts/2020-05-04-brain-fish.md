@@ -3,8 +3,8 @@ category: "1"
 layout: Post
 title: BRAIN FISH
 date: 2020-05-04T07:00:00.000+00:00
-contributor: August Laubscher (Writer), Zhilin Li (Illustrator)
-thumb: "/uploads/brain-fish-zhilin-li.png"
+contributor: Finn Laubscher (Writer), Zhilin Li (Illustrator)
+thumb: "brain-fish-zhilin-li.webp"
 tags:
 - Poetry
 featured: true

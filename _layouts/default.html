@@ -6,12 +6,25 @@
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    {% if page.title == 'Home' %}
+    <script src="{{ site.baseurl }}/assets/js/scrollBackgroundColor.js"></script>
+    {% endif %}
     <script src="{{ site.baseurl }}/assets/js/search-script.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/announcement.js"></script>
     {% include favicons.html %}
+    {% feed_meta %}
+    {% seo title=false %}
 </head>
 
 <body>
+    {% include headerMain.html %}
     {{ content }}
+    {% if page.title == 'Home' %}
+        {% include posts.html %}
+    {% endif %}
+
+    {% include footer.html %}
 </body>
 
 </html>
