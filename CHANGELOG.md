@@ -1,4 +1,8 @@
 # Changelog 
+### v.3.2.6 (2/3/23)
+- Renamed `master` branch to `main`.
+- Changed homepage to Eclipse theme.
+
 ## v3.2.5 (2/3/23)
 - Added copy-protections to protect published works from users. Refer to the ADR for more details.
 

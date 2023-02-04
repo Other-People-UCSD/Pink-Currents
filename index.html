@@ -2,28 +2,18 @@
 layout: defaultMain
 title: Home
 featured_contributor: Caroline Tjoe
-image: "/uploads/refraction-cover-caroline-tjoe.jpg"
-featured_piece_name: Refraction (Cover)
-featured_link: "https://docs.google.com/forms/d/e/1FAIpQLSefZRm-KcEr7U9o3GY9_gsVNHu_IoQ735ZUFSHnslRpZSEjhQ/viewform?usp=sf_link"
-featured_alt: "(Digital Art by Caroline Tjoe) The cover for Collection No. 4, Refraction!"
-
+image: "/uploads/eclipse-cover-caroline-tjoe.webp"
+featured_piece_name: Eclipse (Cover)
+featured_link: "https://discord.gg/KBYhXcukjn"
+featured_alt: "(Digital Art by Caroline Tjoe) The cover for Collection No. 5, Eclipse!"
 ---
 <div class="IndexContainer">
     <a href="{{ site.baseurl }}{{ page.featured_link }}" target="_blank" rel="noopener">
         <img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.featured_alt }}">
         <h4>{{ page.featured_piece_name }} by {{ page.featured_contributor }} ></h4>
     </a>
-    {% endfor %}
-
-    <button class="slide-prev" onclick="jumpSlide(-1)" aria-label="Show previous slide.">&#10094;</button>
-    <button class="slide-next" onclick="jumpSlide(1)" aria-label="Show next slide.">&#10095;</button>
-
-    <div class="slide-dot-container">
-        {% assign len = page.titles.size %}
-        {% for i in (1..len) %}
-        <span class="slide-dot" onclick="currentSlide({{ i }})"></span>
-        {% endfor %}
-    </div>
 </div>
 
-<script src="{{ site.baseurl }}/assets/js/indexSlideshow.js"></script>
+<h1 class="index-title">
+    <div class="cssanimation sequence fadeInBottom">Winter 2023 — <br/>Collection No. 5<br/>ECLIPSE</div>
+</h1>
