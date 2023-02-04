@@ -2,13 +2,14 @@
 <html lang="{{ site.lang | default: 'en-US' }}">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/search-script.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/announcement.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/search-script.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/announcement.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/copyright.js"></script>
 
     {% include favicons.html %}
     {% feed_meta %}
@@ -27,15 +28,18 @@
         </div>
     </div>
 
-    <div class="content">
-        <h3>/ {{ page.contributor }}</h3>
-        <h4 class="meta">{{ page.tags | join: ", "}} — {% include minsread.html %}</h4>
+  <article class="content">
+    <h3>/ {{ page.contributor }}</h3>
+    <h4 class="meta">{{ page.tags }} — {% include minsread.html %}</h4>
 
-        {% if page.featured == true %}
-        <h4 style="color:rgb(255, 153, 0)">No. {{ page.category }}</h4>
-        {% endif %}
-        <br />
-        {{ content }}
+    {% if page.featured == true %}
+    <h4 style="color:rgb(255, 153, 0)">No. {{ page.category }}</h4>
+    {% endif %}
+    <br />
+
+    <article id="cr-article">
+      {{ content }}
+    </article>
 
         <div class="copyright-footer">
             <h4>This work belongs to {{ page.contributor }} ©
@@ -60,6 +64,7 @@
             </h4>
         </div>
     </div>
+  </main>
 
     {% include footer.html %}
 

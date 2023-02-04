@@ -1,4 +1,7 @@
 # Changelog 
+## v3.2.5 (2/3/23)
+- Added copy-protections to protect published works from users. Refer to the ADR for more details.
+
 ### v3.2.4 (11/7/22)
 - Uploaded illustrations for "Apathy" and "Broken Glass"
 
@@ -50,6 +53,8 @@
 
 ### v3.1.4 (12/5/21)
 - Uploaded missing illustrations and thumbnails for 火, c/o 2020, MoAM, Parasite, Tea for Sore Throat
+- Developed a slideshow on the front page to cycle through more featured posts and links to Issuu collections.
+- Resolved security vulnerabilites on Gemfile
 
 ### v3.1.3 (12/5/21)
 - Closed Editorial team applications
