@@ -1,7 +1,7 @@
 ---
 category: 2
 layout: Post
-title: Little Doll
+title: "Little Doll"
 contributor: Alexandra Jefson (Writer), Kristy Lee (Illustrator)
 date: 2021-05-09 07:00:00 +0000
 thumb: "Little-Doll-Kristy-Lee.webp"
@@ -25,7 +25,7 @@ has no more string left for you to sew.<br/>
 </div>
 
 <div class="little-doll-mobile">
-<img src="{{ site.baseurl }}/uploads/Little-Doll-Kristy-Lee.png" alt="A blonde-haired doll with a scribbled pink blouse lies on the floor. Her purple smile is finished being sewn."><br/>
+<img src="{{ site.baseurl }}/uploads/2/Little-Doll-Kristy-Lee.png" alt="A blonde-haired doll with a scribbled pink blouse lies on the floor. Her purple smile is finished being sewn."><br/>
 My mouth sewn into a smile,<br/>
 that constant pulling at my strings.<br/>
 Pushing the boulder up a quarter mile,<br/>

@@ -10,9 +10,9 @@ tags:
 featured: true
 ---
 <div class="center">
-    <img src="{{ site.baseurl }}/uploads/mirror-shards-helen-huang.jpg" 
-        alt="a"
-        class="w450">
+    <img src="{{ site.baseurl }}/uploads/4/mirror-shards-helen-huang.jpg" 
+        alt="A girl's face looks through the shards of a mirror."
+        class="w650">
 </div>
 
 I’m not supposed to be here. 

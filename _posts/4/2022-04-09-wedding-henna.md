@@ -10,5 +10,5 @@ tags:
 - Visual Arts
 featured: true
 ---
-<img src="{{ site.baseurl }}/uploads/wedding-henna-famo-musa.jpg" 
-    alt="a">
+<img src="{{ site.baseurl }}/uploads/4/wedding-henna-famo-musa.jpg" 
+    alt="A photograph of a woman's hands showing off her henna designs.">

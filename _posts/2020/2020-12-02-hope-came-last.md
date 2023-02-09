@@ -2,7 +2,7 @@
 layout: Post
 tags:
 - Fiction
-title: HOPE CAME LAST
+title: "HOPE CAME LAST"
 contributor: Janelle Kim
 featured: false
 category: ''
@@ -15,7 +15,7 @@ It was heavy; she wondered what it could possibly contain that made it weigh so 
 
 “That’s why you were hunting me down?” A raised eyebrow accompanied the question, which made him seem more annoyed than embarrassed. “Thought you were one of those annoying petition people in the station, ‘cuz your clipboard, I guess.”
 
-“I am, actually, one of the annoying petition people.” Now he had the decency to look embarrassed. _Good_. “And I’m also one signature away from being able to go home, so if you sign for me, I can give you your bag back?” Not the most gracious move, but she’d run all this way for nothing if she didn’t at least get a signature. Who knew how long it’d take to get someone else’s attention? She fought to maintain eye contact; he was staring, irritated.
+“I am, actually, one of the annoying petition people.” Now he had the decency to look embarrassed. <em>Good</em>. “And I’m also one signature away from being able to go home, so if you sign for me, I can give you your bag back?” Not the most gracious move, but she’d run all this way for nothing if she didn’t at least get a signature. Who knew how long it’d take to get someone else’s attention? She fought to maintain eye contact; he was staring, irritated.
 
 “I’d like my bag back now.”
 
@@ -39,7 +39,7 @@ He closed the distance between them and grabbed the pen from her outstretched ha
 
 “My friends call me Z.”
 
-“Yeah, well, _friend_, my boss is gonna see this fake signature and call me a—sir, your bag!” He’d begun to walk away without it.
+“Yeah, well, <em>friend</em>, my boss is gonna see this fake signature and call me a—sir, your bag!” He’d begun to walk away without it.
 
 “Hey, you wanna know what’s in the bag?” He turned to face her, and continued to walk, backwards now. Raised an eyebrow, challenging her.
 
@@ -53,9 +53,9 @@ He closed the distance between them and grabbed the pen from her outstretched ha
 
 “For who?”
 
-“Whom.” _Jerk._
+“Whom.” <em>Jerk.</em>
 
-“_Who_.”
+“<em>Who</em>.”
 
 “Strangers.”
 
@@ -71,11 +71,11 @@ He eyed her closely, and suddenly his face broke out into a smile. A toothy one,
 
 “I’ve decided to give it to you.” As if this were enough explanation, he turned his back on her and shoved his hands into the pocket of his navy blue suit, striding to the exit.
 
-“Why?! I told you I don’t want it, take your _stupid_ bag!” she yelled, picking up the bag (_still so damn heavy)_ and preparing to chase him down again before he could leave.
+“Why?! I told you I don’t want it, take your <em>stupid</em> bag!” she yelled, picking up the bag (<em>still so damn heavy</em>) and preparing to chase him down again before he could leave.
 
 He called over his shoulder, “Listen, I’m late for something, so if you really don’t want it, then just don’t open it. In fact, don’t. I’m meeting someone outside soon and I’ll come right back, just chill out and wait where you met me, okay? Don’t open it if you seriously don’t care about it.”
 
-“I _don’t_ care and I’m _not_ keeping your bag! Or opening it!”
+“I <em>don’t</em> care and I’m <em>not</em> keeping your bag! Or opening it!”
 
 “Fine, then leave it where you found it!” He was almost out of sight now. “I’ll be back on the platform where we met at 7! Don’t bother opening it!”
 
@@ -83,11 +83,11 @@ Glancing down at the bag, she considered her growing curiosity. Treasure? Why’
 
 When she looked up to ask him, he was gone.
 
-A father of twins gave her the last signature she needed, even chatted with her about if she liked this job (no, just paying off student loans) and if she had a boyfriend (also no, although, hey, the free dinners _would_ be nice). She was itching to go home, but the father looked frazzled enough that she figured he probably just desperately wanted to talk to someone besides the 3-year-olds currently bickering over who had first spotted, and therefore owned, an airplane that had passed overhead several minutes ago.
+A father of twins gave her the last signature she needed, even chatted with her about if she liked this job (no, just paying off student loans) and if she had a boyfriend (also no, although, hey, the free dinners <em>would</em> be nice). She was itching to go home, but the father looked frazzled enough that she figured he probably just desperately wanted to talk to someone besides the 3-year-olds currently bickering over who had first spotted, and therefore owned, an airplane that had passed overhead several minutes ago.
 
 He accompanied her back to her platform she’d mentioned she was heading to, never once asking about the duffel. The children eyed it, but they, too, remained silent about it.
 
-_What could possibly be in there_? _Money? He didn’t_ look _rich enough to hand away duffels of money. A bomb? He didn’t look like the kind of man who’d do that either. Something useless, like scratch paper? Too heavy. Staplers? Oh come on now, who gives away duffels of staplers?_ Her curiosity was undeniably bothering her now.
+<em>What could possibly be in there </em>?<em>Money? He didn’t </em>look<em> rich enough to hand away duffels of money. A bomb? He didn’t look like the kind of man who’d do that either. Something useless, like scratch paper? Too heavy. Staplers? Oh come on now, who gives away duffels of staplers?</em> Her curiosity was undeniably bothering her now.
 
 When they got to the train station, the children had resolved that they would alternate who got to keep each plane they laid eyes on for the rest of their lives, which basically meant infinity. She bid the family farewell and found herself on a bench on Platform 7, nudging the duffel with the toe of her patched-up running shoes.
 
@@ -101,25 +101,25 @@ The purr of the zipper was deafening. As soon as the fluorescent station lights 
 
 She couldn’t take the money. Oh, she really couldn’t.
 
-_God, but I hate my job. I don’t belong here._
+<em>God, but I hate my job. I don’t belong here.</em>
 
 It didn’t belong to her.
 
-_I could re-apply, finish off that last year of college._
+<em>I could re-apply, finish off that last year of college.</em>
 
 What if it didn’t even belong to him? What if he’d stolen it? The police could already be here.
 
-_Haven’t heard any sirens. I’d never have to pay off a loan again. Debt-free and at no cost._
+<em>Haven’t heard any sirens. I’d never have to pay off a loan again. Debt-free and at no cost.</em>
 
-She couldn’t. But damn if she wasn’t sure she needed the money more than anyone else— she was a starving artist _and_ a college dropout. This might be the largest sum of money she’d ever get to handle. She couldn’t take it all.
+She couldn’t. But damn if she wasn’t sure she needed the money more than anyone else— she was a starving artist <em>and</em> a college dropout. This might be the largest sum of money she’d ever get to handle. She couldn’t take it all.
 
-_Maybe not take all of it. But...what about some?_
+<em>Maybe not take all of it. But...what about some?</em>
 
-Before she’d even fully registered the implications of that last thought, she was discreetly grabbing stacks of cash with her jacket and stuffing them into her purse. Her hands were trembling now. _I’ll leave some for the next person too. I don’t need it all_. _I won’t be selfish._
+Before she’d even fully registered the implications of that last thought, she was discreetly grabbing stacks of cash with her jacket and stuffing them into her purse. Her hands were trembling now. <em>I’ll leave some for the next person too. I don’t need it all</em>. <em>I won’t be selfish.</em>
 
 She hadn’t felt this hopeful in years. Money was hope. And it was no more back-to-back, round-the-clock shifts. God, she needed this. She deserved a break. Maybe this was her god-granted reward for all the hours of work she’d been putting in lately. Her fingers contacted something dense and metal. Confused, she peered into the bag.
 
-A digital clock peered back at her, faceless, red numbers as still as a graveyard, with several wires exposed in its gut. She glanced at the station clock to compare the two times. It was nowhere near 10:00. _What kind of eccentric celebrity puts a broken clock stuck at 10 o’clock—_
+A digital clock peered back at her, faceless, red numbers as still as a graveyard, with several wires exposed in its gut. She glanced at the station clock to compare the two times. It was nowhere near 10:00. <em>What kind of eccentric celebrity puts a broken clock stuck at 10 o’clock—</em>
 
 She spotted him, in the corner. Smiling the kind of smile she can’t forget even now, years later, like a madman so trapped by his demons he’d forgotten he was even haunted. He pulled out his walkie-talkie from earlier, pressed a single button.
 

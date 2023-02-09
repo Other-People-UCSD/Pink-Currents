@@ -21,7 +21,8 @@ I’m sixteen years old when I have my first time, stoic and unfeeling in Southe
 
 <p class="blood-pacts mobile"> At ninety miles an hour, I think I am loved. With the rock radio shaking the car, I think I am loved. As the three of us squeeze into a single motel bed, I think I am loved. But how could I tell? There’s blood on my hoodie, but none of us realize it until morning.</p>
 
-<div class="blood-pacts-bg">
+<div class="blood-pacts-bg" 
+    title="The full moon blocks the arm of a tuxedo man shooting a pistol across the horizon. The smoke envelops part of the work as a car speeds down the highway.">
     <p class="blood-pacts-content-overlay laptop">
     But<br/>
     how<br/>

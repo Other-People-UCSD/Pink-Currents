@@ -1,7 +1,7 @@
 ---
 category: 2
 layout: Post
-title: When the Party's Over
+title: "When the Party's Over"
 contributor: Rachel Seo (Writer), Hana Tobias (Illustrator)
 date: 2021-05-10 07:00:00 +0000
 thumb: "when-the-partys-over-Hana-Tobias.webp"
@@ -10,7 +10,9 @@ tags:
 featured: true
 
 ---
-![A chipped champagne glass filled with pink liquid.]({{ site.baseurl }}/uploads/when-the-partys-over-Hana-Tobias.png)
+<img src="{{ site.baseurl }}/uploads/2/when-the-partys-over-Hana-Tobias.png" 
+    alt="A chipped champagne glass filled with pink liquid."
+    class="w650">
 
 <em>Winner of the 2020 Saier Memorial Award in Fiction</em>
 

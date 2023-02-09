@@ -1,7 +1,7 @@
 ---
 category: 1
 layout: Post
-title: BRAIN FISH
+title: "BRAIN FISH"
 date: 2020-05-04T07:00:00.000+00:00
 contributor: Finn Laubscher (Writer), Zhilin Li (Illustrator)
 thumb: "brain-fish-zhilin-li.webp"
@@ -10,7 +10,9 @@ tags:
 featured: true
 
 ---
-![A monochromatic woman is suspended in the air. A bouquet of flowers replaces her brain. A fish is sliced intro three pieces.](/uploads/brain-fish-zhilin-li.png)
+<img src="{{ site.baseurl }}/uploads/1/brain-fish-zhilin-li.png" 
+    alt="A monochromatic woman is suspended in the air. A bouquet of flowers replaces her brain. A fish is sliced intro three pieces."
+    class="w650">
 
 There are two schools of
 

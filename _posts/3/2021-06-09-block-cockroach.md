@@ -1,7 +1,7 @@
 ---
 category: 3
 layout: Post
-title: Block Cockroach
+title: "Block Cockroach"
 contributor: Marina Lee (Writer), Kevin Phan (Illustrator)
 date: 2021-06-09 07:00:00 +0000
 thumb: "roach-kevin-phan.webp"
@@ -11,7 +11,7 @@ featured: true
 
 ---
 
-<img src="{{ site.baseurl}}/uploads/roach-kevin-phan.jpg"
+<img src="{{ site.baseurl}}/uploads/3/roach-kevin-phan.jpg"
     alt="A college girl lies on her back in her room. She looks towards the viewer or door where the large shadow of a cockroach reaches towards her. The blue light coming from the door illuminates her eyebrows to her chest. A bottle of cleaner and her glasses sit atop her desk."
     class="w650">
 

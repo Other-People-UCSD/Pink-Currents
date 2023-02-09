@@ -1,7 +1,7 @@
 ---
 category: 1
 layout: Post
-title: Close Your Eyes
+title: "Close Your Eyes"
 contributor: Montanna Harling (Writer), Zhilin Li (Illustrator)
 date: 2020-04-07T07:00:00.000+00:00
 thumb: "close-your-eyes-zhilin-li.webp"
@@ -10,8 +10,11 @@ tags:
 featured: true
 
 ---
-![](/uploads/close-your-eyes-zhilin-li.png)
-
+<div class="center">
+    <img src="{{ site.baseurl }}/uploads/1/close-your-eyes-zhilin-li.png" 
+        alt="Medium: Adobe Illustrator. The moonlight reflects the mountain peaks off a purple lake."
+        class="w650">
+</div>
 The lake was most beautiful during the in-between times. At the cool hush of just before dawn, when the ducks glided silently across the still water, trailing soft ripples, the entire world seemed to drift along with them. Now, at dusk, it was nearly as beautiful as dawn, the water lit silver from a fading sun and the pine trees a fragrant green smudge on the opposite bank.
 
 The dock creaked softly as Cait stepped out onto it, letting the metal gate slide shut behind her as she made her way down the ramp. She wasn’t supposed to be on this dock—it was privately owned by a collection of waterfront cabins, and protected by a code that changed every month—but it didn’t matter. She had an uncanny ability of getting the code from unsuspecting renters, and besides, she knew who to avoid to keep her skill a secret. She’d been doing this too long.

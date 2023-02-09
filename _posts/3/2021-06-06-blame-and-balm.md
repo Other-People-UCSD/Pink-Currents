@@ -1,7 +1,7 @@
 ---
 category: 3
 layout: Post
-title: blame and balm
+title: "blame and balm"
 contributor: Mariah v.n. (Writer), Caroline Tjoe (Illustrator)
 date: 2021-06-06 07:00:00 +0000
 thumb: "blame-and-balm-caroline-tjoe.webp"
@@ -34,7 +34,6 @@ but i couldn’t wake her from her coma
 no, she has woken me from mine
 
 
-<img src="{{ site.baseurl }}/uploads/blame-and-balm-caroline-tjoe.jpg" 
-    alt="A young woman applies balm to her cheek while looking at herself in the mirror.
-Reflected is a crib and two faces of her mom and sister. Peeking above the makeup table is a ghost of her younger self." 
+<img src="{{ site.baseurl }}/uploads/3/blame-and-balm-caroline-tjoe.jpg" 
+    alt="A young woman applies balm to her cheek while looking at herself in the mirror. Reflected is a crib and two faces of her mom and sister. Peeking above the makeup table is a ghost of her younger self." 
     class="w450">

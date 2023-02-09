@@ -10,5 +10,5 @@ tags:
 - Visual Arts
 featured: true
 ---
-<img src="{{ site.baseurl }}/uploads/lil-mugadishu-famo-musa.jpg" 
-    alt="a">
+<img src="{{ site.baseurl }}/uploads/4/lil-mugadishu-famo-musa.jpg" 
+    alt="A photograph of a mural in San Diego. The mural shows a woman in a yellow hijab, a white star, and three white doves.">

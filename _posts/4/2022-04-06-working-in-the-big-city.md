@@ -10,5 +10,5 @@ tags:
 - Visual Arts
 featured: true
 ---
-<img src="{{ site.baseurl }}/uploads/working-in-the-big-city-ziyi.jpg" 
-    alt="a">
+<img src="{{ site.baseurl }}/uploads/4/working-in-the-big-city-ziyi.jpg" 
+    alt="A slightly grainy photograph of four construction workers building scaffolding. In the background is a cement and brick building.">

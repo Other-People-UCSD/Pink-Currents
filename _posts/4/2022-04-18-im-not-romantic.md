@@ -10,8 +10,8 @@ tags:
 featured: true
 ---
 <div class="center">
-    <img src="{{ site.baseurl }}/uploads/im-not-romantic-kevin-phan.png" 
-        alt="a"
+    <img src="{{ site.baseurl }}/uploads/4/im-not-romantic-kevin-phan.png" 
+        alt="Text saying 'I'm Not Romantic' is overlaid on top of a series of red, pink, and white paint strokes. 'I'm Not' is colored in red while 'Romantic' is colored in green."
         class="w650">
 </div>
 

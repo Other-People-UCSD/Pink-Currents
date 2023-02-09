@@ -1,7 +1,7 @@
 ---
 category: 1
 layout: Post
-title: Boys’ Night
+title: "Boys’ Night"
 contributor: Chloe Esser
 date: 2020-04-06T07:00:00.000+00:00
 thumb: "boys-night-1-jack-yang.webp"
@@ -10,7 +10,11 @@ tags:
 featured: true
 
 ---
-![Floodwater covers the ground, yet two leaning streetlights illuminate the night. A dark outline of a wall can be seen in the foreground.](/uploads/boys-night-1-jack-yang.png)
+<div class="center">
+    <img src="{{ site.baseurl }}/uploads/1/boys-night-1-jack-yang.png" 
+        alt="Floodwater covers the ground, yet two leaning streetlights illuminate the night. A dark outline of a wall can be seen in the foreground."
+        class="w650">
+</div>
 
 When Mark throws the ropes down, there is no indication that they’ve hit stone. Instead, the cords, which had seemed so official and needlessly long when Dave handed them to him, hang loosely against rough concrete. This all seems less like the urban rock climbing expedition Dave had promised and more like that one episode of Game of Thrones where Jon Snow and the wildlings are trying to scale that giant ice wall. Mark remembers getting bored during that scene and convincing Amanda to make out instead. But he also remembers rope breaking and the wildlings falling _splat_ down on the ice.
 
@@ -90,7 +94,11 @@ Dave shakes his head. “Oh, yeah. Basically they got bought out. The state want
 
 “Right,” says Mark. They walk in silence for some time, and Mark tries to picture the vision they must have had for this place. Somehow, he can’t quite ever see this as being complete.
 
-![A second-floor plaza hallway with indistinguishable objects though the room openings. Moonlight shines through the cieling and illuminates the first-floor through the opening.](/uploads/boys-night-2-jack-yang.png)
+<div class="center">
+    <img src="{{ site.baseurl }}/uploads/1/boys-night-2-jack-yang.png" 
+        alt="A second-floor plaza hallway with indistinguishable objects though the room openings. Moonlight shines through the cieling and illuminates the first-floor through the opening."
+        class="w650">
+</div>
 
 He must have gotten too lost in his own thoughts, though, because suddenly, Dave is meters ahead of him.
 

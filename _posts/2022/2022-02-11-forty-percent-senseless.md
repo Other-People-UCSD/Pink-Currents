@@ -8,7 +8,7 @@ tags:
 - Poetry
 
 ---
-<img src="{{ site.baseurl }}/uploads/forty-percent-senseless-allison-gable.jpg"
+<img src="{{ site.baseurl }}/uploads/2022/forty-percent-senseless-allison-gable.jpg"
     alt="An open strawberry Yoplait cup with a spoon inside the yogurt."
     class="w450">
 

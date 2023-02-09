@@ -31,9 +31,11 @@ Sighing, he winced, an irking headache blossoming angry and red with every nonse
 
 He wasn’t condemning them for being preoccupied, nor did he want to strike up a conversation. It was six in the morning and even he himself was far from wanting to initiate contact. But he was fascinated by the coldness—metaphoric, of course, though the winter chill could add a very literal sense to the word—that surrounded him. All he could see were shades of blue despite the subway line being all but colored in reds, and all he could hear was silence, even though the loudest part of his day was in the train.
 
-“_Now exiting, Municipio Station_.”
+“<em>Now exiting, Municipio Station.</em>”
 
-![A man's head is open where white scribbles escape his thought bubble into the story.](/uploads/rain-on-the-rooftops-1-meryem-bahadir.jpg)
+<img src="{{ site.baseurl }}/uploads/2020/rain-on-the-rooftops-1-meryem-bahadir.jpg"
+    alt="A man's head is open where white scribbles escape his thought bubble into the story."
+    class="w650">
 
 The walk to the flower shop he interned at was not a hard walk. Naples was beautiful this time of year and visually there was always something that could occupy his wandering thoughts. To his right, the most beautiful bouquet of flowers sat in the arms of a newly engaged woman (perhaps even more than beauty, wedding proposals were prominent in the wintertime Italian seaside) and to his left a team of children sang in laughter, an aging soccer ball passing between little legs.
 
@@ -41,19 +43,27 @@ The flowers were still on his mind when he strolled by the cafe at which he pick
 
 He cleared his throat, fixed his collar, ran three fingers through unruly hair, though for what he was careful he did not know.
 
-If he were to be honest, he’d admit that perhaps he was staring a second too long. If he were to be honest, he’d say that it wasn’t her braid, or her eyes, or the _fiore_ brooch on the collar of her coat that caught his attention, but instead her smile.
+If he were to be honest, he’d admit that perhaps he was staring a second too long. If he were to be honest, he’d say that it wasn’t her braid, or her eyes, or the <em>fiore</em> brooch on the collar of her coat that caught his attention, but instead her smile.
 
 Because in a place, on a day, hell, in a month where everything seemed to be bleak and all frowns, she had offered a solace.
 
 He coughed (choked, really), diverted his eyes, and walked away.
 
-![The man talks to a woman holding a cup of coffee by her lips.](/uploads/rain-on-the-rooftops-2-meryem-bahadir.jpg)
+<div class="center">
+    <img src="{{ site.baseurl }}/uploads/2020/rain-on-the-rooftops-2-meryem-bahadir.jpg"
+        alt="The man talks to a woman holding a cup of coffee by her lips."
+        class="w650">
+</div>
 
 For three weeks, he purposefully took the same route to the flower shop to test his luck, hoping to see the woman again, and each time he was surprised that it worked. For three weeks they observed one another from afar—by now they were in some tango of distant acquaintances; he would pass by, she would wave, and they would both give a soft sort of smile. Not once did it occur to him to walk inside (seeing as he was usually already running late) and she was never there when he walked in during the afternoon to grab his coffee.
 
 And then on the fourth week, half asleep on the metro and barely keeping himself from falling on the couple sitting in front of him, he turned around only to come face to face with the mysterious woman from the coffee shop. If her shocked expression was anything to go by, she was just as surprised as he was to see him there, gripping tiredly to the rusty handrail.
 
-![The man and woman's bodies face away from each other, but they smile at each other on the subway. Both of them are standing and holding two different poles.](/uploads/rain-on-the-rooftops-3-meryem-bahadir.jpg)
+<div class="center">
+    <img src="{{ site.baseurl }}/uploads/2020/rain-on-the-rooftops-3-meryem-bahadir.jpg"
+        alt="The man and woman's bodies face away from each other, but they smile at each other on the subway. Both of them are standing and holding two different poles."
+        class="w650">
+</div>
 
 Just like that, the warmth and softness was almost all gone.
 
@@ -69,10 +79,14 @@ Twelve weeks down the line of this quiet dance they did, he puffed his chest and
 
 Once again, she surprised him with a simple quirk of her lips, and that was confirmation enough.
 
-The next evening he met her at the same cafe after work, an arrangement of flowers nestled in the crook of his arm that resembled the one he saw on the day they’d met. Despite his fears—_maybe he isn’t worth the time, maybe this silent correspondence of theirs meant nothing more than being kind to a stranger_—she showed up. And she came with all the energy of the moon above, her skirt whipping around, two cups of coffee in her hands.
+The next evening he met her at the same cafe after work, an arrangement of flowers nestled in the crook of his arm that resembled the one he saw on the day they’d met. Despite his fears—<em>maybe he isn’t worth the time, maybe this silent correspondence of theirs meant nothing more than being kind to a stranger</em>—she showed up. And she came with all the energy of the moon above, her skirt whipping around, two cups of coffee in her hands.
 
 They climbed high into the sky, a rooftop abandoned and forgotten. It was beautiful so high up.
 
 The evening was a blur but of the best kind—a mixture of coffee and colors, music and conversation. And if this is what it felt like to finally live, thirty feet in the air, then so be it.
 
-![The man and woman sit on a brick wall late at night and chat with cups of coffee. In the apartment background, a couple in a romantic embrace can be seen through the second-floor window.](/uploads/rain-on-the-rooftops-4-meryem-bahadir.jpg)
+<div class="center">
+    <img src="{{ site.baseurl }}/uploads/2020/rain-on-the-rooftops-4-meryem-bahadir.jpg"
+        alt="The man and woman sit on a brick wall late at night and chat with cups of coffee. In the apartment background, a couple in a romantic embrace can be seen through the second-floor window."
+        class="w650">
+</div>

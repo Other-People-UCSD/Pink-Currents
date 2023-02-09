@@ -35,8 +35,8 @@ featured: true
 </p>
 </div>
 <div>
-<img src="{{ site.baseurl }}/uploads/make-it-make-sense-allison-gable.jpg" 
-    alt="a"
+<img src="{{ site.baseurl }}/uploads/4/make-it-make-sense-allison-gable.jpg" 
+    alt="A magazine collage set in the form of a snake that borders around the following poem."
     class="w450">
 </div>
 </div>

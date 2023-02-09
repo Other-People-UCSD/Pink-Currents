@@ -10,5 +10,5 @@ tags:
 - Visual Arts
 featured: true
 ---
-<img src="{{ site.baseurl }}/uploads/eclectic-romantic-albert-miao.png" 
-    alt="a">
+<img src="{{ site.baseurl }}/uploads/4/eclectic-romantic-albert-miao.png" 
+    alt="A man with a purple cloak traces a treble with his composing wand.">

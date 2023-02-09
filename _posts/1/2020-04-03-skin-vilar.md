@@ -1,5 +1,5 @@
 ---
-title: skin
+title: "skin"
 contributor: Caitlyn Vilar (Writer), Elysia Mac (Illustrator)
 date: 2020-04-03T07:00:00.000+00:00
 category: 1
@@ -10,7 +10,9 @@ tags:
 - Poetry
 
 ---
-![Water flows from the sink faucet. A one-piece swimsuit hangs on the closed bathroom door.](/uploads/skin-elysia-mac.jpg)
+<img src="{{ site.baseurl }}/uploads/1/skin-elysia-mac.jpg" 
+    alt="Water flows from the sink faucet. A one-piece swimsuit hangs on the closed bathroom door."
+    class="w450">
 
 at the hotel room<br>peeling off my bathing suit<br>i catch a glimpse<br>of myself in the mirror<br>and run a finger<br>over the skin<br>untouched by the sun.
 

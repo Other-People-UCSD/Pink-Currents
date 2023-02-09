@@ -2,7 +2,7 @@
 layout: Post
 tags:
 - Poetry
-title: Dot Your i's and Cross Your t's
+title: "Dot Your i's and Cross Your t's"
 contributor: Sanjana Dhamankar
 featured: false
 category: ''

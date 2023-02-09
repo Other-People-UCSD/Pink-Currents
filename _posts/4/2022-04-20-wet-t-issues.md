@@ -10,5 +10,5 @@ tags:
 - Visual Arts
 featured: true
 ---
-<img src="{{ site.baseurl }}/uploads/wet-t-issues-ruby-tseng.jpg" 
-    alt="a">
+<img src="{{ site.baseurl }}/uploads/4/wet-t-issues-ruby-tseng.jpg" 
+    alt="Illustration of two faces close together, which are covered with wet tissues. Our vision of their full faces is obscured.">

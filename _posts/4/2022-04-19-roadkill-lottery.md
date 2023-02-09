@@ -10,9 +10,8 @@ tags:
 featured: true
 ---
 <div class="center">
-    <img src="{{ site.baseurl }}/uploads/roadkill-lottery-kevin-phan.jpg" 
-        alt="a"
-        class="w650">
+    <img src="{{ site.baseurl }}/uploads/4/roadkill-lottery-kevin-phan.jpg" 
+        alt="Feathers fall onto a road with a tire's skid marks burnt into the asphalt.">
 </div>
 
 Nobody will know who cleaned our dead bird off the road. Nobody ever knows.

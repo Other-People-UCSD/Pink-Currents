@@ -2,14 +2,14 @@
 layout: Post
 tags:
 - Poetry
-title: On Reaching for the Stars
+title: "On Reaching for the Stars"
 contributor: Jennifer Khuu
 featured: false
 category: ''
 date: 2021-01-13 08:00:00 +0000
 
 ---
-**On Reaching for the Stars**
+<strong>On Reaching for the Stars</strong>
 
 \- _from the lifetime of a toy_
 

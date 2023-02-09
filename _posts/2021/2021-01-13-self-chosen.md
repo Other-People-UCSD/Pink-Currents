@@ -2,7 +2,7 @@
 layout: Post
 tags:
 - Poetry
-title: Self-Chosen
+title: "Self-Chosen"
 contributor: Ruisi Shu
 featured: false
 category: ''

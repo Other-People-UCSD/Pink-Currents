@@ -10,5 +10,5 @@ tags:
 - Visual Arts
 featured: true
 ---
-<img src="{{ site.baseurl }}/uploads/love-blooms-heather-nicosia.jpg" 
-    alt="a">
+<img src="{{ site.baseurl }}/uploads/4/love-blooms-heather-nicosia.jpg" 
+    alt="An acrylic painting of strawberries on the vine with the text 'love's ripe, how sweet the taste'.">

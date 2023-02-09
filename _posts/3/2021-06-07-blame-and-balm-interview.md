@@ -1,7 +1,7 @@
 ---
 category: 3
 layout: Post
-title: blame and balm (Interview)
+title: "blame and balm (Interview)"
 contributor: Isaac Kopstein (Interviewer), Mariah v.n. (Interviewee)
 date: 2021-06-07 07:00:00 +0000
 tags: 

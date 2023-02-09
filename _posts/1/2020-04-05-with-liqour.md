@@ -1,5 +1,5 @@
 ---
-title: 'With Liqour '
+title: "With Liqour"
 contributor: Susan Hou
 date: 2020-04-05T07:00:00.000+00:00
 category: 1
@@ -10,7 +10,9 @@ tags:
 featured: true
 
 ---
-![A view of the beach and the space. The ocean waves and cosmos are colored from blue to purple.](/uploads/with-liquor-susan-hou.jpg)
+<img src="{{ site.baseurl }}/uploads/1/with-liquor-susan-hou.jpg" 
+    alt="A view of the beach and the space. The ocean waves and cosmos are colored from blue to purple."
+    class="w650">
 
 To Cornell University and Liberty College,<br>(you know who you are)
 

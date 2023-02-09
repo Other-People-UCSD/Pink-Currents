@@ -1,7 +1,7 @@
 ---
 category: 2
 layout: Post
-title: Fishbowl Brain
+title: "Fishbowl Brain"
 contributor: Riley Sutton (Writer), Caroline Tjoe (Illustrator)
 date: 2021-05-08 07:00:00 +0000
 thumb: "Fishbowl-Brain-Caroline-Tjoe-2.webp" 
@@ -10,8 +10,11 @@ tags:
 featured: true
 
 ---
-![A filled fishbowl replaces a lady in yellow's head. She places her head against the bowl.]({{ site.baseurl }}/uploads/Fishbowl-Brain-Caroline-Tjoe-2.jpg)
-
+<div class="center">
+    <img src="{{ site.baseurl }}/uploads/2/Fishbowl-Brain-Caroline-Tjoe-2.jpg" 
+        alt="A filled fishbowl replaces a lady in yellow's head. She places her head against the bowl."
+        class="w650">
+</div>
 If the summer of 2016 had a smell, it would be hydrangeas. Hydrangeas, and moss, and whatever those green little weeds are that sprout out from under the dirt, whenever you walk loose-toed hiking trails. Because yes, we were hiking that summer. We were in Arkansas, and that was the only thing to do that didn’t involve stuffing ourselves with various meats. You were a vegetarian, anyway. So we hiked. 
 
 Your dad had all of the best sights to see, logged in the notes section of his old, cracked-up iPhone. They were all far. Home was just one nauseating car ride away, and we complained, and held our hands out in erroneous prayer. But the sun was shining like daggers down on us, and the caves were cool and wet, and that’s where we found the moss. And so you and I stuffed our gangly teenage selves into those slanted, claustrophobic caves. There was water dripping, somewhere. It felt like a sweat on your upper lip, but all over the body instead, a constant shiver. We pressed on. Your sister was so young that she could slide through the cracks in the rock and run ahead, without letting us know that she’d left. When I realized that we had lost her, my heart jumped into my throat like a frog. The cave started to squeeze a little bit tighter. I used my tiny purple flashlight and illuminated every orifice of the rock, and the faces of quite a few unsuspecting people. They grimaced, sneering at the tiny beam of my flashlight. And then your sister was sitting next to the waterfall drip, toes dangling in the pool as though she was vacationing in the Bahamas. 

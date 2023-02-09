@@ -1,7 +1,7 @@
 ---
 category: 3
 layout: Post
-title: Grandfather
+title: "Grandfather"
 contributor: Katrina Ngo (Writer), Elysia Mac (Illustrator)
 date: 2021-06-12 07:00:00 +0000
 thumb: "grandfather-elysia-mac.webp"
@@ -10,10 +10,9 @@ tags:
 featured: true
 
 ---
-
-
 <div class="grandfather-mobile">
-    <img src="{{ site.baseurl }}/uploads/grandfather-mobile-elysia-mac.png" alt="A white outline of a remote control held by the right hand. The thumb presses on the channel up button.">
+    <img src="{{ site.baseurl }}/uploads/3/grandfather-mobile-elysia-mac.png" 
+        alt="A white outline of a remote control held by the right hand. The thumb presses on the channel up button.">
     <p style="margin-left: 200px; width: fit-content">grandfather</p>
     <p>whisper thank you,<br/>
     bitten words<br/>
@@ -43,7 +42,8 @@ featured: true
     closed eyes</p>
 </div>
 
-<div class="grandfather-main white" title="A white outline of a remote control held by the right hand. The thumb presses on the channel up button.">
+<div class="grandfather-main white" 
+    title="A white outline of a remote control held by the right hand. The thumb presses on the channel up button.">
     <p style="margin-left: auto; margin-right: auto; width: fit-content">grandfather</p>
     <p>whisper thank you,<br/>
     bitten words<br/>

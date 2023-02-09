@@ -3,7 +3,7 @@ category: ''
 tags:
 - Nonfiction
 layout: Post
-title: 'Easy Tea for Sore Throat '
+title: "Easy Tea for Sore Throat"
 date: 2020-04-20T07:00:00.000+00:00
 contributor: Jasmine Torres
 thumb: 'easy-tea-for-sore-throat.webp'
@@ -11,7 +11,9 @@ featured: false
 thumb_alt: A recipe sheet on a lined piece of paper. A bee is flying around a teacup.
 
 ---
-![A recipe sheet on a lined piece of paper. A bee is flying around a teacup.](/uploads/easy-tea-for-sore-throat.png)
+<img src="{{ site.baseurl }}/uploads/2020/easy-tea-for-sore-throat.png" 
+    alt="A recipe sheet on a lined piece of paper. A bee is flying around a teacup."
+    class="w650">
 
 **Ingredients**
 

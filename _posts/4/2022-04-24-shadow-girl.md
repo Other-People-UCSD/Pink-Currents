@@ -10,6 +10,6 @@ tags:
 - Photography
 featured: true
 ---
-<img src="{{ site.baseurl }}/uploads/shadow-girl-bri-conlon.jpg" 
-    alt="a"
+<img src="{{ site.baseurl }}/uploads/4/shadow-girl-bri-conlon.jpg" 
+    alt="Medium: Photography. Shown is the shadow of a girl standing on a branch at the shore of a beach."
     class="w650">

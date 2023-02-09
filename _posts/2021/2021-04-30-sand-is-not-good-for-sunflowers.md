@@ -2,7 +2,7 @@
 layout: Post
 tags:
 - Fiction
-title: SAND IS NOT GOOD FOR SUNFLOWERS
+title: "SAND IS NOT GOOD FOR SUNFLOWERS"
 contributor: Sanjana Dhamankar (Writer), Geraldine Wambersie (Illustrator)
 featured: false
 category: ''
@@ -10,7 +10,9 @@ date: 2021-04-30 07:00:00 +0000
 thumb: "paradiseless-illustration-by-geraldine.webp"
 
 ---
-![A view from the La Jolla, San Diego beach cliffs. A silhouetted man smokes and looks ahead. The sky is replaced by a field of giant sunflower heads.](/uploads/paradiseless-illustration-by-geraldine.png)
+<img src="{{ site.baseurl }}/uploads/2021/paradiseless-illustration-by-geraldine.png" 
+    alt="A view from the La Jolla, San Diego beach cliffs. A silhouetted man smokes and looks ahead. The sky is replaced by a field of giant sunflower heads." 
+    class="w650">
 
 This was a bad idea.
 
@@ -46,7 +48,7 @@ The longer they stayed out, the more weeks would be added to her sentence. Maybe
 
 “A bad influence, huh?” he mused, smiling a secret sort of smile, like he was sharing a private joke with himself. “My Sunflower would be so disappointed in me.”
 
-<p class="centering">******</p>
+<p class="center">******</p>
 
 “Here you go, Gramps. One Budweiser pint.”
 

@@ -2,7 +2,7 @@
 layout: Post
 tags:
 - Poetry
-title: If Thunder Came Before Lightning / If We Listened Before We Looked
+title: "If Thunder Came Before Lightning / If We Listened Before We Looked"
 contributor: Janelle Kim
 featured: false
 category: ''

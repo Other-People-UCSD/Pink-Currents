@@ -1,6 +1,6 @@
 ---
 layout: Post
-title: Metamorphoses
+title: "Metamorphoses"
 contributor: Jennifer Chen
 date: 2023-01-07 15:00:00 +0000
 tags:
@@ -34,8 +34,8 @@ in neat rows like Victorian toy
 
 soldiers whose epitaphs<br />
 were already written:<br />
-<em>Precious in the sight of the<em/><br />
-<em>Lord is the death of his saints.<em/>
+<em>Precious in the sight of the</em><br />
+<em>Lord is the death of his saints.</em>
 
 But one day I let go<br />
 and untethered myself<br />

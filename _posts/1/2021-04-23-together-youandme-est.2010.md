@@ -2,7 +2,7 @@
 layout: Post
 tags:
 - Poetry
-title: Together, YouandMe, Est. 2010
+title: "Together, YouandMe, Est. 2010"
 contributor: Minnie Nelson
 featured: true
 category: 1

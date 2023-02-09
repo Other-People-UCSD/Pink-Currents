@@ -9,8 +9,8 @@ tags:
 
 ---
 
-<img src="{{ site.baseurl }}/uploads/west-coast-elegies-amy-stukenholtz.jpg"
-    alt=""
+<img src="{{ site.baseurl }}/uploads/2022/west-coast-elegies-amy-stukenholtz.jpg"
+    alt="A girl walks over a crosswalk towards the viewer. There are mountains and the sun behind her."
     class="w450">
 
 Have you ever been to where<br />

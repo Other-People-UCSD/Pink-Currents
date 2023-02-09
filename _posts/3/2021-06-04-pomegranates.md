@@ -1,7 +1,7 @@
 ---
 category: 3
 layout: Post
-title: Pomegranates
+title: "Pomegranates"
 contributor: Dharma Gutierrez (Writer), Kristy Lee (Illustrator)
 date: 2021-06-04 07:00:00 +0000
 thumb: "pomegranate-kristy-lee.webp"
@@ -27,6 +27,6 @@ pecked and plucked by the perverse crows
 And I<br/>
 picking the pieces of the abandoned corpse.
 
-<img src="{{ site.baseurl }}/uploads/pomegranate-kristy-lee.gif" 
+<img src="{{ site.baseurl }}/uploads/3/pomegranate-kristy-lee.gif" 
     alt="1. A cutout of a pomegranate with brown signs of decay. 2. A stem containing pomegranate flowers in rose color. 3. Fingers pinch a pomegranate seed." 
     id="pomegranate">

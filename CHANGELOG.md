@@ -1,4 +1,7 @@
 # Changelog 
+## v3.2.7 (2/9/23)
+- Major organizational update to codebase. [Refer to documentation](https://github.com/Other-People-UCSD/Pink-Currents/blob/main/documentation/ADRs/2023-02-09-file-organization.md).
+
 ### v.3.2.6 (2/3/23)
 - Renamed `master` branch to `main`.
 - Changed homepage to Eclipse theme.

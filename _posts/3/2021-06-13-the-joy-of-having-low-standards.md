@@ -1,7 +1,7 @@
 ---
 category: 3
 layout: Post
-title: The Joy of Having Low Standards
+title: "The Joy of Having Low Standards"
 contributor: Jillian C. (Writer), Hana Tobias (Illustrator)
 date: 2021-06-13 07:00:00 +0000
 thumb: "the-joy-of-having-low-standards-hana-tobias.webp"
@@ -11,7 +11,7 @@ featured: true
 
 ---
 <div class="center">
-    <img src="{{ site.baseurl }}/uploads/the-joy-of-having-low-standards-hana-tobias.jpg"
+    <img src="{{ site.baseurl }}/uploads/3/the-joy-of-having-low-standards-hana-tobias.jpg"
         alt="A human heart with red membranes attaching to it from all sides."
         class="w650">
 </div>

@@ -10,9 +10,9 @@ tags:
 featured: true
 ---
 <div class="center">
-    <img src="{{ site.baseurl }}/uploads/walking-helen-huang.jpg" 
-        alt="a"
-        class="w450">
+    <img src="{{ site.baseurl }}/uploads/4/walking-helen-huang.jpg" 
+        alt="The long shadows of trees lie towards the viewer. The silhouette of a person heads towards the sun far into the distance."
+        class="w650">
 </div>
 
 I get dizzy looking up at the tops of eucalyptuses. Tens of birds chatter in a particular patch of trees, rising whoops and wavering chirps. Wounds of bark peel from new skin. Blue sky glares through fragrant leaves. Nearby, the twisted oaks’ branches curl and smoke. The cold air burns straight through my chest. The eucalyptus trunk is deceptively slender from a distance, and on windy days, I imagine being crushed.
