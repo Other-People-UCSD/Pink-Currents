@@ -5,7 +5,7 @@ tags:
 title: Together, YouandMe, Est. 2010
 contributor: Minnie Nelson
 featured: true
-category: "1"
+category: 1
 date: 2021-04-23 07:00:00 +0000
 
 ---
