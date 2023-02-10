@@ -9,7 +9,7 @@ status: true
 
 [Visual Arts Submissions](https://docs.google.com/forms/d/e/1FAIpQLSf31QF97LOK5PYwRtKhlYOK-SjeUu1_c4pHpnpMXf-gFfOHww/viewform?usp=sf_link)
 
-(There are two other open submissions at UC San Diego that can be located on our discord! <a href="https://discord.gg/Z9eFGkd9bU" rel="noreferer noopener">https://discord.gg/Z9eFGkd9bU</a>)
+(There are several other open submissions at UC San Diego that can be located on our discord! <a href="https://discord.gg/Z9eFGkd9bU" rel="noreferer noopener">https://discord.gg/Z9eFGkd9bU</a>)
 
 *Magazine submissions will be selected based on quality, originality, creativity, and the creator's intent!
 
