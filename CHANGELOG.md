@@ -1,4 +1,14 @@
 # Changelog 
+## v3.2.9 (2/10/23) Refraction Final Release
+- Uploaded digital experimental piece, "missed connections (1 unread post)"
+
+## v3.2.8 (2/9/23)
+- Reverted homepage to Refraction for website packaging before changing to Eclipse.
+- Updated team page with current members and interns.
+- Fixed tags on individual posts by adding a comma delimiter.
+- Updated Maximalist Magazine link on UC Magazine page.
+- Removed unused files (default layout, team page)
+
 ## v3.2.7 (2/9/23)
 - Major organizational update to codebase. [Refer to documentation](https://github.com/Other-People-UCSD/Pink-Currents/blob/main/documentation/ADRs/2023-02-09-file-organization.md).
 

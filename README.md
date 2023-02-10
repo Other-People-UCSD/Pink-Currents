@@ -10,14 +10,13 @@ otherpeoplesd.com/
 | 
 ├── _includes           # Header/footer templates
 ├── _layouts            # Layouts for pages
-├── _posts              # Published posts
-├── _drafts             # Unpublished posts
+├── _posts              # Published posts, organized into folders
 |
-├── uploads             # Folder for media and images from forestry.io
-├── _sass               # CSS with variables and nestine
+├── uploads             # Folder for media and images from forestry.io, organized into folders
+├── _sass               # CSS with variables and nesting
 ├── assets              # Styling the website
 |   ├── css             # Consolidates the sass files into one
-|   ├── favicons
+|   ├── favicons        # Other People Logo
 |   ├── fonts           # Basier Mono Circle
 |   ├── js              # Functionality for interactive elements
 |   └── thumbs          # Folder for webp images used in home and genre previews of posts
@@ -32,7 +31,7 @@ otherpeoplesd.com/
 ├── search.md           # Implemented by search layout
 ├── 404.html            # 404 Not Found Page
 ├── showcase.html       # Summary Page of our organization
-├── Sitemap.html        # Directory for all the pages and posts
+├── sitemap.html        # Directory for all the pages and posts
 |
 |
 ├── _config.yml         # Configuration for Jekyll website

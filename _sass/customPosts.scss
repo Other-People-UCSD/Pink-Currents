@@ -1,3 +1,4 @@
+// Content Warnings
 .lock {
     position: fixed;
     margin: 0;
@@ -66,6 +67,8 @@
         width: fit-content;
     }
 }
+// END CONTENT WARNINGS
+
 
 .indent { text-indent: 40px; }
 .left40 { margin-left: 40px; }
@@ -86,11 +89,15 @@
     display: none;
 }
 
+
+// POMEGRANATE
 #pomegranate {
     width: 100%;
     max-width: 350px;
 }
 
+
+// BLOOD PACTS
 .blood-pacts-bg {
     position: relative;
     margin-left: auto;
@@ -109,6 +116,8 @@
     bottom: 0;
 }
 
+
+// LITTLE DOLL
 .little-doll-main {
     display: none;
     padding-top: 30px;
@@ -120,6 +129,7 @@
     line-height: 2rem;
 }
 
+// GRANDFATHER
 .grandfather-main {
     display: none;
     padding-top: 30px;
@@ -130,6 +140,7 @@
     background-size: contain;
 }
 
+// DAYLILY
 .daylily {
     display: grid;
     max-width: 1080px;
@@ -142,6 +153,7 @@
     }
 }
 
+// KALBELIA
 .kalbelia {
     display: grid;
     grid-template-columns: 1fr 0.25fr;
@@ -176,6 +188,7 @@
     .paddingleft16 { padding-left: 240px;}
 }
 
+// HUMAN GEOGRAPHY WITHOUT SCALE
 .human-geography {
     max-width: 345px;
     padding: 10px;
@@ -191,6 +204,27 @@
     column-gap: 20px;
     img { position: absolute; }
 }
+
+
+// MISSED CONNECTIONS
+#missed-connections {
+    font-family: inherit;
+    text-transform: lowercase;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.missed-connections-btn {
+    padding: 5px;
+    font-size: 1rem;
+    border: black solid 1px;
+    border-radius: 5px;
+    background-color: #0079d3;
+    color: #fff;
+    cursor: pointer;
+}
+
+
 
 
 @media only screen and (max-width: 768px) {
