@@ -30,7 +30,7 @@
 
   <article class="content">
     <h3>/ {{ page.contributor }}</h3>
-    <h4 class="meta">{{ page.tags }} — {% include minsread.html %}</h4>
+    <h4 class="meta">{{ page.tags | join: ", " }} — {% include minsread.html %}</h4>
 
     {% if page.featured == true %}
     <h4 style="color:rgb(255, 153, 0)">No. {{ page.category }}</h4>
