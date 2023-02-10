@@ -1,4 +1,7 @@
 # Changelog 
+## v3.3.0 (2/10/23) Start of Eclipse Build
+- Publishing "Editors Note" and "Lament for the Old Man in Autumn"
+
 ## v3.2.9 (2/10/23) Refraction Final Release
 - Uploaded digital experimental piece, "missed connections (1 unread post)"
 
