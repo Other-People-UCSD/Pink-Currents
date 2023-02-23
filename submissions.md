@@ -1,15 +1,18 @@
 ---
 layout: submissions
 title: Submissions
-status: true
+status: false
 
 ---
+Our next submission period for Collection No. 7 should open around the end of the school year and it should close a few weeks into fall quarter.
 
-[Written Submissions](https://docs.google.com/forms/d/e/1FAIpQLSfEQZ1kqsKQULPjS_xTCzi_6UmKO8HmmgU8EgeSdPRgZ8HFbQ/viewform?usp=sf_link)
+[Antifragile Zine (closes March 1st)](https://www.antifragilezine.com/issue-four)
 
-[Visual Arts Submissions](https://docs.google.com/forms/d/e/1FAIpQLSf31QF97LOK5PYwRtKhlYOK-SjeUu1_c4pHpnpMXf-gFfOHww/viewform?usp=sf_link)
+[Matchbox Magazine (closes March 1st)](https://matchboxmagazine.org/submit-your-work/)
 
-(There are several other open submissions at UC San Diego that can be located on our discord! <a href="https://discord.gg/Z9eFGkd9bU" rel="noreferer noopener">https://discord.gg/Z9eFGkd9bU</a>)
+[Maximalist Magazine (closes end of school year)](https://maximalistmagazine.wixsite.com/maximalist-magazine/about-1)
+
+(The list of submissions are often updated on our discord! <a href="https://discord.gg/Z9eFGkd9bU" rel="noreferer noopener">https://discord.gg/Z9eFGkd9bU</a>)
 
 *Magazine submissions will be selected based on quality, originality, creativity, and the creator's intent!
 
