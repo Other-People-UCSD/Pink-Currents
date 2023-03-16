@@ -1,4 +1,7 @@
 # Changelog 
+## v3.3.1 (3/15/23)
+- Updated announcement to recruit a website producer/developer.
+
 ## v3.3.0 (2/10/23) Start of Eclipse Build
 - Publishing "Editors Note" and "Lament for the Old Man in Autumn"
 
