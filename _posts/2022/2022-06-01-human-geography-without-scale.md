@@ -6,8 +6,9 @@ date: 2022-06-01 07:00:00 +0000
 tags: 
 - Poetry
 - Blackout Poem
+theme: "dark"
 ---
-<div class="blackout human-geography">
+<div class="human-geography">
 <span style="float: right;">Suffice it to say</span><br />
 <span>that,</span><br />
 <br />
@@ -26,4 +27,4 @@ tags:
 <br />
 <br />
 <span style="float: right;">&mdash; where all that is solid melts into air</span><br />
-</div> 
+</div>

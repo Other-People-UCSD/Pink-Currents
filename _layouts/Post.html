@@ -2,15 +2,17 @@
 <html lang="{{ site.lang | default: 'en-US' }}">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
-  <title>{{ page.title }} - {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/search-script.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/announcement.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/copyright.js"></script>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <script src="{{ site.baseurl }}/assets/js/header.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/search-script.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/announcement.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/copyright.js"></script>
+    {% if page.theme == "dark" %}
+        <script id="dark" src="{{ site.baseurl }}/assets/js/bgTheme.js"></script>
+    {% endif %}
     {% include favicons.html %}
     {% feed_meta %}
     {% seo title=false %}
@@ -28,14 +30,14 @@
         </div>
     </div>
 
-  <article class="content">
+  <main class="content">
     <h3>/ {{ page.contributor }}</h3>
     <h4 class="meta">{{ page.tags | join: ", " }} — {% include minsread.html %}</h4>
 
     {% if page.featured == true %}
     <h4 style="color:rgb(255, 153, 0)">No. {{ page.category }}</h4>
     {% endif %}
-    <br />
+    <br/>
 
     <article id="cr-article">
       {{ content }}
@@ -43,7 +45,7 @@
 
         <div class="copyright-footer">
             <h4>This work belongs to {{ page.contributor }} ©
-                <br /> Copy, reproduction, and modification are not permitted without permission
+                <br/> Copy, reproduction, and modification are not permitted without permission
             </h4>
         </div>
     </div>

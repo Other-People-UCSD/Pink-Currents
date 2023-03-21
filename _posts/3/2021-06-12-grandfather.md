@@ -8,7 +8,7 @@ thumb: "grandfather-elysia-mac.webp"
 tags: 
 - Poetry
 featured: true
-
+theme: "dark"
 ---
 <div class="grandfather-mobile">
     <img src="{{ site.baseurl }}/uploads/3/grandfather-mobile-elysia-mac.png" 

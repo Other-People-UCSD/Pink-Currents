@@ -1,9 +1,18 @@
 # Changelog 
+## v3.3.2 (3/20/23)
+- Published all individual website pieces for Collection No. 5, Eclipse.
+- Removed mini-announcement on the homepage.
+- Converted JQuery code into vanilla JS to remove a dependency that was not to a significant degree in the website. Refer to documentation `2023-03-20-removal-of-jquery.md` for this change.
+- Dark theme improvements
+  - Fixed problems in accessibility where buttons and links would appear invisible as they were the same color as the background
+  - Created a script that would change a page to dark theme if a class or other identifier was found on the page. This makes it easier to reuse and update code on existing dark posts. A new front matter variable called "theme" is used in the Post.html layout to make this functionality non-developer friendly.
+  - Updated "Missed Connections", "Human Geography", "Grandfather", "Little Doll"
+
 ## v3.3.1 (3/15/23)
 - Updated announcement to recruit a website producer/developer.
 
 ## v3.3.0 (2/10/23) Start of Eclipse Build
-- Publishing "Editors Note" and "Lament for the Old Man in Autumn"
+- Publishing "Editors Note" and "Lament for the Old Man in Autumn" in Collection No. 5
 
 ## v3.2.9 (2/10/23) Refraction Final Release
 - Uploaded digital experimental piece, "missed connections (1 unread post)"

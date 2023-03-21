@@ -1,15 +1,5 @@
-/**
- * Initialize the webpage as envisioned in monospaced dark mode without the default title.
- * The newsletter embed is removed to keep the focus on the content.
- */
-window.addEventListener('DOMContentLoaded', function () {
-    $("body").css("background-color", "var(--light-text-color)");
-    $("body").css("color", "var(--background-color)");
-    $(".logoOutline").css("stroke", "var(--background-color)"); 
-    $("#logo").css("fill", "var(--background-color)");
-    $("header").css("background-color", "var(--light-text-color)");
-    $("header").css("color", "var(--background-color)");
-
+window.addEventListener('DOMContentLoaded', function() {
+    pageChange('dark');
     this.document.getElementsByClassName('content-title')[0].remove();
     this.document.getElementById('cr-article').classList.add('monospace');
     this.document.getElementById('mc_embed_signup').innerHTML = '';

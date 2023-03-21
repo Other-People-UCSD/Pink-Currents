@@ -11,7 +11,7 @@
     z-index: 10;
     top: 0;
     left: 0;
-    background: $bodyColor;
+    background-color: #151515;
 
     overflow-x: hidden;
     transition: 0.3s;
@@ -25,7 +25,7 @@
     padding: $blockThree;
     left: 0;
     right: 0;
-    color: $backgroundColor;
+    color: #fff;
 
     ul {
         display: flex;
@@ -39,7 +39,7 @@
 
 .overlay-content {
     a {
-        color: $backgroundColor;
+        color: #fff;
         text-decoration: none;
     }
 
@@ -52,7 +52,7 @@
 .closebtn {
     margin-left: auto;
     margin-right: 0;
-    color: white;
+    color: #fff;
 }
 
 .closebtn:hover, .menu:hover {
@@ -68,7 +68,7 @@
     padding: $blockThree;
     left: 0;
     right: 0;
-    color: $backgroundColor;
+    color: #fff;
 
     h1 {
         line-height: 5rem;
@@ -83,7 +83,7 @@
     svg {
         width: 2rem;
         fill: none;
-        stroke: $backgroundColor;
+        stroke: #fff;
         stroke-width: 10rem;
         stroke-miterlimit: 100;
         transform: rotate(45deg);
@@ -106,6 +106,13 @@
 
 }
 
+#search-container {
+    input {
+        background-color: #151515;
+        color: #fff;
+        border-bottom: 5px solid #fff;
+    }
+}
 .search {
     opacity: 0.5;
 }
