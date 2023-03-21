@@ -8,7 +8,7 @@ thumb: "Little-Doll-Kristy-Lee.webp"
 tags: 
 - Poetry
 featured: true
-
+theme: "dark"
 ---
 
 <div class="little-doll-main white" title="A blonde-haired doll with a scribbled pink blouse lies on the floor. Her purple smile is finished being sewn.">

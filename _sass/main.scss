@@ -115,6 +115,9 @@ html, html[data-theme="light"] {
     --link-color: rgb(0, 112, 201);
     --main-background-color: rgb(255, 255, 255);
     --main-text-color: rgb(51, 51, 51);
+    --button-background: #ffb94f;
+    --button-outline: #151515;
+
 }
 
 html[data-theme="dark"] {
@@ -123,23 +126,31 @@ html[data-theme="dark"] {
     --link-color: rgb(100, 210, 255);
     --main-background-color: rgb(28, 28, 30);
     --main-text-color: rgb(229, 229, 234);
+    --button-background: #ff9900;
+    --button-outline: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
-    html, html[data-theme="dark"] {
-        --background-color: #151515;
-        --light-text-color: #ffffff;
-        --link-color: rgb(100, 210, 255);
-        --main-background-color: rgb(28, 28, 30);
-        --main-text-color: rgb(229, 229, 234);
-    }
-
     html[data-theme="light"] {
         --background-color: #ffffff;
         --light-text-color: #151515;
         --link-color: rgb(0, 112, 201);
         --main-background-color: rgb(255, 255, 255);
         --main-text-color: rgb(51, 51, 51);
+        --button-background: #ffb94f;
+        --button-outline: #151515;
+
+    }
+
+    html, html[data-theme="dark"] {
+        --background-color: #151515;
+        --light-text-color: #ffffff;
+        --link-color: rgb(100, 210, 255);
+        --main-background-color: rgb(28, 28, 30);
+        --main-text-color: rgb(229, 229, 234);
+        --button-background: #ff9900;
+        --button-outline: #ffffff;
+
     }
 }
 

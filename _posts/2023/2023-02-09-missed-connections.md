@@ -7,6 +7,7 @@ tags:
 - Poetry
 - Prose Poetry
 - Experimental
+theme: "dark"
 ---
 <h1 id="missed-connections" class="fadeIn">missed connections</h1>
 <p>
@@ -24,11 +25,11 @@ tags:
 <p id="mc-final" class="hidden fadeInHighlight">
     Hey, I’m posting here to ask how I can focus on my classes among all these hot people? I thought I could finally focus on my studies now that it’s exam season, but jokes on me I guess! The only thing I’m studying right now is the pretty smile of the guy in front of me in line at Burger King. If you’re reading this, you in the Twilight hoodie and orange crocs please tell me you waved at me and not someone behind me.
     <br> 
-    <span style="font-size: 0.8rem;">Tho it was probably to someone else huh :(</span>
+    <span style="font-size: 0.8rem;">Tho it was probably to someone else huh :&lpar;</span>
 </p>
 
 <noscript>JavaScript is required to read this work as intended. Please refresh your page after enabling JavaScript.</noscript>
-<div id="missed-connections-ref-text" class="hidden">
+<div id="missed-connections-ref-text" class="blackout hidden">
     <p id="1ref">
         <span id="1">Hello. </span>
         <span id="2">I’m posting on here today to</span>

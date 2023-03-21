@@ -86,21 +86,3 @@
         </h4>
     </footer>
 </div>
-
-<script>
-    $('#search-input')
-        .focus(function () {
-            $(this).attr('placeholder', '')
-        })
-        .blur(function () {
-            $(this).attr('placeholder', 'Search')
-        })
-</script>
-
-<script>
-    $('#search-input').keyup(function (event) {
-        if (event.which === 13) {
-            $(this).blur();
-        }
-    });
-</script>

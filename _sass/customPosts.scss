@@ -26,7 +26,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #fff;
+    background: var(--background-color);
     z-index: 8;
 
     .warning {
@@ -50,19 +50,19 @@
     a {
         display: block;
         padding: 8px 16px;
-        border: 2px solid #333;
+        border: 2px solid var(--button-outline);
         border-radius: 25px;
-        background-color: #fff;
+        background-color: var(--background-color);
         text-decoration: none;
         width: fit-content;
     }
 
     button {
         padding: 8px 16px;
-        border: 2px solid #ccc;
+        border: 2px solid var(--button-outline);
         border-radius: 25px;
-        background-color: #333;
-        color: #fff;
+        background-color: var(--button-background);
+        color: var(--light-text-color);
         cursor: pointer;
         width: fit-content;
     }
@@ -224,7 +224,58 @@
     cursor: pointer;
 }
 
+// Collection No. 5 The Twelve Zodiac Animals Visit
+.zodiac-container {
+    img {
+        shape-margin: 8px;
+    }
+}
 
+.zodiac-goat {
+    float: right;
+    shape-outside: url(https://otherpeoplesd.com/uploads/5/zodiac-animals-goat-helen-huang.png);
+}
+
+.zodiac-monkey {
+    float: left;
+    margin-top: 50px;
+    shape-outside: url(https://otherpeoplesd.com/uploads/5/zodiac-animals-monkey-helen-huang.png);
+}
+
+.zodiac-pig {
+    float: right;
+    margin-top: 50px;
+    shape-outside: url(https://otherpeoplesd.com/uploads/5/zodiac-animals-pig-helen-huang.png);
+}
+
+.zodiac-snake {
+    float: left;
+    shape-outside: url(https://otherpeoplesd.com/uploads/5/zodiac-animals-snake-helen-huang.png);
+}
+
+.zodiac-rabbit {
+    float: right;
+    shape-outside: url(https://otherpeoplesd.com/uploads/5/zodiac-animals-rabbit-helen-huang.png);
+}
+
+.zodiac-rooster {
+    float: right;
+    shape-outside: url(https://otherpeoplesd.com/uploads/5/zodiac-animals-rooster-helen-huang.png);
+}
+
+
+// Collection No. 5 Cognates
+.cognates {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+}
+
+// Collection No. 5 A Day at the Beach and Reprise
+.beach-reprise {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 768px;
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -256,6 +307,15 @@
         display: block;
         img { position: static; }
     }
+
+    // Collection No. 5 A Day at the Beach
+    .beach-reprise{
+        display: block;
+        .day-at-the-beach {
+            margin-bottom: 32px;
+        }
+    }
+
 }
 
 @media only screen and (max-width: 1536px) {
@@ -312,6 +372,17 @@
 
         .daylily-poem {
             line-height: 2rem;
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .cognates {
+        display: block;
+        :first-child {
+            margin-bottom: 64px;
         }
     }
 }
