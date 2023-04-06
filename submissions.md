@@ -6,11 +6,7 @@ status: false
 ---
 Our next submission period for Collection No. 7 should open around the end of the school year and it should close a few weeks into fall quarter.
 
-[Antifragile Zine (closes March 1st)](https://www.antifragilezine.com/issue-four)
-
-[Matchbox Magazine (closes March 1st)](https://matchboxmagazine.org/submit-your-work/)
-
-[Maximalist Magazine (closes end of school year)](https://maximalistmagazine.wixsite.com/maximalist-magazine/about-1)
+[Maximalist Magazine Online Submissions (closes end of school year)](https://maximalistmagazine.wixsite.com/maximalist-magazine/about-1)
 
 (The list of submissions are often updated on our discord! <a href="https://discord.gg/Z9eFGkd9bU" rel="noreferer noopener">https://discord.gg/Z9eFGkd9bU</a>)
 
