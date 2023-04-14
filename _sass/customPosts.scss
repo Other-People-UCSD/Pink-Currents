@@ -116,6 +116,17 @@
     bottom: 0;
 }
 
+@counter-style arrow-list {
+    system: cyclic;
+    symbols: "\2192";
+    suffix: " ";
+}
+
+.arrow-list {
+    list-style: arrow-list;
+}
+
+
 
 // LITTLE DOLL
 .little-doll-main {
