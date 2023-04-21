@@ -1,4 +1,8 @@
 # Changelog 
+## v3.3.3 (4/20/23)
+- Backup of Jekyll-Forestry.io codebase in response to Forestry's discontinuation.
+- This is the last commit before reconfiguring for a new headless CMS, ideally Forestry.io's descendant TinaCMS.
+
 ## v3.3.2 (3/20/23)
 - Published all individual website pieces for Collection No. 5, Eclipse.
 - Removed mini-announcement on the homepage.
