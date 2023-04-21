@@ -2,15 +2,14 @@ import { defineConfig } from "tinacms";
 import { homeFields } from "./templates";
 import { postFields } from "./templates";
 import { submissionsFields } from "./templates";
-import { envLocal } from "./localDev";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 
 export default defineConfig({
   branch,
-  clientId: process.env.TINA_PUBLIC_CLIENT_ID! || envLocal.clientId, // Get this from tina.io
-  token: process.env.TINA_TOKEN! || envLocal.token, // Get this from tina.io
+  clientId: process.env.TINA_PUBLIC_CLIENT_ID!, // Get this from tina.io
+  token: process.env.TINA_TOKEN!, // Get this from tina.io
   client: { skip: true },
   build: {
     outputFolder: "admin",
@@ -59,9 +58,9 @@ export default defineConfig({
         ],
       },
       {
-        name: "post",
+        name: "landing",
         label: "Landing Pages",
-        path: "",
+        path: ".",
         fields: [
           {
             type: "string",
