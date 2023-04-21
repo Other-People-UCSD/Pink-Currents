@@ -2,8 +2,10 @@
 layout: submissions
 title: Submissions
 status: false
-
+_template: submissions
 ---
+
+
 Our next submission period for Collection No. 7 should open around the end of the school year and it should close a few weeks into fall quarter.
 
 [Maximalist Magazine Online Submissions (closes end of school year)](https://maximalistmagazine.wixsite.com/maximalist-magazine/about-1)

@@ -1,0 +1,22 @@
+{
+  "name": "pink-currents",
+  "version": "1.0.0",
+  "description": "[Pull Request History](https://github.com/Other-People-UCSD/Pink-Currents/pulls?q=is%3Apr+is%3Aclosed)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tinacms dev -c \"bundle exec jekyll serve --incremental\"",
+    "build": "tinacms build && bundle exec jekyll build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Other-People-UCSD/Pink-Currents"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tinacms/cli": "^1.5.6",
+    "tinacms": "^1.4.6"
+  }
+}
