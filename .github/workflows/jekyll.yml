@@ -59,7 +59,7 @@ jobs:
             echo "Unable to determine package manager"
             exit 1
           fi
-            - name: Setup Node
+      - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: "16"
