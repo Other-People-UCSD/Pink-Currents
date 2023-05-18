@@ -11,7 +11,7 @@ featured: true
 
 ---
 <div class="center">
-    <img src="{{ site.baseurl}}/uploads/3/Origami-for-the-Soul-Matthew-Wills.jpg"
+    <img src="{{ site.baseurl}}/uploads/3/Origami-for-the-Soul-Matthew-Wills.JPG"
         alt="Four different color variations of the same flower origami layout. There are eight leaves in each flower. Top-left: lime green and yellow alternate with the green and blue leaves; top-right: an assortment of strong colors in each leaf; bottom-left: an assortment of darker colors in each leaf; bottom-right: orange and pink alternate with green and blue leaves.">
 </div>
 

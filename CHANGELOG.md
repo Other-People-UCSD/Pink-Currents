@@ -1,4 +1,8 @@
 # Changelog 
+## v3.3.3.1 (5/17/23)
+- End of Service version (succeeded by [Calla-Lily](https://github.com/Other-People-UCSD/Calla-Lily))
+- Thank you for the memories Pink-Currents. Maybe some day you'll be of service again for the next developers of Other People Magazine! 
+
 ## v3.3.3 (4/20/23)
 - Backup of Jekyll-Forestry.io codebase in response to Forestry's discontinuation.
 - This is the last commit before reconfiguring for a new headless CMS, ideally Forestry.io's descendant TinaCMS.

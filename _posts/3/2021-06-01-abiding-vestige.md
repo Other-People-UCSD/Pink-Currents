@@ -10,7 +10,7 @@ tags:
 featured: true
 
 ---
-<img src="{{ site.baseurl }}/uploads/3/Abiding-Vestige-Hope-Koyama.jpg" 
+<img src="{{ site.baseurl }}/uploads/3/Abiding-Vestige-Hope-Koyama.JPG" 
     alt="A blurred person's profile hides the body of the woman in the mirror. One can see that woman's hands and fishnet stockings in this monochromatic photograph."
     class="w650">
 
