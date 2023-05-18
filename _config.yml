@@ -1,5 +1,4 @@
 url: "https://other-people-ucsd.github.io" # the base hostname and protocol to the site (without an ending /)
-baseurl: "Pink-Currents"
 repository: Other-People-UCSD/Calla-Lily
 title: "Other People" 
 description: >- # This means to ignore newlines until "future:"
